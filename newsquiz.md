@@ -1,4 +1,5 @@
 ---
+Country:	UK
 Title:	The News Quiz
 Source:	http://www.comedy.co.uk/guide/radio/the_news_quiz/episodes/
 Production:	BBC Radio 4
