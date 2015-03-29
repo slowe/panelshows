@@ -9,5 +9,3 @@ Data:	newsquiz.csv
 ---
 
 __The News Quiz__ has been running since 1977 but I only have the panellists from series 74 (2011) onwards.
-
-Here is another paragraph
