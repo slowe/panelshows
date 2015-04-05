@@ -44,7 +44,7 @@ function CSV2JSON(data,format,start,end){
 function parseShow(d){
 	var bits,p,g,a,b,w,hm,hf,h,ep;
 	var html = "";
-	w = Math.floor(100*100/d.episodes.length)/100;
+	w = Math.floor(100*100/Math.min(d.episodes.length,200))/100;
 	h = 100;
 	// Work out the series number, episode number, gender, role, and name
 	for(var i = 0; i < d.episodes.length; i++){
