@@ -8,4 +8,4 @@ Size:	5
 Data:	isihac.csv
 ---
 
-Thanks to [Love Graphs]() this includes episodes from 2012 onwards.
+[Love Graphs](http://www.lovegraphs.com/random/gender-equality/film-tv/panel-shows.html) kindly provided episodes from 2012 onwards. Episodes from 2009-2012 are from [comedy.co.uk](http://www.comedy.co.uk/guide/radio/isihac/episodes/).
