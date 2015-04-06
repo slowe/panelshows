@@ -88,7 +88,7 @@ function parseShow(d){
 r(function(){
 	var shows = document.querySelectorAll(".show");
 	for(var i = 0 ; i < shows.length; i++){
-		loadFile(shows[i].id+'.csv',function(d){
+		loadFile('shows/'+shows[i].id+'.csv',function(d){
 			d.episodes = CSV2JSON(d.data,[{'name':'id','format':'string'},{'name':'date','format':'date'},{'name':'people','format':'string'}],1);
 			parseShow(d);
 		},{id:shows[i].id});
