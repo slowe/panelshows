@@ -69,6 +69,7 @@ function parseShow(d){
 				d.episodes[i].people[p].role = s.substr(a,b-a);
 			}
 		}
+		d.episodes[i].gender = g;
 		// Build episode split
 		hf = Math.round(h*g.f/(g.f+g.m));
 		hm = h-hf;
@@ -82,15 +83,39 @@ function parseShow(d){
 		var el = document.getElementById(d.id+"_graph");
 		el.innerHTML = "<h3>Episode-by-episode breakdown</h3>"+html;
 	}
-
+	return d;
 }
 
+var shows;
+var fulldata = new Array();
+
+function finish(){
+	if(shows.length == fulldata.length){
+		var n = 0;
+		var m = 0;
+		var s;
+		var stat = []
+		for(var i = 0 ; i < fulldata.length; i++){
+			for(var e = 0; e < fulldata[i].episodes.length; e++){
+				s = fulldata[i].episodes[e].gender.m/(fulldata[i].episodes[e].gender.m+fulldata[i].episodes[e].gender.f);
+				if(s > 0.4){
+					n++;
+				}
+				m++;
+			}
+		}
+		console.log(n,100*n/m)
+	}
+}
+
+
 r(function(){
-	var shows = document.querySelectorAll(".show");
+	shows = document.querySelectorAll(".show");
 	for(var i = 0 ; i < shows.length; i++){
 		loadFile('data/'+shows[i].id+'.csv',function(d){
 			d.episodes = CSV2JSON(d.data,[{'name':'id','format':'string'},{'name':'date','format':'date'},{'name':'people','format':'string'}],1);
-			parseShow(d);
+			fulldata.push(parseShow(d));
+			finish();
 		},{id:shows[i].id});
 	}
 });
