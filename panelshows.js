@@ -1,8 +1,12 @@
 function r(f){/in/.test(document.readyState)?setTimeout('r('+f+')',9):f()}
 
 // Function to load a file (same domain)
-function loadFile(file,fn,attrs){
+function loadFile(file,attrs,fn){
 	if(!attrs) attrs = {};
+	if(typeof attrs==="function"){
+		fn = attrs;
+		attrs = {};
+	}
 	attrs['_file'] = file;
 	var error = "";
 	var xhr = new XMLHttpRequest();
@@ -42,7 +46,7 @@ function CSV2JSON(data,format,start,end){
 }
 
 function parseShow(d){
-	var bits,p,g,a,b,w,hm,hf,h,ep;
+	var bits,p,g,a,b,w,hm,hf,hu,h,ep;
 	var html = "";
 	w = Math.floor(100*100/Math.min(d.episodes.length,200))/100;
 	h = 100;
@@ -51,9 +55,13 @@ function parseShow(d){
 		bits = d.episodes[i].id.split(/x/);
 		d.episodes[i].s = parseInt(bits[0]);
 		d.episodes[i].e = parseInt(bits[1]);
+		// Remove trailing semi-colon
+		if(d.episodes[i].people && d.episodes[i].people.indexOf(";")>=0) d.episodes[i].people = d.episodes[i].people.replace(/\;$/);
+
 		if(d.episodes[i].people) d.episodes[i].people = d.episodes[i].people.split(/;/);
 		else d.episodes[i].people = [];
-		g = { 'm': 0, 'f': 0 };
+
+		g = { 'm': 0, 'f': 0, 'u': 0 };
 		for(var p = 0; p < d.episodes[i].people.length; p++){
 			s = d.episodes[i].people[p]+""; 
 			d.episodes[i].people[p] = { 'gender':'','name':'','role':'' };
@@ -69,14 +77,17 @@ function parseShow(d){
 				d.episodes[i].people[p].role = s.substr(a,b-a);
 			}
 		}
+		if(g.f+g.m < d.size){ g.u = d.size-g.f-g.m; }
 		d.episodes[i].gender = g;
 		// Build episode split
-		hf = Math.round(h*g.f/(g.f+g.m));
-		hm = h-hf;
+		hf = Math.round(h*g.f/(g.f+g.m+g.u));
+		hm = Math.round(h*g.m/(g.f+g.m+g.u));
+		hu = h-hm-hf;
 		ep = d.episodes[i].id;
+
 		if(d.episodes[i].date) ep += ' ('+d.episodes[i].date.toLocaleDateString()+')'
 		ep += ': ';
-		html += '<div class="col" style="width:'+w+'%;"><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div></div>';
+		html += '<div class="col" style="width:'+w+'%;"><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div><div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div></div>';
 	}
 
 	if(html != ""){
@@ -104,7 +115,7 @@ function finish(){
 				m++;
 			}
 		}
-		console.log(n,100*n/m)
+		//console.log(n,100*n/m)
 	}
 }
 
@@ -112,10 +123,18 @@ function finish(){
 r(function(){
 	shows = document.querySelectorAll(".show");
 	for(var i = 0 ; i < shows.length; i++){
-		loadFile('data/'+shows[i].id+'.csv',function(d){
-			d.episodes = CSV2JSON(d.data,[{'name':'id','format':'string'},{'name':'date','format':'date'},{'name':'people','format':'string'}],1);
-			fulldata.push(parseShow(d));
-			finish();
-		},{id:shows[i].id});
+		loadFile('data/'+shows[i].id+'.md',{id:shows[i].id},function(d){
+			// Loaded MD file
+			var lines = d.data.split(/\n/);
+			var size = 0;
+			for(var i = 0; i < lines.length; i++){
+				if(lines[i].indexOf("Size")>=0) size = lines[i].substring(lines[i].indexOf(":")+2);
+			}
+			loadFile('data/'+d.id+'.csv',{id:d.id,size:size},function(d){
+				d.episodes = CSV2JSON(d.data,[{'name':'id','format':'string'},{'name':'date','format':'date'},{'name':'people','format':'string'}],1);
+				fulldata.push(parseShow(d));
+				finish();
+			});
+		});
 	}
 });
