@@ -22,7 +22,7 @@ p.label { margin-bottom: 0px; }
 .col .male,.col .female { display: block; max-width:100%;border-right: 1px solid #e6e6e6; }
 .col .male { border-bottom: 1px solid #e6e6e6; }
 .git { float: right; }
-td:first-child { text-overflow: ellipsis; white-space: nowrap; }
+td:first-child { text-overflow: ellipsis; white-space: nowrap; width: 35%; }
 td .bar { margin-bottom: 0px; }
 td .male,td .female { font-size: 0.5em; }
 a.repo {
@@ -47,5 +47,6 @@ td:first-child,th:first-child {
 td:last-child {
 	padding-right: 0px;
 }
-tr.lastrow td { border-top: 1px solid black; }
+tr.lastrow td { border-top: 1px solid black; padding-bottom: 1em; }
+tr:last-child.lastrow td { padding-bottom: 0; }
 tr:hover td { background-color: #e6e6e6; }
