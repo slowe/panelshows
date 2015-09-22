@@ -1,7 +1,7 @@
 ---
 Country:	UK
 Title:	I'm Sorry I Haven't A Clue
-Source:	[ http://www.lovegraphs.com/random/gender-equality/film-tv/panel-shows.html , http://www.comedy.co.uk/guide/radio/isihac/episodes/ , http://www.bbc.co.uk/programmes/b006qnwb/episodes/guide , http://genome.ch.bbc.co.uk/search/0/20?q=i%27m+sorry+I+haven%27t+a+clue&svc=9371569#search ]
+Source:	[ http://www.lovegraphs.com/random/gender-equality/film-tv/panel-shows.html , http://www.comedy.co.uk/guide/radio/isihac/episodes/ , http://www.bbc.co.uk/programmes/b006qnwb/episodes/guide , http://genome.ch.bbc.co.uk/search/0/20?q=i%27m+sorry+I+haven%27t+a+clue&svc=9371569#search , http://www.isihac.co.uk/broadcasts/past.html ]
 Production:	BBC Radio 4
 Years:	1972-
 Size:	5
