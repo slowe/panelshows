@@ -8,4 +8,4 @@ Size:	5
 Data:	newsquiz.csv
 ---
 
-__The News Quiz__ has been running since 1977 but I only have the panellists from series 61 (2007) onwards.
+__The News Quiz__ has been running since 1977 but we only have the panellists from series 61 (2007) onwards. If you have data (air-dates & participants) on any old episodes, please get in touch.
