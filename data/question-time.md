@@ -1,7 +1,7 @@
 ---
 Country:	UK
 Title:	Question Time
-Source:	http://www.lovegraphs.com/random/gender-equality/film-tv/panel-shows.html
+Source:	http://www.lovegraphs.com/random/gender-equality/film-tv/panel-shows.html , http://www.bbc.co.uk/programmes/b006t1q9
 Production:	BBC One;Mentorn
 Years:	1979-
 Size:	6
