@@ -1,11 +1,11 @@
 864,Nicholas Parsons
 769,Paul Merton
 546,Clement Freud
-453,Ian Hislop
+456,Ian Hislop
 397,Jeremy Hardy
 378,Phill Jupitus
+362,Alan Coren
 346,Kenneth Williams
-343,Alan Coren
 330,Peter Jones
 313,Sandi Toksvig
 309,Derek Nimmo
@@ -16,32 +16,32 @@
 246,David Mitchell
 240,Simon Hoggart
 238,Andy Hamilton
+227,Stephen Fry
 223,Alan Davies
-221,Stephen Fry
 216,Sean Lock
 208,Francis Wheen
 202,Angus Deayton
 200,Tony Hawks
 188,Humphrey Lyttelton
 185,Mark Lamarr
+168,Barry Took
 167,Dara O'Briain
 164,Jack Dee
 161,Sue Perkins
 159,Keith Lemon
 157,Bill Bailey
-150,Barry Took
 143,Holly Willoughby
 142,Linda Smith
 141,Hugh Dennis
 133,Fearne Cotton
 132,Jon Richardson
 122,Andy Parsons
+118,Richard Ingrams
 110,Rufus Hound
 107,Lee Mack
 105,Sheila Hancock
 104,Fred MacAulay
 104,Rob Brydon
-103,Richard Ingrams
 98,Marcus Brigstocke
 97,Susan Calman
 97,Graham Norton
@@ -58,9 +58,9 @@
 78,Ross Noble
 75,Jason Manford
 74,Mark Steel
+69,Clive Anderson
 66,Joe Wilkinson
 64,Russell Howard
-63,Clive Anderson
 62,Julian Clary
 62,Matt Lucas
 61,Rachel Riley
@@ -134,6 +134,7 @@
 22,Roy Hattersley
 21,Bob Mills
 20,Carol Vorderman
+20,Rory Bremner
 20,Steve Punt
 20,Nick Clarke
 20,Kevin McHale
@@ -141,8 +142,8 @@
 20,Charles Collingwood
 19,Steve Frost
 19,Carrie Quinlan
+19,John Sessions
 19,Danny Baker
-19,Rory Bremner
 19,Germaine Greer
 19,Janet Street-Porter
 19,Des Clarke
@@ -187,7 +188,6 @@
 13,Alex Brooker
 13,Justin Moorhouse
 13,Gary Delaney
-13,John Sessions
 13,Joey Essex
 13,Tom Wrigglesworth
 13,Elis James
@@ -201,6 +201,7 @@
 12,Eamonn Holmes
 12,Will Smith
 12,Lorraine Kelly
+12,Peter Cook
 12,Rick Wakeman
 12,Mel Giedroyc
 12,Jamelia
@@ -209,7 +210,6 @@
 12,Louis Walsh
 11,Victoria Wood
 11,Isy Suttie
-11,Peter Cook
 11,Maria McErlane
 11,Caroline Flack
 11,Richard Ayoade
@@ -256,6 +256,7 @@
 9,Tess Daly
 9,Gina Yashere
 9,Kathy Burke
+9,Bill Tidy
 9,John Oliver
 8,Richard Madeley
 8,Ben Miller
@@ -274,6 +275,7 @@
 8,Richard Coles
 8,Russell Brand
 8,Kirsty Wark
+8,Griff Rhys Jones
 8,Bobby Mair
 8,John Junkin
 8,Pauline McLynn
@@ -296,13 +298,11 @@
 7,Rory McGrath
 7,Kimberly Wyatt
 7,Emma Bunton
-7,Bill Tidy
 7,Penny Smith
 7,Chris Moyles
 7,Jason Byrne
 7,Harry Judd
 7,Nick Revell
-7,Griff Rhys Jones
 7,Dr. Phil Hammond
 7,Matthew Crosby
 7,Lance Percival
@@ -388,6 +388,7 @@
 5,Dave Johns
 5,Martin Freeman
 5,Tulisa Contostavlos
+5,John Bird
 5,David Tennant
 5,Hugh Fearnley-Whittingstall
 5,Conor Maynard
@@ -398,12 +399,14 @@
 5,Toyah Willcox
 5,Natalie Cassidy
 5,Steve Jones
+5,Jimmy Mulville
 5,Bill Deedes
 5,John Simpson
 5,Phil Hammond
 5,Richard Wilson
 5,Christopher Biggins
 5,Rob Delaney
+5,Kate Adie
 5,Louis Smith
 5,Mark Wright
 4,Jamie Laing
@@ -458,6 +461,7 @@
 4,Lee Ryan
 4,Austin Mitchell
 4,Clare Grogan
+4,Kate Robbins
 4,Chris Packham
 4,Jay McGuiness
 4,Alex Salmond
@@ -468,7 +472,6 @@
 4,Richard Hammond
 4,Dane Bowers
 4,Matt Richardson
-4,John Bird
 4,Yasmine Akram
 4,Liz McClarnon
 4,Suggs
@@ -507,7 +510,6 @@
 4,David Gest
 4,Phillip Schofield
 4,Ian Messiter
-4,Kate Adie
 4,Dr Phil Hammond
 4,Trevor Noah
 3,Iain Lee
@@ -539,6 +541,7 @@
 3,Jennifer Saunders
 3,Preston
 3,Mani
+3,Hugh Laurie
 3,Jack Docherty
 3,Mark Ronson
 3,Dynamo
@@ -595,7 +598,6 @@
 3,Alistair Beaton
 3,George Shelley
 3,Kenny Everett
-3,Kate Robbins
 3,Jodie Kidd
 3,Kimberley Walsh
 3,Jo Whiley
@@ -641,7 +643,6 @@
 3,Carol Thatcher
 3,Joan Rivers
 3,Brigitte Nielsen
-3,Jimmy Mulville
 3,Gareth Malone
 3,Josie D'Arby
 3,Boy George
@@ -728,7 +729,6 @@
 2,Thomas Turgoose
 2,Amelia Lily
 2,Richard Morton
-2,Hugh Laurie
 2,Howard Goodall
 2,Grant Nicholas
 2,Mariella Frostrup
@@ -844,6 +844,7 @@
 2,John Diamond
 2,Amy Winehouse
 2,Aled Jones
+2,Victoria Mather
 2,David Steele
 2,Joanna Page
 2,Peter Oborne
@@ -903,6 +904,7 @@
 2,Kirsty Gallacher
 2,Rita Ora
 2,Piers Morgan
+2,Lenny Henry
 2,Chris Evans
 2,Mark Thomas
 2,Chas Hodges
@@ -1036,6 +1038,7 @@
 1,Jennie McAlpine
 1,Mohammad al-Massari
 1,Doug Stanhope
+1,Dawn French
 1,Cecil Parkinson
 1,Stine Bramsen
 1,Robin Lustig
@@ -1125,6 +1128,7 @@
 1,Jimmy Cliff
 1,Robin Cook
 1,Craig Campbell
+1,Enn Reitel
 1,Sadiq Khan MP
 1,Dan Hipgrave
 1,Anika Bostelaar
@@ -1185,6 +1189,7 @@
 1,Larry Hagman
 1,Mark Morriss
 1,Mette Lindberg
+1,Nonny Williams
 1,Imelda May
 1,Keisha White
 1,Johnny Logan
@@ -1255,8 +1260,8 @@
 1,Sanjeev Kholi
 1,Sarah-Jane Crawford
 1,Andrew Lawrence
-1,Adam Lambert
 1,Ben Haenow
+1,Adam Lambert
 1,Gay-Yee Westerhoff
 1,Stephen Baldwin
 1,Paul Heaton
@@ -1531,7 +1536,6 @@
 1,Peter Hobday
 1,Chico Slimani
 1,James Lance
-1,Victoria Mather
 1,Ewen Bremner
 1,Gary Wilmot
 1,Alex Sibley
@@ -1550,6 +1554,7 @@
 1,Robert Llewellyn
 1,Claire Sweeney
 1,Jacqueline Jossa
+1,Donald Trelford
 1,Louise Bagshawe MP
 1,Andy Brown
 1,Claire Goose
@@ -1638,6 +1643,7 @@
 1,Denise Welch
 1,Adele
 1,Clare Short
+1,Jon Glover
 1,Lesley Abdela
 1,Lauren Goodger
 1,Zoe Ball
@@ -1707,7 +1713,6 @@
 1,Chris Hoy
 1,Dan Schreiber
 1,Therese Grankvist
-1,Lenny Henry
 1,Pete Shelley
 1,Kevin Bishop
 1,Gary Jules
@@ -1785,6 +1790,7 @@
 1,Lea Walker
 1,Adam Duritz
 1,Martin White
+1,Angela Gordon
 1,Dervla Kirwan
 1,Andy Bell
 1,George Galloway
