@@ -83,15 +83,113 @@ Episode,Date,Guests (Himself/Herself - Role)
 6x12,1980-08-23,Margaret Howard (Herself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Nigel Dempster (Himself);Valerie Grove (Herself)
 6x13,1980-08-30,Nick Ross (Himself - Host);Alan Coren (Himself);Linda Christmas (Herself);Stan McMurtry (Himself)
 6x14,1980-09-06,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Sheridan Morley (Himself);Joan Bakewell (Herself)
-7x01,1980-11-22,
-16x01,1986-01-01,
-16x02,1986-01-08,
-16x03,1986-01-15,
-16x04,1986-01-22,
-16x05,1986-01-29,
-16x06,1986-02-05,
-16x07,1986-02-12,
-16x08,1986-02-19,
+7x01,1980-11-22,Barry Took (Himself - Host);Alan Coren (Himself);Stan McMurtry (Himself);Valerie Singleton (Herself);John Wells (Himself);
+7x02,1980-11-29,Barry Took (Himself - Host);Alan Coren (Himself);Joan Bakewell (Herself);Simon Hoggart (Himself);
+7x03,1980-12-06,Barry Took (Himself - Host);Alan Coren (Himself);Rob Buckman (Himself);Simon Jenkins (Himself);Gay Search (Herself);
+7x04,1980-12-13,Barry Took (Himself - Host);Alan Coren (Himself);Bel Mooney (Herself);John Craven (Himself);Richard Ingrams (Himself);
+7x05,1980-12-20,Barry Took (Himself - Host);Alan Coren (Himself);Margaret Howard (Herself);Martin Jackson (Himself);
+7x06,1981-01-10,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Jill Tweedie (Herself);Stan McMurtry (Himself);
+7x07,1981-01-17,Barry Took (Himself - Host);Alan Coren (Himself);Hunter Davies (Himself);Richard Stilsoe (Himself);Jane Walmsley (Herself);
+7x08,1981-01-24,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Peter Jenkins (Himself);Bel Mooney (Herself);
+7x09,1981-01-31,Barry Took (Himself - Host);Alan Coren (Himself);Russell Davies (Himself);Christopher Matthew (Himself);Angela Rippon (Herself);
+7x10,1981-02-07,Barry Took (Himself - Host);Joan Bakewell (Herself);John Wells (Himself);
+7x11,1981-02-14,
+7x12,1981-02-21,Barry Took (Himself - Host);Alan Coren (Himself);Moyra Bremner (Herself);Simon Hoggart (Himself);Stan McMurtry (Himself);
+7x13,1981-02-28,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Gillian Reynolds (Herself);Bill Tidy (Himself);
+8x01,1981-06-13,Simon Hoggart (Himself - Host);David Taylor (Himself);Clement Freud MP (Himself);Graeme Stanton (Himself);Ann Leslie (Herself);
+8x02,1981-06-20,Simon Hoggart (Himself - Host);Alan Coren (Himself);Stan McMurtry (Himself);Jonathan King (Himself);Claire Rayner (Herself);
+8x03,1981-06-27,Simon Hoggart (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Bel Mooney (Herself);
+8x04,1981-07-04,Simon Hoggart (Himself - Host);Alan Coren (Himself);
+8x05,1981-07-11,Simon Hoggart (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Joan Bakewell (Herself);Hunter Davies (Himself);
+8x06,1981-07-18,Simon Hoggart (Himself - Host);Alan Coren (Himself);Peter Jenkins (Himself);Claire Rayner (Herself);Stan McMurtry (Himself);
+8x07,1981-07-25,Simon Hoggart (Himself - Host);Alan Coren (Himself);Sue Cook (Herself);Russell Davies (Himself);Richard Ingrams (Himself);
+8x08,1981-08-08,Simon Hoggart (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Ann Leslie (Herself);
+8x09,1981-08-15,Simon Hoggart (Himself - Host);Alan Coren (Himself);Bel Mooney (Herself)
+8x10,1981-10-26,Alan Coren (Himself);Joan Bakewell (Herself);Simon Hoggart (Himself);Nigel Dempster (Himself);Ann Leslie (Herself);Stan McMurtry (Himself);
+9x01,1981-10-31,Barry Took (Himself - Host);Alan Coren (Himself);Russell Davies (Himself);Claire Rayner (Herself);David Taylor (Himself);
+9x02,1981-11-07,Barry Took (Himself - Host);Alan Coren (Himself);Gay Search (Herself);Hunter Davies (Himself);
+9x03,1981-11-14,Barry Took (Himself - Host);Alan Coren (Himself);
+9x04,1981-11-21,Barry Took (Himself - Host);Alan Coren (Himself);Andy Price (Himself);Bel Mooney (Herself);
+9x05,1981-11-28,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Sue Cook (Herself);Michael White (Himself);
+9x06,1981-12-05,Barry Took (Himself - Host);Alan Coren (Himself);Valerie Grove (Herself);Russell Davies (Himself);Nick Ross (Himself);
+9x07,1981-12-12,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Polly Toynbee (Herself);Nigel Dempster (Himself);
+9x08,1981-12-19,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Ann Leslie (Herself);Jonathan Dimbleby (Himself);
+9x09,1982-01-02,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Ann Leslie (Herself);Stan McMurtry (Himself);Gay Search (Herself);Simon Hoggart (Himself);
+9x10,1982-01-09,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Nigel Dempster (Himself);Gillian Reynolds (Herself);
+9x11,1982-01-16,Barry Took (Himself - Host);Alan Coren (Himself);Bel Mooney (Herself);Jonathan Dimbleby (Himself);Simon Hoggart (Himself);
+10x01,1982-06-05,Simon Hoggart (Himself - Host);Alan Coren (Himself);Godfrey Smith (Himself);Michael White (Himself);Joan Bakewell (Herself);
+10x02,1982-06-12,Simon Hoggart (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Penny Junor (Herself);John Wells (Himself);
+10x03,1982-06-19,Simon Hoggart (Himself - Host);Alan Coren (Himself);Peter Hillmore (Himself);Stan McMurtry (Himself);
+10x04,1982-06-26,Simon Hoggart (Himself - Host);Alan Coren (Himself);Hunter Davies (Himself);Richard Ingrams (Himself);Gay Search (Herself);
+10x05,1982-07-03,Simon Hoggart (Himself - Host);Alan Coren (Himself);Sue Arnold (Herself);Christopher Matthew (Himself);David Taylor (Himself);
+10x06,1982-07-10,Simon Hoggart (Himself - Host);Alan Coren (Himself);Roy Hattersley MP (Himself);Richard Ingrams (Himself);
+10x07,1982-07-17,Simon Hoggart (Himself - Host);Alan Coren (Himself);Sue Cook (Herself);Michael White (Himself);
+10x08,1982-07-24,Stan McMurtry (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Julia Langdon (Herself);David Taylor (Himself);
+11x01,1982-09-25,Barry Took (Himself - Host);Alan Coren (Himself);Stan McMurtry (Himself);Russell Davies (Himself);Sue Cook (Herself);
+11x02,1982-10-02,Barry Took (Himself - Host);Alan Coren (Himself);Joan Bakewell (Herself);Nigel Dempster (Himself);Richard Ingrams (Himself);
+11x03,1982-10-09,Barry Took (Himself - Host);Alan Coren (Himself);Gay Search (Herself);Russell Twisk (Himself);David Taylor (Himself);
+11x04,1982-10-16,Barry Took (Himself - Host);Alan Coren (Himself);Ann Leslie (Herself);John Wells (Himself);Richard Ingrams (Himself);
+11x05,1982-10-23,Barry Took (Himself - Host);Alan Coren (Himself);Simon Hoggart (Himself);Stan McMurtry (Himself);Michael White (Himself);
+11x06,1982-10-30,Barry Took (Himself - Host);Alan Coren (Himself);Eve Pollard, John Wells (Himself);Richard Ingrams (Himself);
+11x07,1982-11-06,Barry Took (Himself - Host);Alan Coren (Himself);Bel Mooney (Herself);David Taylor (Himself);
+11x08,1982-11-13,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Russell Davies (Himself);Joan Bakewell (Herself);
+11x09,1982-11-20,Barry Took (Himself - Host);Alan Coren (Himself);Hunter Davies (Himself);Nigel Dempster (Himself);
+11x10,1982-11-27,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);
+11x11,1982-12-04,Barry Took (Himself - Host);Alan Coren (Himself);Ann Leslie (Herself);Michael White (Himself);David Taylor (Himself);
+11x12,1982-12-11,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Valerie Grove
+12x01,1983-05-07,Simon Hoggart (Himself - Host);Alan Coren (Himself);Libby Purves (Herself);Michael White (Himself);Stan McMurtry (Himself);
+12x02,1983-05-14,Simon Hoggart (Himself - Host);Alan Coren (Himself);Gay Search (Herself);Russell Davies (Himself);Nigel Dempster (Himself);
+12x03,1983-05-21,Simon Hoggart (Himself - Host);Alan Coren (Himself);Michael Bywater (Himself);Sue Cook (Herself);David Taylor (Himself);
+12x04,1983-05-28,Simon Hoggart (Himself - Host);Alan Coren (Himself);Valerie Grove (Herself);Hunter Davies (Himself);Martin Wainwright (Himself);
+12x05,1983-06-04,Simon Hoggart (Himself - Host);Alan Coren (Himself);Claire Rayner (Herself);Peter Tory (Himself);Stan McMurtry (Himself);
+12x06,1983-06-11,Simon Hoggart (Himself - Host);Alan Coren (Himself);Michael White (Himself);Frances Donnelly (Herself)
+12x07,1983-06-18,Simon Hoggart (Himself - Host);Alan Coren (Himself);Geoffrey Dickinson (Himself);Joan Bakewell (Herself);Martin Wainwright (Himself);
+12x08,1983-06-25,Simon Hoggart (Himself - Host);Alan Coren (Himself);Julia Langdon (Herself);Hunter Davies (Himself);Nell Shand (Himself);
+12x09,1983-07-02,Simon Hoggart (Himself - Host);Alan Coren (Himself);Gillian Reynolds (Herself);John Wells (Himself);
+12x10,1983-07-09,Simon Hoggart (Himself - Host);Alan Coren (Himself);John Wells (Himself);David Taylor (Himself);Ann Leslie (Herself);
+13x01,1984-01-28,Simon Hoggart (Himself - Host);Alan Coren (Himself);Julia Langdon (Herself);David Taylor (Himself);
+13x02,1984-02-04,Simon Hoggart (Himself - Host);Alan Coren (Himself);Michael White (Himself);Sue Arnold (Herself);
+13x03,1984-02-11,Simon Hoggart (Himself - Host);Alan Coren (Himself);Alan Rusbridger (Himself);Gay Search (Herself);Peter Tory (Himself);
+13x04,1984-02-18,Simon Hoggart (Himself - Host);Alan Coren (Himself);Stan McMurtry (Himself);Peter Hillmore (Himself);Gillian Reynolds (Herself);
+13x05,1984-02-25,Simon Hoggart (Himself - Host);Alan Coren (Himself);David Taylor (Himself);Russell Davies (Himself);Libby Purves (Herself);
+13x06,1984-03-03,Simon Hoggart (Himself - Host);Alan Coren (Himself);John Wells (Himself);Oliver Pritchett (Himself);Ann Leslie (Herself);
+13x07,1984-03-10,Simon Hoggart (Himself - Host);Alan Coren (Himself);Michael White (Himself);Tom Tickell (Himself);Sue Cook (Herself);
+13x08,1984-03-17,Simon Hoggart (Himself - Host);Alan Coren (Himself);Geoffrey Dickinson (Himself);Fritz Spiegl (Himself);Joan Bakewell (Herself);
+13x09,1984-03-24,Simon Hoggart (Himself - Host);Alan Coren (Himself);Oliver Pritchett (Himself);Alan Rusbridger (Himself);Julia Langdon (Herself);
+13x10,1984-03-31,Simon Hoggart (Himself - Host);Alan Coren (Himself);John Wells (Himself);David Taylor (Himself);Gillian Reynolds (Herself);
+14x01,1984-11-03,David Taylor (Himself - Host);Alan Coren (Himself);John Wells (Himself);Oliver Pritchett (Himself);Joan Bakewell (Herself);
+14x02,1984-11-10,David Taylor (Himself - Host);Alan Coren (Himself);Geoffrey Dickinson (Himself);Alan Rusbridger (Himself);Julia Langdon (Herself);
+14x03,1984-11-17,Simon Hoggart (Himself - Host);Robert Buckman (Himself);Stan McMurtry (Himself);Peter Hillimore (Himself);Angela Gordon (Herself);
+14x04,1984-11-24,Simon Hoggart (Himself - Host);Alan Coren (Himself);Michael White (Himself);Frank Keating (Himself);Gillian Reynolds (Herself);
+14x05,1984-12-01,Simon Hoggart (Himself - Host);Alan Coren (Himself);Nigel Dempster (Himself);Peter Birkett (Himself);Ann Leslie (Herself);
+14x06,1984-12-08,Simon Hoggart (Himself - Host);Alan Coren (Himself);Roy Hattersley (Himself);Michael White (Himself);Sue Arnold (Herself);
+14x07,1984-12-15,Simon Hoggart (Himself - Host);Alan Coren (Himself);Geoffrey Dickinson (Himself);Jim Naughtie (Himself);
+14x08,1985-01-05,Simon Hoggart (Himself - Host);Alan Coren (Himself);Peter Hillmore (Himself);Chris Potter (Himself);
+14x09,1985-01-12,Simon Hoggart (Himself - Host);Alan Coren (Himself);John Wells (Himself);Joan Bakewell (Herself);
+14x10,1985-01-19,Simon Hoggart (Himself - Host);Alan Coren (Himself);Stan McMurtry (Himself);Rob Buckman (Himself);Irma Kurtz (Herself);
+14x11,1985-01-26,Simon Hoggart (Himself - Host);Alan Coren (Himself);David Taylor (Himself);John Wells (Himself);Angela Gordon (Herself);
+15x01,1985-10-05,Barry Took (Himself - Host);Alan Coren (Himself);Ian Hislop (Himself);Peter Hobday (Himself);Joan Bakewell (Herself);
+15x02,1985-10-12,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Michael Heath (Himself);Sue Arnold (Herself);
+15x03,1985-10-19,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Joe Haines (Himself);Angela Gordon (Herself);
+15x04,1985-10-26,Barry Took (Himself - Host);Alan Coren (Himself);Richard Ingrams (Himself);Anne Diamond (Herself);Henry Blofeld (Himself);
+15x05,1985-11-02,Barry Took (Himself - Host);Alan Coren (Himself);Ian Hislop (Himself);Julia Langdon (Herself);Mac (Himself);
+15x06,1985-11-09,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+15x07,1985-11-16,Barry Took (Himself - Host);Ian Hislop (Himself);Alan Coren (Himself);Bill Tidy (Himself);Janet Street Porter (Herself);
+15x08,1985-11-23,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);John Wells (Himself);Geoffrey Dickinson (Himself);
+15x09,1985-11-30,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);David Taylor (Himself);Irma Kurtz (Herself);
+15x10,1985-12-07,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);Robert Chesshyre (Himself);Nina Myskow (Herself);
+16x01,1986-05-24,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);John Wells (Himself);Valerie Grove (Herself);
+16x02,1986-05-31,Barry Took (Himself - Host);Ian Hislop (Himself);Alan Coren (Himself);Bill Tidy (Himself);Janet Street-Porter (Herself);
+16x03,1986-06-07,Barry Took (Himself - Host);Ian Hislop (Himself);Alan Coren (Himself);David Taylor (Himself);Julia Langdon (Herself);
+16x04,1986-06-14,Barry Took (Himself - Host);Ian Hislop (Himself);Alan Coren (Himself);Peter McKay (Himself);Joan Bakewell (Herself);
+16x05,1986-06-21,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+16x06,1986-06-28,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);Julian Critchley MP (Himself);Angela Gordon (Herself);
+16x07,1986-07-05,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+16x08,1986-07-12,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+16x09,1986-07-19,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);Fred Ingrams (Himself);Gillian Reynolds (Herself);
+16x10,1986-07-26,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);Gay Search (Herself);Martyn Young (Himself);
+16x11,1986-08-02,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);Irma Kurtz (Herself);Valerie Singleton (Herself);
+16x12,1986-08-09,Barry Took (Himself - Host);
 17x01,1987-01-24,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);Martyn Young (Himself);Ian Hislop (Himself)
 17x02,1987-01-31,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);Gillian Reynolds (Herself);David Taylor (Himself)
 17x03,1987-02-07,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);Donald Trelford (Himself);John Wells (Himself)
