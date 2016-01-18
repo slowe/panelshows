@@ -84,29 +84,28 @@ Episode,Date,Guests (Himself/Herself - Role)
 23x10,1990-07-14,Alan Coren (Himself);Clive Anderson (Himself);Richard Ingrams (Himself);Simon Hoggart (Himself);Barry Took (Himself - Host);
 23x11,1990-07-21,Barry Took (Himself - Host);Alan Coren (Himself);Michael White (Himself);Richard Ingrams (Himself);Ian Hislop (Himself);
 23x12,1990-07-28,Barry Took (Himself - Host);Andrew Rawnsley (Himself);Clive Anderson (Himself);John Wells (Himself);Richard Ingrams (Himself);
-24x01,1991-09-15,
-24x02,1991-09-22,
-24x03,1991-09-29,
-24x04,1991-10-06,
-24x05,1991-10-13,
-24x06,1991-10-20,
-24x07,1991-10-27,
-24x08,1991-11-03,
-24x09,1991-11-10,
-24x10,1991-11-17,
-25x01,1991-03-02,
-25x02,1991-03-09,
-25x03,1991-03-16,
-25x04,1991-03-23,
-25x05,1991-03-30,
-25x06,1991-04-06,
-25x07,1991-04-13,
-25x08,1991-04-20,
-25x09,1991-04-27,
-25x10,1991-05-04,
+24x01,1990-09-15,
+24x02,1990-09-22,
+24x03,1990-09-29,
+24x04,1990-10-06,
+24x05,1990-10-13,
+24x06,1990-10-20,
+24x07,1990-10-27,
+24x08,1990-11-03,
+24x09,1990-11-10,Barry Took (Himself - Host);Rory Bremner (Himself);Alan Coren (Himself);
+25x01,1991-03-02,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+25x02,1991-03-09,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+25x03,1991-03-16,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+25x04,1991-03-23,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+25x05,1991-03-30,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+25x06,1991-04-06,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+25x07,1991-04-13,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+25x08,1991-04-20,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+25x09,1991-04-27,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
+25x10,1991-05-04,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
 26x01,1991-08-03,Barry Took (Himself - Host);Alan Coren (Himself);Mark Stein (Himself);Richard Ingrams (Himself);Ian Hislop (Himself);
 26x02,1991-08-10,Alan Coren (Himself);Clive Anderson (Himself);Richard Ingrams (Himself);Ian Hislop (Himself);Barry Took (Himself - Host);
-26x03,1991-08-17,
+26x03,1991-08-17,Barry Took (Himself - Host);Richard Ingrams (Himself);Alan Coren (Himself);
 26x04,1991-08-24,Barry Took (Himself - Host);Alan Coren (Himself);Gillian Reynolds (Herself);Richard Ingrams (Himself);Ian Hislop (Himself);
 26x05,1991-08-31,Barry Took (Himself - Host);Alan Coren (Himself);Michael White (Himself);Richard Ingrams (Himself);Ian Hislop (Himself);
 26x06,1991-09-07,Alan Coren (Himself);Martin Young (Himself);Richard Ingrams (Himself);Ian Hislop (Himself);Barry Took (Himself - Host);
@@ -238,7 +237,7 @@ Episode,Date,Guests (Himself/Herself - Role)
 37x11,1997-05-24,Simon Hoggart (Himself - Host);Alan Coren (Himself);Clive Anderson (Himself);Francis Wheen (Himself);Jeremy Hardy (Himself);
 38x01,1997-08-23,Simon Hoggart (Himself - Host);Alan Coren (Himself);Steve Punt (Himself);Francis Wheen (Himself);Fred MacAulay (Himself);
 38x02,1997-08-30,Alan Coren (Himself);Roy Hattersley (Himself);Jeremy Hardy (Himself);Laurie Taylor (Himself);Simon Hoggart (Himself - Host);
-38x03,1997-09-06,
+38x03,1997-09-06,Simon Hoggart (Himself - Host);Alan Coren (Himself);Andy Hamilton (Himself);
 38x04,1997-09-13,Simon Hoggart (Himself - Host);Alan Coren (Himself);Clive Anderson (Himself);Francis Wheen (Himself);Jeremy Hardy (Himself);
 38x05,1997-09-20,Simon Hoggart (Himself - Host);Alan Coren (Himself);Tony Hawks (Himself);Andy Hamilton (Himself);David Aranovich (Himself);
 38x06,1997-09-27,Alan Coren (Himself);David Aranovich (Himself);Francis Wheen (Himself);Jeremy Hardy (Himself);Simon Hoggart (Himself - Host);
@@ -264,7 +263,7 @@ Episode,Date,Guests (Himself/Herself - Role)
 39x15,1998-05-29,Simon Hoggart (Himself - Host);Alan Coren (Himself);Linda Smith (Herself);Francis Wheen (Himself);Andy Hamilton (Himself);
 40x01,1998-08-28,Simon Hoggart (Himself - Host);Jeremy Hardy (Himself);Linda Smith (Herself);Steve Punt (Himself);Roy Hattersley (Himself);
 40x02,1998-09-04,Alan Coren (Himself);Linda Smith (Herself);Francis Wheen (Himself);John Bird (Himself);Simon Hoggart (Himself - Host);
-40x03,1998-09-11,
+40x03,1998-09-11,Simon Hoggart (Himself - Host);Alan Coren (Himself);Andy Hamilton (Himself);
 40x04,1998-09-18,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Andy Hamilton (Himself);Michael White (Himself);
 40x05,1998-09-25,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Francis Wheen (Himself);Stuart Maconie (Himself);
 40x06,1998-10-02,Alan Coren (Himself);Andy Hamilton (Himself);Francis Wheen (Himself);Linda Smith (Herself);Simon Hoggart (Himself - Host);
@@ -275,10 +274,10 @@ Episode,Date,Guests (Himself/Herself - Role)
 40x11,1998-11-06,Simon Hoggart (Himself - Host);Alan Coren (Himself);Charles Kennedy (Himself);Francis Wheen (Himself);Jeremy Hardy (Himself);
 41x01,1999-03-19,Simon Hoggart (Himself - Host);Alan Coren (Himself);Robin Lustig (Himself);Andy Hamilton (Himself);Steve Punt (Himself);
 41x02,1999-03-26,Linda Smith (Herself);Michael White (Himself);Francis Wheen (Himself);Mark Steel (Himself);Simon Hoggart (Himself - Host);
-41x03,1999-04-02,
+41x03,1999-04-02,Simon Hoggart (Himself - Host);Alan Coren (Himself);Andy Hamilton (Himself);Peter Bradshaw (Himself);Linda Smith (Herself);
 41x04,1999-04-09,John Sergeant (Himself);Alan Coren (Himself);Tony Hawks (Himself);Francis Wheen (Himself);Boris Johnson (Himself);
 41x05,1999-04-16,Simon Hoggart (Himself - Host);Alan Coren (Himself);Oliver Pritchard (Himself);Linda Smith (Herself);John O'Farrell (Himself);
-41x06,1999-04-23,
+41x06,1999-04-23,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);
 41x07,1999-04-30,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Francis Wheen (Himself);Linda Smith (Herself);
 41x08,1999-05-07,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Andy Hamilton (Himself);Francis Wheen (Himself);
 41x09,1999-05-14,Simon Hoggart (Himself - Host);Alan Coren (Himself);Roy Hattersley (Himself);Andy Hamilton (Himself);Jeremy Hardy (Himself);
@@ -299,10 +298,10 @@ Episode,Date,Guests (Himself/Herself - Role)
 42x11,1999-11-05,Simon Hoggart (Himself - Host);Francis Wheen (Himself);Fred MacAulay (Himself);Jeremy Hardy (Himself);Linda Smith (Herself);
 43x01,2000-03-17,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Linda Smith (Herself);John Sergeant (Himself);
 43x02,2000-03-24,Alan Coren (Himself);Andy Hamilton (Himself);Francis Wheen (Himself);Curtis Walker (Himself);Simon Hoggart (Himself - Host);
-43x03,2000-03-31,
+43x03,2000-03-31,Simon Hoggart (Himself - Host);Alan Coren (Himself);Andy Hamilton (Himself);Linda Smith (Herself);Michael White (Himself);
 43x04,2000-04-07,Simon Hoggart (Himself - Host);Alan Coren (Himself);Andy Hamilton (Himself);Francis Wheen (Himself);Jon Snow (Himself);
 43x05,2000-04-14,Francis Wheen (Himself);Alan Coren (Himself);Linda Smith (Herself);Jeremy Hardy (Himself);Rebecca Front (Herself);
-43x06,2000-04-21,Jeremy Hardy (Himself);Roy Hattersley (Himself);Francis Wheen (Himself);Tony Hawks (Himself);
+43x06,2000-04-21,Simon Hoggart (Himself - Host);Jeremy Hardy (Himself);Roy Hattersley (Himself);Francis Wheen (Himself);Tony Hawks (Himself);
 43x07,2000-04-28,Simon Hoggart (Himself - Host);Alan Coren (Himself);Rachael Heyhoe-Flint (Herself);Andy Hamilton (Himself);Fred MacAulay (Himself);
 43x08,2000-05-05,Simon Hoggart (Himself - Host);Alan Coren (Himself);Linda Smith (Herself);Andy Hamilton (Himself);John Nicolson (Himself);
 43x09,2000-05-12,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Andy Hamilton (Himself);Hattie Hayridge (Herself);
