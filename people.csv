@@ -1,8 +1,8 @@
 864,Nicholas Parsons
 769,Paul Merton
-546,Clement Freud
+547,Clement Freud
 469,Ian Hislop
-455,Alan Coren
+467,Alan Coren
 397,Jeremy Hardy
 378,Phill Jupitus
 346,Kenneth Williams
@@ -13,9 +13,9 @@
 296,Barry Cryer
 288,Jimmy Carr
 271,Tim Brooke-Taylor
-246,Simon Hoggart
+251,Barry Took
+248,Simon Hoggart
 246,David Mitchell
-240,Barry Took
 238,Andy Hamilton
 227,Stephen Fry
 223,Alan Davies
@@ -25,7 +25,7 @@
 200,Tony Hawks
 188,Humphrey Lyttelton
 185,Mark Lamarr
-178,Richard Ingrams
+185,Richard Ingrams
 167,Dara O'Briain
 164,Jack Dee
 161,Sue Perkins
@@ -128,11 +128,11 @@
 26,Rebecca Front
 25,Josie Lawrence
 25,Frank Skinner
+25,John Wells
 24,Pam Ayres
 23,Roy Hattersley
 23,Greg Davies
 23,Micky Flanagan
-23,John Wells
 22,Joe Lycett
 21,Bob Mills
 20,Carol Vorderman
@@ -141,6 +141,7 @@
 20,Nick Clarke
 20,Kevin McHale
 20,Dan Renton Skinner
+20,Clement Freud MP
 20,Charles Collingwood
 19,Steve Frost
 19,Carrie Quinlan
@@ -149,7 +150,6 @@
 19,Germaine Greer
 19,Janet Street-Porter
 19,Des Clarke
-19,Clement Freud MP
 18,Greg Proops
 18,Krishnan Guru-Murthy
 18,Jo Caulfield
@@ -165,6 +165,7 @@
 16,John O'Farrell
 16,Lloyd Langford
 16,Aisling Bea
+16,Joan Bakewell
 16,Maureen Lipman
 16,Michael McIntyre
 16,Katy Brand
@@ -181,7 +182,6 @@
 15,Samira Ahmed
 15,Peter Serafinowicz
 14,Lauren Laverne
-14,Joan Bakewell
 14,Ken Livingstone
 14,Charles Kennedy
 14,Kelly Brook
@@ -201,6 +201,7 @@
 13,Stacey Solomon
 13,Bill Tidy
 13,Andrew Rawnsley
+13,Clive James
 12,Patrick Kielty
 12,Example
 12,Patrick Moore
@@ -210,10 +211,10 @@
 12,Rick Wakeman
 12,Mel Giedroyc
 12,Jamelia
+12,Nigel Dempster
 12,Alan Carr
 12,Adam Hills
 12,Louis Walsh
-12,Clive James
 11,Victoria Wood
 11,Isy Suttie
 11,Maria McErlane
@@ -226,7 +227,7 @@
 10,Neil Mullarkey
 10,Miranda Hart
 10,Tony Slattery
-10,Nigel Dempster
+10,Gillian Reynolds
 10,Professor Green
 10,Kevin Day
 10,Danny Dyer
@@ -247,6 +248,8 @@
 9,Tony Law
 9,Davina McCall
 9,Paloma Faith
+9,Claire Rayner
+9,Jonathan King
 9,Olly Murs
 9,Matthew Parris
 9,Peter Bradshaw
@@ -254,7 +257,6 @@
 9,Ronni Ancona
 9,Keir McAllister
 9,Boris Johnson
-9,Gillian Reynolds
 9,Dermot O'Leary
 9,Dave Berry
 9,Melanie Chisholm
@@ -269,7 +271,6 @@
 9,Kate Adie
 8,Richard Madeley
 8,Ben Miller
-8,Claire Rayner
 8,Hal Cruttenden
 8,Jeff Green
 8,Martin Young
@@ -293,24 +294,26 @@
 7,Melanie Brown
 7,Nathan Caton
 7,Alex Jones
-7,Jonathan King
 7,Richard Fairbrass
 7,Stephen K. Amos
 7,Alex Zane
 7,Richard Bacon
 7,Clare Balding
+7,Simon Jenkins
 7,Rick Edwards
 7,Alexei Sayle
 7,Peter Andre
 7,Joe Swash
 7,Rylan Clark
 7,Justin Edwards
+7,Ann Leslie
 7,Ricky Wilson
 7,Rory McGrath
 7,Kimberly Wyatt
 7,Emma Bunton
 7,Penny Smith
 7,Chris Moyles
+7,Stan McMurtry
 7,Jason Byrne
 7,Harry Judd
 7,Nick Revell
@@ -394,7 +397,6 @@
 5,Sarah Kendall
 5,Andrew Neil
 5,Bernard Cribbins
-5,Simon Jenkins
 5,Michelle Keegan
 5,Bill Oddie
 5,Dave Johns
@@ -405,7 +407,6 @@
 5,Hugh Fearnley-Whittingstall
 5,Conor Maynard
 5,Trevor McDonald
-5,Ann Leslie
 5,Michael Winner
 5,Jessica Hynes
 5,Terry Wogan
@@ -464,6 +465,7 @@
 4,William Franklyn
 4,Helen Flanagan
 4,Catherine Tate
+4,Douglas Stuart
 4,Patsy Kensit
 4,John Humphrys
 4,John Thomson
@@ -503,13 +505,13 @@
 4,Ruth Jones
 4,Peter Stringfellow
 4,Jesy Nelson
+4,Bel Mooney
 4,John Craven
 4,Keith Duffy
 4,John Barrowman
 4,Mike Wilmot
 4,Jameela Jamil
 4,Jade Thirlwall
-4,Stan McMurtry
 4,Carol Thatcher
 4,Katie Price
 4,David Aaronovitch
@@ -586,6 +588,7 @@
 3,David Dickinson
 3,Stephen K Amos
 3,Midge Ure
+3,Valerie Grove
 3,Martine McCutcheon
 3,Daniel Finkelstein
 3,John Walters
@@ -594,10 +597,10 @@
 3,Laurie Taylor
 3,Gemma Cairney
 3,Richard Whiteley
+3,Michael Billington
 3,Jason Gardiner
 3,Junior Simpson
 3,Dr Christian Jessen
-3,Douglas Stuart
 3,Bruce Dickinson
 3,Roy Walker
 3,Amy Childs
@@ -633,6 +636,7 @@
 3,Lisa Stansfield
 3,Francesca Martinez
 3,Lisa Scott-Lee
+3,Sheridan Morley
 3,Rowland Rivron
 3,Tim Westwood
 3,Richard Littlejohn
@@ -646,6 +650,7 @@
 3,Dermot Morgan
 3,Foxes
 3,Daniel Sloss
+3,Polly Toynbee
 3,Dominic Lawson
 3,Jeremy Edwards
 3,Har Mar Superstar
@@ -770,6 +775,7 @@
 2,David Van Day
 2,Evan Davis
 2,Jane McDonald
+2,Gordon Clough
 2,Tanya Strecker
 2,Emily Atack
 2,Glen Matlock
@@ -823,7 +829,6 @@
 2,Craig Cash
 2,P. J. O'Rourke
 2,Gordon Kennedy
-2,Michael Billington
 2,Michael Palin
 2,Rupert Allason
 2,Melanie Sykes
@@ -951,11 +956,9 @@
 2,Jimmy Bullard
 2,Hannibal Buress
 2,Katherine Parkinson
-2,Polly Toynbee
 2,Stephen Mulhern
 2,Emma Kennedy
 2,Jessica Taylor
-2,Bel Mooney
 2,Thora Hird
 2,Dizzee Rascal
 2,Shane Richie
@@ -1000,6 +1003,7 @@
 2,Susan Jeffreys
 2,Nigella Lawson
 2,Jake Roche
+2,Linda Christmas
 2,D.J. Ironik
 2,Miriam Karlin
 2,Michael Crick
@@ -1014,6 +1018,7 @@
 2,Pete McCarthy
 2,Frankie Sandford
 2,Phil Spencer
+2,Margaret Howard
 2,Shami Chakrabarti
 2,Aaron Gilbert
 2,Alvin Stardust
@@ -1031,6 +1036,7 @@
 2,Maverick Sabre
 2,OritsÈ Williams
 2,Liz Bonnin
+2,David Taylor
 2,Una Healy
 2,Ryan Jarman
 2,Joel Pott
@@ -1352,7 +1358,6 @@
 1,Chris Fountain
 1,Robbie Savage
 1,Kevin Simm
-1,Gordon Clough
 1,Caroline Wyatt
 1,Nerina Pallot
 1,Joe Goddard
@@ -1448,7 +1453,6 @@
 1,Rhodes Boyson
 1,Tony Way
 1,Nick Bracegirdle
-1,Valerie Grove
 1,Mikey Green
 1,Damon Hill
 1,Lynne Perrie
@@ -1545,6 +1549,7 @@
 1,Tony Parsons
 1,Abz Love
 1,Isaac Hanson
+1,Nick Ross
 1,Curtis Walker
 1,Ne-Yo
 1,Sarah Cox
@@ -1768,7 +1773,6 @@
 1,Paddy Considine
 1,Daniel Powter
 1,Brett Goldstein
-1,Sheridan Morley
 1,Lemmy
 1,Mutya Buena
 1,Daniel 'Swampy' Hopper
@@ -1938,6 +1942,7 @@
 1,Emily Maitlis
 1,Kellie Bright
 1,Steve Aoki
+1,Jan Leeming
 1,Chloe-Jasmine Winchello
 1,Jo Kendall
 1,Arabella Weir
@@ -1997,7 +2002,6 @@
 1,Anne Charleston
 1,Kelvin Mackenzie
 1,Will Gompertz
-1,Linda Christmas
 1,Zoe Salmon
 1,Kenny Lynch
 1,Mark Hurst
@@ -2076,7 +2080,6 @@
 1,Louise Mensch MP
 1,Ray Mears
 1,Tom Felton
-1,Margaret Howard
 1,Brian Dowling
 1,Mike Yarwood
 1,Nick Knowles
@@ -2156,7 +2159,6 @@
 1,Auberon Waugh
 1,Adam Rickitt
 1,Ben Clark
-1,David Taylor
 1,Dermot Murnaghan
 1,Vicki Pepperdine
 1,Natalie Anderson
