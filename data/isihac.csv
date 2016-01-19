@@ -6,7 +6,36 @@ Episode,Date,Guests (Himself/Herself - Role)
 12x03,1985-05-18,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Kenny Everett (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 12x05,1985-06-01,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 13x10,1986-09-27,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
-14x10,1987-10-19,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Stephen Fry (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
+12x01,1985-05-04,Humphrey Lyttelton (Himself - Host);Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Barry Cryer (Himself);Graeme Garden (Himself);
+12x02,1985-05-11,Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+12x03,1985-05-18,Barry Cryer (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Kenny Everett (Himself);Humphrey Lyttelton (Himself - Host);
+12x04,1985-05-25,Kenny Everett (Himself);Willie Rushton (Himself);Barry Cryer (Himself);Tim Brooke-Taylor (Himself);Humphrey Lyttelton (Himself - Host);
+12x05,1985-06-01,
+12x06,1985-06-08,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Barry Cryer (Himself);Tim Brooke-Taylor (Himself);Graeme Garden (Himself);
+12x07,1985-06-15,Tim Brooke-Taylor (Himself);Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Bill Tidy (Himself)
+12x08,1985-06-22,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Bill Tidy (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);
+12x09,1985-06-29,
+12x10,1985-07-06,
+13x01,1986-07-26,Humphrey Lyttelton (Himself - Host);
+13x02,1986-08-02,John Junkin (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Humphrey Lyttelton (Himself - Host);
+13x03,1986-08-09,
+13x04,1986-08-16,Humphrey Lyttelton (Himself - Host);Mike Harding (Himself);Willie Rushton (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);
+13x05,1986-08-23,
+13x06,1986-08-30,
+13x07,1986-09-06,
+13x08,1986-09-13,
+13x09,1986-09-20,Frank Barber (Himself);Edward Morris (Himself);Judith Brown (Herself);Simon Platt (Himself);
+13x10,1986-09-27,
+14x01,1987-08-17,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);
+14x02,1987-08-24,Willie Rushton (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Stephen Fry (Himself);Humphrey Lyttelton (Himself - Host);
+14x03,1987-08-31,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);Graeme Garden (Himself);
+14x04,1987-09-07,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Barry Cryer (Himself);Stephen Fry (Himself);Graeme Garden (Himself);
+14x05,1987-09-14,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);Graeme Garden (Himself);
+14x06,1987-09-21,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);Graeme Garden (Himself);
+14x07,1987-09-28,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Willie Rushton (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);
+14x08,1987-10-05,Barry Cryer (Himself);Willie Rushton (Himself);Graeme Garden (Himself);Humphrey Lyttelton (Himself - Host);Tim Brooke-Taylor (Himself);
+14x09,1987-10-12,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Graeme Garden (Himself);
+14x10,1987-10-19,Humphrey Lyttelton (Himself - Host);Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);
 15x01,1989-01-07,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 15x02,1989-01-14,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 15x03,1989-01-21,Humphrey Lyttelton (Himself - Host);Bill Tidy (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
@@ -29,6 +58,12 @@ Episode,Date,Guests (Himself/Herself - Role)
 17x04,1990-12-08,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 17x05,1990-12-15,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 17x06,1990-12-22,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
+18x01,1991-06-22,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Bill Tidy (Himself);
+18x02,1991-06-29,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Bill Tidy (Himself);
+18x03,1991-07-06,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Bill Tidy (Himself);
+18x04,1991-07-13,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Bill Tidy (Himself);
+18x05,1991-07-20,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Bill Tidy (Himself);
+18x06,1991-07-27,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Bill Tidy (Himself);
 19x01,1991-10-19,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Paul Merton (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 19x02,1991-10-26,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Paul Merton (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 19x03,1991-11-02,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Bill Tidy (Himself);Denise Coffey (Herself);Willie Rushton (Himself)
@@ -36,12 +71,36 @@ Episode,Date,Guests (Himself/Herself - Role)
 19x05,1991-11-16,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Paul Merton (Himself);Tim Brooke-Taylor (Herself);Willie Rushton (Himself)
 19x06,1991-11-23,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Paul Merton (Himself);Tim Brooke-Taylor (Herself);Willie Rushton (Himself)
 19x07,1991-11-30,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
+20x01,1992-05-23,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Paul Merton (Himself);Barry Cryer (Himself);
+20x02,1992-05-30,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Paul Merton (Himself);Barry Cryer (Himself);
+20x03,1992-06-06,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
+20x04,1992-06-13,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
+20x05,1992-06-20,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
+20x06,1992-06-27,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
+21x01,1992-11-14,Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);
+21x02,1992-11-21,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
+21x03,1992-11-28,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Paul Merton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
+21x04,1992-12-05,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Paul Merton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
+21x05,1992-12-12,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Paul Merton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
+21x06,1992-12-19,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Paul Merton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
 22x01,1993-11-06,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 22x02,1993-11-13,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 22x03,1993-11-20,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 22x04,1993-11-27,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 22x05,1993-12-04,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 22x06,1993-12-11,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
+23x01,1994-05-28,Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Humphrey Lyttelton (Himself - Host);
+23x02,1994-06-04,
+23x03,1994-06-11,
+23x04,1994-06-18,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Barry Cryer (Himself);
+23x05,1994-06-25,
+23x06,1994-07-02,Humphrey Lyttelton (Himself - Host);Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);
+24x01,1994-11-05,Humphrey Lyttelton (Himself - Host);Willie Rushton (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Paul Merton (Himself);
+24x02,1994-11-12,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Paul Merton (Himself);Willie Rushton (Himself);
+24x03,1994-11-19,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+24x04,1994-11-26,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+24x05,1994-12-03,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+24x06,1994-12-10,Humphrey Lyttelton (Himself - Host);Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);
 25x01,1995-05-27,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 25x02,1995-06-03,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
 25x03,1995-06-10,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
