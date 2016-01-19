@@ -10,25 +10,25 @@
 313,Sandi Toksvig
 309,Derek Nimmo
 308,Barry Took
+306,Graeme Garden
+302,Barry Cryer
 299,Simon Hoggart
-297,Graeme Garden
-296,Barry Cryer
 288,Jimmy Carr
-271,Tim Brooke-Taylor
+280,Tim Brooke-Taylor
 246,David Mitchell
 238,Andy Hamilton
-227,Stephen Fry
+229,Stephen Fry
 223,Alan Davies
 222,Richard Ingrams
 216,Sean Lock
 208,Francis Wheen
 202,Angus Deayton
 200,Tony Hawks
-188,Humphrey Lyttelton
+197,Humphrey Lyttelton
 185,Mark Lamarr
 167,Dara O'Briain
 164,Jack Dee
-161,Sue Perkins
+162,Sue Perkins
 159,Keith Lemon
 157,Bill Bailey
 143,Holly Willoughby
@@ -65,18 +65,18 @@
 62,Matt Lucas
 61,Rachel Riley
 61,Johnny Vegas
+61,Willie Rushton
 60,Jenny Eclair
 59,John Sergeant
 59,Ed Byrne
 54,Victoria Coren Mitchell
 54,Andree Melly
 52,Sarah Millican
-52,Willie Rushton
 51,Susie Dent
 50,Liza Tarbuck
 49,Tim Rice
+48,Josh Widdicombe
 48,Rhod Gilbert
-47,Josh Widdicombe
 47,Sean Locke
 47,Seann Walsh
 43,Katherine Ryan
@@ -108,9 +108,9 @@
 33,Milton Jones
 33,Jonathan Ross
 32,Hugo Rifkind
+32,Romesh Ranganathan
 32,Roisin Conaty
 31,Will Self
-31,Romesh Ranganathan
 30,Sara Pascoe
 29,Shappi Khorsandi
 29,Joan Bakewell
@@ -122,11 +122,11 @@
 28,Michael Legge
 28,Andrew Maxwell
 27,Russell Kane
+27,Richard Osman
 27,Jeremy Clarkson
 27,Chris Neill
 26,Claudia Winkleman
 26,Michael White
-26,Richard Osman
 26,Richard Herring
 26,Rebecca Front
 25,Josie Lawrence
@@ -168,6 +168,7 @@
 17,Charlie Brooker
 17,Ann Leslie
 17,David Walliams
+17,Bill Tidy
 17,Josie Long
 17,James Acaster
 16,John O'Farrell
@@ -175,7 +176,6 @@
 16,Aisling Bea
 16,Maureen Lipman
 16,Michael McIntyre
-16,Bill Tidy
 16,Katy Brand
 16,Fred Macaulay
 15,Paddy McGuinness
@@ -366,6 +366,7 @@
 6,Lethal Bizzle
 6,Damian Lewis
 6,Scott Capurro
+6,Jessica Hynes
 6,Tim Vine
 6,Humphrey Ker
 6,Jarred Christmas
@@ -416,7 +417,6 @@
 5,Conor Maynard
 5,Trevor McDonald
 5,Michael Winner
-5,Jessica Hynes
 5,Angela Gordon
 5,Terry Wogan
 5,Kerry Godliman
@@ -443,6 +443,7 @@
 4,Magnus Pyke
 4,Mike McShane
 4,Betty Marsden
+4,Jennifer Saunders
 4,Warwick Davis
 4,Math Priest
 4,Nick Doody
@@ -571,7 +572,6 @@
 3,Ian Stone
 3,Moira Stuart
 3,Kenzie
-3,Jennifer Saunders
 3,Preston
 3,Mani
 3,Hugh Laurie
@@ -2203,6 +2203,7 @@
 1,Simon Le Bon
 1,Paul Godfrey
 1,Mikey Craig
+1,Suzannah Lipscomb
 1,Frances Donnelly
 1,Joe McElderry
 1,Theo Paphitis
