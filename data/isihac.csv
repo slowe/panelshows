@@ -1,6 +1,71 @@
 Episode,Date,Guests (Himself/Herself - Role)
 1x01,1972-04-11,Humphrey Lyttelton (Himself - Host);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Jo Kendall (Herself);Bill Oddie (Himself)
-2x02,1977-03-13,Humphrey Lyttelton (Himself - Host);Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself)
+1x01,1972-04-11,Graeme Garden (Himself);Jo Kendall (Herself);Tim Brooke-Taylor (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+1x02,1972-04-18,Graeme Garden (Himself);Jo Kendall (Herself);Tim Brooke-Taylor (Himself);Bill Oddie (Himself);Barry Cryer (Himself - Host);
+1x03,1972-04-25,Graeme Garden (Himself);Jo Kendall (Herself);Tim Brooke-Taylor (Himself);Bill Oddie (Himself);Barry Cryer (Himself - Host);
+1x04,1972-05-02,John Cleese (Himself);Tim Brooke-Taylor (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);Graeme Garden (Himself);
+1x05,1972-05-09,Tim Brooke-Taylor (Himself);John Cleese (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+1x06,1972-05-16,Tim Brooke-Taylor (Himself);John Cleese (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+1x07,1972-05-23,Tim Brooke-Taylor (Himself);John Cleese (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+1x08,1972-05-30,Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Jo Kendall (Herself);Bill Oddie (Himself);
+1x09,1972-06-06,Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Jo Kendall (Herself);Bill Oddie (Himself);Barry Cryer (Himself - Host);
+1x10,1972-06-13,Tim Brooke-Taylor (Himself);John Cleese (Himself);Graeme Garden (Himself);Bill Oddle;Barry Cryer (Himself - Host);
+1x11,1972-06-20,Tim Brooke-Taylor (Himself);John Cleese (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Barry Cryer (Himself - Host);
+1x12,1972-06-27,Tim Brooke-Taylor (Himself);John Cleese (Himself);Graeme Garden (Himself);Jo Kendall (Herself);Humphrey Lyttelton (Himself - Host);
+1x13,1972-07-04,Tim Brooke-Taylor (Himself);John Cleese (Himself);Graeme Garden (Himself);Jo Kendall (Herself);Humphrey Lyttelton (Himself - Host);
+2x01,1973-04-30,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x02,1973-05-07,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x03,1973-05-14,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x04,1973-05-21,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x05,1973-05-28,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x06,1973-06-04,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x07,1973-06-11,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x08,1973-06-18,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x09,1973-06-25,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x10,1973-07-02,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x11,1973-07-09,Humphrey Lyttelton (Himself - Host);Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);
+2x12,1973-07-16,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+2x13,1973-07-23,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Bill Oddie (Himself);Humphrey Lyttelton (Himself - Host);
+3x01,1974-08-28,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+3x02,1974-09-04,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+3x03,1974-09-11,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+3x04,1974-09-18,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttejton (Himself - Host);
+3x05,1974-09-25,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+3x06,1974-10-02,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+4x01,1975-07-29,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+4x02,1975-08-05,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+4x03,1975-08-12,Barry Cryer (Himself);Graeme Garden (Himself);John Junkin (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+4x04,1975-08-19,Barry Cryer (Himself);Graeme Garden (Himself);John Junkin (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+4x05,1975-08-26,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+4x06,1975-09-02,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+4x07,1975-09-09,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+4x08,1975-09-16,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+5x01,1976-03-06,
+5x02,1976-03-13,
+5x03,1976-03-20,
+5x04,1976-03-27,
+5x05,1976-04-03,
+5x06,1976-04-10,
+6x01,1978-08-22,Graeme Garden (Himself);Barry Cryer (Himself);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Humphrey Lyttelton (Himself - Host);
+6x02,1978-08-29,Graeme Garden (Himself);Barry Cryer (Himself);Tim Brooke-Taylor (Himself);Jonathan Lynn (Himself);Humphrey Lyttelton (Himself - Host);
+6x03,1978-09-05,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+6x04,1978-09-12,Graeme Garden (Himself);Barry Cryer (Himself);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Humphrey Lyttelton (Himself - Host);
+6x05,1978-09-19,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);
+6x06,1978-09-26,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);
+6x07,1978-10-03,Tim Brooke-Taylor (Himself);Jonathan Lynn (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);
+6x08,1978-10-10,Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+6x09,1978-10-17,Graeme Garden (Himself);Barry Cryer (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+6x10,1978-10-24,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Humphrey Lyttelton (Himself - Host);
+7x01,1979-07-16,Tim Brooke-Taylor (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+7x02,1979-07-23,Humphrey Lyttelton (Himself - Host);Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Barry Cryer (Himself);Graeme Garden (Himself);
+7x03,1979-07-30,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+7x04,1979-08-06,Tim Brooke-Taylor (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+7x05,1979-08-13,Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Denise Coffey (Herself);Humphrey Lyttelton (Himself - Host);
+7x06,1979-08-20,Barry Cryer (Himself);Graeme Garden (Himself);Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Humphrey Lyttelton (Himself - Host);
+7x07,1979-08-27,Graeme Garden (Himself);Barry Cryer (Himself);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Humphrey Lyttelton (Himself - Host);
+7x08,1979-09-03,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);Graeme Garden (Himself);
+7x09,1979-09-10,Tim Brooke-Taylor (Himself);Denise Coffey (Herself);Graeme Garden (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);
+7x10,1979-09-17,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Barry Cryer (Himself);Graeme Garden (Himself);Humphrey Lyttelton (Himself - Host);
 8x01,1981-08-22,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);
 8x02,1981-08-29,Tim Brooke-Taylor (Himself);Willie Rushton (Himself);Graeme Garden (Himself);Barry Cryer (Himself);Humphrey Lyttelton (Himself - Host);
 8x03,1981-09-05,Graeme Garden (Himself);Barry Cryer (Himself);Willie Rushton (Himself);Tim Brooke-Taylor (Himself);Humphrey Lyttelton (Himself - Host);
