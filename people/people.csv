@@ -15,7 +15,7 @@
 309,Derek Nimmo
 308,Barry Took
 299,Simon Hoggart
-289,Jimmy Carr
+293,Jimmy Carr
 247,Andy Hamilton
 247,David Mitchell
 234,Stephen Fry
@@ -35,7 +35,7 @@
 143,Holly Willoughby
 142,Linda Smith
 141,Hugh Dennis
-133,Jon Richardson
+137,Jon Richardson
 133,Fearne Cotton
 122,Andy Parsons
 110,Rufus Hound
@@ -48,7 +48,7 @@
 98,Gyles Brandreth
 97,Graham Norton
 96,Vic Reeves
-93,Miles Jupp
+94,Miles Jupp
 90,Jo Brand
 88,Sean Hughes
 87,Bob Mortimer
@@ -57,29 +57,29 @@
 78,Frankie Boyle
 78,Ulrika Jonsson
 78,Ross Noble
+76,Jason Manford
 75,Mark Steel
-75,Jason Manford
 70,Clive Anderson
 66,Joe Wilkinson
+65,Rachel Riley
 64,Russell Howard
 63,Matt Lucas
 62,Julian Clary
 61,Jenny Eclair
-61,Rachel Riley
 61,Johnny Vegas
 60,Ed Byrne
 59,John Sergeant
 56,Sarah Millican
+55,Susie Dent
 54,Victoria Coren Mitchell
 54,Andree Melly
 52,Josh Widdicombe
-51,Susie Dent
+51,Sean Locke
 50,Liza Tarbuck
 50,Holly Walsh
 49,Tim Rice
 49,Seann Walsh
 48,Rhod Gilbert
-47,Sean Locke
 44,Katherine Ryan
 43,Lucy Porter
 42,Danielle Ward
@@ -88,11 +88,11 @@
 40,Rich Hall
 40,Kit Hesketh-Harvey
 39,Nick Grimshaw
+39,Rob Beckett
 39,John Wells
 39,Jack Whitehall
 38,Gino D'Acampo
 38,Alun Cochrane
-38,Rob Beckett
 38,Chris Ramsey
 37,David Baddiel
 36,Reginald D. Hunter
@@ -104,20 +104,20 @@
 34,David O'Doherty
 33,Arthur Smith
 33,Wendy Richard
+33,Roisin Conaty
 33,Melvin O'Doom
 33,Dave Gorman
 33,Rochelle Humes
 33,Milton Jones
 33,Jonathan Ross
 32,Hugo Rifkind
-32,Roisin Conaty
 31,Will Self
-30,Sara Pascoe
+31,Sara Pascoe
+30,Richard Osman
 29,Shappi Khorsandi
 29,Joan Bakewell
 29,Stephen Mangan
 29,Margaret Cabourn-Smith
-29,Richard Osman
 29,Andrew Maxwell
 28,Barry Norman
 28,Alexander Armstrong
@@ -200,6 +200,7 @@
 14,Kirsty Young
 13,Claire Rayner
 13,Alex Brooker
+13,Isy Suttie
 13,Justin Moorhouse
 13,Peter Cook
 13,Gary Delaney
@@ -214,7 +215,6 @@
 12,Patrick Moore
 12,Eamonn Holmes
 12,Will Smith
-12,Isy Suttie
 12,Lorraine Kelly
 12,Rick Wakeman
 12,Mel Giedroyc
@@ -226,6 +226,7 @@
 11,Maria McErlane
 11,Caroline Flack
 11,Richard Ayoade
+11,Alex Horne
 11,Charlie Higson
 11,Bel Mooney
 11,Dom Joly
@@ -242,7 +243,6 @@
 10,Clare Balding
 10,Dermot O'Leary
 10,Danny Dyer
-10,Alex Horne
 10,Paul Foot
 10,James Corden
 10,Denise Van Outen
@@ -344,6 +344,7 @@
 7,Andy Zaltzman
 6,Dappy
 6,Angela Barnes
+6,Jamie Laing
 6,Alex James
 6,Louise Redknapp
 6,Rachael Heyhoe-Flint
@@ -382,7 +383,6 @@
 6,Johnny Vaughan
 5,Diane Morgan
 5,Nish Kumar
-5,Jamie Laing
 5,Laura Whitmore
 5,Annabel Giles
 5,Charlotte Crosby
@@ -425,6 +425,7 @@
 5,Terry Wogan
 5,Kerry Godliman
 5,John Craven
+5,Cariad Lloyd
 5,Toyah Willcox
 5,Natalie Cassidy
 5,Steve Jones
@@ -527,7 +528,6 @@
 4,Polly Toynbee
 4,Jesy Nelson
 4,Keith Duffy
-4,Cariad Lloyd
 4,John Barrowman
 4,Mike Wilmot
 4,Sue Arnold
@@ -687,6 +687,7 @@
 3,Sally Phillips
 3,Antony Costa
 3,Nathan Sykes
+3,Sam Simmons
 3,Joan Rivers
 3,Brigitte Nielsen
 3,Gareth Malone
@@ -1997,7 +1998,6 @@
 1,Holly Valance
 1,Sid Owen
 1,Peter Bone
-1,Sam Simmons
 1,Ruth Davidson
 1,Nitin Ganatra
 1,John Stalker
