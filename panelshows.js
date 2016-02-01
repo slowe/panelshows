@@ -141,14 +141,14 @@ function finish(){
 S(document).ready(function(){
 	shows = document.querySelectorAll(".show");
 	for(var i = 0 ; i < shows.length; i++){
-		loadFile('data/'+shows[i].id+'.md',{id:shows[i].id},function(d){
+		loadFile(''+shows[i].id+'.md',{id:shows[i].id},function(d){
 			// Loaded MD file
 			var lines = d.data.split(/\n/);
 			var size = 0;
 			for(var i = 0; i < lines.length; i++){
 				if(lines[i].indexOf("Size")>=0) size = lines[i].substring(lines[i].indexOf(":")+2);
 			}
-			loadFile('data/'+d.id+'.csv',{id:d.id,size:size},function(d){
+			loadFile(''+d.id+'.csv',{id:d.id,size:size},function(d){
 				d.episodes = CSV2JSON(d.data,[{'name':'id','format':'string'},{'name':'date','format':'date'},{'name':'people','format':'string'}],1);
 				fulldata.push(parseShow(d));
 				finish();

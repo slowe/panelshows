@@ -9,7 +9,7 @@ ul.ignore { list-style: none; margin: 0px; padding: 0px; }
 ul.ignore li { display: inline; }
 ol.linklist { margin-top: 3em; }
 ol.shows { list-style: none; margin: 0px; padding: 0px; }
-ol.shows li { margin-top: 2em; background-color: #e6e6e6; padding: 2em; }
+ol.shows li,.show { margin-top: 2em; background-color: #e6e6e6; padding: 2em; }
 ol.shows li p:last-child { margin-bottom: 0px; }
 p.label { margin-bottom: 0px; }
 .bar { width: 100%; margin: 0 0 1em 0;}
