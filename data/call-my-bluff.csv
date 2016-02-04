@@ -1,5 +1,359 @@
 Episode,Date,Guests (Himself/Herself - Role),References
+19651017,1965-10-17,,http://genome.ch.bbc.co.uk/6c45409b4f21458e9ee94372901ce5c9
+19651024,1965-10-24,,http://genome.ch.bbc.co.uk/507211e76816487ca2b948da227e0334
+19651031,1965-10-31,,http://genome.ch.bbc.co.uk/c644456d1a5a484aabc02df38edd70a1
+19651107,1965-11-07,,http://genome.ch.bbc.co.uk/76766816afd0402eac14087997950365
+19651114,1965-11-14,,http://genome.ch.bbc.co.uk/4bd32d4a37fc44adb75282a15d84e622
+19651121,1965-11-21,,http://genome.ch.bbc.co.uk/8336871f3b25406a8399ace1e044e236
+19651128,1965-11-28,,http://genome.ch.bbc.co.uk/1cba4270c92c4a3889dd0c5d747c8b04
+19651205,1965-12-05,,http://genome.ch.bbc.co.uk/e407b14b8be04a29bb992df048a5e6ac
+19651212,1965-12-12,,http://genome.ch.bbc.co.uk/24d08e5779b64221a6212ddd510337b5
+19651219,1965-12-19,,http://genome.ch.bbc.co.uk/de8cbf823b8f44afbe2e2aec223475aa
+19651226,1965-12-26,Robert Morley (Himself);Frank Muir (Himself);Hayley Mills (Herself);John Mills (Himself);Robin Ray (Himself - Host),http://genome.ch.bbc.co.uk/d9358875f2234c028ebdf524dfbbf394
+19660105,1966-01-05,,http://genome.ch.bbc.co.uk/9b53aaee776e4369b138e8d7972d6b71
+19660112,1966-01-12,,http://genome.ch.bbc.co.uk/cb9b4fb9eb9b4a098d24909468f3e108
+19660119,1966-01-19,,http://genome.ch.bbc.co.uk/4badaeb194c3407b8895a7cab7ed80c3
+19660126,1966-01-26,,http://genome.ch.bbc.co.uk/d9328a787f324e539cf37873c1aba479
+19660202,1966-02-02,,http://genome.ch.bbc.co.uk/0569cb077409404e99431879be694875
+19660209,1966-02-09,,http://genome.ch.bbc.co.uk/920dbb38e27043489be07c9c8649dd89
+19660216,1966-02-16,,http://genome.ch.bbc.co.uk/ddfbcb42eb3242d2a86f80cf693b6f32
+19660223,1966-02-23,,http://genome.ch.bbc.co.uk/4b6d860c330c43a8bf0c9723d41dcbe8
+19660302,1966-03-02,,http://genome.ch.bbc.co.uk/9a4d8a362f714c92b6cd29a6ad7647fa
+19660309,1966-03-09,,http://genome.ch.bbc.co.uk/687fd639fe464bcd8e159e4fd055f356
+19660316,1966-03-16,,http://genome.ch.bbc.co.uk/3932ec1d9cf64985b4cf80bf6f1d82c2
+19660323,1966-03-23,,http://genome.ch.bbc.co.uk/42bd82c56f824f17aaa89da76b9489ff
+19660330,1966-03-30,,http://genome.ch.bbc.co.uk/7e443f5e126f444a8c17b42388425260
+19660406,1966-04-06,,http://genome.ch.bbc.co.uk/e44e976732264667a3e5cf4b56de7864
+19660413,1966-04-13,,http://genome.ch.bbc.co.uk/a70043e340904e53874d76f36b1c0989
+19660420,1966-04-20,,http://genome.ch.bbc.co.uk/927665c0998f48bf923311e12b3acb0a
+19660427,1966-04-27,,http://genome.ch.bbc.co.uk/cd5a33fba7774dc1b297e44dc044cb2c
+19660504,1966-05-04,,http://genome.ch.bbc.co.uk/53902c2e814a4c4baaad6ac3aca5341c
+19660511,1966-05-11,,http://genome.ch.bbc.co.uk/b8a4c5e123e44655ad6bdc353e265f95
+19660518,1966-05-18,,http://genome.ch.bbc.co.uk/f1a3b19afe554f71a7f48657684c77fa
+19660525,1966-05-25,,http://genome.ch.bbc.co.uk/ecb515058c2445048ef99c320819802a
+19660601,1966-06-01,,http://genome.ch.bbc.co.uk/ed83bb37720f4895961eac5224a3a031
+19660608,1966-06-08,,http://genome.ch.bbc.co.uk/401fecfbacbf4b82bd5a7b41f35a8f5f
+19660615,1966-06-15,,http://genome.ch.bbc.co.uk/866f6a6a756640889372b88797d025e7
+19660622,1966-06-22,,http://genome.ch.bbc.co.uk/93b405f780aa46f9bef050681936a144
+19660629,1966-06-29,,http://genome.ch.bbc.co.uk/82ee3f3872cf45d595636fdeedbed596
+19661002,1966-10-02,,http://genome.ch.bbc.co.uk/11bd49d7f31a421eadc090c15ee7d7f3
+19661006,1966-10-06,,http://genome.ch.bbc.co.uk/d1a367ed36f442f9a050226dfd3b7beb
+19661009,1966-10-09,,http://genome.ch.bbc.co.uk/bd141d1bc8674a2d8cc587899ca9bfc6
+19661013,1966-10-13,,http://genome.ch.bbc.co.uk/5f5954a2eb4d4bc8a9ae0f59131a6405
+19661016,1966-10-16,,http://genome.ch.bbc.co.uk/17b1d1907df64ce89b53a14ca8ecac30
+19661020,1966-10-20,,http://genome.ch.bbc.co.uk/5e2267754df74c31b1d4947ff6547078
+19661023,1966-10-23,,http://genome.ch.bbc.co.uk/7dfa5540c68d4adca4ba156c7dec31bb
+19661027,1966-10-27,,http://genome.ch.bbc.co.uk/21f4cb2ab5ad4c3c87829dc088e2f830
+19661030,1966-10-30,,http://genome.ch.bbc.co.uk/c5a9c22a0c2f42938d192839ea2b290d
+19661103,1966-11-03,,http://genome.ch.bbc.co.uk/b4bfa7e7b0ad4a24a0a197b7020c46c9
+19661106,1966-11-06,,http://genome.ch.bbc.co.uk/09fb3f2937b9456ebfe0cfe691cbe855
+19661110,1966-11-10,,http://genome.ch.bbc.co.uk/b9051afc949940abaa04841dac1d60ce
+19661113,1966-11-13,,http://genome.ch.bbc.co.uk/0530cead69c24394ad0260f6f49b94a7
+19661117,1966-11-17,Wynford Vaughan-Thomas (Himself);Sally Smith (Herself);Dick Emery (Himself);Peter Jones (Himself);Betty Marsden (Herself);Raymond Huntley (Himself);Don Davis (Himself - Host),http://genome.ch.bbc.co.uk/dfd5907d13bc402daff723ebc51c857e
+19661120,1966-11-20,,http://genome.ch.bbc.co.uk/d1b770aa91af4a7eb1c9b78bb694bb21
+19661124,1966-11-24,,http://genome.ch.bbc.co.uk/17e0a76607b64ebdaaeca126d18194b9
+19661127,1966-11-27,,http://genome.ch.bbc.co.uk/905f32935a5d48e0bbbc364d58b9eb94
+19661201,1966-12-01,,http://genome.ch.bbc.co.uk/be89f88a8a5f4bc8a9f222dd92e22068
+19661204,1966-12-04,,http://genome.ch.bbc.co.uk/6bdfc43b06a042d89e202fc10a616c78
+19661208,1966-12-08,,http://genome.ch.bbc.co.uk/fbb1c218ecc242bbb5c72524fafaf05d
+19661215,1966-12-15,Don Davis (Himself - Host);Joan Bakewell (Herself);Bob Monkhouse (Himself);Peter Jones (Himself);Nancy Banks-Smith (Herself);Victor Spinetti (Himself),http://genome.ch.bbc.co.uk/d74d1e90737647d58e67ba47b0580b09
+19661218,1966-12-18,,http://genome.ch.bbc.co.uk/95691dbbe8f74ce3900e9a89c8f804ed
+19661222,1966-12-22,,http://genome.ch.bbc.co.uk/cd168f38b6f24e31b61e7d8e70a6516d
+19661229,1966-12-29,,http://genome.ch.bbc.co.uk/c7d598e0c0514dd7b1ef4dbde033088a
+19661231,1966-12-31,,http://genome.ch.bbc.co.uk/2a3ac01374584b5d8652546538d1966e
+19670105,1967-01-05,,http://genome.ch.bbc.co.uk/94eea85c24cd4624839934ae0666e4fd
+19670106,1967-01-06,,http://genome.ch.bbc.co.uk/791582e6013a405c80091d67bd193869
+19670107,1967-01-07,,http://genome.ch.bbc.co.uk/77bb93308afa447caf49a269b1a2fe33
+19670112,1967-01-12,,http://genome.ch.bbc.co.uk/62aa03650c1547fba41cc14b37fe88f9
+19670113,1967-01-13,,http://genome.ch.bbc.co.uk/6abb5e21219b489b83614c9f40ca9c1a
+19670114,1967-01-14,,http://genome.ch.bbc.co.uk/4115a7e9b37e482a837d6c0944cfbac5
+19670119,1967-01-19,,http://genome.ch.bbc.co.uk/1495cf821cbc4db49664b3952d2315e3
+19670120,1967-01-20,,http://genome.ch.bbc.co.uk/dcc6dfd2c84d479d815d69807f208ab8
+19670121,1967-01-21,,http://genome.ch.bbc.co.uk/baa0f72c0c51432d8ad0f3e565d103be
+19670126,1967-01-26,,http://genome.ch.bbc.co.uk/1ab1a94ca154425fb7ce55d7a35834d6
+19670127,1967-01-27,,http://genome.ch.bbc.co.uk/c646e558a167409db8f7628198a42d9e
+19670128,1967-01-28,,http://genome.ch.bbc.co.uk/2a85f098c2f246678bf043fa06b7811d
+19670202,1967-02-02,,http://genome.ch.bbc.co.uk/49367df03420475eb4926715a68f4c43
+19670203,1967-02-03,,http://genome.ch.bbc.co.uk/92fc4766a7d74c749858ad34a5dffd15
+19670204,1967-02-04,,http://genome.ch.bbc.co.uk/ba41c742396c4b60b9ed4a1fc91d39f6
+19670209,1967-02-09,,http://genome.ch.bbc.co.uk/b94a8382c571422ea37ac1ee88f83721
+19670210,1967-02-10,,http://genome.ch.bbc.co.uk/2acff2316d8745a296e01329137e9a32
+19670211,1967-02-11,,http://genome.ch.bbc.co.uk/552812c83e454ba3b4589e8aef999f37
+19670216,1967-02-16,,http://genome.ch.bbc.co.uk/21e02766019c43a08bf246d83768911f
+19670217,1967-02-17,,http://genome.ch.bbc.co.uk/619a290c29f0428eadf9c8603938f5b2
+19670218,1967-02-18,,http://genome.ch.bbc.co.uk/de943d34851448c5bb27988d7b43c14e
+19670224,1967-02-24,Patrick Campbell (Himself);Lana Morris (Herself);Jeffrey Bernard (Himself);Kenneth Williams (Himself);Maxine Audley (Herself);Joe Orton (Himself);Joe Melia (Himself - Host),http://genome.ch.bbc.co.uk/2f310389b01b430e9446e05d4492172c
+19670303,1967-03-03,,http://genome.ch.bbc.co.uk/0d68401df79f49d1b383f00ba20cd9d5
+19670310,1967-03-10,,http://genome.ch.bbc.co.uk/9d5eaa4883e54cac9dd98c92298e6e8f
+19670317,1967-03-17,,http://genome.ch.bbc.co.uk/9507e4d9277c48db90b434cc304b9d36
+19670324,1967-03-24,,http://genome.ch.bbc.co.uk/64dc05efb9f44681a04fbe01f263dc19
+19670331,1967-03-31,,http://genome.ch.bbc.co.uk/9a408f5bd4634c4a91deade6c3b47f14
+19670407,1967-04-07,,http://genome.ch.bbc.co.uk/9b503d3c4f1443e3aadea9a97214842d
+19670414,1967-04-14,,http://genome.ch.bbc.co.uk/9bce1270520c4d7cb84ebd9656bb08b6
+19670718,1967-07-18,,http://genome.ch.bbc.co.uk/c95809f6890241c1a8d7c4594866c0d6
+19670725,1967-07-25,,http://genome.ch.bbc.co.uk/91c6416b723144718692abcd75cb9612
+19670801,1967-08-01,,http://genome.ch.bbc.co.uk/5ba937ac9683497bb52721d87905c641
+19670808,1967-08-08,,http://genome.ch.bbc.co.uk/bd1ba5bdcd1248939a6c0005326a1f84
+19670815,1967-08-15,,http://genome.ch.bbc.co.uk/7b270228b1ac410f9219909854eb978c
+19670829,1967-08-29,,http://genome.ch.bbc.co.uk/6f80b457ab554ce2a4a9ef74ea4e119b
+19670905,1967-09-05,,http://genome.ch.bbc.co.uk/d41fb7f692114cbd86c0a9a061b3d154
+19670912,1967-09-12,,http://genome.ch.bbc.co.uk/3da46f6687c14785868746793703e821
+19670919,1967-09-19,,http://genome.ch.bbc.co.uk/82a2d00fa14546aea4259f9a4f21df20
+19670926,1967-09-26,,http://genome.ch.bbc.co.uk/9f5fa7117422402caf96e3f978e5a618
+19671001,1967-10-01,,http://genome.ch.bbc.co.uk/ee251ed35fa044dea88223d799597fb0
+19671008,1967-10-08,,http://genome.ch.bbc.co.uk/d6d2193958e5434784140f0b1a1f97a2
+19671015,1967-10-15,,http://genome.ch.bbc.co.uk/a67de0a76c20449483930986ee6868ff
+19671022,1967-10-22,,http://genome.ch.bbc.co.uk/dbb3c8aae02949d49809cc6ac2b1eb0a
+19671029,1967-10-29,,http://genome.ch.bbc.co.uk/960834e55d70413db2dbff7dd747df90
+19671105,1967-11-05,,http://genome.ch.bbc.co.uk/3266b52d1cc54f2cac288ace55e3973c
+19671112,1967-11-12,Jimmy Edwards (Himself);Nemone Lethbridge (Herself);Basil Boothroyd (Himself);Patrick Campbell (Himself);Barbara Murray (Herself);Prof. A.J. Ayer (Himself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/4a206212edf04d2997bcf1396dea7c30
+19671119,1967-11-19,,http://genome.ch.bbc.co.uk/1b4df8326b5a4bdfb8729fcbb5d4856d
+19671126,1967-11-26,,http://genome.ch.bbc.co.uk/a58be7f11dd74225a620944e43ea24ce
+19671204,1967-12-04,,http://genome.ch.bbc.co.uk/e17d845319af4b08b5eb15c30756e7b1
+19671211,1967-12-11,,http://genome.ch.bbc.co.uk/60934815e64c495d8fbe6e8ec07055a0
+19671218,1967-12-18,,http://genome.ch.bbc.co.uk/04e28c56aa724ea8beda130a65c9c112
+19671224,1967-12-24,Michael Flanders (Himself);Phyllis Calvert (Herself);Dorian Williams (Himself);Patrick Campbell (Himself);Ann Summer (Herself);Richard Todd (Himself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/d17aa62bf47d44b1a20aecce3fd9582e
+19671231,1967-12-31,,http://genome.ch.bbc.co.uk/8389061421c44580956607a1f7561989
+19680107,1968-01-07,,http://genome.ch.bbc.co.uk/69410c02796e4c5696a443a9de199a31
+19680114,1968-01-14,,http://genome.ch.bbc.co.uk/3bc4e76b86a647929649f41311ae3792
+19680121,1968-01-21,,http://genome.ch.bbc.co.uk/6ad621af5df543348fb40a805461df74
+19680128,1968-01-28,,http://genome.ch.bbc.co.uk/51074c9092a54ccf80620847b3d8cfad
+19680204,1968-02-04,,http://genome.ch.bbc.co.uk/c251934f54cf4bc8ae36b26c1951b68f
+19680211,1968-02-11,,http://genome.ch.bbc.co.uk/bec6f4b08e1345bfae0b3a7cd4ba11ea
+19680218,1968-02-18,,http://genome.ch.bbc.co.uk/08689e3a2672447e9e7c201be4de9cf8
+19680225,1968-02-25,,http://genome.ch.bbc.co.uk/cd76e01e2ff54ae8895333bc550211e6
+19680303,1968-03-03,,http://genome.ch.bbc.co.uk/8ca5815d577d46f49027a999eb0a580f
+19680317,1968-03-17,Michael Flanders (Himself - Team Captain);Eleanor Summerfield (Herself);Stephen Potter (Himself);Patrick Campbell (Himself - Team Captain);Drusilla Beyfus (Herself);Jonathan Miller (Himself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/8aa099b3746c4a52890a5fe66a524c63
+19680324,1968-03-24,,http://genome.ch.bbc.co.uk/eb46da1ce4be40dbb252f8ef43ca005a
+19680331,1968-03-31,,http://genome.ch.bbc.co.uk/44d21ad4c94b4519a7657826015e9b67
+19680407,1968-04-07,,http://genome.ch.bbc.co.uk/d2af2a1aeacd4c168a6ed88755c6e4bd
+19680414,1968-04-14,,http://genome.ch.bbc.co.uk/d5ccd8254cb247e78395626211c7dbec
+19680421,1968-04-21,,http://genome.ch.bbc.co.uk/d6c4d31a91b340cd8c1bf0cfa3ceff76
+19680428,1968-04-28,,http://genome.ch.bbc.co.uk/bd4dd1a4a23e4c2ba45914a0d8816c3a
+19680505,1968-05-05,,http://genome.ch.bbc.co.uk/f4a38caf7e4e40b1a553d4adabb9422f
+19680512,1968-05-12,,http://genome.ch.bbc.co.uk/073cb7c15c234954af6c89e6ce7cffe6
+19680526,1968-05-26,,http://genome.ch.bbc.co.uk/d9e33c5dbee0447eb7a4ef72f93c839b
+19680602,1968-06-02,,http://genome.ch.bbc.co.uk/16d33426140d4159841b0e5e38696ff1
+19680609,1968-06-09,,http://genome.ch.bbc.co.uk/335bbec0ea4c4ad7a18d3415c347b1f6
+19680616,1968-06-16,,http://genome.ch.bbc.co.uk/b68ddf3721b24f0c9753550a0b9169b8
+19680623,1968-06-23,,http://genome.ch.bbc.co.uk/328e30b3985e4585963390c8204bbd6f
+19680630,1968-06-30,,http://genome.ch.bbc.co.uk/f2ec125913d641c9b6387fc227e7854f
+19680707,1968-07-07,,http://genome.ch.bbc.co.uk/2d6ffc92cb7a40aa93b4e85c4ae8ed5d
+19690424,1969-04-24,,http://genome.ch.bbc.co.uk/51dbe09d5e094c6a99b7c044bb062f91
+19690501,1969-05-01,,http://genome.ch.bbc.co.uk/f791adac72d04424a31d2b4865b49f11
+19690508,1969-05-08,,http://genome.ch.bbc.co.uk/80ab0c71cb154504a5c53b0948da7ae5
+19690515,1969-05-15,,http://genome.ch.bbc.co.uk/be04b0b89dd145d79fd626e22c365af8
+19690522,1969-05-22,,http://genome.ch.bbc.co.uk/381c44dd7054402988f0f83eb51b3c3b
+19690529,1969-05-29,,http://genome.ch.bbc.co.uk/116c4b5f3fd449c78f8688b897d789b8
+19690605,1969-06-05,,http://genome.ch.bbc.co.uk/4c84c61d2cb14d609930cec357ff66f5
+19690612,1969-06-12,,http://genome.ch.bbc.co.uk/be5d722eb89d4ba1b1971ea53f56ac26
+19690619,1969-06-19,,http://genome.ch.bbc.co.uk/1ced431eb0824aab93dc74d47fb06cb2
+19690626,1969-06-26,,http://genome.ch.bbc.co.uk/596976b25ecf421c938470a436e948c4
+19690703,1969-07-03,,http://genome.ch.bbc.co.uk/cd63070a21204ccc9b0315f2b3f1ed8d
+19690710,1969-07-10,,http://genome.ch.bbc.co.uk/c5cebca66d2f4412922366252de127fa
+19690717,1969-07-17,Lord David Cecil (Himself);Clement Freud (Himself);Edward Judd (Himself);Angela Huth (Herself);Betty Marsden (Herself);Elizabeth Knight (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/5c2b126c181b4af88dee7aaddc394f3a
+19690724,1969-07-24,,http://genome.ch.bbc.co.uk/239fbd6b64d245ec9b00fc5a6dc0f6e0
+19690731,1969-07-31,,http://genome.ch.bbc.co.uk/6cf0c0073b1845bb8ff17c10e7d68dbd
+19690807,1969-08-07,,http://genome.ch.bbc.co.uk/15cfbf4e800a4f95906b98b2e2a60def
+19690814,1969-08-14,,http://genome.ch.bbc.co.uk/c19fedb1eec64a0b858d4eb41d1569fa
+19690821,1969-08-21,,http://genome.ch.bbc.co.uk/aaf482b89b2b4b7f98742c2b0148d501
+19690828,1969-08-28,,http://genome.ch.bbc.co.uk/edb291f8531742a3870a1bc7295b7029
+19690904,1969-09-04,Raymond Baxter (Himself);Hugh Paddick (Himself);Ted Moult (Himself);Moira Lister (Herself);Mary Peach (Herself);Imogen Hassall (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/d7b42dbb91a641bd9337daf93ab5f550
+19690911,1969-09-11,Michael Trubshawe (Himself);Peter Haigh (Himself);Alan Pegler (Himself);Olga Franklin (Herself);Isobel Blaek (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/9c1a3c15c28543f9bed50ac63c3ef0cb
+19690918,1969-09-18,Michael Trubshawe (Himself);Peter Haigh (Himself);Alan Pegler (Himself);Olga Franklin (Herself);Joanna Jones (Herself);Cheryl Kennedy (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/b4273901d3364374aabc1cf6115fb33b
+19690925,1969-09-25,Fyfe Robertson (Himself);Colin Gordon (Himself);Terence Brady (Himself);Wendy Craig (Herself);Deborah Watling (Herself);Charlotte Bingham (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/0069f65d9ae14010acfa3af70e73b521
+19691002,1969-10-02,Fyfe Robertson (Himself);Colin Gordon (Himself);Terence Brady (Himself);Wendy Craig (Herself);Ann Morrish (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/ae72d38c869043c6b74784ad19b2b5cb
+19691009,1969-10-09,Geoffrey Wheeler (Himself);Ian Carmichael (Himself);Clement Freud (Himself);Dinah Sheridan (Herself);Tracy Reed (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/ce110c428602406fae6fe8a93778a0f8
+19691016,1969-10-16,Geoffrey Wheeler (Himself);Ian Carmichael (Himself);Clement Freud (Himself);Drusilla Beyfus (Herself);Eleanor Summerfield (Herself);Tricia Madden (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/596638a5e93f4d6ba253ad889507caaa
+19691023,1969-10-23,Cliff Michelmore (Himself);James Burke (Himself);Antony Viccars (Himself);Jean Metcalfe (Herself);Alexandra Bastedo (Herself);Annie Farrow (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/3fec92a2cae74b00a6041837cf9107de
+19691030,1969-10-30,Cliff Michelmore (Himself);James Burke (Himself);Antony Viccars (Himself);Jean Metcalfe (Herself);Angela Douglas (Herself);Val Hudson (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/8d936f5f33d747c5b42d8848cb5edbe8
+19691106,1969-11-06,John Snagge (Himself);Rupert Davies (Himself);Graham Hill (Himself);Nemone Lethbridge (Herself);Sylvia Syms (Herself);Barbara Blake (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/fdabecb8e2f1463ea2b18b3447b2b5d7
+19691113,1969-11-13,John Snagge (Himself);Rupert Davies (Himself);Graham Hill (Himself);Nemone Lethbridge (Herself);Hilary Pritchard (Herself);Kate O'Mara (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/e6418e2df67d4cc785658fe806c4136f
+19691120,1969-11-20,Bernard Braden (Himself);Sam Kydd (Himself);Tony Britton (Himself);Barbara Kelly (Herself);Joanna Jones (Herself);Renee Houston (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/2292662579f743d1aecfe33976a41646
+19691125,1969-11-25,Fyfe Robertson (Himself);Danny Blanchflower (?);Humphrey Lyttelton (Himself);Michael Trubshawe (Himself);Peter Haigh (Himself),http://genome.ch.bbc.co.uk/e8937ef5c34b4983aa80f0aa83522b9a
+19691127,1969-11-27,Bernard Braden (Himself);Sam Kydd (Himself);Tony Britton (Himself);Barbara Kelly (Herself);Gwen Watford (Herself);Jacki Piper (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/bcc95e0087dc4900adb42334d5fe0fa6
+19691202,1969-12-02,Fyfe Robertson (Himself);John Ebdon (Himself);Humphrey Lyttelton (Himself);Michael Trubshawe (Himself);Peter Haigh (Himself),http://genome.ch.bbc.co.uk/97174d5e3ec8422ab3d553e629511cee
+19691204,1969-12-04,Peter Haigh (Himself);Sir John Betjeman (Himself);Basil Boothroyd (Himself);Marjorie Proops (Herself);Valerie Pitts (Herself);Jane Probyn (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/370025b5671a4983b7a3174c3d9c3316
+19691209,1969-12-09,Fyfe Robertson (Himself);Fenella Fielding (Herself);Terence Brady (Himself);Humphrey Lyttelton (Himself);Michael Trubshawe (Himself);Peter Haigh (Himself - Host),http://genome.ch.bbc.co.uk/48c0c48561244322a28d6b6af3f1f29e
+19691211,1969-12-11,Peter Haigh (Himself);Sir John Betjeman (Himself);Basil Boothroyd (Himself);Marjorie Proops (Herself);Dinah Sheridan (Herself);Sheila Scott (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/16e97f2c8d224de0bd5dce7946ab42aa
+19691216,1969-12-16,Fyfe Robertson (Himself);Fenella Fielding (Herself);John Taylor (Himself);Humphrey Lyttelton (Himself);Michael Trubshawe (Himself);Nan Winton (Herself);Peter Haigh (Himself - Host),http://genome.ch.bbc.co.uk/3a2d5489fbe14b0ba2cc8d540f2bedfd
+19691218,1969-12-18,Cliff Michelmore (Himself);Patrick Cargill (Himself);Richard Wattis (Himself);Jean Metcalfe (Herself);Jan Butlin (Herself);Bettine Le Beau (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/9aecb3427dce43f7b61b22dc3ca5653d
+19691223,1969-12-23,Fyfe Robertson (Himself);Fenella Fielding (Herself);Basil Boothroyd (Himself);Humphrey Lyttelton (Himself);Michael Trubshawe (Himself);Barbara Kelly (Herself);Peter Haigh (Himself - Host),http://genome.ch.bbc.co.uk/412daf59c1da4ce89923ad55b88d9b8d
+19691225,1969-12-25,Cliff Michelmore (Himself);Kenneth More (Himself);Lance Percival (Himself);Jean Metcalfe (Herself);Eleanor Summerfield (Herself);Hilary Pritchard (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/38b26af1c0af464d84f04bfdfea15d1c
+19700101,1970-01-01,Ted Dexter (Himself);Drusilla Beyfus (Herself);John Laurie (Himself);Angela Douglas (Herself);Fyfe Robertson (Himself);Effie Morrison (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/fd45aeeb3cf946398335df4e8229a28f
+19700108,1970-01-08,Leslie Phillips (Himself);Drusilla Beyfus (Herself);Andrew Cruickshank (Himself);Jennifer Clulow (Herself);Fyfe Robertson (Himself);Vivienne Martin (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/cf82295c52534310a5de59c15db241b9
+19700115,1970-01-15,Hugh Paddick (Himself);Sylvia Syms (Herself);Eric Robinson (Himself);Dinah Sheridan (Herself);Geoffrey Wheeler (Himself);Penny Spencer (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/d269631517594e53ab5d45fda12021e3
+19700122,1970-01-22,Terence Brady (Himself);Sylvia Syms (Herself);John Taylor (Himself);Isobel Black (Herself);Geoffrey Wheeler (Himself);Stephanie Beacham (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/eee191f2348e4c5e8c2d6dcfbe81ef27
+19700129,1970-01-29,Antonia Fraser (Herself);Michael Hordern (Himself);Jonathan Cecil (Himself);Michael Trubshawe (Himself);Patricia Cutts (Herself);Lynne Bretonn (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/98060f87d6a14fa0b01e3d9a08fdad92
+19700205,1970-02-05,Antonia Fraser (Herself);Clive Dunn (Himself);Harry Junkin (Himself);Michael Trubshawe (Himself);Judith Chalmers (Herself);Susan Travers (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/9a47341bf32546658165ffd79491abf6
+19700212,1970-02-12,Wendy Craig (Herself);Derek Bond (Himself);Michael Craig (Himself);Raymond Baxter (Himself);Frances Bennett (Herself);Toby Robins (Himself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/11bed9b0a72f48108ca30cda42f04bff
+19700219,1970-02-19,Wendy Craig (Herself);Graham Hill (Himself);Nicky Henson (Himself);Raymond Baxter (Himself);Maggie Fitzgibbon (Herself);Tricia Madden (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/63c3012c65ab4be9b5b3cc1ed43e7cc2
+19700226,1970-02-26,Jean Metcalfe (Herself);Lance Percival (Himself);Frank Windsor (Himself);Cliff Michelmore (Himself);Barbara Blake Nadine(Herself);Countess of Shrewsbury (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/4caccf62377b4adab82d8fbbc483fb1f
+19700305,1970-03-05,Jean Metcalfe (Herself);James Burke (Himself);Sam Kydd (Himself);Cliff Michelmore (Himself);Olga Franklin (Herself);Joanna Jones (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/12e03086e16b4047b4140a0c94a4e21a
+19700312,1970-03-12,Barbara Kelly (Herself);Robert Beatty (Himself);Richard Wattis (Himself);Bernard Braden (Himself);Myvanwy Jenn (Herself);Bettine Le Beau (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/9447e7a8c7a849d5b1d36556e1e8c944
+19700319,1970-03-19,Barbara Kelly (Herself);Vicomte Bernard de la Giraudiere (Himself);Gwyn Thomas (Himself);Bernard Braden (Himself);Isobel Black (Herself);Muriel Pavlow (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/5681e35f8ec146b981b91c01fb231e02
+19700326,1970-03-26,Katie Boyle (Herself);Terence Brady (Himself);Ted Moult (Himself);Geoffrey Wheeler (Himself);Wendy Hall (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/87b18165b2b94ac696e4fe1c6c4c29f0
+19700402,1970-04-02,Catherine Boyle (Herself);Ian Carmichael (Himself);Joe Melia (Himself);Geoffrey Wheeler (Himself);Stephanie Beacham (Herself);Patricia Smyllie (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/a62eaf0dec9546fe84f27d91223b4e66
+19700409,1970-04-09,Sylvia Syms (Herself);Robert Mill (Himself);Alan Pegler (Himself);Peter Haigh (Himself);Angela Down (Herself);Patricia Laffan (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/cfc99e65289d4c2ea9f65e4b7e65b417
+19700416,1970-04-16,Sylvia Syms (Herself);Patrick Cargill (Himself);Edward de Souza (Himself);Peter Haigh (Himself);Alexandra Bastedo (Herself);Gillian Hawser (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/2d7792db1577441e9e55a3a56efc1eb3
+19700423,1970-04-23,Drusilla Beyfus (Herself);John Laurie (Himself);Michael Trubshawe (Himself);Juliet Harmer (Herself);Frances Bennett (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/b48bdb74a536433aba47949bc7373f35
+19700430,1970-04-30,Drusilla Beyfus (Herself);John Laurie (Himself);Michael Trubshawe (Himself);Juliet Harmer (Herself);Frances Bennett (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/46136c5029e94d71860d851fa6d879ed
+19700507,1970-05-07,Katharine Whitehorn (Herself);Gwyn Thomas (Himself);Bruce Trent (Himself);Fyfe Robertson (Himself);Angela Douglas (Herself);Anita Prynne (Heself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/2a9ba33a9a8c43b0af8cfd7df500fd0b
+19700514,1970-05-14,Katharine Whitehorn (Herself);Gwyn Thomas (Himself);Bruce Trent (Himself);Fyfe Robertson (Himself);Angela Douglas (Herself);Anita Prynne (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/3499a47c91b343a896a8c33736472fa4
+19700521,1970-05-21,Antonia Fraser (Herself);Clive Dunn (Himself);Clement Freud (Himself);Geoffrey Wheeler (Himself);Joanna Jones (Herself);Muriel Pavlow (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/4e17c5af6acb492ab292f51bcda5430a
+19700528,1970-05-28,Antonia Fraser (Herself);Clive Dunn (Himself);Clement Freud (Himself);Geoffrey Wheeler (Himself);Joanna Jones (Herself);Muriel Pavlow (Herself);Robert Robinson (Himself - Host),http://genome.ch.bbc.co.uk/b916472b7d5d4fc59e208c3c7109ca5f
+19991108,1999-11-08,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/5cb76a15c1244897846597434143c139
+19991109,1999-11-09,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/efba4e3230ca4c579ec337e42c59fa78
+19991110,1999-11-10,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/a49bac0c20dc4211913bec2252ed3b38
+19991111,1999-11-11,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/e0c0304053894900b530cdf00d188e33
+19991112,1999-11-12,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/83f11ba140a74e49814bea3bd5f21c26
+19991115,1999-11-15,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/1d82ffc63c8a4372b0ce30e4c7d89d9c
+19991116,1999-11-16,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/d91fe167d13148ffb3640ce6db96624b
+19991117,1999-11-17,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/d600634614634ddb9f04271983d68fa3
+19991118,1999-11-18,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/b65da013b9c949f7b26babe29fb24b8b
 19991119,1999-11-19,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain);Sheila Hancock (Herself);Simon Callow (Himself);Linda Bellingham (Herself);Paul Rankin (Himself),http://www.bbc.co.uk/iplayer/episode/p02mbgs3/call-my-bluff-19111999
+19991122,1999-11-22,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/1b406ec575de4645a8b1263012cdfb16
+19991123,1999-11-23,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/0c3277dc01b941c8a6c8b0fc127eee6b
+19991124,1999-11-24,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/7390348e0b8749a6bb4c5e0aee193ef3
+19991125,1999-11-25,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/a606c1ac12894028b66879298e815ba8
+19991126,1999-11-26,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/69779635c1174a689385220bad47ff6a
+19991129,1999-11-29,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/8c6c8277e7ad420c9324dcfeb5e5893e
+19991130,1999-11-30,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/e3fd29b5f235486e912531ed2200157c
+19991201,1999-12-01,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/bdb27aa8c91d4d0bb1a1e580051c902c
+19991202,1999-12-02,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/e3ab5ac5305a433ba2f61064f51d7dbd
+19991203,1999-12-03,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/f900b8d5a7bc46e496f6b6045d5e0653
+19991207,1999-12-07,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/9c2edc4283d244b1a8f8181e307c629b
+19991208,1999-12-08,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/6907fffffbf1410da2b019526a1dd224
+19991209,1999-12-09,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/7915562884384bd9a740b5ff6acb3d5f
+19991210,1999-12-10,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/a83c044ea4684057868875d0b9b116ad
+19991213,1999-12-13,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/0fbc0b9788a547f9bed7f64cd2b628ec
+19991214,1999-12-14,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/e3d5a30f3f134644b6d9ef017de430e1
+19991215,1999-12-15,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/0e9291c41cb44fe39420e24c5d397769
+19991216,1999-12-16,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/f2a8d26f426242ecaa3dbaff9a859a55
+19991217,1999-12-17,Brian Blessed (Himself);Bonnie Langford (Herself);Carol Harrison (Herself);John Inman (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/158843c648844f87818985416923d575
+20000522,2000-05-22,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/f55185c32c6440839e8e6ea2b3b5c5fe
+20000523,2000-05-23,Les Dennis (Himself);Wendy Richard (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/12c7bb7d2f144316a7f3d2e8c31e32f1
+20000524,2000-05-24,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/d0738050ca0e4654b482141b1bc73fb3
+20000525,2000-05-25,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/9ad0855d7303461d99c32376da4c06b5
+20000526,2000-05-26,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/a672b9fbf59a47e89719cd65cf919121
+20000530,2000-05-30,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/7c6b3747915e440489689a0c8175180d
+20000531,2000-05-31,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/7621bfdf18be4bc79e2be128946a2b9b
+20000601,2000-06-01,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/2be68e938b0442fc8c133af14c0dbbfb
+20000602,2000-06-02,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/b336e15f1710439daea06db455262235
+20000605,2000-06-05,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/f615fb98882c432bb86dd532d7b1a5f0
+20000606,2000-06-06,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/65f42b615bc84279b2e05cacfc126679
+20000607,2000-06-07,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/a10988ef237642b68bbb5d500a4878d4
+20000608,2000-06-08,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/cb620abd5158448393bc2a226b6ddfb1
+20000609,2000-06-09,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/6beb4a61988f44c49fbf95fd6fc35dfe
+20000612,2000-06-12,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/f7b845c9efc54b2cad87cd4f18044361
+20000613,2000-06-13,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain);Art Malik (Himself);Ross Kelly (Himself),http://genome.ch.bbc.co.uk/61d71b5941454a05bad392de5ca0287a
+20000614,2000-06-14,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/ec3c7ca954fc4b3bbb14c0082b391a17
+20000615,2000-06-15,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/0414fb3e09f14e6cbaa9d9fbbd6b3012
+20000616,2000-06-16,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/1ebf3f27eeec47b7bef25b530aa56780
+20000710,2000-07-10,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/65ca5aed7c6645b185860d7ccb2c0134
+20000712,2000-07-12,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/503fc25bf2b0499eb695b7ce5f483cda
+20000713,2000-07-13,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/7bb149d60919449d8d1826a4ae13fa1e
+20000714,2000-07-14,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/1a9f54c6a28f4a2eaf126f7102a6e52e
+20000717,2000-07-17,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/2482fcb9961f4cb79d72194fbd23650a
+20000718,2000-07-18,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/44cfde1c17c84f59ad977eae8efe9315
+20000719,2000-07-19,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/143cedbb6d8a46ea9657a92fa7103fe7
+20000720,2000-07-20,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/c15a4862e8b44770aa80e87fd0e72fcd
+20000721,2000-07-21,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/e566dea998174a50b051cbadb7aac525
+20000814,2000-08-14,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/ef1adf2b9a95435aac375083eeaed442
+20000815,2000-08-15,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/d093509eeeac4627befc9645883c69a1
+20000816,2000-08-16,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/754d61dcb70f497aa8f55c184153845d
+20000817,2000-08-17,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/2ea02d5d119e483dae5de8ff056e7bea
+20000818,2000-08-18,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/567e271ae97343adaad9e9e5fe4205af
+20000821,2000-08-21,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/fcc3dab97fd04f678bcfe15befcaf351
+20000822,2000-08-22,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/c35779c75f6f415aac375098e4447381
+20000823,2000-08-23,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/36eb89480b41462e970ca3308568ba58
+20000824,2000-08-24,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/9003fa21e2524f75b6744200e0aff59b
+20000825,2000-08-25,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/3adf722e1a974b41bb6e891f951fa692
+20000829,2000-08-29,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/00fc9962041b496fa192bdf143165cad
+20000830,2000-08-30,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/4d8b96dc3c184b0786e556b0b5e5f2ad
+20000831,2000-08-31,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/1143bb35a9eb4f2e8661b7683b0b89bd
+20000901,2000-09-01,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/80a8cdac22fc43768de65725a55912aa
+20000904,2000-09-04,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/58fc9e6fe5c743f0afff07ee5c3a3e77
+20000905,2000-09-05,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/d8c248283b6f4311a28e836921a8d9e5
+20000906,2000-09-06,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/8e6cdf6a53df415d9b2da34cb55e8385
+20000907,2000-09-07,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/208bc1ed24ca485d9eb508de339a2bee
+20000908,2000-09-08,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/7d887871d1c94dbf8cb5c02717158833
+20000911,2000-09-11,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/18f7bbe04b804b07abd3ce0e93ca55bb
+20000912,2000-09-12,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/53db1f4b07a24aa6803ef74fc374dd67
+20000913,2000-09-13,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/c54d73cc70e34b149a6dadf990095abb
+20000914,2000-09-14,,http://genome.ch.bbc.co.uk/ba0ce3d4e04741009ab3d9098206ae8e
+20010103,2001-01-03,Susan Greenfield (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/cad49163ae0e491ca2b79ed21b04e25a
+20010104,2001-01-04,Charles Collingwood (Himself);Tania Bryer (Herself);Judy Bennett (Herself);Simon Biagi (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/eab276ae41ca4dee9b437aae152a065e
+20010105,2001-01-05,;Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain);Minette Walters (Herself);Steve Rider (?);Norman Pace (Himself);Simon Williams (Himself),http://genome.ch.bbc.co.uk/c88ecb8c8eaa4be0910f547904a6534b
+20010108,2001-01-08,Paula Tilbrook (Herself);Phil Hammond (Himself);Alan Titchmarsh (Himself);John Craven (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/88c6e387cb4641f88ff78528294122d7
+20010109,2001-01-09,Sally Magnusson (Herself);Sheridan Morley (Himself);Frances Barber (Herself);Brian Sewell (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/48f6e3f2bd4f4b81836014b054393eb0
+20010110,2001-01-10,Rick Stein (Himself);Stephanie Beacham (Herself);Lowri Turner (Herself);Robert Daws (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/dadff93d89834731a737b159e6fe98d2
+20010111,2001-01-11,,http://genome.ch.bbc.co.uk/d488650314af4b6994e46d1b9ab3ec0f
+20010112,2001-01-12,Juliet Morris (Herself);Tony Caunter (Himself);Sian Phillips (Herself);Nick Knowles (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/ff2236db0bf94e2cabf94c50806a0606
+20010115,2001-01-15,,http://genome.ch.bbc.co.uk/94afb7ea96ed4b86a17b25694829d90f
+20010116,2001-01-16,Gwen Taylor (Herself);Lord Geoffrey Howe (Himself);Gloria Hunniford (Herself - Presenter);Jeremy Spake (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/115cdb85a3f343c2a6f586c0257e0781
+20010117,2001-01-17,,http://genome.ch.bbc.co.uk/794c05beb4ce4a98914d1e29389e2051
+20010118,2001-01-18,Jilly Goolden (Herself);Pippa Greenwood (Herself);Isla Blair (Herself);Patrick Lichfield (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/17482e0e016140cd831712022d1ba5e2
+20010119,2001-01-19,Marion Montgomery (Herself);Eric Knowles (Himself);John Kettley (Himself);Trudie Goodwin (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/500d49cab9dd4e9384e332004c3fbfb7
+20020204,2002-02-04,Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain);Dave Gorman (Himself);Sherrie Hewson (Herself);Michael Aspel (Himself);Quentin Willson (Himself),http://genome.ch.bbc.co.uk/42bea1f382ba470bbc9975aefade9b0f
+20020205,2002-02-05,Phyllida Law (Herself);Krishnan Guru Murthy (Himself);Neil Mullarkey (Himself);Roger Lloyd Pack (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/9aacb973301a44a28d87736822fe5ad6
+20020206,2002-02-06,Nerys Hughes (Herself);Paul Ross (Himself);A.A. Gill (Himself);Anya Sitaram (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/5cd1957c736f4c3b992b56ae8834f618
+20020207,2002-02-07,,http://genome.ch.bbc.co.uk/a0d0182c735b4accad66cb1f4d34ff6a
+20020208,2002-02-08,Billy Murray (Himself);Clara Salaman (Herself);Hazel Irvine (Herself);Eddie Mair (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/9da35e83ca91413e8d8dd25e787de224
+20020211,2002-02-11,Lowri Turner (Herself);Rick Stein (Himself);Stephanie Beacham (Herself);Robert Daws (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/8ef265a0d98a42c293dd23516c2074ef
+20020212,2002-02-12,Sally Magnusson (Herself);Sheridan Morley (Himself);Frances Barber (Herself);Brian Sewell (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/2376a2bcfe544d67b4b50958711aca30
+20020213,2002-02-13,,http://genome.ch.bbc.co.uk/8758476241fa48b3a831f4c948c91a69
+20020214,2002-02-14,Eric Knowles (Himself);Marion Montgomery (Herself);Trudi Goodwin (Herself);John Kettley (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/f51314d446b2471f9cc69596aa5d0a9d
+20020215,2002-02-15,Lord Howe (Himself);Jeremy Spake (Himself);Gloria Hunniford (Herself);Gwen Taylor (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/4ddab95cd0414ae88afbb90ba73f3c1f
+20020218,2002-02-18,Serena Gordon (Herself);Robert Bathurst (Himself);Vicki Butler Henderson (Herself);Bernard Cribbins (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/eb3bd8cc870f41ba9abe5496c2aa7be3
+20020219,2002-02-19,Anna Ryder (Herself);Sankha Guha (Himself);Alyson Spiro (Herself);Alex Lester (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/86217585605f40709f68f857b1cfda2e
+20020220,2002-02-20,Jan Francis (Herself);Ben Brown (Himself);Jeremy Vine (Himself);Andrew Davies (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/472a959b0c934861bd942bf864882aeb
+20020221,2002-02-21,Kevin Woodford (Himself);William Roache (Himself);Phyllis Logan (Herself);Joan Bakewell (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/0b76682db88b4e6883a1ed031b70d34f
+20020222,2002-02-22,Adam Woodyatt (Himself);Maggie Philbin (Herself);Ross Kelly (Himself);Mark Curry (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/1b0201a65e1244f0b5d5e78c5a51629b
+20020225,2002-02-25,Trevor Peacock (Himself);Kevin Whately (Himself);Sue MacGregor (Herself);Mark Porter (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/45554aa4a81d4f09949d4443349adbd6
+20020226,2002-02-26,Helen Young (Herself);Paul Gambaccini (Himself);Chris Packham (Himself);Kaye Adams (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/852fa1b6b5304c6fa6e52dfdaa96d9a3
+20020227,2002-02-27,Alice Beer (Herself);Rachel de Thame (Herself);Simon Day (Himself);Professor Heinz Wolff (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/98e40bab2b4f4807bf5ff3316f94a0cf
+20020228,2002-02-28,John Leslie (Himself);Tony Robinson (Himself);Pam Ayres (Herself);Rebecca Wheatley (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/735d0b17d8bb40058a016a1d5df257e9
+20020301,2002-03-01,Judy Bennett (Herself);Charles Collingwood (Himself);Simon Biagi (Himself);Tania Bryer (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/870718d0e514432e989a859362594749
+20020304,2002-03-04,Robert Bathurst (Himself);Bernard Cribbins (Himself);Vicki Butler-Henderson (Herself);Serena Gordon (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/23bdd83c40f445a1b229db79beedc7f8
+20020305,2002-03-05,Clare Balding (Herself);Vijay Amritraj (Himself);Antony Worrall Thompson (Himself);Tim Vine (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/e83800957b0e484e839c93dcc0b20145
+20020306,2002-03-06,Jilly Goolden (Herself);Pippa Greenwood (Herself);Isla Blair (Herself);Patrick Lichfield (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/aef3334d13a2436681786eebf109de39
+20020307,2002-03-07,Jeremy Northam (Himself);Michael Starke (Himself);Mel Giedroyc (Herself);Sue Perkins (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/96a88cae4e3341098703fbccc8e21b03
+20020308,2002-03-08,Jan Francis (Herself);Jeremy Vine (Himself);Ben Brown (Himself);Andrew Davies (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/ec6847593ec34d43a04e7458d620b41e
+20020311,2002-03-11,,http://genome.ch.bbc.co.uk/e2b0d28c419743c7afa40e38f83bc0c7
+20020312,2002-03-12,Nerys Hughes (Herself);Paul Ross (Himself);A.A. Gill (Himself);Anya Sitaram (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/a0faf07d9cdd49e585fec7b6248014d6
+20020313,2002-03-13,Phyllida Law (Herself);Krishnan Guru-Murthy (Himself);Neil Mullarkey (Himself);Roger Lloyd (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/99cf15c542fc4b9b940c485603baa9a4
+20020314,2002-03-14,Stephanie Cook (Herself);Eve Pollard (Herself);Stephen McGann (Himself);Karen Drury (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/9da686476a824b54bf9829f6259e0f38
+20020315,2002-03-15,William Roache (Himself);Phyllis Logan (Herself);Kevin Woodford (Himself);Joan Bakewell (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/a2c9060a2be94ea28c2b6d888bbf05d0
+20020318,2002-03-18,Maggie Philbin (Herself);Ross Kelly (Himself);Mark Curry (Himself);Adam Woodyatt (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/ab101180bb494e529f27b9501da9662f
+20020319,2002-03-19,Trevor Peacock (Himself);Kevin Whately (Himself);Sue MacGregor (Herself);Dr Mark Porter (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/9c0cec74c26e435d80ecac850984c5c1
+20020320,2002-03-20,,http://genome.ch.bbc.co.uk/ca589a7031b7480b89b51349d3ba67ac
+20020321,2002-03-21,Alice Beer (Herself);Rachel de Thame (Herself);Simon Day (Himself);Prof Heinz Wolff (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/cb24b75638b24017ad9003bf12282bb7
+20020322,2002-03-22,Paul Gambaccini (Himself);Chris Packham (Himself);Helen Young (Herself);Kaye Adams (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/8206915c4154495fb5a1a71d16eb2a24
+20020527,2002-05-27,,http://genome.ch.bbc.co.uk/ae509d506b6749b19a1469a9ec6c9e4d
+20020528,2002-05-28,John Leslie (Himself);Tony Robinson (Himself);Pam Ayres (Herself);Rebecca Wheatley (Herself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/047b25786375400ca9b4a72c584512ef
+20020529,2002-05-29,,http://genome.ch.bbc.co.uk/1916667be08f4901a91a3dd6699f3cfa
+20020530,2002-05-30,Dave Gorman (Himself);Sherrie Hewson (Herself);Michael Aspel (Himself);Quentin Willson (Himself);Bob Holness (Himself - Host);Alan Coren (Himself - Team Captain);Sandi Toksvig (Herself - Team Captain),http://genome.ch.bbc.co.uk/9b397ba7665b4e9e99ab36f91c073414
+20020531,2002-05-31,,http://genome.ch.bbc.co.uk/f204cb11ec594bf6ba9610ddc08a3b62
+20020602,2002-06-02,,http://genome.ch.bbc.co.uk/8589993e5ead497f83eaae00db13b80c
+20030519,2003-05-19,,http://genome.ch.bbc.co.uk/12cd987eaf15493c8dfb01c103835810
+20030520,2003-05-20,,http://genome.ch.bbc.co.uk/d7f07e6ac1f241508aa10d3e857d8379
+20030521,2003-05-21,Penelope Keith (Herself);Trevor McDonald (Himself);Nick Ross (Himself);Chris Langham (Himself);Fiona Bruce (Herself - Host);Rod Liddle (Himself - Team Captain);Alan Coren (Himself - Team Captain),http://genome.ch.bbc.co.uk/fae25b7a9525455c9b799c53089a05cf
+20030522,2003-05-22,Michael Gambon (Himself);Julian Fellows (Himself);John Sargeant (Himself);Rachel de Thame (Herself);Fiona Bruce (Herself - Host);Rod Liddle (Himself - Team Captain);Alan Coren (Himself - Team Captain),http://genome.ch.bbc.co.uk/706ea67680a5446e96a8415ae4e948d8
+20030523,2003-05-23,,http://genome.ch.bbc.co.uk/bd5e2f00930848919a4b608d3382eb3c
+20030526,2003-05-26,Jennie Bond (Herself);Tim Vine (Himself);Shaun Williamson (Himself);Julia McKenzie (Herself);Fiona Bruce (Herself - Host);Rod Liddle (Himself - Team Captain);Alan Coren (Himself - Team Captain),http://genome.ch.bbc.co.uk/30eb2696d1054612b02de1dd8cb9996b
+20030527,2003-05-27,,http://genome.ch.bbc.co.uk/a2d3af24bf4149b9b1560b58efc1774f
+20030528,2003-05-28,Greg Proops (Himself);Nadia Sawalha (Herself);Kate Humble (Herself);Sir George Martin (Himself);Fiona Bruce (Herself - Host);Rod Liddle (Himself - Team Captain);Alan Coren (Himself - Team Captain),http://genome.ch.bbc.co.uk/60c355f2742e409e84f5f0f9b413e3a4
+20030529,2003-05-29,,http://genome.ch.bbc.co.uk/b03f910c296445d7a1d63ff06d6dadb8
+20030530,2003-05-30,Beverley Turner (Herself);Barry Cryer (Himself);June Whitfield (Herself);Jon Cuishaw (Himself);Fiona Bruce (Herself - Host);Rod Liddle (Himself - Team Captain);Alan Coren (Himself - Team Captain),http://genome.ch.bbc.co.uk/fcae4824a51c4ca4a2655c46e142ddb2
+20030603,2003-06-03,Roger Black (Himself);Tommy Tieman (Himself);James Cracknell (Himself);Kate Adie (Herself);Fiona Bruce (Herself - Host);Rod Liddle (Himself - Team Captain);Alan Coren (Himself - Team Captain),http://genome.ch.bbc.co.uk/ab9b6dde37bd407899487f1b4aeccecb
+20030604,2003-06-04,,http://genome.ch.bbc.co.uk/83de3b888f8b4c1da0c646da1ab4ab27
+20030605,2003-06-05,Shobna Gulati (Herself);Kevin McNally (Himself);Norman Pace (Himself);Tony Hawks (Himself);Fiona Bruce (Herself - Host);Rod Liddle (Himself - Team Captain);Alan Coren (Himself - Team Captain),http://genome.ch.bbc.co.uk/481f41aa68d94d86ab30b8f9e70361a1
+20030606,2003-06-06,,http://genome.ch.bbc.co.uk/1a18408ef5204a71918ef551edf1cfd6
+20030609,2003-06-09,,http://genome.ch.bbc.co.uk/1212f2d588984c6f8458e5d842198107
+20030610,2003-06-10,Suranne Jones (Herself);Sally Lindsay (Herself);Lars Tharp (Himself);Art Malik (Himself);Fiona Bruce (Herself - Host);Rod Liddle (Himself - Team Captain);Alan Coren (Himself - Team Captain),http://genome.ch.bbc.co.uk/2fff673b45af4082b75e37522e7feafc
+20030611,2003-06-11,,http://genome.ch.bbc.co.uk/0c5f95b94fda4b348a0633046be2902b
+20030612,2003-06-12,Sheila Hancock (Herself);Richard Wilson (Himself);Jenny Eclair (Herself);Jim Carter (Himself);Fiona Bruce (Herself - Host);Rod Liddle (Himself - Team Captain);Alan Coren (Himself - Team Captain),http://genome.ch.bbc.co.uk/c442b4a603fe4cea8cf57a7075982514
 20030613,2003-06-13,Fiona Bruce (Herself - Host);Alan Coren (Himself - Team Captain);Rod Liddle (Himself - Team Captain);Penelope Keith (Herself);Nick Ross (Himself);Chris Langham (Himself);Trevor McDonald (Himself),http://genome.ch.bbc.co.uk/70afeae929c24153acae4fb67c24950d
 20030616,2003-06-16,Fiona Bruce (Herself - Host);Alan Coren (Himself - Team Captain);Rod Liddle (Himself - Team Captain);Julian Fellowes (Himself);Sir Michael Gambon (Himself);Rachel de Thame (Herself);John Sergeant (Himself),http://genome.ch.bbc.co.uk/85c6fb53483444148bb393b729013cef
 20030617,2003-06-17,Fiona Bruce (Herself - Host);Alan Coren (Himself - Team Captain);Rod Liddle (Himself - Team Captain);Shobna Gulati (Herself);Kevin McNally (Himself);Norman Pace (Himself);Tony Hawks (Himself),http://genome.ch.bbc.co.uk/9f9f32a8048842c79477476c0affe2cc
