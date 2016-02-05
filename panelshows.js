@@ -88,7 +88,8 @@ function parseShow(d){
 
 		if(d.episodes[i].date) ep += ' ('+d.episodes[i].date.toLocaleDateString()+')'
 		ep += ': ';
-		html += '<div class="col" style="width:'+w+'%;"><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div><div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div></div>';
+		var ref = (d.episodes[i].ref ? (d.episodes[i].ref.indexOf(/ /) > 0 ? d.episodes[i].ref.substr(0,d.episodes[i].ref.indexOf(/ /)-1) : d.episodes[i].ref) : '')
+		html += '<a '+(ref ? 'href="'+ref+'" ' : '')+'class="col" style="width:'+w+'%;"><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div><div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div></a>';
 	}
 
 	if(html != ""){
@@ -149,7 +150,7 @@ S(document).ready(function(){
 				if(lines[i].indexOf("Size")>=0) size = lines[i].substring(lines[i].indexOf(":")+2);
 			}
 			loadFile(''+d.id+'.csv',{id:d.id,size:size},function(d){
-				d.episodes = CSV2JSON(d.data,[{'name':'id','format':'string'},{'name':'date','format':'date'},{'name':'people','format':'string'}],1);
+				d.episodes = CSV2JSON(d.data,[{'name':'id','format':'string'},{'name':'date','format':'date'},{'name':'people','format':'string'},{'name':'ref','format':'string'}],1);
 				fulldata.push(parseShow(d));
 				finish();
 			});
