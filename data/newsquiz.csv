@@ -536,7 +536,7 @@ Episode,Date,Guests (Himself/Herself - Role)
 49x05,2002-07-19,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Linda Smith (Herself);Tony Hawks (Himself);
 49x06,2002-07-26,Simon Hoggart (Himself - Host);Francis Wheen (Himself);Sandi Toksvig (Herself);Jeremy Hardy (Himself);Norman Lovett (Himself);
 49x07,2002-08-02,Simon Hoggart (Himself - Host);Jeremy Hardy (Himself);Miles Kington (Himself);Linda Smith (Herself);Matthew Parris (Himself);
-49x08,2002-08-09,Simon Hoggart (Himself - Host);Fred MacAulay (Himself);Marcus Brigstocke (Himself);Linda Smith (Herself);Phil Hammond (Himself);
+49x08,2002-08-09,Simon Hoggart (Himself - Host);Fred MacAulay (Himself);Marcus Brigstocke (Himself);Linda Smith (Herself);Dr Phil Hammond (Himself);
 49x09,2002-09-07,Simon Hoggart (Himself - Host);Alan Coren (Himself);Francis Wheen (Himself);Jeremy Hardy (Himself);Andy Hamilton (Himself);John Sergeant (Himself);Linda Smith (Herself);
 50x01,2002-11-01,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Andy Hamilton (Himself);Eve Pollard (Herself);
 50x02,2002-11-08,Simon Hoggart (Himself - Host);Alan Coren (Himself);Sue MacGregor (Herself);Francis Wheen (Himself);Andy Hamilton (Himself);
@@ -551,7 +551,7 @@ Episode,Date,Guests (Himself/Herself - Role)
 51x03,2003-02-21,Simon Hoggart (Himself - Host);Andy Hamilton (Himself);Armando Iannucci (Himself);Linda Smith (Herself);Mark Steel (Himself);
 51x04,2003-02-28,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Francis Wheen (Himself);Fred MacAulay (Himself);
 51x05,2003-03-07,Simon Hoggart (Himself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);John Sergeant (Himself);Emma Kennedy (Herself);
-51x06,2003-03-14,Simon Hoggart (Himself - Host);Jeremy Hardy (Himself);Phil Hammond (Himself);Linda Smith (Herself);Alexei Sayle (Himself);
+51x06,2003-03-14,Simon Hoggart (Himself - Host);Jeremy Hardy (Himself);Dr Phil Hammond (Himself);Linda Smith (Herself);Alexei Sayle (Himself);
 51x07,2003-03-21,Simon Hoggart (Himself - Host);Alan Coren (Himself);Phill Jupitus (Himself);Francis Wheen (Himself);Linda Smith (Herself);
 51x08,2003-03-28,Simon Hoggart (Himself - Host);Alan Coren (Himself);Rory Bremner (Himself);Francis Wheen (Himself);Linda Smith (Herself);
 52x01,2003-05-16,Simon Hoggart (Himself - Host);Matthew Parris (Himself);Sandi Toksvig (Herself);Francis Wheen (Himself);Armando Iannucci (Himself);
@@ -628,7 +628,7 @@ Episode,Date,Guests (Himself/Herself - Role)
 60x05,2006-10-06,Sandi Toksvig (Herself - Host);Jeremy Hardy (Himself);Fred MacAulay (Himself);Andy Hamilton (Himself);Clive Anderson (Himself);
 60x06,2006-10-13,Sandi Toksvig (Herself - Host);Mark Steel (Himself);Sarah Kendall (Herself);Francis Wheen (Himself);Andy Zaltzman (Himself);
 60x07,2006-10-20,Sandi Toksvig (Herself - Host);Andy Hamilton (Himself);Stewart Lee (Himself);Mark Steel (Himself);Jo Brand (Herself)
-60x08,2006-10-27,Sandi Toksvig (Herself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Andy Hamilton (Himself);Phil Hammond (Himself);
+60x08,2006-10-27,Sandi Toksvig (Herself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Andy Hamilton (Himself);Dr Phil Hammond (Himself);
 61x01,2007-01-05,Sandi Toksvig (Herself - Host);Mark Steel (Himself);Armando Iannucci (Himself);Fred MacAulay (Himself);Jo Brand (Herself)
 61x02,2007-01-12,Sandi Toksvig (Herself - Host);Alan Coren (Himself);Jeremy Hardy (Himself);Francis Wheen (Himself);Andy Hamilton (Himself)
 61x03,2007-01-19,Sandi Toksvig (Herself - Host);Alan Coren (Himself);Andy Hamilton (Himself);Armando Iannucci (Himself);Phill Jupitus (Himself)
@@ -643,8 +643,8 @@ Episode,Date,Guests (Himself/Herself - Role)
 62x04,2007-05-18,Sandi Toksvig (Herself - Host);Mark Steel (Himself);Alan Coren (Himself);Phill Jupitus (Himself);Carrie Quinlan (Herself)
 62x05,2007-05-25,Sandi Toksvig (Herself - Host);Jeremy Hardy (Himself);Dr Phil Hammond (Himself);Sue Perkins (Herself);Miles Kington (Himself)
 62x06,2007-06-01,Sandi Toksvig (Herself - Host);Fred MacAulay (Himself);Mark Steel (Himself);Alan Coren (Himself);Andy Zaltzman (Himself)
-62x07,2007-06-08,Sandi Toksvig (Herself - Host);Jeremy Hardy (Himself);Armando Lannucci (Himself);Fred MacAulay (Himself);Alan Coren (Himself)
-62x08,2007-06-15,Sandi Toksvig (Herself - Host);Francis Wheen (Himself);Jeremy Hardy (Himself);Alan Coren (Himself);Armando lannucci (Himself)
+62x07,2007-06-08,Sandi Toksvig (Herself - Host);Jeremy Hardy (Himself);Armando Iannucci (Himself);Fred MacAulay (Himself);Alan Coren (Himself)
+62x08,2007-06-15,Sandi Toksvig (Herself - Host);Francis Wheen (Himself);Jeremy Hardy (Himself);Alan Coren (Himself);Armando Iannucci (Himself)
 63x01,2007-09-28,Sandi Toksvig (Herself - Host);Jeremy Hardy (Himself);Andy Hamilton (Himself);Francis Wheen (Himself);Alan Coren (Himself)
 63x02,2007-10-05,Sandi Toksvig (Herself - Host);Jeremy Hardy (Himself);Francis Wheen (Himself);Carrie Quinlan (Herself);Nick Revell (Himself)
 63x03,2007-10-12,Sandi Toksvig (Herself - Host);Fred MacAulay (Himself);Andy Hamilton (Himself);Phill Jupitus (Himself);Sue Perkins (Herself)
@@ -660,7 +660,7 @@ Episode,Date,Guests (Himself/Herself - Role)
 64x04,2008-02-01,Sandi Toksvig (Herself - Host);Francis Wheen (Himself);Fred MacAulay (Himself);Jeff Green (Himself);Jeremy Hardy (Himself);
 64x05,2008-02-08,Sandi Toksvig (Herself - Host);Jeremy Hardy (Himself);Andy Hamilton (Himself);Kevin Day (Himself);Dr Phil Hammond (Himself)
 64x06,2008-02-15,Sandi Toksvig (Herself - Host);Carrie Quinlan (Herself);Simon Evans (Himself);Jeremy Hardy (Himself);Francis Wheen (Himself)
-64x07,2008-02-22,Sandi Toksvig (Herself - Host);Armando Lannucci (Himself);Mark Steel (Himself);Andy Hamilton (Himself);Fred MacAulay (Himself)
+64x07,2008-02-22,Sandi Toksvig (Herself - Host);Armando Iannucci (Himself);Mark Steel (Himself);Andy Hamilton (Himself);Fred MacAulay (Himself)
 64x08,2008-02-29,Sandi Toksvig (Herself - Host);Dr Phil Hammond (Himself);Kevin Day (Himself);Justin Edwards (Himself);Mark Steel (Himself)
 65x01,2008-05-02,Sandi Toksvig (Herself - Host);Jeremy Hardy (Himself);Fred MacAulay (Himself);Sue Perkins (Herself);Phill Jupitus (Himself)
 65x02,2008-05-09,Sandi Toksvig (Herself - Host);Francis Wheen (Himself);Sue Perkins (Herself);Carrie Quinlan (Herself);Jeremy Hardy (Himself)
