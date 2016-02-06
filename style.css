@@ -11,6 +11,17 @@ ol.linklist { margin-top: 3em; }
 ol.shows { list-style: none; margin: 0px; padding: 0px; }
 ol.shows li,.show { margin-top: 2em; background-color: #e6e6e6; padding: 2em; }
 ol.shows li p:last-child { margin-bottom: 0px; }
+
+/* Pages for individuals */
+ol.episodes { line-height: 1em; }
+ol.episodes li { margin-left: 0px; margin-bottom: 1px; }
+ol.episodes li .bar { float: left; }
+table.performer .performances { width: 100%; display: block; }
+table.performer .year { margin: 2px; display: block; }
+.performerholder { width: 100%; overflow-x: auto; }
+table.performer { font-size: 0.8em; width: auto; }
+table.performer td, table.performer td:first-child { width: auto; text-align: center; padding: 0 1px 0 0; }
+
 p.label { margin-bottom: 0px; }
 .bar { width: 100%; margin: 0 0 1em 0;}
 .male, .female { display: inline-block; line-height: 2em; color: white; text-align: center; }
