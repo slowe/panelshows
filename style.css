@@ -12,6 +12,13 @@ ol.shows { list-style: none; margin: 0px; padding: 0px; }
 ol.shows li,.show { margin-top: 2em; background-color: #e6e6e6; padding: 2em; }
 ol.shows li p:last-child { margin-bottom: 0px; }
 
+ol.people { line-height: 1em; }
+ol.people li { margin-left: 0px; margin-bottom: 1px; }
+ol.people li:hover { background-color: #efefef; }
+ol.people li:hover .runningtotal { opacity: 1; }
+ol.people .bar { height: 1em; float: left; display: inline-block; margin-bottom: 0px; margin-right: 0.25em; }
+ol.people .runningtotal { float: right; opacity: 0.15; }
+
 /* Pages for individuals */
 ol.episodes { line-height: 1em; }
 ol.episodes li { margin-left: 0px; margin-bottom: 1px; }
