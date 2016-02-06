@@ -294,7 +294,7 @@ Andrew Louth				male
 Andrew MacKinlay				male
 Andrew Mackay				male
 Andrew Marr				male
-Andrew Maxwell			74	male
+Andrew Maxwell		Andrew_Maxwell	74	male
 Andrew Mehrtens				male
 Andrew Mendelsohn				male
 Andrew Mitchell				male
@@ -582,7 +582,6 @@ Barbara Young				female
 Barney Hayhoe				male
 Baroness Brinton				female
 Baroness Castle of Blackburn				female
-Baroness Joan Bakewell				female
 Baroness Trumpington				female
 Barry Cryer	nm0190540	Barry_Cryer	154	male
 Barry Cunliffe				male
@@ -1805,7 +1804,6 @@ Dr David Butler				male
 Dr Eric Greene				male
 Dr Erica McAlister				female
 Dr Evelyn Welch				female
-Dr Germaine Greer				female
 Dr Gwen Adshead				female
 Dr Helen Castor				female
 Dr Helena Cronin				female
@@ -2333,7 +2331,7 @@ Geraldine Jones				female
 Geraldine McEwan				female
 Gerard van Gelder				male
 Geri Halliwell				female
-Germaine Greer				female
+Germaine Greer	nm0339442	Germaine_Greer		female
 Gerry Adams				male
 Gerry Fitt				male
 Gerry Kelly				male
@@ -2645,7 +2643,7 @@ Hugh Leonard				male
 Hugh Montefiore				male
 Hugh Paddick				male
 Hugh Pennington				male
-Hugo Rifkind				male
+Hugo Rifkind		Hugo_Rifkind		male
 Hugo Speer				male
 Hugo Taylor				male
 Hulk Hogan				male
@@ -3225,7 +3223,7 @@ Jo Whiley				female
 Jo Wood				female
 Jo-Anne Nadler				female
 Joad Raymond				male
-Joan Bakewell				female
+Joan Bakewell		Joan_Bakewell		female
 Joan Burnie				female
 Joan Collins				female
 Joan Lester				female
@@ -3543,7 +3541,7 @@ Jonathan Miller				male
 Jonathan Pryce				male
 Jonathan Ree				male
 Jonathan Riley-Smith				male
-Jonathan Ross				male
+Jonathan Ross		Jonathan_Ross		male
 Jonathan Rée				male
 Jonathan Sawday				male
 Jonathan Shepard				male
@@ -4331,7 +4329,7 @@ Margaret Atack				female
 Margaret Atkins				female
 Margaret Beckett				female
 Margaret Boden				female
-Margaret Cabourn-Smith			2899	female
+Margaret Cabourn-Smith		Margaret_Cabourn-Smith	2899	female
 Margaret Cho			596	female
 Margaret Clay				female
 Margaret Clegg				female
@@ -4860,7 +4858,7 @@ Miles Kington				male
 Military Wives Choir				other
 Millie Mackintosh				female
 Millie Small				female
-Milton Jones			415	male
+Milton Jones		Milton_Jones	415	male
 Milton Shulman				male
 Mina Anwar				female
 Minette Marrin				female
@@ -5248,7 +5246,7 @@ Paddy Mayhew				male
 Paddy McGuinness			3138	male
 Pal Aron				male
 Paloma Faith				female
-Pam Ayres			2835	female
+Pam Ayres	nm0044004	Pam_Ayres	2835	female
 Pam Charlwood				female
 Pam Spurr				female
 Pam St Clement				female
@@ -5824,7 +5822,7 @@ Richard Neville				male
 Richard O'Brien				male
 Richard O'Sullivan				male
 Richard Ollard				male
-Richard Osman				male
+Richard Osman		Richard_Osman		male
 Richard Park				male
 Richard Parkinson				male
 Richard Peirce				male
@@ -5978,7 +5976,7 @@ Robson Green				male
 Robyn Carlsson				female
 Robyn Peterson				female
 Rocco Forte				male
-Rochelle Humes				female
+Rochelle Humes		Rochelle_Humes		female
 Rod Eddington				male
 Rod Hackney				male
 Rod Liddle				male
@@ -6338,7 +6336,7 @@ Shane Richie Jr.				male
 Shane Warne				male
 Shane Williams				male
 Shannon Tweed				female
-Shappi Khorsandi			412	female
+Shappi Khorsandi		Shappi_Khorsandi	412	female
 Sharleen Spiteri				female
 Sharon Condon				female
 Sharon Gless				female
@@ -6584,7 +6582,7 @@ Stephen Lang				male
 Stephen Leacock				male
 Stephen Lowe				male
 Stephen Maguire				male
-Stephen Mangan				male
+Stephen Mangan		Stephen_Mangan		male
 Stephen McGann				male
 Stephen Merchant			33386	male
 Stephen Moyer				male
@@ -7207,7 +7205,7 @@ Will Gompertz				male
 Will Greenwood				male
 Will Hutton				male
 Will Mellor				male
-Will Self				male
+Will Self		Will_Self		male
 Will Sharman				male
 Will Smith			76	male
 Will Young				male
