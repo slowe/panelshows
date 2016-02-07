@@ -1,4 +1,36 @@
-body { font-family: sans-serif; }
+body { font-family: sans-serif; margin: 0px; padding: 0px 0px 1em 0px;}
+
+nav#header {
+	line-height: 2.5em;
+	background-color: #dfdfdf;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
+nav#header .title {
+	background-color: #02a24b;
+	display: inline-block;
+	color: white;
+}
+nav#header a {
+	color: inherit;
+}
+nav#header ul#menu {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+nav#header ul#menu li {
+	margin: 0px;
+	display: inline-block;
+}
+nav#header ul#menu li a, nav#header .title a {
+	padding: 0 1em;
+	display: block;
+}
+nav#header ul#menu li a:hover {
+	background-color: #efefef;
+}
+
 h3 { }
 p { line-height: 1.25em; }
 a { text-decoration: none; }
