@@ -30,7 +30,7 @@ S(document).ready(function(){
 	if(wiki){
 		S().ajax('http://strudel.org.uk/cgi-bin/getwiki.pl?name='+wiki+'',{
 			'complete': function(d){
-				processEntry(JSON.parse(d));
+				processEntry(JSON.parse(d.replace(/[\n\r]/,' ')));
 			},
 			'error': function(e){
 				console.log(e)
