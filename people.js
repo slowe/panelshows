@@ -28,19 +28,9 @@ S(document).ready(function(){
 
 	// If we have a Wikipedia link we try to get the extract
 	if(wiki){
-		var d = {
-		  "title": "Will Smith",
-		  "extract": "Willard Carroll \"Will\" Smith, Jr. (born September 25, 1968) is an American actor, producer, rapper, and songwriter. He has enjoyed success in television, film, and music. In April 2007, Newsweek called him \"the most powerful actor in Hollywood\". Smith has been nominated for five Golden Globe Awards, two Academy Awards, and has won four Grammy Awards.",
-		  "thumbnail": {
-			"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Will_Smith_2012.jpg/228px-Will_Smith_2012.jpg",
-			"width": 228,
-			"height": 320
-		  }
-		}
-
 		S().ajax('http://strudel.org.uk/cgi-bin/getwiki.pl?name='+wiki+'',{
 			'complete': function(d){
-				processEntry(d);
+				processEntry(JSON.parse(d));
 			},
 			'error': function(e){
 				console.log(e)
