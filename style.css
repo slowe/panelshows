@@ -6,9 +6,12 @@ nav#header {
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
 }
 nav#header .title {
-	background-color: #02a24b;
+	background-color: #505050;
 	display: inline-block;
 	color: white;
+}
+nav#header .title:hover {
+	background-color: #02a24b;
 }
 nav#header a {
 	color: inherit;
@@ -97,6 +100,18 @@ td:first-child,th:first-child {
 td:last-child {
 	padding-right: 0px;
 }
-tr.lastrow td { border-top: 1px solid black; padding-bottom: 1em; }
-tr:last-child.lastrow td { padding-bottom: 0; }
-tr:hover td { background-color: #e6e6e6; }
+table.main tr.lastrow td, table.yearly tr.lastrow td { border-top: 1px solid black; padding-bottom: 1em; }
+table.main tr:last-child.lastrow td { padding-bottom: 0; }
+table.main tr:hover td, table.yearly tr:hover td { background-color: #e6e6e6; }
+
+table.yearly .gender { width: 75%; }
+table.yearly .bar { height: 1em; float: left; display: inline-block; margin-bottom: 0px; margin-right: 0em; }
+table.yearly td .male, table.yearly td .female { font-size: 1em; height: 1em; }
+table.yearly td:first-child { width: auto; padding-right: 0.1em; }
+table.yearly td, table.yearly th { padding: 0; }
+tr.total { border-top: 1px solid black; }
+tr.total td { padding-top: 1px; }
+
+table.yearrow { height:1em;width: 100%; }
+table.yearrow td.split { background-color: green!important; }
+table.yearrow .bar { height: 1em; float: left; display: inline-block; margin-bottom: 0px; margin-right: 0em; }
