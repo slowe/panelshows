@@ -128,6 +128,6 @@ div.wikipedia {
 	width: 350px;
 }
 div.wikipedia h3 { margin: 0px; }
-div.wikipedia p { font-style: italic; margin: 0.25em 0 0 0; }
+div.wikipedia p { font-style: italic; margin: 0; }
 div.wikipedia img { float:right;height: 7.5em;border-radius:4px;margin-left:1em; }
 div.wikipedia .source { color: #606060; float: right; }
