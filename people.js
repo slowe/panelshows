@@ -17,7 +17,7 @@ S(document).ready(function(){
 	var wp = "https://en.wikipedia.org/wiki/";
 
 	function processEntry(d){
-		if(d.title && d.extract) S('h1').before('<div class="wikipedia"><a href="'+wp+wiki+'" class="source">From Wikipedia</a><h3>'+d.title+'</h3><p>'+d.extract.substr(0,160)+'&#8230;<br /></p></div>');
+		if(d.title && d.extract) S('h1').before('<div class="wikipedia">'+(d.thumbnail && d.thumbnail.source ? '<img src="'+d.thumbnail.source+'" />' : '')+'<a href="'+wp+wiki+'" class="source">From Wikipedia</a><h3>'+d.title+'</h3><p>'+d.extract.substr(0,160)+'&#8230;<br /></p></div>');
 	}
 
 	// Loop over links and find the Wikipedia one
