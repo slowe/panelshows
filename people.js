@@ -38,7 +38,7 @@ S(document).ready(function(){
 		  }
 		}
 
-		S().ajax('http://www.strudel.org.uk/cgi-bin/getwiki.pl?name='+wiki+'&callback=fred',{
+		S().ajax('http://strudel.org.uk/cgi-bin/getwiki.pl?name='+wiki+'',{
 			'complete': function(d){
 				processEntry(d);
 			},
