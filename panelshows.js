@@ -88,7 +88,7 @@ function parseShow(d){
 
 		if(d.episodes[i].date) ep += ' ('+d.episodes[i].date.toLocaleDateString()+')'
 		ep += ': ';
-		var ref = (d.episodes[i].ref ? (d.episodes[i].ref.indexOf(/ /) > 0 ? d.episodes[i].ref.substr(0,d.episodes[i].ref.indexOf(/ /)-1) : d.episodes[i].ref) : '')
+		var ref = (d.episodes[i].ref ? (d.episodes[i].ref.indexOf(" ") > 0 ? d.episodes[i].ref.substr(0,d.episodes[i].ref.indexOf(" ")) : d.episodes[i].ref) : '')
 		html += '<a '+(ref ? 'href="'+ref+'" ' : '')+'class="col" style="width:'+w+'%;"><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div><div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div></a>';
 	}
 
