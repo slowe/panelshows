@@ -9,4 +9,4 @@ Data:	call-my-bluff.csv
 Type:	general
 ---
 
-__Call My Bluff__ has been running since the 1960s and we are missing most of the episodes. One place to get data is the BBC's Genome Project which has digitised old copies of the __Radio Times__. Please help me go [through the archives](http://genome.ch.bbc.co.uk/search/0/20?order=desc&q=Call+my+bluff#search).
+__Call My Bluff__ [episode data comes from the BBC's Genome Project](http://genome.ch.bbc.co.uk/search/0/20?order=desc&q=Call+my+bluff#search) which has digitised old copies of the __Radio Times__ using OCR. Episodes from 1996 onwards rarely state who was on them so are missing all the guests. For many of those episodes the regulars and host are known even if not listed in the __Radio Times__.
