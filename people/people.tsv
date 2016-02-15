@@ -1,4 +1,4 @@
-# ID	Name	IMDB ID	Wikipedia	Chortle ID	Birthdate	Birthdate ref
+# ID	Name	IMDB ID	Wikipedia	Chortle ID	Birthdate	Birthdate ref (URL or Wikipedia)
 9pbwop5c	A.A. Gill	nm1539225	A._A._Gill		1954-06-28	Wikipedia
 cgs4qc8w	A.C. Grayling	nm2085251	A._C._Grayling		1949-04-03	Wikipedia
 rhptmpt9	A.J. McLean	nm0572481	A._J._McLean		1978-01-09	Wikipedia
@@ -303,7 +303,7 @@ adnmq2sr	Andrew Cruickshank	nm0189972	Andrew_Cruickshank		1907-12-25	Wikipedia
 nz6kg4s8	Andrew Cunningham					
 vb2gdwbi	Andrew Davies					
 x1b6ldr7	Andrew Denton					
-wyv2lc7u	Andrew Flintoff		Andrew_Flintoff			
+wyv2lc7u	Andrew Flintoff		Andrew_Flintoff		1977-12-06	Wikipedia
 4k3ck3q0	Andrew Foster					
 z06o3m9f	Andrew George					
 y46zmky4	Andrew Hansen					
@@ -312,7 +312,7 @@ ddxanp2x	Andrew Hanson
 wz5k2d7p	Andrew Knight					
 n004okg5	Andrew Lancel	nm0484220	Andrew_Lancel		1970-08-03	Wikipedia
 ylxe47a0	Andrew Lansley		Andrew_Lansley		1956-12-11	Wikipedia
-vbi862z7	Andrew Lawrence	nm1831419	Andrew_Lawrence_(comedian)	308		
+vbi862z7	Andrew Lawrence	nm1831419	Andrew_Lawrence_(comedian)	308	1979-12-17	Wikipedia
 52w4i5or	Andrew Louth					
 m3te6j23	Andrew MacKinlay		Andrew_MacKinlay		1949-04-24	Wikipedia
 skyzrnvq	Andrew Mackay					
@@ -852,7 +852,7 @@ wxpwew06	Brian Littrell	nm0514810	Brian_Littrell		1975-02-20	Wikipedia
 1es4qv40	Brian Mannix					
 94jaxrap	Brian Mawhinney		Brian_Mawhinney,_Baron_Mawhinney		1940-07-26	Wikipedia
 0rtfor0y	Brian May	nm0006190	Brian_May		1947-07-19	Wikipedia
-remjgzbd	Brian McFadden	nm0971081	Brian_McFadden			
+remjgzbd	Brian McFadden	nm0971081	Brian_McFadden		1980-04-12	Wikipedia
 5t5xfilp	Brian Molko	nm0596948	Brian_Molko		1972-12-10	Wikipedia
 qhewh34w	Brian Moore					
 4evrc7of	Brian Noble					
@@ -865,16 +865,16 @@ fbxgl1ec	Brian Sewell	nm0786570	Brian_Sewell		1931-06-15	Wikipedia
 kyoo21kf	Brian Souter		Brian_Souter		1954-05-05	Wikipedia
 famubijp	Brian Taylor	nm2032895	Brian_Taylor_(journalist)		1955-01-09	Wikipedia
 f27tagis	Brian Turner					
-g290e2n5	Brian Wilson	nm0933092	Brian_Wilson			
+g290e2n5	Brian Wilson	nm0933092	Brian_Wilson		1942-06-20	Wikipedia
 b6xbwcno	Brian Wolfson					
 apj9gom4	Brid Rodgers		Br%C3%ADd_Rodgers		1935-02-20	Wikipedia
-rpplxf6m	Bridget Christie	nm3438370	Bridget_Christie	240		
+rpplxf6m	Bridget Christie	nm3438370	Bridget_Christie	240	1971	Wikipedia
 oc4hp5s5	Bridget Ogilvie		Bridget_Ogilvie		1938-03-24	Wikipedia
 ykcr09nr	Bridget Rosewell		Bridget_Rosewell			
 h8eha5o5	Bridget Rowe		Bridget_Rowe		1950-03-06	Wikipedia
 nux420y4	Brigitte Nielsen	nm557	Brigitte_Nielsen			
 5yw2fkp1	Brinsley Forde	nm285941	Brinsley_Forde		1953-10-06	Wikipedia
-u46d543o	Britney Spears	nm5453	Britney_Spears			
+u46d543o	Britney Spears	nm5453	Britney_Spears		1981-12-02	Wikipedia
 uu34nofb	Britt Ekland	nm0001180	Britt_Ekland			
 0pyq3q20	Bronagh Hinds					
 p4vmmryu	Bronagh Waugh	nm2391026	Bronagh_Waugh		1982-10-06	Wikipedia
@@ -884,21 +884,21 @@ qgdmqisp	Brooke Kinsella	nm0455865	Brooke_Kinsella		1983-07-19	Wikipedia
 kuqv5wqd	Brooke Vincent	nm1618068	Brooke_Vincent		1992-06-04	Wikipedia
 f9da50u9	Bruce Anderson					
 u6phdiza	Bruce Byron	nm0126372	Bruce_Byron		1959-03-13	Wikipedia
-45i9j8dp	Bruce Dickinson	nm0225503	Bruce_Dickinson			
+45i9j8dp	Bruce Dickinson	nm0225503	Bruce_Dickinson		1958-08-07	Wikipedia
 m5y1jvbd	Bruce Forsyth	nm287028	Bruce_Forsyth		1928-02-22	Wikipedia
 7gtu47pk	Bruce Hood					
 fvkoi4lv	Bruce Jones					
 k3pc8b49	Bruce Kent		Bruce_Kent		1929-06-02	Wikipedia
 sj582l0c	Bruce Trent					
 8y5w9zg9	Bruce Woodley					
-3cozwda0	Bruno Langley	nm0486505	Bruno_Langley			
+3cozwda0	Bruno Langley	nm0486505	Bruno_Langley		1983-03-21	Wikipedia
 lv2iazaj	Bruno Tonioli	nm0867330	Bruno_Tonioli		1955-11-25	Wikipedia
 2y2dw9e7	Bryan Appleyard		Bryan_Appleyard		1951-08-04	Wikipedia
 1xk9nsxy	Bryan Ferry		Bryan_Ferry		1945-09-26	Wikipedia
 odn7n35i	Bryan Forbes	nm0285302	Bryan_Forbes		1926-07-22	Wikipedia
 qv2s2rhk	Bryan Gould	nm2795842	Bryan_Gould		1939-02-11	Wikipedia
 r7kdyr5q	Bryan Marshall	nm0550789	Bryan_Marshall		1938-05-09	Wikipedia
-uacgh1ry	Bryan Robson	nm1303544	Bryan_Robson			
+uacgh1ry	Bryan Robson	nm1303544	Bryan_Robson		1957-01-11	Wikipedia
 e3a6kkzt	Budgie					
 thsdjx20	Buster Bloodvessel		Buster_Bloodvessel		1958-09-06	Wikipedia
 ncobvq68	C.J. Porter-Thaw					
@@ -934,11 +934,11 @@ o9iatxsc	Carla Lane	nm485268	Carla_Lane		1937-08-05	Wikipedia
 dli4oc3k	Carlos Frenk		Carlos_Frenk		1951-10-27	Wikipedia
 n9ovujj6	Carlos Marín		Carlos_Mar%C3%ADn		1968-10-13	Wikipedia
 xo7hwa84	Carlotta					
-brq4d1fd	Carlton Cole		Carlton_Cole			
+brq4d1fd	Carlton Cole		Carlton_Cole		1982-10-12	Wikipedia
 k54i1g2a	Carmen Callil		Carmen_Callil		1938-07-05	Wikipedia
 avx088m4	Carol Berkin					
 cq0uf34g	Carol Binstead					
-3hgy6zho	Carol Decker	nm1265586	Carol_Decker			
+3hgy6zho	Carol Decker	nm1265586	Carol_Decker		1957-09-10	Wikipedia
 193bhux2	Carol Drinkwater	nm0237958	Carol_Drinkwater		1948-04-22	Wikipedia
 27iwufe9	Carol E. Barrowman					
 1g3jgtsl	Carol Harrison	nm0365512	Carol_Harrison		1955-02-08	Wikipedia
@@ -1076,10 +1076,10 @@ za0szks9	Charlie Mullins
 f0g6e0j2	Charlie Simpson	nm1387384	Charlie_Simpson		1985-06-07	Wikipedia
 w5vkwvtk	Charlie Walduck					
 i7snwquy	Charlie Whelan	nm1510195	Charlie_Whelan		1954-02-03	Wikipedia
-o7s9sw27	Charlotte Bellamy	nm0068687	Charlotte_Bellamy			
-9hc2wxro	Charlotte Bingham	nm0082923	Charlotte_Bingham			
+o7s9sw27	Charlotte Bellamy	nm0068687	Charlotte_Bellamy		1973	Wikipedia
+9hc2wxro	Charlotte Bingham	nm0082923	Charlotte_Bingham		1942-06-29	Wikipedia
 8kuu6hzh	Charlotte Church	nm161355	Charlotte_Church		1986-02-21	Wikipedia
-rm3ejy7r	Charlotte Crosby	nm4502447	Charlotte_Crosby			
+rm3ejy7r	Charlotte Crosby	nm4502447	Charlotte_Crosby		1990-05-17	Wikipedia
 dvrbjy81	Charlotte Edwards		Charlotte_Edwards		1979-12-17	Wikipedia
 nlqsigt2	Charlotte Hawkins		Charlotte_Hawkins		1975-05-16	Wikipedia
 oo1kqbha	Charlotte Methuen					
@@ -1140,7 +1140,7 @@ mlzeru35	Chris Darling
 odl1zgov	Chris Donald	nm1510066	Chris_Donald		1960-04-05	Wikipedia
 q35qhc9d	Chris Dunkley					
 97qzitpu	Chris Dye					
-0zi6rwht	Chris Eubank		Chris_Eubank			
+0zi6rwht	Chris Eubank		Chris_Eubank		1966-08-08	Wikipedia
 kmvggavr	Chris Evans	nm0262632				
 5r9yttr3	Chris Finch		Chris_Finch			
 jnjpntd0	Chris Forbes			33555		
@@ -1223,7 +1223,6 @@ k0oyaq2d	Christine Ohuruogu		Christine_Ohuruogu		1984-05-17	Wikipedia
 aghbr0hv	Christine Sutton		Christine_Sutton			
 l0a9ekbh	Christine Walkden		Christine_Walkden		1955-04-07	Wikipedia
 zv0mth3g	Christine Webber					
-d6q6f6eh	Christoper Biggins					
 8kk9kqxv	Christopher Biggins	nm0081811	Christopher_Biggins		1948-12-16	Wikipedia
 9d9jak3m	Christopher Brookmyre		Christopher_Brookmyre		1968-09-06	Wikipedia
 me6p7gpv	Christopher Cazenove	nm147392	Christopher_Cazenove		1943-12-17	Wikipedia
@@ -1850,31 +1849,31 @@ k7es4fe3	Dinah Lee
 hchmvnrw	Dinsdale Landen	nm0484553	Dinsdale_Landen		1932-09-04	Wikipedia
 acz2bv11	Dion Dublin		Dion_Dublin			
 zkfd8cbd	Dionne Warwick	nm0005536	Dionne_Warwick		1940-12-12	Wikipedia
-vemt71p8	Dipak Nandy		Dipak_Nandy			
-yt5e1xun	Dirk Nannes		Dirk_Nannes			
-i25cv9o8	Dirk Obbink		Dirk_Obbink			
+vemt71p8	Dipak Nandy		Dipak_Nandy		1936-05-21	Wikipedia
+yt5e1xun	Dirk Nannes		Dirk_Nannes		1976-05-16	Wikipedia
+i25cv9o8	Dirk Obbink		Dirk_Obbink		1957	Wikipedia
 y3nj6bre	Dita Von Teese	nm0842258	Dita_Von_Teese		1972-09-28	Wikipedia
 s2m8p4kr	Dizzee Rascal	nm1476707	Dizzee_Rascal		1984-09-18	Wikipedia
-yo75j5kc	Djibril Cisse		Djibril_Ciss%C3%A9			
-zzj67mce	Doc Brown			33412		
+yo75j5kc	Djibril Cisse		Djibril_Ciss%C3%A9		1981-08-12	Wikipedia
+zzj67mce	Doc Brown		Doc_Brown_(rapper)	33412	1977-12	Wikipedia
 hutbg62u	Doc Neeson					
-c3y7oe16	Dolly Parton	nm0000573	Dolly_Parton			
+c3y7oe16	Dolly Parton	nm0000573	Dolly_Parton		1946-01-19	Wikipedia
 86o7f2t2	Dolores O'Riordan	nm0642512	Dolores_O'Riordan		1971-09-06	Wikipedia
-wawplq43	Dolph Lundgren	nm185	Dolph_Lundgren			
+wawplq43	Dolph Lundgren	nm185	Dolph_Lundgren		1957-11-03	Wikipedia
 uuvdl6kj	Dom Joly	nm0427237	Dom_Joly	33180	1967-11-15	Wikipedia
 buuy9fbm	Dominic Brunt	nm0116623	Dominic_Brunt		1970-04-15	Wikipedia
 scwaf3w8	Dominic Cooper	nm1002641	Dominic_Cooper		1978-06-02	Wikipedia
-kxte4twg	Dominic Cork		Dominic_Cork			
+kxte4twg	Dominic Cork		Dominic_Cork		1971-08-07	Wikipedia
 ty6rzovu	Dominic Grieve		Dominic_Grieve		1956-05-24	Wikipedia
 c0evx1jf	Dominic Holland	nm0390668	Dominic_Holland	646	1967-05-06	Wikipedia
 7smnrcfy	Dominic Lawson		Dominic_Lawson		1956-12-17	Wikipedia
 al58ij2v	Dominic Lieven		Dominic_Lieven		1952-01-19	Wikipedia
 x62ue5pq	Dominic Littlewood	nm1464613	Dominic_Littlewood		1965-03-29	Wikipedia
 h5k3oqwj	Dominic Masters		The_Others_(band)			
-cqoccx9d	Dominic Raab		Dominic_Raab			
+cqoccx9d	Dominic Raab		Dominic_Raab		1974-02-25	Wikipedia
 bil4na9p	Dominic Tighe					
 uln4lj82	Dominic West	nm0922035	Dominic_West		1969-10-15	Wikipedia
-rvf5audn	Dominic Wood	nm1546555	Dominic_Wood			
+rvf5audn	Dominic Wood	nm1546555	Dominic_Wood		1978-01-03	Wikipedia
 92qabysf	Don Brown					
 9owkfu1y	Don Foster					
 rdc21v9m	Don McLean		Don_McLean		1945-10-02	Wikipedia
@@ -1884,21 +1883,21 @@ w10rdj4x	Donald Anderson		Donald_Anderson,_Baron_Anderson_of_Swansea		1939-06-17
 l6viw353	Donald Churchill					
 f2i03ty5	Donald Dewar		Donald_Dewar		1937-08-21	Wikipedia
 q4swxkjv	Donald Findlay		Donald_Findlay		1951-03-07	Wikipedia
-jher72f3	Donald MacCormick	nm1625583	Donald_MacCormick			
+jher72f3	Donald MacCormick	nm1625583	Donald_MacCormick		1939-04-16	Wikipedia
 s7qgx5kx	Donald Sinden	nm0801786	Donald_Sinden		1923-10-09	Wikipedia
 dqwpufla	Donald Stewart					
-pp5rxzl9	Donald Stokes		Donald_Stokes,_Baron_Stokes			
-15vittka	Donald Trelford		Donald_Trelford			
+pp5rxzl9	Donald Stokes		Donald_Stokes,_Baron_Stokes		1914-03-22	Wikipedia
+15vittka	Donald Trelford		Donald_Trelford		1937-11-09	Wikipedia
 qmfdb6pe	Donald Winch					
 25wqrcxd	Donatella Panayiotou					
 g3oji5f7	Donna Air	nm0014756	Donna_Air		1979-08-02	Wikipedia
 6ib1enk4	Donna McPhail	nm0574155	Donna_McPhail	578		
-uywl4j3j	Donny MacLeod	nm0533880	Donny_MacLeod			
+uywl4j3j	Donny MacLeod	nm0533880	Donny_MacLeod		1932-07-01	Wikipedia
 fcwl5fnp	Donny O'Rourke	nm2854649			1959	http://www.scottishpoetrylibrary.org.uk/poetry/poets/donny-orourke
-0tvxk0xn	Donny Osmond	nm5287	Donny_Osmond			
+0tvxk0xn	Donny Osmond	nm5287	Donny_Osmond		1957-12-09	Wikipedia
 o5ah4w49	Donny Tourette		Donny_Tourette		1981-06-19	Wikipedia
 emvkx781	Donya al Nahi					
-tul04fhf	Doon Mackichan	nm0533489	Doon_Mackichan			
+tul04fhf	Doon Mackichan	nm0533489	Doon_Mackichan		1962	Wikipedia
 h0xha67k	Doreen Massey					
 e2n41418	Doris Behrens-Abouseif					
 15penuc7	Doron Swade		Doron_Swade			
@@ -1913,8 +1912,8 @@ gtqbma1g	Douglas Alexander		Douglas_Alexander		1967-10-26	Wikipedia
 seoix0ic	Douglas Carswell		Douglas_Carswell		1971-05-03	Wikipedia
 sgvchb2c	Douglas Fairbanks	nm1196	Douglas_Fairbanks		1883-05-23	Wikipedia
 e6p1zj67	Douglas Fairbanks Jr	nm0001195	Douglas_Fairbanks,_Jr.		1909-12-09	Wikipedia
-ioop37kw	Douglas Hogg		Douglas_Hogg			
-rznout0j	Douglas Hurd		Douglas_Hurd			
+ioop37kw	Douglas Hogg		Douglas_Hogg		1945-02-05	Wikipedia
+rznout0j	Douglas Hurd		Douglas_Hurd		1930-03-08	Wikipedia
 47mqqoj6	Douglas Murray					
 ut05942q	Douglas Stuart					
 1ap6ouo5	Dr Alice Roberts					
@@ -2234,7 +2233,7 @@ kmu18j3n	Fee Glover
 t6jczwg9	Felicity Kendal	nm0447555	Felicity_Kendal		1946-09-25	Wikipedia
 v302pjy8	Felicity Montagu	nm0598748	Felicity_Montagu		1960-09-12	Wikipedia
 nm8z9d39	Felicity Urquhart					
-zs45y9m6	Felicity Ward	nm02306975	Felicity_Ward	34056		
+zs45y9m6	Felicity Ward	nm02306975	Felicity_Ward	34056	1980	Wikipedia
 5o2htier	Felipe Fernandez Armesto		Felipe_Fern%C3%A1ndez-Armesto			
 7cum46sz	Felipe Fernandez-Armesto		Felipe_Fern%C3%A1ndez-Armesto			
 4ek9ey8x	Felix Buxton		Basement_Jaxx			
@@ -3090,7 +3089,7 @@ b5zljgwf	James McFadden		James_McFadden
 nggrfceq	James McVey		James_Daniel_McVey		1994-04-30	Wikipedia
 sr98q34y	James Michael Tyler	nm0878837	James_Michael_Tyler		1962-05-28	Wikipedia
 hgnl32al	James Montgomery					
-1odhk9ia	James Morrison					
+1odhk9ia	James Morrison		James_Morrison_(singer)		1984-08-13	Wikipedia
 7zs5nz3g	James Naughtie	nm0622537	James_Naughtie		1951-08-09	Wikipedia
 epod5dl8	James Nesbitt	nm0626362	James_Nesbitt		1965-01-15	Wikipedia
 966u17kg	James O'Brien	nm2039828	James_O'Brien_(radio_presenter)		1972-01-13	Wikipedia
@@ -3344,7 +3343,7 @@ itvauhdy	Jerry Coyne		Jerry_Coyne		1949-12-30	Wikipedia
 lu7z3vsi	Jerry Hall	nm0355717	Jerry_Hall			
 4dnxhdzq	Jerry Hayes	nm3029110	Jerry_Hayes		1953-04-20	Wikipedia
 b69ryxhp	Jerry O'Connell	nm5278	Jerry_O'Connell		1974-02-17	Wikipedia
-5st7imgh	Jerry Springer	nm1761	Jerry_Springer			
+5st7imgh	Jerry Springer	nm1761	Jerry_Springer		1944-02-13	Wikipedia
 hogw7vdi	Jess Phillips					
 blm8fax0	Jess Stickley		Girls_Can%27t_Catch			
 wn65xjrs	Jesse Griffin					
@@ -3424,7 +3423,7 @@ bmrxku03	Jo Bunting	nm2002348	Jo_Bunting
 xokymrr8	Jo Cameron		List_of_The_Apprentice_candidates_(UK)#Jo_Cameron			
 5eveb8p1	Jo Caulfield	nm0146541	Jo_Caulfield	364	1965-09-26	Wikipedia
 pae01g6i	Jo Coburn	nm1555376	Jo_Coburn		1968-11-12	Wikipedia
-sm1l64rq	Jo Enright	nm1096494	Jo_Enright	136		
+sm1l64rq	Jo Enright	nm1096494	Jo_Enright	136	1968	Wikipedia
 m46blmqb	Jo Fairley		Green_%26_Black%27s			
 oqjovst1	Jo Foley					
 yf5y4y5q	Jo Frost	nm1751313	Jo_Frost		1970-06-27	Wikipedia
@@ -4177,7 +4176,7 @@ naarkcw0	Kim Cattrall	nm326	Kim_Cattrall		1956-08-21	Wikipedia
 slaxyl84	Kim Collins		Kim_Collins		1976-04-05	Wikipedia
 tnbev9c1	Kim Graham		Kim_Graham		1971-03-26	Wikipedia
 5wuuxpm2	Kim Howells		Kim_Howells		1946-11-27	Wikipedia
-8v44ffxs	Kim Marsh	nm0550602	Kym_Marsh			
+8v44ffxs	Kim Marsh	nm0550602	Kym_Marsh		1976-06-13	Wikipedia
 wxiig3xf	Kim Salmon					
 75hkjkwh	Kim Taylforth		Kim_Taylforth		1958-01-24	Wikipedia
 4qmjp114	Kim Thomson	nm0861037	Kim_Thomson			
@@ -6116,7 +6115,7 @@ wjo2m7rq	Rebekah Clements
 b7z43cl3	Red Symons					
 jft0j87q	Reece Mastin					
 fnueuly0	Reece Ritchie	nm2201022	Reece_Ritchie		1986-07-23	Wikipedia
-okvzuwkk	Reece Shearsmith	nm0790501	Reece_Shearsmith	33212		
+okvzuwkk	Reece Shearsmith	nm0790501	Reece_Shearsmith	33212	1969-08-27	Wikipedia
 bcm0xyvu	Reg Mombassa					
 mpharfr2	Reg Prentice		Reg_Prentice		1923-07-16	Wikipedia
 qtnsqusn	Reg Presley		Reg_Presley		1941-06-12	Wikipedia
