@@ -83,6 +83,8 @@ function parseShow(d){
 		// Build episode split
 		hf = Math.round(h*g.f/(g.f+g.m+g.u));
 		hm = Math.round(h*g.m/(g.f+g.m+g.u));
+		// Stop the height going over 100% due to rounding
+		if(hm+hf > h){ hm = h - hf; }
 		hu = h-hm-hf;
 		ep = d.episodes[i].id;
 
