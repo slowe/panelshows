@@ -136,29 +136,29 @@ div.wikipedia .source { color: #606060; float: right; }
 
 .infobubble {
 	position: absolute;
-	top: 100px;
-	left: 1px;
+	bottom: 104px;
+	left: 50%;
 	width: 200px;
 	min-height: 50px;
 	border-radius: 4px;
 	background-color: white;
 	z-index: 100;
-	box-shadow: 1px 1px 10px rgba(0,0,0,0.08);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 	margin-bottom: 1px;
 }
 .infobubble_inner {
 	padding: 1em;
 }
-.infobubble:before {
+.infobubble:after {
 	content: '';
 	position: absolute;
-	top: auto;
+	bottom: auto;
 	width: 0;
 	height: 0;
 	border: 1em solid transparent; 
 	left: 0;
 	border-left-color: white;
-	top: auto; top: -1em;
+	bottom: -1em;
 }
 .infobubble ul {
 	list-style: none;
