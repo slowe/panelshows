@@ -65,12 +65,15 @@ function parseShow(d){
 		g = { 'm': 0, 'f': 0, 'u': 0 };
 		for(var p = 0; p < d.episodes[i].people.length; p++){
 			s = d.episodes[i].people[p]+""; 
-			d.episodes[i].people[p] = { 'gender':'','name':'','role':'' };
-			d.episodes[i].people[p].gender = (s.indexOf('Himself') > 0) ? "m" : (s.indexOf('Herself') > 0) ? "f" : "";
-			if(d.episodes[i].people[p].gender=="m") g.m++;
-			if(d.episodes[i].people[p].gender=="f") g.f++;
+			d.episodes[i].people[p] = { 'gender':'','name':'','id':'','role':'' };
+			d.episodes[i].people[p].gender = (s.indexOf('Himself') > 0) ? "male" : (s.indexOf('Herself') > 0) ? "female" : "";
+			if(d.episodes[i].people[p].gender=="male") g.m++;
+			if(d.episodes[i].people[p].gender=="female") g.f++;
+			var j = s.indexOf(":");
+			var k = s.indexOf(" (");
 
-			d.episodes[i].people[p].name = s.substr(0,s.indexOf(" ("));
+			d.episodes[i].people[p].name = s.substr(j+1,k-j-1);
+			d.episodes[i].people[p].id = s.substr(0,j);
 			s = s.replace(/ ?\-? ?(Herself|Himself) ?\-? ?/,'').replace(/\(\)/,'');
 			if(s.indexOf("(")>0){
 				a = s.indexOf("(")+1;
@@ -91,18 +94,39 @@ function parseShow(d){
 		if(d.episodes[i].date) ep += ' ('+d.episodes[i].date.toLocaleDateString()+')'
 		ep += ': ';
 		var ref = (d.episodes[i].ref ? (d.episodes[i].ref.indexOf(" ") > 0 ? d.episodes[i].ref.substr(0,d.episodes[i].ref.indexOf(" ")) : d.episodes[i].ref) : '')
-		html += '<a '+(ref ? 'href="'+ref+'" ' : '')+'class="col" style="width:'+w+'%;"><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div><div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div></a>';
+		html += '<a '+(ref ? 'href="'+ref+'" ' : '')+'class="col" style="width:'+w+'%;" data-id="'+i+'"><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div><div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div></a>';
 	}
 
 	if(html != ""){
 		var el = document.getElementById(d.id+"_graph");
 		el.innerHTML = "<h3>Episode-by-episode breakdown</h3>"+html;
+		S('.col').on('mouseenter',function(e){
+			var id = parseInt(S(e.currentTarget).attr('data-id'));
+			if(id != over){
+				// Remove any existing infobubbles
+				S('.infobubble').remove();
+				var html = "";
+				for(var p = 0 ; p < d.episodes[id].people.length; p++){
+					html += '<li><a href="../people/'+d.episodes[id].people[p].id+'.html" class="'+d.episodes[id].people[p].gender+'">'+d.episodes[id].people[p].name+"</a></li>";
+				}
+				if(html) html = "<ul>"+html+"</ul>";
+				html = '<h3>'+d.episodes[id].id+' (<time datetime="'+d.episodes[id].date.toISOString()+'">'+d.episodes[id].date.toISOString().substr(0,10)+'</time>)</h3>'+html;
+				S(e.currentTarget).append('<div class="infobubble"><div class="infobubble_inner">'+html+'</div></div>')
+				console.log(id,d.episodes[id])
+				over = id;
+			}
+		});
+		S('.graph').on('mouseleave',function(e){
+			// Remove any existing infobubbles
+			//S('.infobubble').remove();
+		});
 	}
 	return d;
 }
 
 var shows;
 var fulldata = new Array();
+var over = -1;
 
 function finish(){
 	if(shows.length == fulldata.length){

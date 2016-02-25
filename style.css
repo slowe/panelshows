@@ -132,5 +132,55 @@ div.wikipedia p { font-style: italic; margin: 0; }
 div.wikipedia img { float:right;height: 7.5em;border-radius:4px;margin-left:1em; }
 div.wikipedia .source { color: #606060; float: right; }
 
+.col { position: relative; }
+
+.infobubble {
+	position: absolute;
+	top: 100px;
+	left: 1px;
+	width: 200px;
+	min-height: 50px;
+	border-radius: 4px;
+	background-color: white;
+	z-index: 100;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.08);
+	margin-bottom: 1px;
+}
+.infobubble_inner {
+	padding: 1em;
+}
+.infobubble:before {
+	content: '';
+	position: absolute;
+	top: auto;
+	width: 0;
+	height: 0;
+	border: 1em solid transparent; 
+	left: 0;
+	border-left-color: white;
+	top: auto; top: -1em;
+}
+.infobubble ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.infobubble li {
+	margin: 0px;
+}
+.infobubble li a {
+	color: white;
+	width: 100%;
+	font-size: 0.8em;
+	margin: 1px;
+	border: 0px!important;
+}
+.infobubble h3 {
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-size: 1em;
+}
+
+
 ol.dates { list-style: none; margin: 0px; padding: 0px; }
 ol.dates > li { margin-bottom: 1em; }
