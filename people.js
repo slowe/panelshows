@@ -21,6 +21,7 @@ S(document).ready(function(){
 		if(d.title && d.extract) S('h1').before('<div class="wikipedia">'+(d.thumbnail && d.thumbnail.source ? '<a href="'+wp+wiki+'"><img src="'+d.thumbnail.source+'" /></a>' : '')+'<p><strong>Biography:</strong> '+d.extract.substr(0,160)+'&#8230; <a href="'+wp+wiki+'" class="source">more from Wikipedia</a><br /></p></div>');
 	}
 	function processShows(d){
+		console.log(d)
 		var li = S('.episodes li');
 		for(var i = 0; i < li.e.length; i++){
 			href = S(li.e[i]).children('a').attr('href');
@@ -48,7 +49,7 @@ S(document).ready(function(){
 			}
 		})
 	}
-	S().ajax('../data/shows.json',{
+	S().ajax('shows.json',{
 		'complete': function(d){
 			processShows(JSON.parse(d))
 		},
