@@ -181,6 +181,6 @@ div.wikipedia .source { color: #606060; float: right; }
 	font-size: 1em;
 }
 
-
+img.flag { height: 11px; width: 16px; margin-right: 4px; display: inline-block; }
 ol.dates { list-style: none; margin: 0px; padding: 0px; }
 ol.dates > li { margin-bottom: 1em; }

@@ -1,5 +1,5 @@
 ---
-Country:	Australia
+Country:	AU
 Title:	The Chaser's Media Circus
 Source:	http://www.abc.net.au/tv/programs/chasers-media-circus/ , https://www.youtube.com/channel/UCEZooHkh_VWfYUWpCniZwpg
 Production:	ABC;Giant Dwarf
