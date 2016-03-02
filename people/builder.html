@@ -153,7 +153,6 @@
 
 		S().ajax('shows.json',{
 			'complete': function(data){
-				console.log('shows.json')
 				shows = JSON.parse(data);
 				
 				var html = '<option value="">Select show</option>';
@@ -178,7 +177,6 @@
 
 		S().ajax('ranked.csv',{
 			'complete': function(data){
-				console.log('ranked.csv')
 				var delim = ",";
 				var line,showbits;
 				if(typeof data==="string"){
