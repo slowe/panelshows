@@ -21,15 +21,39 @@
 
 	S(document).ready(function(){
 
+		// Select all the text in the textarea when focus switches to it
+		S('textarea').on('focus',function(){
+			this.e[0].select();
+		});
+
+		// Function to update the textarea based on the people added to the DOM
+		function updateList(){
+			var p = S('.person');
+			var str = "";
+			for(var i = 0; i < p.e.length; i++){
+				el = S(p.e[i]);
+				id = el.attr('data-id');
+				str += db[id].id+':'+db[id].name+' ('+(db[id].gender == "male" ? "Himself" : (db[id].gender == "female" ? "Herself" : db[id].gender))+');';
+			}
+			S('textarea').html(str)
+		}
+
 		function selectName(selected){
 			var id = ids[selected.attr('data-id')];
 			html = "";
 			S('.person .close').off('click');
-			S('.episode').append('<span class="person"><span class="name'+(db[id].gender ? ' '+db[id].gender : '')+'">'+db[id].id+':'+db[id].name+' ('+(db[id].gender == "male" ? "Himself" : (db[id].gender == "female" ? "Herself" : db[id].gender))+');</span><span class="close" title="Remove"></span></span>');
+			S('.episode').append('<span class="person" data-id="'+id+'"><span class="name'+(db[id].gender ? ' '+db[id].gender : '')+'">'+db[id].name+'</span><span class="close" title="Remove">&times;</span></span>');
 			S('.searchresults').html('');
 			S('#search').e[0].value = "";
 			var p = S('.person');
-			for(var i = 0; i < p.e.length; i++) S(p.e[i]).children('.close').on('click',function(){ this.parent().remove(); });
+			for(var i = 0; i < p.e.length; i++){
+				el = S(p.e[i]);
+				el.children('.close').on('click',function(){
+					this.parent().remove();
+					updateList();
+				});
+			}
+			updateList();
 		}
 
 		S('#search').on('keyup',function(e){
@@ -80,7 +104,7 @@
 						html = "<ol>";
 						var n = Math.min(tmp.length,10);
 						for(var i = 0; i < n; i++){
-							html += '<li data-id="'+tmp[i].id+'" class="'+tmp[i].gender+'"><div class="name">'+tmp[i].name+(tmp[i].dob ? ' ('+tmp[i].dob+')' : "")+"</div></li>";
+							html += '<li data-id="'+tmp[i].id+'" class="'+tmp[i].gender+''+(i==0 ? ' selected':'')+'"><div class="name">'+tmp[i].name+(tmp[i].dob ? ' ('+tmp[i].dob+')' : "")+"</div></li>";
 						}
 						html += "</ol>";
 					}
@@ -127,7 +151,7 @@
 		font-size: 0.8em;
 	}
 	input#search, .searchresults {
-		width: 250px;
+		width: 300px;
 	}
 	.searchresults ol {
 		margin: 0px;
@@ -151,12 +175,9 @@
 		color: black;
 		cursor: pointer;
 	}
-	.episode {
-		margin: 0 0 0.5em 0;
-	}
 	.episode .person {
 		display: inline-block;
-		margin-right: 0.5em;
+		margin-right: 0.25em;
 		margin-bottom: 0.25em;
 		line-height: 1em;
 	}
@@ -172,8 +193,15 @@
 		padding: 0.5em;
 		cursor: pointer;
 		width: 0.5em;
-		height: 1em;
-		line-height: 2em;
+	}
+	.episode .person .close:hover {
+		background-color: #bbbbbb;
+	}
+	textarea {
+		width: 100%;
+		margin-bottom: 0.25em;
+		height: 4em;
+		font-size: 1em;
 	}
 	</style>
 </head>
@@ -188,6 +216,7 @@
 	<h1>Build an episode</h1>
 
 	<div class="episode"></div>
+	<textarea class="output"></textarea>
 	<input type="text" id="search" value="" placeholder="e.g. Sandi Toksvig" />
 	<div class="searchresults"></div>
 
