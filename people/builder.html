@@ -18,6 +18,7 @@
 
 
 	var shows = {};
+	var showlookup = {};
 	var show = "";
 	var db = new Array();
 	var ids = {};
@@ -158,6 +159,7 @@
 				var html = '<option value="">Select show</option>';
 				var keys = new Array();
 				for(s in shows){
+					showlookup[shows[s].i] = s;
 					keys.push(s);
 				}
 				keys.sort();
@@ -178,7 +180,7 @@
 		S().ajax('ranked.csv',{
 			'complete': function(data){
 				var delim = ",";
-				var line,showbits;
+				var line,showbits,key;
 				if(typeof data==="string"){
 					data = data.replace(/\r/,'');
 					data = data.split(/[\n]/);
@@ -188,11 +190,12 @@
 					showbits = (line[5]) ? line[5].replace(/;$/,"").split(";") : new Array();
 					for(var s = 0 ; s < showbits.length; s++){
 						bits = showbits[s].split(/:/);
-						showbits[s] = {'key':bits[0],'n':parseInt(bits[1])};
+						key = showlookup[bits[0]];
+						showbits[s] = {'key':key,'n':parseInt(bits[1])};
 						if(shows){
-							if(!shows[bits[0]]) shows[bits[0]] = {};
-							if(!shows[bits[0]].n) shows[bits[0]].n = 0;
-							shows[bits[0]].n += parseInt(bits[1]);
+							if(!shows[key]) shows[key] = {};
+							if(!shows[key].n) shows[key].n = 0;
+							shows[key].n += parseInt(bits[1]);
 						}
 					}
 					if(line[0]) db.push({'id':line[0],'name':line[1],'gender':line[2],'dob':line[3],'n':line[4],'shows':showbits});
