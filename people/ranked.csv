@@ -42,9 +42,9 @@ l3xqjxtv,Jane Moore,female,1962,284,41:274
 yipahedd,Sean Lock,male,1963,272,18:162;29:53;11:27;4:14
 m2nw4eae,David Mitchell,male,1974,250,14:92;16:71;11:25;10:12;8:11;20:9;3:8
 4mzh48iq,Andy Hamilton,male,1954,250,19:197;3:17;10:15
+hk2rczao,Alan Davies,male,1966,243,11:185;26:26;14:11
 nf812lji,Adam Hills,male,1970,243,1:228
-hk2rczao,Alan Davies,male,1966,241,11:183;26:26;14:11
-fc3xrxvy,Stephen Fry,male,1957,240,11:183;12:27;3:13
+fc3xrxvy,Stephen Fry,male,1957,242,11:185;12:27;3:13
 lala2l3q,Kate Thornton,female,1973,235,41:232
 6vpb1owi,Carol Vorderman,female,1960,235,41:214
 4mzpxmmm,Myf Warhurst,female,,228,1:228
@@ -61,10 +61,10 @@ x9y0q5f5,Dara O'Briain,male,1972,177,8:127;11:14;41:7
 ooro5gcx,Willie Rushton,male,1937,176,3:176
 goz3ofbt,Jack Dee,male,1961,173,3:87;25:20;10:14;18:10;41:9;14:8;19:6
 wimq9t8v,Patrick Campbell,male,1913,172,33:172
-yy0vihbr,Sue Perkins,female,1969,170,12:54;19:30;39:25;35:16;11:14;32:9;36:6
+yy0vihbr,Sue Perkins,female,1969,171,12:54;19:30;39:25;35:16;11:15;32:9;36:6
 7vx3qihg,Linda Robson,female,1958,169,41:168
+l2c0axys,Bill Bailey,male,1965,162,15:98;11:38;29:8;10:7
 vo7y4a4s,Jamelia,female,1981,161,41:149
-l2c0axys,Bill Bailey,male,1965,161,15:98;11:37;29:8;10:7
 0smmr1o3,Keith Lemon,male,1973,159,34:159
 yta3thvj,Rory McGrath,male,1956,157,5:148
 af5170ez,Peter Sissons,male,1942,149,27:148
@@ -80,7 +80,7 @@ k6egqudh,Jon Richardson,male,1982,141,18:79;29:45;14:4;10:4
 bbjlysaj,Fred MacAulay,male,1956,127,19:81;12:16;14:7;10:6
 1s5ocnkr,Patrick Hannan,male,,127,6:127
 bne00n41,Andy Parsons,male,1967,125,8:118
-b93y6vnu,Jo Brand,female,1957,123,11:35;10:16;41:14;5:10;19:9;8:6;27:5
+b93y6vnu,Jo Brand,female,1957,124,11:36;10:16;41:14;5:10;19:9;8:6;27:5
 f9aqgxfg,Sally Lindsay,female,1973,119,41:113
 3xla1274,Lee Mack,male,1968,117,16:71;5:9;18:7;29:6;10:5;11:5;14:4
 h663jn38,Rufus Hound,male,1979,116,34:59;4:36;14:6;41:4;32:4;15:3
@@ -102,7 +102,7 @@ k47hcr0j,Robin Ince,male,1969,87,13:72;35:4
 ezum7f40,Noel Fielding,male,1973,86,15:74;20:7
 x2vmpjxi,Ulrika Jonsson,female,1967,85,25:72;41:6;18:5
 l18oibi4,Julian Critchley,male,,83,6:80
-y9qap6t1,Chris Addison,male,1971,82,8:37;35:16;10:6;14:4;19:4;12:4;18:3
+y9qap6t1,Chris Addison,male,1971,83,8:37;35:16;10:6;14:4;19:4;12:4;18:3
 9e3q4p9k,Mark Steel,male,1960,81,19:51;10:9;32:5;27:4;15:3;11:3
 m9jas0rx,Frankie Boyle,male,1972,79,8:56;18:7;4:4;15:3;16:3
 fcarckng,Brian Cox,male,1968,79,13:72
@@ -257,6 +257,7 @@ rmrcbuko,Polly Toynbee,female,1946,25,27:19;19:4;6:2
 om2iuo4o,Gabby Logan,female,1973,25,41:7;18:5;16:4;15:2;5:2;25:1;10:1
 46tk56ec,Vince Cable,male,1943,25,27:23
 tpzpaesf,Norman Tebbit,male,1931,24,27:23
+vvpc2276,Sara Cox,female,1974,24,41:9;10:4;15:3;34:3;40:2;25:1;23:1
 or8i333m,Russell Davies,male,1946,24,19:21;33:2
 0yyxvvhl,Nigel Dempster,male,1941,24,19:20;33:4
 zpj590rm,Karren Brady,female,1969,24,41:24
@@ -264,7 +265,6 @@ hte51vd7,Emma Bunton,female,1976,24,41:17;34:7
 ksf23dl3,Fiona Phillips,female,1961,24,41:22
 3l1qtw2v,Stacey Solomon,female,1989,24,41:10;34:5;15:4;17:3;30:1;18:1
 m04mxaqq,Miles Kington,male,,24,33:17;19:6;12:1
-vvpc2276,Sara Cox,female,1974,23,41:9;10:4;34:3;15:3;40:2;25:1;23:1
 rss18urt,Tanya Plibersek,female,1969,23,2:23
 6b4aofxq,Andrew Rawnsley,male,1962,23,19:12;6:8;27:2;10:1
 lc93xu1n,Les Dennis,male,1953,23,41:17;25:1;33:1;18:1;10:1;34:1;37:1
@@ -344,6 +344,7 @@ bgfey1xd,Josie Long,female,1982,19,18:3;29:3;35:2;15:2;12:2;13:2;19:1
 vrx437un,Dr Phil Hammond,male,1962,19,10:7;19:6;33:2;32:2;27:1;35:1
 hn8eeq8z,Sue Cook,female,1949,19,33:12;19:6;25:1
 pi1s1cek,John Smith,male,,19,27:19
+mkuo9ika,James Acaster,male,1985,19,8:5;30:3;17:2;18:2;15:2;40:1;10:1
 o4zoevu0,Simon Schaffer,male,1955,19,28:19
 o4fbyyft,Martin Palmer,male,1953,19,28:19
 r9njiv0i,Krishnan Guru-Murthy,male,1970,19,18:11;19:4;33:1;10:1;15:1;16:1
@@ -371,7 +372,6 @@ ddjel2cn,Sinitta Renet Malone,female,1963,18,41:15;15:3
 zxqf5ysa,Iain Duncan Smith,male,1954,18,27:18
 qx0mniaw,Vernon Kay,male,1974,18,18:4;41:4;34:4;22:2;25:1;23:1;5:1
 df8k5tz6,John Finnemore,male,1977,18,14:12;3:3;19:1;37:1;39:1
-mkuo9ika,James Acaster,male,1985,18,8:5;30:3;17:2;18:2;15:2;40:1;10:1
 lna9xkc9,Geraldine Jones,female,,18,12:18
 hct2usf8,Claire Richards,female,1977,18,41:16;34:1;15:1
 ptmo2wjv,Cilla Black,female,1943,18,41:17;15:1
