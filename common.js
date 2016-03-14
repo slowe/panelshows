@@ -19,7 +19,7 @@ var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.su
 	d.prototype.ready=function(e){
 		if(typeof e==="function") loadedfns.push(e);
 		if(filestoload == 0){
-			/in/.test(document.readyState)?setTimeout("S(document).ready("+e+")",9):this.SSIload();
+			/in/.test(document.readyState)?setTimeout("S(document).ready()",9):this.SSIload();
 		}else{
 			if(filestoload==filesloaded) doneLoad();
 		}
