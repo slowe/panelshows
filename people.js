@@ -14,7 +14,7 @@ S(document).ready(function(){
 		}
 	}
 
-	console.log('ready people')
+	//console.log('ready people')
 	if(location.href.indexOf('file')!=0){
 		var a = S('a');
 		var wiki = "";
