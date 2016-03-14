@@ -14,19 +14,19 @@ dzs8dz72,Clement Freud,male,1924,576,13:543
 kxsisjg1,Denise Welch,female,1958,536,42:535
 mtov1a5z,Bob Holness,male,1928,532,34:532
 tub6hiln,Ian Hislop,male,1960,492,11:423;20:50
-0i00czvq,Graeme Garden,male,1943,455,3:412;15:27
-t4r1ivmw,Barry Cryer,male,1935,448,3:415;13:22
+0i00czvq,Graeme Garden,male,1943,463,3:420;15:27
+t4r1ivmw,Barry Cryer,male,1935,460,3:427;13:22
+tn2a91cb,Tim Brooke-Taylor,male,1940,443,3:416
 ef7hwnn2,Robert Robinson,male,1927,438,34:438
-tn2a91cb,Tim Brooke-Taylor,male,1940,432,3:405
 h6wdx3nf,Janet Street-Porter,female,1946,430,42:390
 3tpyoai7,Lisa Maxwell,female,1963,425,42:425
 87ulicd3,Jeremy Hardy,male,1961,401,20:332;3:52
 sx5n2tkh,Phill Jupitus,male,1962,393,16:267;20:39;12:34
 oncin0w0,Frank Muir,male,1920,380,34:380
 j92v1p1s,Sue Barker,female,1956,368,23:368
+anx0aq5q,Humphrey Lyttelton,male,1921,358,3:356
 wlfagkqd,Matt Dawson,male,1972,354,23:353
 y0rs8v1n,Kenneth Williams,male,1926,353,13:346
-anx0aq5q,Humphrey Lyttelton,male,1921,348,3:346
 qudj2xew,Peter Jones,male,1920,328,13:326
 2fi0cnn2,Lynda Bellingham,female,1948,321,42:321
 98kvb37m,Tony Jones,male,1956,319,2:319
@@ -42,7 +42,7 @@ l3xqjxtv,Jane Moore,female,1962,287,42:277
 yipahedd,Sean Lock,male,1963,273,19:162;30:53;12:27;5:14
 m2nw4eae,David Mitchell,male,1974,250,15:92;17:71;12:25;11:12;9:11;21:9;3:8
 4mzh48iq,Andy Hamilton,male,1954,250,20:197;3:17;11:15
-fc3xrxvy,Stephen Fry,male,1957,246,12:185;13:28;3:16
+fc3xrxvy,Stephen Fry,male,1957,247,12:185;13:28;3:17
 hk2rczao,Alan Davies,male,1966,243,12:185;27:26;15:11
 nf812lji,Adam Hills,male,1970,243,1:228
 lala2l3q,Kate Thornton,female,1973,235,42:232
@@ -54,7 +54,7 @@ jlhj9gmd,Alan Brough,male,,228,1:228
 k0jzn1xr,Francis Wheen,male,1957,211,20:202
 ltky6r8w,Tony Hawks,male,1960,206,13:122;3:30;15:23;20:22
 5b7d718r,Angus Deayton,male,1956,202,11:188;17:14
-ooro5gcx,Willie Rushton,male,1937,187,3:187
+ooro5gcx,Willie Rushton,male,1937,197,3:197
 pioyrpar,Mark Lamarr,male,1967,185,16:153;26:32
 hm49r14r,Arthur Marshall,male,1910,184,34:184
 x9y0q5f5,Dara O'Briain,male,1972,180,9:127;12:14;42:7
@@ -358,6 +358,7 @@ qpkg24gj,Francis Maude,male,1953,19,28:19
 j2gj2jl1,Carrie Quinlan,female,,19,20:19
 t1g5imsm,Ben Miller,male,1966,19,42:7;14:4;16:2;26:1;19:1;11:1;27:1
 varfhn88,Melanie Chisholm,female,1974,19,42:9;16:5;19:2;35:2;4:1
+ltb2104r,Denise Coffey,female,1936,18,3:12;13:6
 8ilhlljv,Angela Rippon,female,1944,18,20:9;34:6;42:2;11:1
 cgs4qc8w,A.C. Grayling,male,1949,18,29:16;2:2
 z013vflf,Cal Wilson,female,1970,18,1:14;12:2;0:1;20:1
@@ -383,7 +384,6 @@ ptmo2wjv,Cilla Black,female,1943,18,42:17;16:1
 5eveb8p1,Jo Caulfield,female,1965,18,9:6;20:3;15:2;11:2;16:2;13:1;5:1
 9oiw8vcv,Philippa Kennedy,female,,18,42:18
 m39tw6zk,Ian Wright,male,1963,18,6:18
-ltb2104r,Denise Coffey,female,1936,17,3:11;13:6
 cr7ce9yy,Lloyd Langford,male,1983,17,15:11;39:1;41:1;12:1;20:1;38:1;16:1
 4atmbscb,Clare Francis,female,1946,17,34:16;28:1
 a004yyt8,Bill Shorten,male,1967,17,2:17
@@ -1239,6 +1239,7 @@ kap8cuhk,Leslie Phillips,male,1924,6,34:3;42:3
 yelpzroq,Sian Reeves,female,,6,42:6
 1es4qv40,Brian Mannix,male,,6,1:6
 79aya9ic,Harley 'Sylvester' Alexander-Sule,male,1991,6,35:3;16:2;23:1
+81ugeqif,Mike Harding,male,1944,6,3:6
 xf9hos2c,Roseanna Cunningham,female,1951,6,28:6
 10upw5g2,Stephen McGann,male,1963,6,42:4;34:2
 w7eajh5g,Rusty Berther,male,,6,1:6
@@ -1494,7 +1495,6 @@ snurz0c1,Anouska Hempel,female,1941,5,34:5
 ksvatwq8,James Thornton,male,,5,42:5
 e55jw3cn,Muriel Pavlow,female,1921,5,34:5
 o1m6i43x,Jim Wallace,male,1954,5,28:5
-81ugeqif,Mike Harding,male,1944,5,3:5
 k0oyaq2d,Christine Ohuruogu,female,1984,5,23:4;4:1
 2mqxofca,Adrian Moorhouse,male,1964,5,23:5
 1tel35ee,Danny Wallace,male,1976,5,42:2;19:2;17:1
@@ -1645,7 +1645,6 @@ ban1a166,Tina Brown,female,1953,5,34:4;20:1
 mxy2j7lv,Sharon Maughan,female,1950,5,42:5
 h05d7vbw,Mike Wilmot,male,,5,16:3;19:1;1:1
 5mrxpurq,Lenny Henry,male,1958,5,42:2;26:1;2:1;10:1
-25euj0eu,Kenny Everett,male,1944,5,3:3;13:2
 clrd504d,Jeff Hordley,male,1970,5,42:5
 5qafkezh,Cariad Lloyd,female,,5,12:2;18:1;30:1;11:1
 swpvsjix,Trudie Goodwin,female,1951,5,42:3;34:2
@@ -2071,6 +2070,7 @@ lu7z3vsi,Jerry Hall,female,1956,4,42:4
 780qxp6u,George Monbiot,male,1963,4,28:3;29:1
 1ug0vtiw,Ruth Kelly,female,1968,4,28:4
 n004okg5,Andrew Lancel,male,1970,4,42:4
+25euj0eu,Kenny Everett,male,1944,4,3:2;13:2
 tf5yw8iv,Alastair Cook,male,1984,4,23:3;4:1
 3617ehdu,Nick Ferrari,male,1959,4,28:4
 09scnwi1,Paula Wilcox,female,1949,4,34:2;42:2
@@ -4825,7 +4825,6 @@ eguadz58,Olivia Williams,female,1968,1,42:1
 gwwdl5a2,Elizabeth Rowe,female,,1,29:1
 uh2ef67m,Matthew Marsden,male,1973,1,16:1
 jo4sm7vg,Constance Briscoe,female,1957,1,28:1
-uurp5j9z,Judith Brown,female,,1,3:1
 vd825i96,Eldad Beck,male,,1,2:1
 ihn3iyot,John Wood,male,,1,1:1
 tg11mq4g,Bess Price,female,,1,2:1
@@ -5145,7 +5144,6 @@ u85tf5nd,Brendan Courtney,male,1973,1,42:1
 fj9eq57i,Linda Tirado,female,,1,2:1
 awh96y7r,Natalie Pa‘apa’a,female,,1,2:1
 a6f2ur43,Jolyon Rubinstein,male,1981,1,31:1
-xp689pel,Frank Barber,male,,1,3:1
 qmwqb07j,Garðar Cortes,male,,1,42:1
 0ezkw679,Professor Alan Walker,male,,1,29:1
 r42jhhkr,Masha Gessen,female,1967,1,2:1
@@ -5205,7 +5203,6 @@ h76sg4fg,Amazon John Easterling,male,,1,42:1
 eh2s0rz8,Gabriella Irimia,female,,1,42:1
 idkxkd21,Judd Trump,male,1989,1,23:1
 o5ah4w49,Donny Tourette,male,1981,1,16:1
-wyk8eh7k,Edward Morris,male,,1,3:1
 sm1l64rq,Jo Enright,female,1968,1,27:1
 ealil2kh,Philippa Browning,female,,1,29:1
 ngsgeugh,Joanna Hodge,female,,1,29:1
@@ -6192,7 +6189,6 @@ fncx8v35,Lindiwe Zulu,female,,1,28:1
 r4u5hjx1,Alan Savage,male,,1,28:1
 37s31z1m,Robin Page,male,,1,28:1
 qpfhyg6w,Karin Bowie,female,,1,29:1
-n4eaiqtp,Simon Platt,male,,1,3:1
 slaxyl84,Kim Collins,female,1976,1,23:1
 o5ff42wz,Natalie Wheen,female,,1,28:1
 oigv71xv,Jenson Button,male,1980,1,6:1
@@ -8614,8 +8610,12 @@ y950elte,Ian Smith,male,,1,2:1
 wp4glpuk,Russ Spencer,male,1979,1,42:1
 emvkx781,Donya al Nahi,female,,1,42:1
 k7es4fe3,Dinah Lee,female,,1,1:1
+uurp5j9z,Judith Brown,,,,
+xp689pel,Frank Barber,,,,
+wyk8eh7k,Edward Morris,,,,
 4gpvd8ut,Alan Tudge,,1971,,
 d6q5iewd,Quentin Bell,,,,
+n4eaiqtp,Simon Platt,,,,
 3ibn4ncu,Kate Ceberano,,1966,,
 hc9dks28,Jared Diamond,,1937,,
 l9u4r4cf,Colin Richmond,,,,
