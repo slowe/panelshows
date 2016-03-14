@@ -47,6 +47,10 @@ nav#header ul#menu #searchpeople {
 	padding: 0 0.25em;
 	border: 0px;
 	width: 10em;
+	transition: all 0.25s linear;
+}
+nav#header ul#menu #searchpeople:focus {
+	width: 14.5em;
 }
 nav#header ul#menu label {
 	border: 0px;
