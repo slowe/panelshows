@@ -1,4 +1,6 @@
 // stuQuery
+var filestoload = 0;
+var filesloaded = 0;
 var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.substr(1);for(var l=0;l<n.classList.length;l++){if(n.classList[l]==m){return true}}}else{if(m[0]=="#"){if(n.id==m.substr(1)){return true}}else{if(n.tagName==m.toUpperCase()){return true}}}return false}function c(p,o){var n=-1;var l=new Array();if(o.indexOf(":eq")>0){var j=o.replace(/(.*)\:eq\(([0-9]+)\)/,"$1 $2").split(" ");o=j[0];n=parseInt(j[1])}if(o[0]=="."){els=p.getElementsByClassName(o.substr(1))}else{if(o[0]=="#"){els=p.getElementById(o.substr(1))}else{els=p.getElementsByTagName(o)}}if(!els){els=[]}if(els.nodeName&&els.nodeName=="SELECT"){l.push(els)}else{if(typeof els.length!=="number"){els=[els]}for(k=0;k<els.length;k++){l.push(els[k])}if(n>=0&&l.length>0){if(n<l.length){l=[l[n]]}else{l=[]}}}return l}function d(p){if(typeof p==="string"){var e,p,q,o,m,l,n;e=p.split(" ");for(o=0;o<e.length;o++){if(o==0){p=c(document,e[o])}else{q=new Array();for(m=0;m<p.length;m++){q=q.concat(c(p[m],e[o]))}p=q.splice(0)}}}this.e=[];if(!p){return this}if(typeof p.length!=="number"){p=[p]}this.e=p;return this}d.prototype.ready=function(e){/in/.test(document.readyState)?setTimeout("S(document).ready("+e+")",9):e()};d.prototype.html=function(j){if(typeof j==="number"){j=""+j}if(typeof j!=="string"&&this.e.length==1){return this.e[0].innerHTML}if(typeof j==="string"){for(var e=0;e<this.e.length;e++){this.e[e].innerHTML=j}}return this};
 	d.prototype.before=function(t){
 		var div = document.createElement('div');
@@ -13,30 +15,46 @@ var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.su
 	// If we have SSI includes in the page, these haven't been 
 	// processed by the server so fake it with Javascript.
 	// First make a replacement ready() function
-	d.prototype.ready=function(e){/in/.test(document.readyState)?setTimeout("S(document).ready("+e+")",9):this.SSIload(e);};
+	d.prototype.ready=function(e){
+		if(filestoload == 0){
+			/in/.test(document.readyState)?setTimeout("S(document).ready("+e+")",9):this.SSIload(e);
+		}else{
+			if(filestoload==filesloaded) e();
+		}
+	};
 	// A function to load (via AJAX) the SSI includes
 	d.prototype.SSIload=function(e){
 		var html = document.documentElement.outerHTML;
 		var matches = html.match(/<!-- ?#include virtual="([^\"]+)" ?-->/g);
 		if(matches && matches.length > 0){
-			var filestoload = 0;
-			var filesloaded = 0;
+			filesloaded = 0;
 			for(var i = 0; i < matches.length; i++){
 				var file = matches[i].replace(/<!-- ?#include virtual="([^\"]+)" ?-->/,function(m,s){ return s; })
 				filestoload++;
+				// Remove SSI
+				html = html.replace(b.match,d);
 				S(document).ajax(file,{
 					'file':file,
 					'match':matches[i],
 					'callback':e,
 					'complete': function(d,b){
 						filesloaded++;
-						html = html.replace(b.match,d);
+						if(b.file=="nav.txt"){
+							S('.page').before(d);
+						}else if(b.file=="head.txt"){
+							var js = document.createElement('script');
+							js.setAttribute('type', 'text/javascript');
+							var loc = (location.href.indexOf("/people/")>=0) ? "search.js" : "people/search.js";
+							js.setAttribute('src', loc);
+							js.onerror = function(e){ console.log(e); }
+							document.getElementsByTagName('head')[0].appendChild(js);
+						}
 						// Once we've processed all the SSIs we remake the page
-						if(filestoload==filesloaded){
+						/*if(filestoload==filesloaded){
 							document.open();
 							document.write(html);
 							document.close();
-						}
+						}*/
 					},
 					'error': function(e){ console.log(e) }
 				});
@@ -46,4 +64,4 @@ var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.su
 	return new d(g);
 };
 
-S().ready(function(){});
+S().ready(function(){ });
