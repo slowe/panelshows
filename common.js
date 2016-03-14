@@ -44,7 +44,7 @@ var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.su
 						}else if(b.file=="head.txt"){
 							var js = document.createElement('script');
 							js.setAttribute('type', 'text/javascript');
-							var loc = (location.href.indexOf("/people/")>=0) ? "search.js" : "people/search.js";
+							var loc = (location.href.indexOf("/people/")>=0) ? "search.js" : (location.href.indexOf("/data/")>=0 ? "../people/search.js" : "people/search.js");
 							js.setAttribute('src', loc);
 							js.onerror = function(e){ console.log(e); }
 							document.getElementsByTagName('head')[0].appendChild(js);
@@ -55,6 +55,7 @@ var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.su
 							document.write(html);
 							document.close();
 						}*/
+						if(filestoload==filesloaded) e();
 					},
 					'error': function(e){ console.log(e) }
 				});
@@ -64,4 +65,4 @@ var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.su
 	return new d(g);
 };
 
-S().ready(function(){ });
+S(document).ready(function(){ });
