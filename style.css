@@ -8,6 +8,7 @@ nav#header {
 nav#header .title {
 	background-color: #505050;
 	display: inline-block;
+	float: left;
 	color: white;
 }
 nav#header .title:hover {
@@ -17,10 +18,11 @@ nav#header a {
 	color: inherit;
 }
 nav#header ul#menu {
-	display: inline-block;
+	display: block;
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
+	width: auto;
 }
 nav#header ul#menu li {
 	margin: 0px;
@@ -33,6 +35,63 @@ nav#header ul#menu li a, nav#header .title a {
 nav#header ul#menu li a:hover {
 	background-color: #efefef;
 }
+nav#header ul#menu li.search {
+	float: right;
+	margin-right: 0.5em;
+}
+nav#header ul#menu #searchpeople {
+	font-size: 1em;
+	padding: 0 0.25em;
+	border: 0px;
+	width: 10em;
+}
+nav#header ul#menu label {
+	border: 0px;
+	font-size: 1em;
+	padding: 0 0.5em;
+}
+nav#header ul#menu #searchpeople, nav#header ul#menu label {
+	height: 1.75em;
+}
+nav#header .searcher {
+	display: block;
+}
+nav#header .searchresults {
+	position: absolute;
+	right: 0px;
+	width: 15em;
+}
+nav#header ul#menu .searchresults ol {
+	margin: 0px;
+	padding: 0px;
+	background-color: #cccccc;
+}
+nav#header ul#menu .searchresults li {
+	margin-bottom: 1px;
+	display: block;
+	text-align: left;
+	background-color: #efefef;
+	color: #404040;
+}
+nav#header ul#menu .searchresults li .name {
+	padding: 0 0.5em;
+	display: inline-block;
+}
+nav#header ul#menu .searchresults li.selected, nav#header ul#menu .searchresults li:hover {
+	background-color: black; color: #fefefe;
+	cursor: pointer;
+}
+nav#header ul#menu .searchresults li div {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+nav#header ul#menu .searchresults li .name {
+	width: auto;
+}
+
+
+
+
+
 
 h3 { }
 p { line-height: 1.25em; }
