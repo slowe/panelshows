@@ -1,0 +1,7 @@
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@astronomyblog">
+	<meta name="twitter:url" property="og:url" content="http://www.strudel.org.uk/panelshows/">
+	<meta name="twitter:title" property="og:title" content="UK Panel Show Gender Breakdown">
+	<meta name="twitter:description" property="og:description" content="Panel shows on UK television and radio include few female guests. We compile stats to see how bad the problem is.">
+	<meta name="twitter:image" property="og:image" content="http://strudel.org.uk/images/thumb_panelshow.png">
+	<script type="text/javascript" src="../people/search.js"></script>

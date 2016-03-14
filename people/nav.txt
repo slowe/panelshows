@@ -1,0 +1,12 @@
+<nav id="header">
+	<div class="padder">
+		<div class="title"><a href="../index.html">Panel Show Db</a></div>
+		<ul id="menu">
+			<li class="selected"><a href="index.html">People</a></li><li><a href="https://github.com/slowe/panelshows/tree/master/data">Data</a></li><li class="search">
+				<label>Search:</label>
+				<input type="text" name="searchpeople" id="searchpeople" />
+				<div class="searchresults"></div>
+			</li>
+		</ul>
+	</div>
+</nav>

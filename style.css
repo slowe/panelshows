@@ -3,7 +3,6 @@ body { font-family: sans-serif; margin: 0px; padding: 0px 0px 1em 0px;}
 nav#header {
 	line-height: 2.5em;
 	background-color: #dfdfdf;
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
 }
 nav#header .title {
 	background-color: #505050;
@@ -34,6 +33,10 @@ nav#header ul#menu li a, nav#header .title a {
 }
 nav#header ul#menu li a:hover {
 	background-color: #efefef;
+}
+
+nav#header ul#menu li.selected a {
+	background-color: white;
 }
 nav#header ul#menu li.search {
 	float: right;
