@@ -21,6 +21,7 @@ var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.su
 		if(filestoload == 0) /in/.test(document.readyState)?setTimeout("S(document).ready()",9):this.SSIload();
 	}
 	function doneLoad(){
+		console.log('doneLoad',loadedfns)
 		for(var i = 0; i < loadedfns.length; i++) loadedfns[i].call();
 	}
 	// A function to load (via AJAX) the SSI includes
