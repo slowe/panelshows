@@ -109,7 +109,7 @@ function parseShow(d){
 				if(html) html = "<ul>"+html+"</ul>";
 				html = '<h3>'+d.episodes[id].id+' (<time datetime="'+d.episodes[id].date.toISOString()+'">'+d.episodes[id].date.toISOString().substr(0,10)+'</time>)</h3>'+html;
 				S(e.currentTarget).append('<div class="infobubble"><div class="infobubble_inner">'+html+'</div></div>')
-				console.log(id,d.episodes[id])
+				//console.log(id,d.episodes[id])
 				over = id;
 			}
 		});
