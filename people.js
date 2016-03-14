@@ -28,8 +28,10 @@ S(document).ready(function(){
 
 		// If we have a Wikipedia link we try to get the extract
 		if(wiki){
+			filestoload++;
 			S().ajax('http://strudel.org.uk/cgi-bin/getwiki.pl?name='+encodeURIComponent(wiki)+'',{
 				'complete': function(d){
+					filesloaded++;
 					processEntry(JSON.parse(d.replace(/[\n\r]/,' ')));
 				},
 				'error': function(e){
@@ -38,8 +40,10 @@ S(document).ready(function(){
 			})
 		}
 	}
+	filestoload++;
 	S().ajax('shows.json',{
 		'complete': function(d){
+			filesloaded++;
 			processShows(JSON.parse(d))
 		},
 		'error': function(e){
