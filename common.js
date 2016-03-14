@@ -18,14 +18,10 @@ var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.su
 	// First make a replacement ready() function
 	d.prototype.ready=function(e){
 		if(typeof e==="function") loadedfns.push(e);
-		if(filestoload == 0){
-			/in/.test(document.readyState)?setTimeout("S(document).ready()",9):this.SSIload();
-		}else{
-			if(filestoload==filesloaded) doneLoad();
-		}
-	};
+		if(filestoload == 0) /in/.test(document.readyState)?setTimeout("S(document).ready()",9):this.SSIload();
+	}
 	function doneLoad(){
-		for(var i = 0; i < loadedfns.length; i++) loadedfns[i]();
+		for(var i = 0; i < loadedfns.length; i++) loadedfns[i].call();
 	}
 	// A function to load (via AJAX) the SSI includes
 	d.prototype.SSIload=function(){
@@ -69,4 +65,4 @@ var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.su
 	return new d(g);
 };
 
-S(document).ready(function(){ });
+S(document).ready();
