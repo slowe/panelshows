@@ -82,8 +82,8 @@ S(document).ready(function(){
 			selectName(S('.searchresults .selected'))
 		}else{
 			// Need to load the data file for the first letter
-			var name = this.e[0].value;
-			var fl = name[0].toLowerCase();
+			var name = this.e[0].value.toLowerCase();
+			var fl = name[0];
 			if(fl && fl.match(/[a-zA-Z]/i)){
 				if(!loaded[fl]){
 					S().ajax('ranked-'+fl+'.csv',{
