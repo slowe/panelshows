@@ -4,6 +4,7 @@ S(document).ready(function(){
 	var ids = {};
 	var loaded = {};
 	var dir = "";
+	S('#searchpeople').after('<button><img src="'+(location.href.indexOf("/people/") > 0 ? '../':'')+'search.png"></button>')
 	S('#searchpeople').on('keyup',function(e){
 		if(e.originalEvent.keyCode==40 || e.originalEvent.keyCode==38){
 			// Down=40
