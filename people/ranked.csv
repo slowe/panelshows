@@ -7,13 +7,13 @@ nch01m5e,Sandi Toksvig,female,1958,858,41:532;27:241
 lc8xhv91,Sherrie Hewson,female,1950,837,49:829
 39x6grhz,David Dimbleby,male,1938,807,35:806
 uzk8veiu,Jane McDonald,female,1963,789,49:787
-3dai14ts,Paul Merton,male,1957,787,18:418;20:351
+3dai14ts,Paul Merton,male,1957,788,18:419;20:351
 vvgcg1oo,Melvyn Bragg,male,1939,719,36:706
 dzs8dz72,Clement Freud,male,1924,576,20:543
 30np5w57,Kaye Adams,female,1962,551,49:546
 kxsisjg1,Denise Welch,female,1958,536,49:535
 mtov1a5z,Bob Holness,male,1928,532,41:532
-tub6hiln,Ian Hislop,male,1960,495,18:426;27:50
+tub6hiln,Ian Hislop,male,1960,496,18:427;27:50
 0i00czvq,Graeme Garden,male,1943,463,10:420;22:27
 t4r1ivmw,Barry Cryer,male,1935,460,10:427;20:22
 tn2a91cb,Tim Brooke-Taylor,male,1940,443,10:416
@@ -41,7 +41,7 @@ wcm4tx1l,Robin Day,male,1923,297,35:297
 l3xqjxtv,Jane Moore,female,1962,292,49:282
 yipahedd,Sean Lock,male,1963,276,26:162;37:55;19:27;12:14
 m2nw4eae,David Mitchell,male,1974,252,22:92;24:71;19:25;18:12;16:11;28:9;10:8
-4mzh48iq,Andy Hamilton,male,1954,250,27:197;10:17;18:15
+4mzh48iq,Andy Hamilton,male,1954,251,27:198;10:17;18:15
 fc3xrxvy,Stephen Fry,male,1957,248,19:185;20:29;10:17
 nf812lji,Adam Hills,male,1970,245,4:228
 hk2rczao,Alan Davies,male,1966,243,19:185;34:26;22:11
@@ -79,21 +79,21 @@ rq34yrxp,Linda Smith,female,1958,145,27:92;20:35;18:6
 3xla1274,Lee Mack,male,1968,137,24:71;9:17;13:9;26:7;37:6;19:5;18:5
 6ma7i8rw,Austin Mitchell,male,1934,134,14:127
 bbjlysaj,Fred MacAulay,male,1956,128,27:81;20:16;22:7;18:6
+b93y6vnu,Jo Brand,female,1957,127,19:36;18:17;49:14;13:10;27:9;16:6;35:5
 1s5ocnkr,Patrick Hannan,male,,127,14:127
-b93y6vnu,Jo Brand,female,1957,126,19:36;18:16;49:14;13:10;27:9;16:6;35:5
 bne00n41,Andy Parsons,male,1967,126,16:118
 f9aqgxfg,Sally Lindsay,female,1973,119,49:113
 h663jn38,Rufus Hound,male,1979,118,42:59;12:36;22:6;49:4;40:4;23:3
 jfdb7gqq,Sheila Hancock,female,1933,114,20:104
 sp0919u8,David Gower,male,1957,113,13:111
-nlbhhrhx,Susan Calman,female,1974,110,27:57;22:12;48:6;32:6;10:5;20:5;18:4
+nlbhhrhx,Susan Calman,female,1974,111,27:58;22:12;48:6;32:6;10:5;20:5;18:4
 szqj2i5f,Gary Lineker,male,1960,109,13:108
 e7o1gtcv,Gyles Brandreth,male,1948,107,20:91;18:6
 9hgf4amz,Rob Brydon,male,1965,105,24:58;10:20;19:15;28:6;20:3
 funl9xzs,Marcus Brigstocke,male,1973,105,12:36;20:21;18:13;22:11;27:4;10:4;35:2
 rlldarrq,Graham Norton,male,1963,103,20:94
+lcx9zc14,Miles Jupp,male,1979,102,27:36;31:16;16:11;18:8;22:6;20:6;10:4
 y4h3y6yc,Vic Reeves,male,1959,101,33:72;26:8;37:8;19:4
-lcx9zc14,Miles Jupp,male,1979,101,27:35;31:16;16:11;18:8;22:6;20:6;10:4
 zid1la51,James Corden,male,1978,96,11:85
 wtzft1x0,Ross Noble,male,1976,96,20:37;18:17;19:14;4:13;10:7;49:3;34:2
 djszfogi,Jack Whitehall,male,1988,95,11:52;26:7;16:7;28:5;18:4;19:4;23:3
@@ -235,9 +235,9 @@ gc44eurf,Alan Carr,male,1976,30,49:18;26:7;28:4;23:1
 krr31jnw,Margaret Cabourn-Smith,female,1975,29,45:28
 cyfp2kui,Pam Ayres,female,1947,29,20:25;41:2
 nimfuofw,Piers Morgan,male,1965,29,35:20;49:6;8:1;26:1;18:1
+yo0hg9al,Des Clarke,male,,29,39:27;32:2
 u59d9hld,Meshel Laurie,female,,28,4:28
 xq202779,Josie Lawrence,female,1959,28,20:23;49:2
-yo0hg9al,Des Clarke,male,,28,39:26;32:2
 yp8wx8lv,Margaret Beckett,female,1943,28,35:28
 ftygtbr1,Chris Stark,male,1987,28,25:28
 jrj4vgbo,Joanna Lumley,female,1946,28,41:27
@@ -398,6 +398,7 @@ smrcieap,Meera Syal,female,1961,17,49:11;18:3;26:1;19:1;27:1
 a004yyt8,Bill Shorten,male,1967,17,5:17
 qgrc9bij,Louie Spence,male,1969,17,49:7;26:4;42:3;33:1;23:1;24:1
 vl9196ev,George Galloway,male,1954,17,35:15;49:1;18:1
+jtkbv70w,Zoe Lyons,female,,17,16:10;27:4;34:1;0:1;47:1
 e8hylsiw,Joey Essex,male,1990,17,42:8;49:3;25:2;37:2;26:2
 u2juhzhv,Ricky Tomlinson,male,1939,17,49:10;33:1;15:1;23:1;34:1;13:1;9:1
 vdg296jw,Shami Chakrabarti,female,1969,17,35:15;18:2
@@ -411,7 +412,6 @@ bc3u96ne,Michelle Collins,female,1962,16,49:15;42:1
 1bnfl8xm,Chris Huhne,male,1954,16,35:16
 puzxobnx,Ronan Keating,male,1977,16,49:10;42:3;15:1;26:1;30:1
 yoqwlew0,Patsy Kensit,female,1968,16,49:9;41:3;33:1;26:1;42:1;24:1
-jtkbv70w,Zoe Lyons,female,,16,16:10;27:3;34:1;0:1;47:1
 1m3vw7b3,Lee Ryan,male,1983,16,49:11;42:3;25:1;23:1
 9omubruu,Sarah Teather,female,1974,16,35:16
 kkagp8c2,Ben Fogle,male,1973,16,49:10;41:3;42:1;23:1;24:1
@@ -555,6 +555,7 @@ avkx46b3,Matthew Taylor,male,1963,13,35:13
 r1z6pk8k,Sue Arnold,female,,13,41:8;27:4;35:1
 vy1onu55,Gary Delaney,male,1973,13,16:12;48:1
 pfdwt6fw,Neil Kinnock,male,1942,13,35:7;14:3;18:3
+bpd8wguf,Nick Hewer,male,1944,13,49:5;18:5;35:1;6:1;24:1
 9mgrxekg,Esther Rantzen,female,1940,13,49:8;35:3;20:2
 2q7woora,Greg Sheridan,male,,13,5:13
 yecfdq9s,Rachel Agnew,female,,13,49:13
@@ -616,7 +617,6 @@ fbxgl1ec,Brian Sewell,male,1931,12,41:6;35:2;27:2;18:2
 owblrpp3,Teresa Gorman,female,1931,12,35:11;18:1
 j8a8nkti,Harry Judd,male,1985,12,49:5;42:4;23:2;38:1
 k4ljie72,George Robertson,male,,12,35:12
-bpd8wguf,Nick Hewer,male,1944,12,49:5;18:4;35:1;6:1;24:1
 btvbu7nd,Tony Robinson,male,1946,12,49:5;35:4;41:3
 7hur40ms,Frank Dobson,male,1940,12,35:12
 nfn9uzed,June Whitfield,female,1925,12,41:7;49:3;20:2
@@ -1183,6 +1183,7 @@ srnjzwhz,Glenda Jackson,female,1936,7,35:4;18:3
 vkg1szzl,Bobby Davro,male,1958,6,49:4;23:2
 ox4m2kb3,Gareth Gates,male,1984,6,49:4;42:1;30:1
 w0z55yp9,Julia Gillard,female,1961,6,5:6
+k56f1us9,Diane Morgan,female,,6,16:2;18:2;34:1;31:1
 opyxlgtj,Estelle Morris,female,1952,6,35:6
 6kb48pn3,Karen Pickering,female,1971,6,30:5;11:1
 zms43dd4,Diana Vickers,female,1991,6,49:3;23:2;42:1
@@ -1403,7 +1404,6 @@ e3e4ofj1,Kirsty Williams,female,1971,6,35:6
 phy5iotn,Rachel Reeves,female,1979,6,35:6
 0zpocn43,Tony McNulty,male,1958,5,35:5
 ivbzkojs,Melinda Messenger,female,1971,5,49:4;33:1
-k56f1us9,Diane Morgan,female,,5,16:2;34:1;18:1;31:1
 cu9um9uh,Gillian McKeith,female,1959,5,49:5
 mzcva25w,Eric Pickles,male,1952,5,35:5
 6i6t37cn,Dame Thora Hird,female,1911,5,41:3;20:2
@@ -2460,6 +2460,7 @@ ep0rgd2d,Ben Kay,male,1975,3,30:3
 x8cwl9ss,Simon Weston,male,1961,3,35:2;49:1
 0dut6vid,Jane Seymour,female,1951,3,49:3
 65ywqt1f,Mark Serwotka,male,1963,3,35:3
+oisylutw,Vicki Pepperdine,female,,3,27:3
 b2dxgeve,Johnny Ball,male,1938,3,49:3
 3t0v070s,Bianca Jagger,female,1945,3,35:3
 7j1ggbhy,Mark Bright,male,1962,3,30:3
@@ -2555,6 +2556,7 @@ g9nfh43g,Sam Nixon,male,1986,3,49:2;42:1
 9cq8dbv2,Jim Carter,male,,3,41:2;24:1
 8av2mwg1,Sarah White,female,,3,49:2;33:1
 kpaerwog,John Walters,male,,3,27:3
+42goq7p1,Fiona Ross,female,,3,39:3
 5g8z74ie,Darryn Lyons,male,1965,3,49:1;5:1;42:1
 5w8xsp8c,P.J. O'Rourke,male,1947,3,18:2;5:1
 7on7c1ri,Thomas Healy,male,,3,36:3
@@ -2659,6 +2661,7 @@ rzed1efw,Rhonda Burchmore,female,,3,4:3
 rmr5uctt,Conor Cruise O'Brien,male,,3,35:3
 atrw4zsz,Nicholas Henderson,male,,3,35:3
 x1lk6lmb,Oliver Pritchett,male,,3,27:3
+m9avpti1,Alistair Barrie,male,,3,39:3
 b7o4538l,Miriam Karlin,female,1925,3,20:2;35:1
 mutn9csv,Andrew Cole,male,1971,3,30:3
 mgbkhr66,Liam Byrne,male,1970,3,35:3
@@ -3475,7 +3478,6 @@ qb5jqjjz,Colin Gordon,male,,2,41:2
 rtk22teh,Natasha Pyne,female,1946,2,41:2
 ty6i03wc,Carrie Underwood,female,1983,2,49:2
 k8rdsmxk,Eve Matheson,female,,2,41:2
-oisylutw,Vicki Pepperdine,female,,2,27:2
 9ugf1551,Gizzi Erskine,female,1979,2,49:2
 arfib3bb,Simon Brett,male,1945,2,41:2
 69c03337,Brian Cadd,male,,2,4:2
@@ -3674,7 +3676,6 @@ kx0lljyo,Colin Montgomerie,male,1963,2,13:1;30:1
 cikjztnm,Neil Lennon,male,1971,2,30:2
 b3m4k7t3,Chris Hollins,male,1971,2,49:2
 1qqzjofz,Jim Knight,male,1965,2,35:2
-42goq7p1,Fiona Ross,female,,2,39:2
 ro7teyna,John Cartwright,male,,2,35:2
 wxaburgh,Jacqueline Rose,female,,2,36:2
 3ky580ul,Michael Auger,male,1990,2,49:2
@@ -3859,7 +3860,6 @@ r7pv0mbt,Peter Ainsworth,male,1956,2,35:2
 jh43iung,Richard Dannatt,male,1950,2,35:2
 cyi2efy2,Joe Worsley,male,1977,2,30:2
 s2m8p4kr,Dizzee Rascal,male,1984,2,33:1;23:1
-m9avpti1,Alistair Barrie,male,,2,39:2
 o4tvs9gu,Suzanne Neve,female,1939,2,41:2
 2hlwxkf6,Kasey Smith,female,1990,2,49:2
 vfzobr9a,Catherine Fletcher,female,,2,36:2
@@ -6299,6 +6299,7 @@ eyn516cd,Sarah Hudspith,female,,1,36:1
 4cszjra0,Judith Church,female,1953,1,35:1
 6g2ndnne,Michele Austin,female,,1,49:1
 069c1e1d,Troy Cassar Daley,male,,1,4:1
+1l6yikyd,Elaine Malcolmson,female,,1,39:1
 g3rokzsy,Darren Anderton,male,1972,1,30:1
 v3i8htii,Stuart Rees,male,,1,5:1
 ptuhuoia,Julie White,female,1961,1,35:1
@@ -8229,6 +8230,7 @@ in1w9nvc,Emma Johnston,female,1973,1,5:1
 og24p81k,Penney Poyzer,female,,1,49:1
 mgh5p0r9,Michelle Garnaut,female,,1,5:1
 cxlsnsof,Lee Kernaghan,male,,1,4:1
+8hoe960w,Nathan Byrne,male,,1,39:1
 n9uiotoz,Roger Lloyd,male,,1,41:1
 c3479dx8,Crispian Mills,male,1973,1,23:1
 4h1cjmd2,Lesley Knox,female,,1,35:1
