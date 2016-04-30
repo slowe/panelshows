@@ -7,5 +7,6 @@ Years:	1947-2016
 Size:	4
 Data:	gardeners-qt.csv
 Type:	general
+Regulars:	manual
 ---
 
