@@ -1,5 +1,5 @@
 {
-	"gardeners-qt": {"i":0,"country": "UK", "title": "Gardener's Question Time" },
+	"gqt": {"i":0,"country": "UK", "title": "Gardener's Question Time" },
 	"eureka": {"i":1,"country": "IE", "title": "Eureka! The Big Bang Query" },
 	"gondolas": {"i":2,"country": "IE", "title": "Don't Feed The Gondolas" },
 	"the-panel": {"i":3,"country": "IE", "title": "The Panel" },
