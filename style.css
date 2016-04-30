@@ -188,8 +188,11 @@ table.yearly td, table.yearly th { padding: 0; }
 tr.total { border-top: 1px solid black; }
 tr.total td { padding-top: 1px; }
 
-table.yearrow { height:1em;width: 100%; }
-table.yearrow td.split { background-color: green!important; }
+table.yearrow { height:1em;width: 100%; background-color: transparent; }
+
+table.yearrow td.split, table.yearly tr:hover table.yearrow td.split { background-color: green; }
+table.yearrow td.split-male, table.yearly tr:hover table.yearrow td.split-male { background-color: #3366dd; }
+table.yearrow td.split-female, table.yearly tr:hover table.yearrow td.split-female { background-color: #df0000; }
 table.yearrow .bar { height: 1em; float: left; display: inline-block; margin-bottom: 0px; margin-right: 0em; }
 
 ul.disambiguation::before { content: "Disambiguation:"; font-style: italic; }

@@ -71,6 +71,10 @@
 			updateList();
 		}
 
+		S('#reset').on('click',function(e){
+			S('.episode').html('');
+			updateList();		
+		});
 		S('#search').on('keyup',function(e){
 			if(e.originalEvent.keyCode==40 || e.originalEvent.keyCode==38){
 				// Down=40
@@ -213,8 +217,11 @@
 	input#search {
 		font-size: 0.8em;
 	}
+	input[type=reset] {
+		float: right;
+	}
 	input#search, .searchresults {
-		width: 640px;
+		width: 580px;
 	}
 	.searchresults ol {
 		margin: 0px;
@@ -304,6 +311,7 @@
 			<input type="text" id="search" value="" placeholder="e.g. Sandi Toksvig" />
 			<div class="searchresults"></div>
 		</div>
+		<input type="reset" id="reset" name="reset" />
 	</div>
 
 
