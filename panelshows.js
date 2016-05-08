@@ -59,13 +59,14 @@ function parseShow(d){
 		if(d.episodes[i].people) d.episodes[i].people = d.episodes[i].people.split(/;/);
 		else d.episodes[i].people = [];
 
-		g = { 'm': 0, 'f': 0, 'u': 0 };
+		g = { 'm': 0, 'f': 0, 'o': 0, 'u': 0 };
 		for(var p = 0; p < d.episodes[i].people.length; p++){
 			s = d.episodes[i].people[p]+""; 
 			d.episodes[i].people[p] = { 'gender':'','name':'','id':'','role':'' };
-			d.episodes[i].people[p].gender = (s.indexOf('Himself') > 0) ? "male" : (s.indexOf('Herself') > 0) ? "female" : "";
+			d.episodes[i].people[p].gender = (s.indexOf('Himself') > 0) ? "male" : (s.indexOf('Herself') > 0) ? "female" : "other";
 			if(d.episodes[i].people[p].gender=="male") g.m++;
 			if(d.episodes[i].people[p].gender=="female") g.f++;
+			if(d.episodes[i].people[p].gender=="other") g.o++;
 			var j = s.indexOf(":");
 			var k = s.indexOf(" (");
 
@@ -78,20 +79,21 @@ function parseShow(d){
 				d.episodes[i].people[p].role = s.substr(a,b-a);
 			}
 		}
-		if(g.f+g.m < d.size){ g.u = d.size-g.f-g.m; }
+		if(g.f+g.m+g.o < d.size){ g.u = d.size-g.f-g.m-g.o; }
 		d.episodes[i].gender = g;
 		// Build episode split
-		hf = Math.round(h*g.f/(g.f+g.m+g.u));
-		hm = Math.round(h*g.m/(g.f+g.m+g.u));
+		hf = Math.round(h*g.f/(g.f+g.m+g.u+g.o));
+		hm = Math.round(h*g.m/(g.f+g.m+g.u+g.o));
+		ho = Math.round(h*g.o/(g.f+g.m+g.u+g.o));
 		// Stop the height going over 100% due to rounding
-		if(hm+hf > h){ hm = h - hf; }
-		hu = h-hm-hf;
+		if(hm+hf+ho > h){ hm = h - hf - ho; }
+		hu = h-hm-hf-ho;
 		ep = d.episodes[i].id;
 
 		if(d.episodes[i].date) ep += ' ('+d.episodes[i].date.toLocaleDateString()+')'
 		ep += ': ';
 		var ref = (d.episodes[i].ref ? (d.episodes[i].ref.indexOf(" ") > 0 ? d.episodes[i].ref.substr(0,d.episodes[i].ref.indexOf(" ")) : d.episodes[i].ref) : '')
-		html += '<a '+(ref ? 'href="'+ref+'" ' : '')+'class="col" style="width:'+w+'%;" data-id="'+i+'"><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div><div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div></a>';
+		html += '<a '+(ref ? 'href="'+ref+'" ' : '')+'class="col" style="width:'+w+'%;" data-id="'+i+'"><div class="other" title="'+ep+g.o+'" style="height:'+ho+'px"></div><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div><div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div></a>';
 	}
 
 	if(html != ""){

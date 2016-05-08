@@ -142,13 +142,14 @@ table.performer td, table.performer td:first-child { width: auto; text-align: ce
 
 p.label { margin-bottom: 0px; }
 .bar { width: 100%; margin: 0 0 1em 0;}
-.male, .female { display: inline-block; line-height: 2em; color: white; text-align: center; }
+.male, .female, .other { display: inline-block; line-height: 2em; color: white; text-align: center; }
 .male { background-color: #3366dd; }
 .female { background-color: #df0000; }
+.other { background-color: #fac900; }
 .graph { margin-bottom:0.75em; }
 .col { display:inline-block; }
 .col:last-child { border-right: 0px; }
-.col .male,.col .female { display: block; max-width:100%;border-right: 1px solid #e6e6e6; }
+.col .male,.col .female,.col .other,.col .unknown { display: block; max-width:100%;border-right: 1px solid #e6e6e6; }
 .col .male { border-bottom: 1px solid #e6e6e6; }
 .git { float: right; }
 td:first-child { text-overflow: ellipsis; white-space: nowrap; width: 35%; }
