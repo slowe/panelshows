@@ -54,4 +54,31 @@ S(document).ready(function(){
 			});
 		}
 	}
+	
+	function offset(el){
+		var rect = el.getBoundingClientRect();
+		return {
+			top: rect.top + document.body.scrollTop,
+			left: rect.left + document.body.scrollLeft
+		}
+	}
+
+	if(S('.main').e.length > 0){
+		S(document).on('scroll',function(e){
+			var main = S('.main');
+			if(S('.header').e.length==0){
+				var tr = S('.main tr:eq(0)');
+				var str = tr.html();
+				str = str.replace("Comedy panel shows","");
+				S('body').append('<div class="header"><table>'+str+'</table></div>');
+			}
+			var head = S('.header');
+
+			if(head.e.length == 1 && main.e.length == 1){
+				var o = offset(main.e[0]);
+				if(document.body.scrollTop > o.top && document.body.scrollTop < o.top+main.e[0].offsetHeight) head.css({'display':'block'})
+				else head.css({'display':'none'});
+			}
+		});
+	}
 });

@@ -152,6 +152,8 @@ p.label { margin-bottom: 0px; }
 .col .male,.col .female,.col .other,.col .unknown { display: block; max-width:100%;border-right: 1px solid #e6e6e6; }
 .col .male { border-bottom: 1px solid #e6e6e6; }
 .git { float: right; }
+.header { position: fixed; top: 0px; border-bottom: 1px solid black; background: white; width: 100%; max-width: 100%; }
+.header table { width: 900px; max-width: 100%; margin: auto; }
 td:first-child { text-overflow: ellipsis; white-space: nowrap; width: 35%; }
 td .bar { margin-bottom: 0px; }
 td .male,td .female { font-size: 0.5em; }
@@ -180,6 +182,7 @@ td:last-child {
 table.main tr.lastrow td, table.yearly tr.lastrow td { border-top: 1px solid black; padding-bottom: 1em; }
 table.main tr:last-child.lastrow td { padding-bottom: 0; }
 table.main tr:hover td, table.yearly tr:hover td { background-color: #e6e6e6; }
+.header th:first-child { width: 50%!important; }
 
 table.yearly .gender { width: 75%; }
 table.yearly .bar { height: 1em; float: left; display: inline-block; margin-bottom: 0px; margin-right: 0em; }
