@@ -43,7 +43,7 @@ def guest_appearances(data):
 
 def male(data):
     """
-    Filters appearance data counts and person details to include only men.
+    Filters appearance counts and person details to include only men.
     """
     for value, person in data:
         if "(Him" in person:
@@ -52,7 +52,7 @@ def male(data):
 
 def female(data):
     """
-    Filters appearance data counts and person details to include only women.
+    Filters appearance counts and person details to include only women.
     """
     for value, person in data:
         if "(Her" in person:

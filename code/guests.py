@@ -1,4 +1,4 @@
-# Displays guests of a show, ranked by apperances
+# Displays guests of a show, ranked by appearances
 
 import sys
 from appearances import (
