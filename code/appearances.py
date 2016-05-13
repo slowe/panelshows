@@ -2,6 +2,7 @@
 
 import csv
 import collections
+from datetime import datetime
 
 
 def appearance_data(filename):
@@ -39,6 +40,21 @@ def guest_appearances(data):
     for person, dates in data.items():
         if not person.endswith("Host)"):
             yield len(dates), person
+
+
+def guest_appearances_per_year(data):
+    """
+    Generates approximate 'appearances per year' and person details for
+    show guests, given as input the dictionary produced by appearance_data.
+    This will only yield data for guests who have appeared more than once.
+    """
+    for person, dates in data.items():
+        if len(dates) > 1 and not person.endswith("Host)"):
+            earliest = datetime.strptime(min(dates), "%Y-%m-%d")
+            latest = datetime.strptime(max(dates), "%Y-%m-%d")
+            delta = latest - earliest
+            per_year = 365.0 * len(dates) / delta.days
+            yield per_year, person
 
 
 def male(data):
