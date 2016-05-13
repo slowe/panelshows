@@ -1,7 +1,7 @@
 # Displays guests of a show, ranked by 'appearances per year'
 
 import sys
-from appearances import Show, male, female, name
+from panelshow import Show, male, female, name
 
 try:
     filename = sys.argv[1]

@@ -1,7 +1,7 @@
 # Displays hosts of a show, ranked by appearances
 
 import sys
-from appearances import Show, male, female, name
+from panelshow import Show, male, female, name
 
 try:
     filename = sys.argv[1]

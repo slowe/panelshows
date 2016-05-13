@@ -1,4 +1,4 @@
-# Functions to process panel show appearance data
+# Tools to process panel show appearance data
 
 import csv
 import collections
@@ -27,7 +27,7 @@ class Show:
 
     def host_appearances(self):
         """
-        Yields appearance counts and person details for show hosts,
+        Yields appearance counts and person details for show hosts.
         """
         for key, dates in self.appearances.items():
             person = self.people[key]
@@ -46,8 +46,8 @@ class Show:
 
     def guest_appearances_per_year(self):
         """
-        Yields approximate 'appearances per year' and person details
-        for show guests.  Note that this will only yield data for guests
+        Yields average 'appearances per year' and person details for
+        show guests.  Note: this will only yield data for guests
         who have appeared more than once.
         """
         for key, dates in self.appearances.items():
