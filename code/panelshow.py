@@ -12,7 +12,7 @@ class Show:
 
     def __init__(self, filename):
         """
-        Reads data for a show from the given CSV file.
+        Creates a Show object from appearance data in the given CSV file.
         """
         with open(filename, "rt") as csvfile:
             self.people = {}
@@ -42,7 +42,6 @@ class Show:
             person = self.people[key]
             if not person.endswith("Host)"):
                 yield len(dates), person
-
 
     def guest_appearances_per_year(self):
         """
