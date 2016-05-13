@@ -1,17 +1,15 @@
 # Displays hosts of a show, ranked by appearances
 
 import sys
-from appearances import (
-    appearance_data, host_appearances, male, female, name
-)
+from appearances import Show, male, female, name
 
 try:
     filename = sys.argv[1]
 except:
     sys.exit("Usage: python hosts.py <csvfile>")
 
-data = appearance_data(filename)
-hosts = sorted(host_appearances(data), reverse=True)
+show = Show(filename)
+hosts = sorted(show.host_appearances(), reverse=True)
 
 line = " {:4d} {}"
 print("Male hosts:\n")

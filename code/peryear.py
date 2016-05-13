@@ -1,17 +1,15 @@
 # Displays guests of a show, ranked by 'appearances per year'
 
 import sys
-from appearances import (
-    appearance_data, guest_appearances_per_year, male, female, name
-)
+from appearances import Show, male, female, name
 
 try:
     filename = sys.argv[1]
 except:
     sys.exit("Usage: python peryear.py <csvfile>")
 
-data = appearance_data(filename)
-guests = sorted(guest_appearances_per_year(data), reverse=True)
+show = Show(filename)
+guests = sorted(show.guest_appearances_per_year(), reverse=True)
 
 line = " {:6.3f} {}"
 print("Male guests:\n")

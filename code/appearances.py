@@ -5,56 +5,59 @@ import collections
 from datetime import datetime
 
 
-def appearance_data(filename):
+class Show:
     """
-    Reads appearance data from the given CSV file, returning it as a
-    dictionary.  Keys are the people appearing in the show, values are
-    lists of the dates of their appearances.
+    Represents the appearance data for a panel show.
     """
-    with open(filename, "rt") as csvfile:
-        data = collections.defaultdict(list)
-        for record in csv.DictReader(csvfile):
-            date = record["Date"]
-            people = record["Guests (Himself/Herself - Role)"]
-            for item in people[:-1].split(";"):
-                _, person = item.split(":")
-                data[person].append(date)
-        return data
+
+    def __init__(self, filename):
+        """
+        Reads data for a show from the given CSV file.
+        """
+        with open(filename, "rt") as csvfile:
+            self.people = {}
+            self.appearances = collections.defaultdict(list)
+            for record in csv.DictReader(csvfile):
+                date = record["Date"]
+                guests = record["Guests (Himself/Herself - Role)"]
+                for item in guests[:-1].split(";"):
+                    key, person = item.split(":")
+                    self.people[key] = person
+                    self.appearances[key].append(date)
+
+    def host_appearances(self):
+        """
+        Yields appearance counts and person details for show hosts,
+        """
+        for key, dates in self.appearances.items():
+            person = self.people[key]
+            if person.endswith("Host)"):
+                yield len(dates), person
+
+    def guest_appearances(self):
+        """
+        Yields appearance counts and person details for show guests.
+        """
+        for key, dates in self.appearances.items():
+            person = self.people[key]
+            if not person.endswith("Host)"):
+                yield len(dates), person
 
 
-def host_appearances(data):
-    """
-    Generates appearance counts and person details for show hosts,
-    given as input the dictionary produced by appearance_data.
-    """
-    for person, dates in data.items():
-        if person.endswith("Host)"):
-            yield len(dates), person
-
-
-def guest_appearances(data):
-    """
-    Generates appearance counts and person details for show guests,
-    given as input the dictionary produced by appearance_data.
-    """
-    for person, dates in data.items():
-        if not person.endswith("Host)"):
-            yield len(dates), person
-
-
-def guest_appearances_per_year(data):
-    """
-    Generates approximate 'appearances per year' and person details for
-    show guests, given as input the dictionary produced by appearance_data.
-    This will only yield data for guests who have appeared more than once.
-    """
-    for person, dates in data.items():
-        if len(dates) > 1 and not person.endswith("Host)"):
-            earliest = datetime.strptime(min(dates), "%Y-%m-%d")
-            latest = datetime.strptime(max(dates), "%Y-%m-%d")
-            delta = latest - earliest
-            per_year = 365.0 * len(dates) / delta.days
-            yield per_year, person
+    def guest_appearances_per_year(self):
+        """
+        Yields approximate 'appearances per year' and person details
+        for show guests.  Note that this will only yield data for guests
+        who have appeared more than once.
+        """
+        for key, dates in self.appearances.items():
+            person = self.people[key]
+            if len(dates) > 1 and not person.endswith("Host)"):
+                earliest = datetime.strptime(min(dates), "%Y-%m-%d")
+                latest = datetime.strptime(max(dates), "%Y-%m-%d")
+                delta = latest - earliest
+                per_year = 365.0 * len(dates) / delta.days
+                yield per_year, person
 
 
 def male(data):
