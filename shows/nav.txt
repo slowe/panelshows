@@ -2,7 +2,7 @@
 	<div class="padder">
 		<div class="title"><a href="../index.html">Panel Show Db</a></div>
 		<ul id="menu">
-			<li><a href="../people/index.html">People</a></li><li class="selected"><a href="https://github.com/slowe/panelshows/tree/master/data">Data</a></li>
+			<li><a href="../people/index.html">People</a></li><li class="selected"><a href="https://github.com/slowe/panelshows/tree/master/shows/data">Data</a></li>
 		</ul>
 	</div>
 </nav>
