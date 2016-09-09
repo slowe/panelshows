@@ -2,7 +2,7 @@
 	<div class="padder">
 		<div class="title"><a href="index.html">Panel Show Db</a></div>
 		<ul id="menu">
-			<li><a href="people/index.html">People</a></li><li><a href="https://github.com/slowe/panelshows/tree/master/data">Data</a></li><li class="search">
+			<li><a href="people/index.html">People</a></li><li><a href="https://github.com/slowe/panelshows/tree/master/shows/data">Data</a></li><li class="search">
 				<label>Search people:</label><input type="text" name="searchpeople" id="searchpeople" placeholder="e.g. Sandi Toksvig" />
 				<div class="searchresults"></div>
 			</li>
