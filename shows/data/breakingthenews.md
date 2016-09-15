@@ -6,5 +6,6 @@ Production:	BBC Radio Scotland
 Years:	2015-
 Size:	5
 Data:	breakingthenews.csv
+Regulars:	manual
 ---
 
