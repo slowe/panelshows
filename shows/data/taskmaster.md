@@ -8,5 +8,6 @@ Size:	7
 Data:	taskmaster.csv
 Type:	comedy
 Regulars:	manual
+Media:	TV
 ---
 

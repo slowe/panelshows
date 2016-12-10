@@ -6,4 +6,5 @@ Production:	ITV2;Talkback
 Years:	2008-
 Size:	7
 Data:	celebrityjuice.csv
+Media:	TV
 ---

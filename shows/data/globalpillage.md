@@ -6,4 +6,5 @@ Production:	The Spontaneity Shop
 Years:	2016-
 Size:	7
 Data:	globalpillage.csv
+Media:	Podcast
 ---

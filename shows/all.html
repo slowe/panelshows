@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>Panel show gender split explorer</title>
+	<script type="text/javascript" src="../common.js"></script>
+	<link rel="stylesheet" media="all" href="../style.css" type="text/css"/>
+	<script type="text/javascript" src="../panelshows.js"></script>
+	<script language="javascript" type="text/javascript" src="../js/jquery.min.js"></script>
+	<script language="javascript" type="text/javascript" src="../js/jquery.graph.js"></script>
+	<script language="javascript" type="text/javascript" src="all.js"></script>
+	<style>
+	button {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		line-height: 1em;
+	}
+
+	/* apply a natural box layout model to all elements */
+	*, *:before, *:after {
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box; }
+	/* End of reset */
+
+	button, .button {
+		background: #efefef;
+		border: 0px;
+		border-radius: 4px;
+		cursor: pointer;
+		margin: 0 0.25em 0.5em 0;
+		display: inline-block;
+		box-sizing: border-box;
+		font-size: 1em;
+		line-height: 2em;
+	}
+	button, .button label {
+		padding: 0px 0.5em;
+		line-height: 2em;
+	}
+	button.check {
+		padding: 0px;
+	}
+	.button input {
+		display: none;
+	}
+	label {
+		display: inline-block;
+		cursor: pointer;
+		box-sizing: border-box;
+	}
+	.on {
+		background-color: #396bad;
+		color: white;
+	}
+	</style>
+<!--#include virtual="head.txt" -->
+</head>
+<body>
+<!--#include virtual="nav.txt" -->
+<div class="page">
+
+		<h1>Panel show gender split explorer</h1>
+		<div id="graph"></div>
+
+		<div class="set">
+			<button id="bbc" class="on">BBC</button>
+			<button id="commercial" class="on">Commercial</button>
+			<button id="radio" class="on">Radio</button>
+			<button id="tv" class="on">TV</button>
+			<button id="podcast" class="on">Podcast</button>
+			<button id="comedy" class="on">Comedy</button>
+			<button id="general" class="on">General</button>
+		</div>
+		<div class="set" id="channels">
+			<button id="allchannels" on="true" class="on">Turn all channels off</button>
+		</div>
+</div>
+</body>
+</html>

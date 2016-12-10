@@ -6,6 +6,7 @@ Production:	BBC Radio 4
 Years:	1977-
 Size:	5
 Data:	newsquiz.csv
+Media:	Radio
 ---
 
 __The News Quiz__ has been running since 1977 but we our data is incomplete between series 1-27 (1977-1992). If you have data (air-dates & participants) on any old episodes, please get in touch.

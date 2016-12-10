@@ -6,6 +6,7 @@ Production:	BBC Two;Angst Productions
 Years:	2005-
 Size:	7
 Data:	mocktheweek.csv
+Media:	TV
 ---
 
 As Mock The Week is often singled out for being particularly bad with gender, regulars are sometimes asked for quotes. After BBC Director of TV Danny Cohen announced a requirement for __at least__ one woman per comedy panel show, several regulars have been quoted saying they wouldn't have done that. Dara O'Briain is [quoted as saying](http://www.radiotimes.com/news/2014-02-25/dara-o-briain-on-his-school-of-hard-sums-the-education-system-and-women-in-stand-up) 

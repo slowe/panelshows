@@ -6,6 +6,7 @@ Production:	Sky Arts 1;Liberty Bell
 Years:	2008-2009
 Size:	5
 Data:	whatthedickens.csv
+Media:	TV
 ---
 
 A literary quiz that ran for three series.

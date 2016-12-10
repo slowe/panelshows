@@ -8,5 +8,6 @@ Size:	4
 Data:	gqt.csv
 Type:	general
 Regulars:	manual
+Media:	Radio
 ---
 

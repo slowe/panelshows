@@ -8,5 +8,6 @@ Size:	6
 Data:	go8bit.csv
 Type:	comedy
 Regulars:	manual
+Media:	TV
 ---
 

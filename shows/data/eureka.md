@@ -6,4 +6,5 @@ Production:	RTÉ2
 Years:	2016-
 Size:	7
 Data:	eureka.csv
+Media:	TV
 ---

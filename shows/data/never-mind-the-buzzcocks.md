@@ -6,4 +6,5 @@ Production:	BBC Two;Talkback
 Years:	1996-
 Size:	7
 Data:	never-mind-the-buzzcocks.csv
+Media:	TV
 ---

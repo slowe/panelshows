@@ -6,4 +6,5 @@ Production:	ITV2;STV Productions;GroupM
 Years:	2015-
 Size:	7
 Data:	safeword.csv
+Media:	TV
 ---
