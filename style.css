@@ -142,7 +142,7 @@ table.performer td, table.performer td:first-child { width: auto; text-align: ce
 
 p.label { margin-bottom: 0px; }
 .bar { width: 100%; margin: 0 0 1em 0;}
-.male, .female, .other { display: inline-block; line-height: 2em; color: white; text-align: center; }
+.male, .female, .other { display: inline-block; line-height: 2em; color: white; text-align: center; white-space:nowrap;}
 .male { background-color: #0DBC37; }
 .female { background-color: #722EA5; }
 .other { background-color: #fac900; }
