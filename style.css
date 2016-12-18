@@ -156,7 +156,7 @@ p.label { margin-bottom: 0px; }
 .header table { width: 900px; max-width: 100%; margin: auto; }
 td:first-child { text-overflow: ellipsis; white-space: nowrap; width: 35%; }
 td .bar { margin-bottom: 0px; }
-td .male,td .female { font-size: 0.5em; }
+td .male,td .female, td .other { font-size: 0.5em; }
 a.repo {
 	display: inline-block;
 	padding-top: 6px;
@@ -186,7 +186,7 @@ table.main tr:hover td, table.yearly tr:hover td { background-color: #e6e6e6; }
 
 table.yearly .gender { width: 75%; }
 table.yearly .bar { height: 1em; float: left; display: inline-block; margin-bottom: 0px; margin-right: 0em; }
-table.yearly td .male, table.yearly td .female { font-size: 1em; height: 1em; }
+table.yearly td .male, table.yearly td .female, table.yearly td .other { font-size: 1em; height: 1em; }
 table.yearly td:first-child { width: auto; padding-right: 0.1em; }
 table.yearly td, table.yearly th { padding: 0; }
 tr.total { border-top: 1px solid black; }
@@ -197,6 +197,7 @@ table.yearrow { height:1em;width: 100%; background-color: transparent; }
 table.yearrow td.split, table.yearly tr:hover table.yearrow td.split { background-color: green; }
 table.yearrow td.split-male, table.yearly tr:hover table.yearrow td.split-male { background-color: #0DBC37; }
 table.yearrow td.split-female, table.yearly tr:hover table.yearrow td.split-female { background-color: #722EA5; }
+table.yearrow td.split-other, table.yearly tr:hover table.yearrow td.split-other { background-color: #722EA5; }
 table.yearrow .bar { height: 1em; float: left; display: inline-block; margin-bottom: 0px; margin-right: 0em; }
 
 ul.disambiguation::before { content: "Disambiguation:"; font-style: italic; }
