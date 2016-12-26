@@ -19,7 +19,7 @@ function loadFile(file,attrs,fn){
 function CSV2JSON(data,format,start,end){
 
 	if(typeof start!=="number") start = 1;
-	if(typeof data==="string") data = data.split(/[\n\r]/);
+	if(typeof data==="string") data = data.split(/[\n\r]+/);
 	if(typeof end!=="number") end = data.length;
 	var line,datum;
 	var newdata = new Array();
@@ -93,7 +93,12 @@ function parseShow(d){
 		if(d.episodes[i].date) ep += ' ('+d.episodes[i].date.toLocaleDateString()+')'
 		ep += ': ';
 		var ref = (d.episodes[i].ref ? (d.episodes[i].ref.indexOf(" ") > 0 ? d.episodes[i].ref.substr(0,d.episodes[i].ref.indexOf(" ")) : d.episodes[i].ref) : '')
-		html += '<a '+(ref ? 'href="'+ref+'" ' : '')+'class="col" style="width:'+w+'%;" data-id="'+i+'"><div class="other" title="'+ep+g.o+'" style="height:'+ho+'px"></div><div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div><div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div><div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div></a>';
+		html += '<a '+(ref ? 'href="'+ref+'" ' : '')+'class="col" style="width:'+w+'%;" data-id="'+i+'">';
+		if(ho > 0) html += '<div class="other" title="'+ep+g.o+'" style="height:'+ho+'px"></div>';
+		if(hf > 0) html += '<div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div>';
+		if(hm > 0) html += '<div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div>';
+		if(hu > 0) html += '<div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div>';
+		html += '</a>';
 	}
 
 	if(html != ""){
@@ -111,7 +116,6 @@ function parseShow(d){
 				if(html) html = "<ul>"+html+"</ul>";
 				html = '<h3>'+d.episodes[id].id+' (<time datetime="'+d.episodes[id].date.toISOString()+'">'+d.episodes[id].date.toISOString().substr(0,10)+'</time>)</h3>'+html;
 				S(e.currentTarget).append('<div class="infobubble"><div class="infobubble_inner">'+html+'</div></div>')
-				//console.log(id,d.episodes[id])
 				over = id;
 			}
 		});
@@ -169,7 +173,7 @@ S(document).ready(function(){
 	for(var i = 0 ; i < shows.length; i++){
 		loadFile('data/'+shows[i].id+'.md',{id:shows[i].id},function(d){
 			// Loaded MD file
-			var lines = d.data.split(/\n/);
+			var lines = d.data.split(/[\n\r]*/);
 			var size = 0;
 			for(var i = 0; i < lines.length; i++){
 				if(lines[i].indexOf("Size")>=0) size = lines[i].substring(lines[i].indexOf(":")+2);
