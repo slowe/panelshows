@@ -7,4 +7,5 @@ Years:	2016-
 Size:	7
 Data:	insert-name-here.csv
 Media:	TV
+Regulars:	manual
 ---
