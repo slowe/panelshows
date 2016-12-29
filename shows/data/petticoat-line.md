@@ -7,4 +7,5 @@ Years:	1965-?
 Size:	5
 Media:	Radio
 Data:	petticoat-line.csv
+Type:	general
 ---
