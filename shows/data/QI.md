@@ -1,7 +1,7 @@
 ---
 Country:	UK
 Title:	QI
-Source:	http://www.comedy.co.uk/guide/tv/qi/
+Source:	http://www.bbc.co.uk/programmes/b006ml0g , http://www.comedy.co.uk/guide/tv/qi/
 Production:	BBC One/Two/Four;Talkback
 Years:	2003-
 Size:	5
