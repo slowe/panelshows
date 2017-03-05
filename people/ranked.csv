@@ -50,15 +50,15 @@ ef7hwnn2,"Robert Robinson",male,1927,439,55:439
 h6wdx3nf,"Janet Street-Porter",female,1946,437,63:395
 3tpyoai7,"Lisa Maxwell",female,1963,425,63:425
 87ulicd3,"Jeremy Hardy",male,1961,419,41:344;24:56
-j92v1p1s,"Sue Barker",female,1956,412,44:412
-wlfagkqd,"Matt Dawson",male,1972,401,44:397
+j92v1p1s,"Sue Barker",female,1956,413,44:413
+wlfagkqd,"Matt Dawson",male,1972,402,44:398
 sx5n2tkh,"Phill Jupitus",male,1962,401,37:267;41:39;33:37
 oncin0w0,"Frank Muir",male,1920,380,55:380
 tiewbgqw,"Jimmy Carr",male,1972,364,40:173;51:79;33:34;42:24;25:13
 anx0aq5q,"Humphrey Lyttelton",male,1921,358,24:356
 nf812lji,"Adam Hills",male,1970,356,18:228;4:110
 y0rs8v1n,"Kenneth Williams",male,1926,353,34:346
-m760gkci,"Phil Tufnell",male,1966,348,44:316;27:27
+m760gkci,"Phil Tufnell",male,1966,349,44:317;27:27
 c3rbbyxx,"Eric Robson",male,1946,333,13:333
 qudj2xew,"Peter Jones",male,1920,328,34:326
 98kvb37m,"Tony Jones",male,1956,323,19:323
@@ -198,7 +198,7 @@ kb3a51qs,"Mark Watson",male,1980,68,5:27;30:9;26:6;40:5;37:5;36:4;32:3
 wguqcrlr,"Matt Lucas",male,1974,68,47:58;33:4;63:3
 o4ohfiqq,"John Sergeant",male,1944,67,26:36;41:15;49:5;32:4;34:3;55:2
 hhduglg9,"Roy Hattersley",male,1932,67,49:35;41:25;28:6
-ra1ov9e4,"Neil Delamere",male,1979,65,6:42;5:15;14:6
+ra1ov9e4,"Neil Delamere",male,1979,66,6:42;5:15;14:6;53:3
 qw6vdex8,"Eleanor Oldroyd",female,1962,62,5:62
 ugqff5sw,"Terri Dwyer",female,1973,62,63:62
 lg4f4z19,"Armando Iannucci",male,1963,61,41:27;1:18;32:6;49:3;36:3;54:2
@@ -691,6 +691,7 @@ w5219u35,"Richard Littlejohn",male,,13,49:9;32:3;63:1
 12ao3g9k,"Ricky Wilson",male,1978,13,56:5;37:2;63:1;62:1;61:1;52:1;47:1
 hhgjyy0a,"Sharron Davies",female,1962,13,27:8;44:4;49:1
 hgk9p5rc,"Steve Lamacq",male,1965,13,5:11;41:1;37:1
+qwrviibp,"Stuart Mitchell",male,1965,13,53:13
 f5okts3m,"Su Pollard",female,1949,13,63:13
 r1z6pk8k,"Sue Arnold",female,,13,55:8;41:4;49:1
 blb0n7o8,"Tamzin Outhwaite",female,1970,13,63:11;56:1;47:1
@@ -760,7 +761,6 @@ n7b10tzf,"Roger Black",male,1966,12,55:3;44:3;27:3;5:3
 l9dxrh30,"Sanjeev Bhaskar",male,1963,12,63:4;54:2;38:2;32:2;27:1;23:1
 i8djtyfi,"Sheila Steafel",female,1935,12,55:12
 fd20txk7,"Sophie Mirabella",female,1968,12,19:11;49:1
-qwrviibp,"Stuart Mitchell",male,1965,12,53:12
 owblrpp3,"Teresa Gorman",female,1931,12,49:11;32:1
 dfi0v0rn,"Toby Buckland",male,,12,13:12
 03mha2zh,"Tony Law",male,1969,12,37:3;32:3;40:2;61:1;59:1;35:1;5:1
@@ -811,6 +811,7 @@ sysnt0vt,"Karen O'Brien",female,,11,50:11
 lhv9t9jg,"Keith Duffy",male,1974,11,63:7;56:2;47:1;37:1
 pwfdt996,"Kelly O'Dwyer",female,1977,11,19:11
 o1jjio92,"Kian Egan",male,1980,11,63:5;56:3;40:1;38:1;0:1
+fne2eqbt,"Kirsty Wark",female,1955,11,53:3;41:2;32:2;63:1;45:1;43:1;38:1
 ilw6409z,"Lance Percival",male,1933,11,34:7;55:4
 1vcyl572,"Lisa Jardine",female,1944,11,50:8;49:3
 rceuh2p4,"Liz Lynne",female,1948,11,49:11
@@ -897,7 +898,6 @@ zewwpsrk,"Kate Ellis",female,1977,10,19:10
 px3du8uh,"Kevin Eldon",male,1959,10,34:8;48:1;37:1
 986i07kd,"Kim Woodburn",female,1942,10,63:9;47:1
 htprs4ot,"Kimberley Walsh",female,1981,10,63:5;56:1;52:1;40:1;23:1;10:1
-fne2eqbt,"Kirsty Wark",female,1955,10,53:2;41:2;32:2;63:1;45:1;43:1;38:1
 na8hpky3,"Kriss Akabusi",male,1958,10,5:5;44:2;27:2;37:1
 7ad4ld0f,"Lisa Rogers",female,1971,10,63:8;47:1;37:1
 1ikeux91,"Liz McClarnon",female,1981,10,63:6;37:2;56:1;47:1
@@ -1122,6 +1122,7 @@ jyez9l7v,"John Haldane",male,,8,50:8
 3tfkko6p,"John Patten",male,,8,49:8
 xi14daf6,"John Swinney",male,1964,8,49:8
 pjuln7n6,"Jonathan Rée",male,,8,50:8
+8prg3toq,"Jonnie Peacock",male,1993,8,4:5;44:2;56:1
 ytzmp6uu,"Josh Frydenberg",male,1971,8,19:8
 5megfa6c,"Juliette Wood",female,,8,50:8
 9qevo5v5,"Justin Edwards",male,,8,41:6;60:1;59:1
@@ -1276,7 +1277,6 @@ w1f77h6u,"John Humphrys",male,1943,7,32:3;63:2;49:1;47:1
 hv1tiwu4,"Jonathan 'J.B.' Gill",male,,7,63:5;56:1;37:1
 jxu4566s,"Jonathan Ansell",male,1982,7,63:7
 i3xv6q86,"Jonathan Davies",male,1962,7,44:6;27:1
-8prg3toq,"Jonnie Peacock",male,1993,7,4:5;56:1;44:1
 aequ5kqv,"Jordan 'Rizzle' Stephens",male,1992,7,56:3;37:2;44:1;40:1
 mbbaq69m,"Josh Groban",male,1981,7,63:5;37:2
 mgsiouix,"Josie Gibson",female,1985,7,63:4;56:1;40:1;0:1
@@ -1781,6 +1781,7 @@ cy7pwrvj,"Judy Murray",female,1959,5,63:3;38:1;25:1
 296nbyew,"Juliet Roberts",female,,5,13:5
 nje8ifli,"K.T. Tunstall",female,1975,5,37:2;35:2;63:1
 0idv0xhg,"Kara Tointon",female,1983,5,63:4;56:1
+5ofu9czm,"Katie Grant",female,,5,53:5
 lloo47nx,"Keith Chegwin",male,1957,5,63:2;37:2;32:1
 r3p1mj93,"Kelly Clarkson",female,1982,5,63:5
 zn67wy5u,"Ken Morley",male,1943,5,63:5
@@ -2177,7 +2178,6 @@ ov85ov21,"Kate Robbins",female,1958,4,34:2;47:1;31:1
 2wabbiew,"Kate Silverton",female,1970,4,40:1;38:1;32:1;20:1
 g6xsfi9n,"Katherine Duncan-Jones",female,1941,4,50:4
 ti9lm9wq,"Katherine Kelly",female,,4,63:4
-5ofu9czm,"Katie Grant",female,,4,53:4
 i5xgiz29,"Katy B",female,1989,4,56:2;52:1;37:1
 fpob54ax,"Katy Wix",female,1980,4,59:1;48:1;38:1;37:1
 i9f11s3i,"Kay Mellor",female,1951,4,63:4
@@ -2524,6 +2524,7 @@ d0qjy0r1,"Craig Clunas",male,1954,3,50:3
 zisbx4gl,"Craig David",male,1981,3,63:3
 uufddw7s,"Craig Fairbrass",male,,3,63:3
 8ncwibxa,"Craig Ferguson",male,1962,3,41:1;34:1;32:1
+bvchjmda,"Curtis Davies",male,1985,3,44:3
 v05zgb6x,"Curtis Walker",male,1961,3,27:2;41:1
 lnjuiazp,"D.J. Spoony",male,,3,37:2;63:1
 d8wr0pxe,"Daisy Lowe",female,1989,3,56:2;52:1
@@ -3179,6 +3180,7 @@ galr70j3,"Anneke Wills",female,1941,2,3:2
 sjx6bs8k,"Annie Farrow",female,,2,55:2
 ce54dzj2,"Anthea Askey",female,1933,2,3:2
 gfhquvow,"Anthony Callea",male,,2,18:2
+0mrdazhy,"Anthony Crolla",male,1986,2,44:2
 ew6fadrh,"Anthony Horowitz",male,1955,2,49:2
 i4mdzl8r,"Anthony Morgan",male,,2,18:2
 3ff8lea6,"Anthony O’Hear",male,,2,50:2
@@ -3334,7 +3336,6 @@ dswo0h5l,"Craig Baldwin",male,,2,13:2
 d6j2jrxn,"Craig Cash",male,1960,2,47:1;37:1
 5x0e645f,"Craig Kelly",male,,2,63:2
 2qktj6bd,"Craig Phillips",male,1971,2,63:2
-bvchjmda,"Curtis Davies",male,1985,2,44:2
 hr56ekvi,"Cyndi Lauper",female,1953,2,63:2
 k3136fmz,"Cyrus Broacha",male,1971,2,34:2
 45ivlqhs,"D.J. Ironik",male,,2,47:1;37:1
@@ -4120,6 +4121,7 @@ at7xv83r,"Olivia Colman",female,1974,2,38:1;23:1
 1gvrvxs0,"Owen Paterson",male,1956,2,49:2
 ez71qokt,"P.D. James",female,1920,2,49:2
 a2ryjerb,"Pamela Armstrong",female,1951,2,55:2
+5jdro45y,"Pamela Cookey",female,1984,2,44:2
 t5opwn6s,"Paris Lees",female,,2,49:2
 z925fttt,"Paris Wells",female,,2,18:2
 0xxhbzdl,"Pat Rabbitte",male,1949,2,16:1;15:1
@@ -4404,6 +4406,7 @@ a0l5aeia,"Susan Crosland",female,,2,49:2
 iqlitmpu,"Susan Jeffreys",female,,2,41:2
 xu4tmaba,"Susan Littler",female,,2,55:2
 b43xi2bb,"Susan Masham",female,,2,49:2
+ky92onst,"Susan Morrison",female,,2,53:2
 wutnufn9,"Susan Ryan",female,1942,2,19:2
 bju1ksjp,"Susan Stranks",female,1938,2,55:2
 66ztvbc6,"Susan Stronge",female,,2,50:2
@@ -4848,7 +4851,6 @@ e4d2omxe,"Annie Stewart",female,,1,49:1
 y0bcjdug,"Anthony Ackroyd",male,1958,1,19:1
 23ek3z17,"Anthony Albanese",male,,1,17:1
 fcwlea8f,"Anthony Crank",male,,1,63:1
-0mrdazhy,"Anthony Crolla",male,1986,1,44:1
 87shk1ue,"Anthony Cross",male,1945,1,50:1
 5s4hzwmb,"Anthony Davidson",male,1979,1,5:1
 9g1bkazz,"Anthony Frodsham",male,,1,49:1
@@ -7999,7 +8001,6 @@ z3rzlj8s,"Pal Aron",male,,1,63:1
 ttd2oe42,"Pallavi Sharda",female,1988,1,19:1
 0h58g75f,"Pallavi Sinha",female,,1,19:1
 ob0c11a5,"Pam Charlwood",female,,1,49:1
-5jdro45y,"Pamela Cookey",female,1984,1,44:1
 cx7qt719,"Pamela Williams",female,,1,19:1
 28omnw4b,"Paradise Oskar",male,1990,1,63:1
 mh07euqn,"Paris Hilton",female,1981,1,63:1
@@ -8928,7 +8929,6 @@ g7ewy4qe,"Susan Hili",female,,1,55:1
 b01doc17,"Susan Jones",female,1968,1,50:1
 tfv7nt6x,"Susan McFadden",female,1983,1,63:1
 e39b4pt4,"Susan Messier",female,,1,3:1
-ky92onst,"Susan Morrison",female,,1,53:1
 gsi6elxk,"Susan Sherratt",female,,1,50:1
 it3cq3zn,"Susan Sontag",female,1933,1,50:1
 tctchgop,"Susan Travers",female,,1,55:1
