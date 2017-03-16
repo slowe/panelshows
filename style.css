@@ -195,7 +195,7 @@ table.yearly .gender { width: 75%; }
 table.yearly .bar { height: 1em; float: left; display: inline-block; margin-bottom: 0px; margin-right: 0em; }
 table.yearly td .male, table.yearly td .female, table.yearly td .other { font-size: 1em; height: 1em; }
 table.yearly td:first-child { width: auto; padding-right: 0.1em; }
-table.yearly td, table.yearly th { padding: 0; }
+table.yearly td, table.yearly th { padding: 0; height: 1em; vertical-align: middle; }
 tr.total { border-top: 1px solid black; }
 tr.total td { padding-top: 1px; }
 
