@@ -92,13 +92,13 @@ function parseShow(d){
 
 		if(d.episodes[i].date) ep += ' ('+d.episodes[i].date.toLocaleDateString()+')'
 		ep += ': ';
-		var ref = (d.episodes[i].ref ? (d.episodes[i].ref.indexOf(" ") > 0 ? d.episodes[i].ref.substr(0,d.episodes[i].ref.indexOf(" ")) : d.episodes[i].ref) : '')
-		html += '<a '+(ref ? 'href="'+ref+'" ' : '')+'class="col" style="width:'+w+'%;" data-id="'+i+'">';
+		//var ref = (d.episodes[i].ref ? (d.episodes[i].ref.indexOf(" ") > 0 ? d.episodes[i].ref.substr(0,d.episodes[i].ref.indexOf(" ")) : d.episodes[i].ref) : '')
+		html += '<div class="col" style="width:'+w+'%;" data-id="'+i+'">';
 		if(ho > 0) html += '<div class="other" title="'+ep+g.o+'" style="height:'+ho+'px"></div>';
 		if(hf > 0) html += '<div class="female" title="'+ep+g.f+' '+(g.f > 1 ? 'women':'woman')+'" style="height:'+hf+'px"></div>';
 		if(hm > 0) html += '<div class="male" title="'+ep+g.m+' '+(g.m > 1 ? 'men':'man')+'" style="height:'+hm+'px"></div>';
 		if(hu > 0) html += '<div class="unknown" title="'+ep+g.u+' unknown" style="height:'+hu+'px"></div>';
-		html += '</a>';
+		html += '</div>';
 	}
 
 	if(html != ""){
@@ -110,11 +110,16 @@ function parseShow(d){
 				// Remove any existing infobubbles
 				S('.infobubble').remove();
 				var html = "";
+				// Build references for this episode
+				var refs = d.episodes[id].ref.split(/ /);
+				var refafter = "";
+				for(var i = 0; i < refs.length; i++) refafter += '<a href="'+refs[i]+'"><sup>['+(i+1)+']</sup></a>';
+				// Build the people list for this episode
 				for(var p = 0 ; p < d.episodes[id].people.length; p++){
 					html += '<li><a href="../people/'+d.episodes[id].people[p].id+'.html" class="'+d.episodes[id].people[p].gender+'">'+d.episodes[id].people[p].name+"</a></li>";
 				}
 				if(html) html = "<ul>"+html+"</ul>";
-				html = '<h3>'+d.episodes[id].id+' (<time datetime="'+d.episodes[id].date.toISOString()+'">'+d.episodes[id].date.toISOString().substr(0,10)+'</time>)</h3>'+html;
+				html = '<h3>'+d.episodes[id].id+' <time datetime="'+d.episodes[id].date.toISOString()+'">'+d.episodes[id].date.toISOString().substr(0,10)+'</time>'+refafter+'</h3>'+html;
 				S(e.currentTarget).append('<div class="infobubble"><div class="infobubble_inner">'+html+'</div></div>')
 				over = id;
 			}

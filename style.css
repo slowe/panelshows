@@ -228,7 +228,7 @@ div.wikipedia .source { color: #606060; float: right; }
 	position: absolute;
 	bottom: 104px;
 	left: 50%;
-	width: 200px;
+	width: 210px;
 	min-height: 50px;
 	border-radius: 4px;
 	background-color: white;
@@ -250,6 +250,7 @@ div.wikipedia .source { color: #606060; float: right; }
 	border-left-color: white;
 	bottom: -1em;
 }
+.infobubble h3 { text-align: center; }
 .infobubble ul {
 	list-style: none;
 	margin: 0px;
