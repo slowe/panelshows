@@ -35,7 +35,7 @@ S(document).ready(function(){
 							if(typeof data==="string") data = data.replace(/\r/,'').split(/[\n]/);
 							for(i = 0; i < data.length; i++){
 								line = CSVtoArray(data[i]);
-								if(line[0] && typeof ids[line[0]]==="undefined"){
+								if(line && line[0] && typeof ids[line[0]]==="undefined"){
 									db.push({'id':line[0],'name':line[1],'n':line[2]});
 									ids[line[0]] = db.length-1;
 								}
