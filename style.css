@@ -159,7 +159,7 @@ p.label { margin-bottom: 0px; }
 .col .male { border-bottom: 1px solid #e6e6e6; }
 .git { float: right; }
 .header { position: fixed; top: 0px; border-bottom: 1px solid black; background: white; width: 100%; max-width: 100%; }
-.header table { width: 900px; max-width: 100%; margin: auto; }
+.header table { width: 1000px; max-width: 100%; margin: auto; }
 td:first-child { text-overflow: ellipsis; white-space: nowrap; width: 35%; }
 td .bar { margin-bottom: 0px; }
 td .male,td .female, td .other { font-size: 0.5em; }
