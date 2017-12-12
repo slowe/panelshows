@@ -121,7 +121,7 @@ p { line-height: 1.25em; }
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 h2 { margin-top: 0.5em; }
-.page { max-width: 95%; width: 900px; margin: auto; margin-top: 2em;}
+.page { max-width: 95%; width: 1000px; margin: auto; margin-top: 2em;}
 ul.ignore { list-style: none; margin: 0px; padding: 0px; }
 ul.ignore li { display: inline; }
 ol.linklist { margin-top: 3em; }
