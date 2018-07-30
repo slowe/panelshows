@@ -18,13 +18,14 @@ var colours = {
 function loadShows(data,attr){
 
 	var dataset = new Array();
-
+	
 	for(var id in data){
 		var series = new Array();
 		if(data[id]){
 			for(i = 0; i < data[id].episodes.length; i++){
 				d = new Date(data[id].episodes[i][1]+'T00:00Z');
 				d = new Date(d.getTime()+Math.random()*12*3600*1000);
+				
 				series.push({x:(d),y:data[id].episodes[i][2],'ep':data[id].episodes[i][0],'date':data[id].episodes[i][1]});
 			}
 			dataset.push({
@@ -124,6 +125,9 @@ function loadShows(data,attr){
 		}
 		var id = el.attr('id');
 		opts[id] = !opts[id];
+		var total = 0;
+		var allm = 0;
+		var allf = 0;
 		for(var i = 0; i < graph.data.length; i++){
 			var on = true;
 			if(!opts.bbc && graph.data[i].raw.bbc) on = false;
@@ -136,9 +140,17 @@ function loadShows(data,attr){
 			var j = channels[graph.data[i].raw.channel];
 			if(!opts['channel-'+j] && graph.data[i].raw.channel==S('#channel-'+j)[0].value) on = false;
 			graph.data[i].show = on;
+			if(on){
+				total += graph.data[i].data.length
+				for(var j = 0; j < graph.data[i].data.length; j++){
+					if(graph.data[i].data[j].y == 0) allm++;
+					if(graph.data[i].data[j].y == 100) allf++;
+				}
+			}
 		}
 		graph.calculateData();
 		graph.draw();
+		console.log(total+' points displayed. '+allm+' were all male. '+allf+' were all female.')
 	}
 
 	return;
