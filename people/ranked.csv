@@ -1,32 +1,32 @@
-xcc3ggo9,"Suella Fernandes",,1980,,
-k3ei7nxp,"George Steiner",,1929,,
-uurp5j9z,"Judith Brown",,,,
-hc9dks28,"Jared Diamond",,1937,,
-4gpvd8ut,"Alan Tudge",,1971,,
-n4eaiqtp,"Simon Platt",,,,
-6dnnnk44,"Phil Brown:Phil_Brown_",,,,
-qzg8xytj,"Tiff Stevenson",,1978,,
-mxdqkmkb,"Gerald Edelman",,1929,,
-1eq0rm8o,"Zach Galifianakis",,1969,,
-obosowoz,"Paul Davies",,1946,,
-9t14hehc,"Martin Ward",,1988,,
-z2vbrffn,"The Best of Fighting Talk",,,,
-3ibn4ncu,"Kate Ceberano",,1966,,
-rugrmj6j,"The Best of Fighting Talk",,,,
-0tj9yeun,"Billy Boyd",,1968,,
-w0m3jten,"Angus Wilson",,1913,,
-wyh9xyi5,"Jimmy Barnes",,1956,,
-x6otumkp,"Richard Sennett",,1943,,
-1iqgm5iy,"Chris Plack",,,,
-wyk8eh7k,"Edward Morris",,,,
-b9tir0ke,"Neil Sleat",,,,
-evdurftg,"Heinz Wolff",,1928,,
-3axhdvfm,"Fighting Talk: Old Chestnuts",,,,
-d6q5iewd,"Quentin Bell",,,,
-17uvbmbe,"Bill Bradshaw",,,,
 xp689pel,"Frank Barber",,,,
+mxdqkmkb,"Gerald Edelman",,1929,,
+6dnnnk44,"Phil Brown:Phil_Brown_",,,,
+xcc3ggo9,"Suella Fernandes",,1980,,
 l9u4r4cf,"Colin Richmond",,,,
+9t14hehc,"Martin Ward",,1988,,
+rugrmj6j,"The Best of Fighting Talk",,,,
+wyk8eh7k,"Edward Morris",,,,
 6z1i4ip1,"Will Bayley",,1988,,
+0tj9yeun,"Billy Boyd",,1968,,
+1eq0rm8o,"Zach Galifianakis",,1969,,
+n4eaiqtp,"Simon Platt",,,,
+uurp5j9z,"Judith Brown",,,,
+z2vbrffn,"The Best of Fighting Talk",,,,
+3axhdvfm,"Fighting Talk: Old Chestnuts",,,,
+3ibn4ncu,"Kate Ceberano",,1966,,
+b9tir0ke,"Neil Sleat",,,,
+qzg8xytj,"Tiff Stevenson",,1978,,
+d6q5iewd,"Quentin Bell",,,,
+wyh9xyi5,"Jimmy Barnes",,1956,,
+w0m3jten,"Angus Wilson",,1913,,
+k3ei7nxp,"George Steiner",,1929,,
+evdurftg,"Heinz Wolff",,1928,,
+4gpvd8ut,"Alan Tudge",,1971,,
+17uvbmbe,"Bill Bradshaw",,,,
+hc9dks28,"Jared Diamond",,1937,,
+1iqgm5iy,"Chris Plack",,,,
+obosowoz,"Paul Davies",,1946,,
+x6otumkp,"Richard Sennett",,1943,,
 2krdo89a,"Alan Coren",male,1938,1175,64:605;50:566
 1uesdshd,"Carol McGiffin",female,1960,1174,72:1172
 pizp4tjl,"Nicholas Parsons",male,1923,915,43:902
@@ -72,7 +72,6 @@ ub65grfy,"Simon Hoggart",male,1946,301,50:297
 5yv2rmx8,"Nadia Sawalha",female,1964,299,72:295
 wcm4tx1l,"Robin Day",male,1923,297,58:297
 qsu7x0im,"Colin Murray",male,1977,294,13:293
-0,"Terry Barnes",other,,293,27:293
 hk2rczao,"Alan Davies",male,1966,292,42:212;57:44;45:11
 l3xqjxtv,"Jane Moore",female,1962,292,72:282
 4mzh48iq,"Andy Hamilton",male,1954,267,50:204;33:21;41:18
@@ -80,6 +79,7 @@ ysvv93ea,"Josh Widdicombe",male,1983,259,12:119;13:54;39:24;67:17;49:9;42:7;20:6
 x9y0q5f5,"Dara O'Briain",male,1972,253,39:149;23:24;15:16;42:15
 fc3xrxvy,"Stephen Fry",male,1957,253,42:187;43:31;33:17
 80blrdy1,"Bob Flowerdew",male,,250,21:250
+0,"Terry Barnes",other,,245,27:245
 6vpb1owi,"Carol Vorderman",female,1960,239,72:214
 lala2l3q,"Kate Thornton",female,1973,235,72:232
 6ria91hx,"Ruth Langsford",female,1960,234,72:231
@@ -1400,6 +1400,7 @@ yabs4lim,"Ollie Locke",male,1987,7,65:3;8:2;49:1;5:1
 g77vov61,"Pamela Stephenson",female,1949,7,72:4;64:2;28:1
 yel9kb2j,"Pat Cash",male,1965,7,53:4;72:1;36:1;31:1
 k5r8a9zg,"Patrizio Buanne",male,1978,7,72:6;26:1
+k91ymq90,"Paul Farrell",male,,7,27:7
 gv22roq4,"Paul Nicholas",male,1945,7,72:7
 nf5aof87,"Peter Adamson",male,1930,7,59:7
 hzypyrxt,"Peter Davison",male,1951,7,72:4;64:2;3:1
@@ -1628,6 +1629,7 @@ nu49zyrk,"Mick Dennis",male,,6,13:6
 dah3yi4z,"Mick Fitzgerald",male,,6,53:6
 16spponm,"Mike Catt",male,1971,6,53:6
 81ugeqif,"Mike Harding",male,1944,6,33:6
+wy1xjce2,"Ming Long",female,,6,27:6
 b7o4538l,"Miriam Karlin",female,1925,6,11:3;43:2;58:1
 49wtlg4h,"Mo Farah",male,1983,6,34:3;72:1;65:1;53:1
 c918shr7,"Muriel Gray",female,1958,6,58:4;56:1;41:1
@@ -1899,6 +1901,7 @@ kr4af4xd,"Lee Mead",male,1981,5,72:5
 5mrxpurq,"Lenny Henry",male,1958,5,72:2;56:1;40:1;28:1
 ah4osfx8,"Lenore Taylor",female,,5,28:5
 gebc54zt,"Lionel Barber",male,,5,58:5
+92n3pud6,"Lisa Annese",female,,5,27:5
 37cmnk83,"Lisa Nandy",female,1979,5,58:5
 81hmznev,"Lisa Stansfield",female,1966,5,72:2;46:2;56:1
 itmpzxqy,"Liz Smith",female,,5,16:2;72:1;56:1;3:1
@@ -2099,6 +2102,7 @@ lx70n2wd,"Bernard Ingham",male,1932,4,58:4
 ozvrcoxg,"Bernard Levin",male,,4,58:4
 2ewohu1j,"Bill Bradshaw",male,,4,13:4
 n4w65wfc,"Bill Buckley",male,,4,64:4
+igm36pjq,"Bill Crews",male,,4,27:4
 gxzmmwj9,"Billy Murray",male,,4,72:2;64:2
 urcft0x2,"Billy Ocean",male,1950,4,72:2;65:2
 ksthpqcm,"Blythe Duff",female,1962,4,72:2;43:2
@@ -2891,6 +2895,7 @@ acmbupgx,"Julia Lovell",female,,3,59:3
 jcjj5gq0,"Karl Lucas",male,,3,72:3
 bj49clkr,"Katarina Johnson-Thompson",female,1993,3,53:2;34:1
 fnsnxo45,"Kate Ceberano",female,,3,26:3
+80fzyfa1,"Kate Eastman",female,,3,27:3
 yfwnpfni,"Kate McClymont",female,,3,27:2;28:1
 55t7lvnk,"Kate Miller-Heidke",female,,3,26:3
 z9au7c03,"Kate Sanderson",female,1968,3,64:2;72:1
@@ -2941,6 +2946,7 @@ lmyiuou9,"Louise Christian",female,1952,3,58:3
 ag0mjt1x,"Louise Jameson",female,1951,3,72:3
 mxdat0mw,"Lucy Cooke",female,,3,44:2;72:1
 r2b47pjv,"Lydia Bright",female,,3,72:2;19:1
+ujvkgwf9,"Lydia Shelly",female,,3,27:3
 exfcm7gd,"Lyndon Ogbourne",male,1983,3,72:3
 kn6p18m4,"Lynn Faulds Wood",female,1948,3,72:3
 dlmpr4pg,"Macy Gray",female,1967,3,72:3
@@ -2990,6 +2996,7 @@ f9zchx62,"Michael Billington",male,,3,50:3
 ttmi9cj2,"Michael Brandon",male,,3,72:3
 7ib8rk7e,"Michael Brown",male,,3,59:1;46:1;41:1
 wznerkya,"Michael Hordern",male,,3,64:3
+1h802b7f,"Michael Jensen",male,,3,27:3
 1mm9z42d,"Michael Keenan",male,1972,3,28:3
 izorqdnj,"Michael Le Vell",male,1964,3,72:3
 011wp6lg,"Michael Mansfield",male,1941,3,58:2;41:1
@@ -3013,6 +3020,7 @@ mxgmul33,"Monty Panesar",male,1982,3,53:3
 52xdqrsi,"Nancy Cartwright",female,1957,3,59:3
 s8tms8x8,"Naomi Standen",female,,3,59:3
 lsbtxauv,"Nasser Hussain",male,1968,3,36:3
+lw9s9tk5,"Nassim Khadem",female,,3,27:3
 1m692m9k,"Nat Luurtsema",female,,3,17:2;71:1
 dbb93fkd,"Natalie Haynes",female,,3,70:1;63:1;58:1
 trfdqopa,"Natasha Marsh",female,,3,72:3
@@ -3038,6 +3046,7 @@ hw9n5vm5,"Nigel Planer",male,1953,3,72:2;64:1
 uwxpft6h,"Nina Conti",female,1974,3,72:1;60:1;42:1
 bf5iqee5,"Nina",female,,3,64:2;72:1
 qn5mq54o,"Noel Annan",male,1916,3,58:3
+wz3hmvpq,"Noel Debein",male,,3,27:3
 ds67o4jl,"Noel Edmonds",male,1948,3,64:2;72:1
 chuol9lg,"Noel Pearson",male,,3,28:3
 24caezwv,"Oliver Pritchard",male,,3,50:3
@@ -3209,6 +3218,7 @@ zjto9r61,"Thomas Galbraith",male,,3,58:3
 udczj2z7,"Thomas Keneally",male,1935,3,28:2;27:1
 316aj036,"Tim Fischer",male,1946,3,28:3
 sp4tbnbv,"Tim Lockley",male,,3,59:3
+hdj42ams,"Tim Soutphommasane",male,,3,27:3
 jxclb6xr,"Tim Westwood",male,1957,3,65:1;49:1;46:1
 j5oenq7m,"Timmy Matley",male,,3,72:3
 q3fho1am,"Tina O'Brien",female,,3,72:3
@@ -3423,6 +3433,7 @@ s6woneoi,"Carol Michaelson",female,,2,59:2
 60n9i2zi,"Caroline Aherne",female,1963,2,56:1;3:1
 7xvdypbx,"Caroline Dowdeswell",female,1945,2,64:2
 4vqcjcu0,"Caroline Reid",other,,2,72:2
+pilp5jn0,"Carolyn Quadrio",female,,2,27:2
 ty6i03wc,"Carrie Underwood",female,1983,2,72:2
 z4pdfiqi,"Cat Deeley",female,1976,2,56:1;51:1
 vfzobr9a,"Catherine Fletcher",female,,2,59:2
@@ -3452,6 +3463,7 @@ q42genxx,"Chipmunk",male,,2,65:2
 34qt4dki,"Chloe Madeley",female,1987,2,72:2
 xn7z40s6,"Chloe Sims",female,,2,72:1;65:1
 0hvlut8s,"Chris Bonington",male,1934,2,64:2
+s3unbql6,"Chris Brown",male,,2,27:2
 4fgdqe5q,"Chris Cusiter",male,1982,2,53:2
 q35qhc9d,"Chris Dunkley",male,,2,50:2
 kmvggavr,"Chris Evans",male,1966,2,56:1;41:1
@@ -4265,6 +4277,7 @@ opzgpzfh,"Neil Wallis",male,,2,58:2
 tnseaze0,"Nell Campbell",female,,2,26:2
 60asy06g,"Nelly Furtado",female,1978,2,72:2
 whma9vcq,"Nev Wilshire",male,,2,61:1;58:1
+brpo64a2,"Ngiare Brown",female,,2,27:2
 ofdorclq,"Nicholas Fairbairn",male,,2,58:2
 knd259la,"Nicholas R. Bailey",male,1971,2,72:1;3:1
 sekbbf97,"Nicholas Scott",male,1933,2,58:2
@@ -5324,7 +5337,6 @@ ex8qjhr9,"Caroline Wyatt",female,,1,41:1
 belljdfn,"Carolyn Holbrook",female,,1,28:1
 3rh2rodw,"Carolyn Johnson",female,,1,58:1
 xdvxcd5t,"Carolyn Porco",female,1953,1,44:1
-pilp5jn0,"Carolyn Quadrio",female,,1,27:1
 2ho1fpqv,"Carrie Lear",female,,1,59:1
 t0ohxgrw,"Caryn Franklin",female,1959,1,56:1
 9658tcap,"Casey Stoney",female,1982,1,72:1
@@ -5422,7 +5434,6 @@ o4s0vll2,"Chris Baldick",male,,1,59:1
 64tuc19i,"Chris Bath",female,,1,25:1
 a90kpnnh,"Chris Botti",male,,1,26:1
 7bqv9byi,"Chris Briggs (Listener",male,,1,13:1
-s3unbql6,"Chris Brown",male,,1,27:1
 uvmcc973,"Chris Cairns",male,1970,1,53:1
 mf7n58d4,"Chris Cheney",male,,1,26:1
 5eylr0pl,"Chris Chittell",male,1948,1,72:1
@@ -6067,6 +6078,7 @@ k9bb66hl,"Eric Roberts",male,1956,1,72:1
 ohqivkjk,"Eric Robinson",male,,1,64:1
 p9oj1hz2,"Erin Boag",female,1975,1,29:1
 old90j29,"Erin Saltman",female,,1,72:1
+1fcpa1zb,"Erin Watson-Lynn",female,,1,27:1
 rl2n94in,"Ernesto Escobar de Tijuana",male,,1,72:1
 pc83zj8d,"Errol Brown",male,,1,72:1
 c4el3lgb,"Estelle",female,,1,46:1
@@ -6116,6 +6128,7 @@ gw4h9cf8,"Fiona Armstrong",female,1956,1,41:1
 i7sg10w3,"Fiona Gilmore",female,,1,58:1
 38zx8g98,"Fiona Katauskas",female,,1,28:1
 1garh2gm,"Fiona May",female,1969,1,53:1
+lbaj5tv1,"Fiona McLeod",female,,1,27:1
 vtbod34n,"Fiona Miller",female,,1,72:1
 xgs6uh7e,"Fiona O'Loughlin",female,,1,28:1
 z0uek85h,"Fiona Patten",female,,1,28:1
@@ -6575,6 +6588,7 @@ ylv6flix,"JB Gill",male,1986,1,53:1
 4pek41vm,"JJ Chalmers",male,,1,12:1
 vfu0fldc,"JJ Whitehead",male,,1,13:1
 63m5g6tv,"JP Pietersen",male,1986,1,53:1
+ei1nsjoh,"Jack Boyd",male,1921,1,27:1
 z5epqicc,"Jack Butland",male,1993,1,53:1
 71yw3ld2,"Jack Charles",male,1943,1,28:1
 sxzggv4g,"Jack Dromey",male,1948,1,58:1
@@ -7445,7 +7459,6 @@ w8cnk5ly,"Lindy Grant",female,,1,59:1
 66gzry2i,"Linford Martin",male,,1,72:1
 ewwz9py7,"Linzi Martin",female,,1,65:1
 j5qv8u5e,"Lior",male,,1,26:1
-92n3pud6,"Lisa Annese",female,,1,27:1
 s0lqxm2o,"Lisa Appignanesi",female,1946,1,59:1
 fopq0oyk,"Lisa Appleton",female,,1,49:1
 ay3a70nc,"Lisa Barbuscia",female,1971,1,56:1
@@ -8301,6 +8314,7 @@ iwnz6yu9,"Paul Strathern",male,,1,59:1
 u6p1x0fk,"Paul Sykes",male,,1,58:1
 2ae0ahd2,"Paul Watson",male,1950,1,72:1
 y5isfufq,"Paul Wellens",male,1980,1,53:1
+hkrhpojk,"Paul Zahra",male,,1,27:1
 gnepl7q6,"Paul Zenon",male,1964,1,72:1
 wn0t99nn,"Paula Abdul",female,1962,1,72:1
 a0mqxwnk,"Paula Hawkins",female,1927,1,72:1
@@ -8553,6 +8567,7 @@ mp6hadd0,"Regina Spektor",female,1980,1,72:1
 k772kt1u,"Reuben Gosfield",male,,1,26:1
 k5pzyp50,"Rev Andrew Teal",male,,1,64:1
 7tvr8mla,"Rev Kate Bottley",female,,1,49:1
+14858nis,"Rev. Prof. Ian Waters",male,,1,27:1
 h087uh5o,"Reverend Dr Charlotte Methuen",female,,1,59:1
 eixamyv6,"Rex Newmark",male,,1,5:1
 94fepsyi,"Rhian Williams",female,,1,59:1
@@ -9202,6 +9217,7 @@ izzemntr,"Tana Ramsay",female,1974,1,72:1
 rjugt8wt,"Tania Farah",female,,1,72:1
 tjfna02y,"Tania de Jong",female,,1,28:1
 8rwqn3yy,"Tanya Gold",female,1973,1,63:1
+91gff5ag,"Tanya Hosch",female,,1,27:1
 pkcemohs,"Tanya Streeter",female,1973,1,36:1
 3astnqkc,"Tanyalee Davis",female,1970,1,14:1
 rw6zfn6o,"Tao Tao Liu",male,,1,59:1
@@ -9287,7 +9303,6 @@ xno4vfzt,"Tim Harford",male,,1,70:1
 hwdxjjbt,"Tim Nicholls",male,1965,1,28:1
 ebig48ca,"Tim Rice-Oxley",male,1976,1,72:1
 gdiwfn7g,"Tim Ross",male,,1,26:1
-hdj42ams,"Tim Soutphommasane",male,,1,27:1
 2qr2ptm1,"Tim Spicer",male,,1,58:1
 9nnrkk7n,"Tim Storrier",male,,1,28:1
 sg9ofsnc,"Tim Visser",male,1987,1,53:1
