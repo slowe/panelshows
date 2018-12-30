@@ -126,7 +126,6 @@
 						if(db[i].n > mx) mx = db[i].n;
 						db[i].rank = 0;
 					}
-					console.log(db)
 					for(var i = 0; i < db.length; i++){
 						rank = 0;
 						for(m = 0; m < n ; m++){
@@ -229,9 +228,7 @@
 							ids[line[0]] = db.length-1;
 						}
 					}
-					if(i > data.length-10) console.log(data[i])
 				}
-console.log(db)
 			},
 			'error': function(e){
 				console.log(e)
