@@ -126,6 +126,7 @@
 						if(db[i].n > mx) mx = db[i].n;
 						db[i].rank = 0;
 					}
+					console.log(db)
 					for(var i = 0; i < db.length; i++){
 						rank = 0;
 						for(m = 0; m < n ; m++){
@@ -210,21 +211,27 @@
 					data = data.split(/[\n]/);
 				}
 				for(var i = 0; i < data.length; i++){
-					line = CSVtoArray(data[i]);
-					showbits = (line[5]) ? line[5].replace(/;$/,"").split(";") : new Array();
-					for(var s = 0 ; s < showbits.length; s++){
-						bits = showbits[s].split(/:/);
-						key = showlookup[bits[0]];
-						showbits[s] = {'key':key,'n':parseInt(bits[1])};
-						if(shows){
-							if(!shows[key]) shows[key] = {};
-							if(!shows[key].n) shows[key].n = 0;
-							shows[key].n += parseInt(bits[1]);
+					if(data[i]){
+						line = CSVtoArray(data[i]);
+						if(line[0]){
+							showbits = (line[5]) ? line[5].replace(/;$/,"").split(";") : new Array();
+							for(var s = 0 ; s < showbits.length; s++){
+								bits = showbits[s].split(/:/);
+								key = showlookup[bits[0]];
+								showbits[s] = {'key':key,'n':parseInt(bits[1])};
+								if(shows){
+									if(!shows[key]) shows[key] = {};
+									if(!shows[key].n) shows[key].n = 0;
+									shows[key].n += parseInt(bits[1]);
+								}
+							}
+							db.push({'id':line[0],'name':line[1],'gender':line[2],'dob':line[3],'n':line[4],'shows':showbits});
+							ids[line[0]] = db.length-1;
 						}
 					}
-					if(line[0]) db.push({'id':line[0],'name':line[1],'gender':line[2],'dob':line[3],'n':line[4],'shows':showbits});
-					if(line[0]) ids[line[0]] = db.length-1;
+					if(i > data.length-10) console.log(data[i])
 				}
+console.log(db)
 			},
 			'error': function(e){
 				console.log(e)
