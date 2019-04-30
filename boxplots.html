@@ -185,11 +185,18 @@
 			console.log(i,d.length);
 		}
 
-		S('#syear').on('change',function(e){
+		soptions = "";
+		eoptions = "";
+		for(var y = syear; y <= eyear; y++){
+			soptions += '<option value="'+y+'"'+(y==syear ? ' selected="selected"':'')+'>'+y+'</option>';
+			eoptions += '<option value="'+y+'"'+(y==eyear ? ' selected="selected"':'')+'>'+y+'</option>';
+		}
+
+		S('#syear').html(soptions).on('change',function(e){
 			syear = e.currentTarget.value;
 			updateAll();
 		});
-		S('#eyear').on('change',function(e){
+		S('#eyear').html(eoptions).on('change',function(e){
 			eyear = e.currentTarget.value;
 			updateAll();
 		});
@@ -211,33 +218,9 @@
 	<h1>Box plots for UK comedy panel shows</h1>
 	<p>By <a href="http://twitter.com/astronomyblog">@astronomyblog</a> &amp; <a href="http://twitter.com/LoveGraphs">@LoveGraphs</a>. Stats last updated 28 December 2017.</p>
 	<label for="syear">From</label>: 
-	<select id="syear">
-		<option value="1967" selected="selected">1967</option>
-		<option value="2000">2000</option>
-		<option value="2010">2010</option>
-		<option value="2011">2011</option>
-		<option value="2012">2012</option>
-		<option value="2013">2013</option>
-		<option value="2014">2014</option>
-		<option value="2015">2015</option>
-		<option value="2016">2016</option>
-		<option value="2017">2017</option>
-		<option value="2018">2018</option>
-	</select>
+	<select id="syear"></select>
 	<label for="eyear">until</label>:
-	<select id="eyear">
-		<option value="2000">2000</option>
-		<option value="2010">2010</option>
-		<option value="2011">2011</option>
-		<option value="2012">2012</option>
-		<option value="2013">2013</option>
-		<option value="2014">2014</option>
-		<option value="2015">2015</option>
-		<option value="2016">2016</option>
-		<option value="2017">2017</option>
-		<option value="2018">2018</option>
-		<option value="2019" selected="selected">2019</option>
-	</select>
+	<select id="eyear"></select>
 
 	<table id="boxplots">
 		<tbody><tr><th width="35%">Comedy panel shows</th><th width="65%">Boxplot<br />%female</th></tr>
