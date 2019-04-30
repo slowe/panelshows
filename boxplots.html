@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boxplots for UK comedy panel shows</title>
+	<script src="js/stuquery.js"></script>
+	<script type="text/javascript" src="common.js"></script>
+	<link rel="stylesheet" media="all" href="style.css" type="text/css"/>
+	<style>
+		table td:last-child {
+			background-color: #fff;
+			background-image: linear-gradient(90deg, #eee 1px, transparent 1px);
+			background-size: 9.99%;
+			padding: 0px;
+		}
+		.boxplot:after {
+			content: "";
+			border-bottom: 2px solid black;
+			position: absolute;
+			left: 0px;
+			right: 0px;
+			top: calc(50% - 1px);
+		}
+		.boxplot {
+			height: 1em;
+			border: 2px solid black;
+			border-top: 0px;
+			border-bottom: 0px;
+			position: relative;
+			transition: left 1s ease-in, width 1s ease-in;
+			left: 50%;
+			width: 0%;
+		}
+		.iqr {
+			height: 1em;
+			z-index: 1;
+			position: relative;
+			left: 50%;
+			width: 0%;
+			background: linear-gradient(to right, #0DBC37 0%, #722EA5 100%);
+			transition: left 1s ease-in, width 1s ease-in;
+			border: 2px solid black;
+			border-top: 0px;
+			border-bottom: 0px;
+		}
+	</style>
+	<script>
+	/**
+	 * CSVToArray parses any String of Data including '\r' '\n' characters,
+	 * and returns an array with the rows of data.
+	 * @param {String} CSV_string - the CSV string you need to parse
+	 * @param {String} delimiter - the delimeter used to separate fields of data
+	 * @returns {Array} rows - rows of CSV where first row are column headers
+	 */
+	function CSVToArray (CSV_string, delimiter) {
+		delimiter = (delimiter || ","); // user-supplied delimeter or default comma
+
+		var pattern = new RegExp( // regular expression to parse the CSV values.
+			( // Delimiters:
+				"(\\" + delimiter + "|\\r?\\n|\\r|^)" +
+				// Quoted fields.
+				"(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+				// Standard fields.
+				"([^\"\\" + delimiter + "\\r\\n]*))"
+			), "gi"
+		);
+
+		var rows = [[]];	// array to hold our data. First row is column headers.
+		// array to hold our individual pattern matching groups:
+		var matches = false; // false if we don't find any matches
+		// Loop until we no longer find a regular expression match
+		while (matches = pattern.exec( CSV_string )) {
+			var matched_delimiter = matches[1]; // Get the matched delimiter
+			// Check if the delimiter has a length (and is not the start of string)
+			// and if it matches field delimiter. If not, it is a row delimiter.
+			if (matched_delimiter.length && matched_delimiter !== delimiter) {
+				// Since this is a new row of data, add an empty row to the array.
+				rows.push( [] );
+			}
+			var matched_value;
+			// Once we have eliminated the delimiter, check to see
+			// what kind of value was captured (quoted or unquoted):
+			if (matches[2]) { // found quoted value. unescape any double quotes.
+				matched_value = matches[2].replace(
+					new RegExp( "\"\"", "g" ), "\""
+				);
+			} else { // found a non-quoted value
+				matched_value = matches[3];
+			}
+			// Now that we have our value string, let's add
+			// it to the data array.
+			rows[rows.length - 1].push(matched_value);
+		}
+		return rows; // Return the parsed data Array
+	}
+	S().ready(function(){
+	
+		// Work out shows
+	
+		var shows = [];
+		var syear = 1967;
+		var eyear = 2019;
+		
+		a = S('#boxplots a');
+
+		for(var i = 0; i < a.length; i++){
+			el = S(a[i]);
+			shows.push({'id':el.attr('href').replace(/shows\/(.*).html/,function(m,p1){ return p1; }),'td':S(el.parent().parent().find('td')[1]),'title':el.html()})
+		}
+
+		for(var i = 0; i < shows.length; i++){
+			html = '<div id="boxplot-'+i+'" class="boxplot" title="'+(shows[i].title||"Unknown show")+'">';
+			html += '<div class="iqr"></div>';
+			html += '</div>';
+			shows[i].td.html(html);
+		}
+	
+		for(var i = 0; i < shows.length; i++){
+			if(shows[i].id){
+				S().ajax('shows/data/'+shows[i].id+'.csv',{
+					"dataType": "text",
+					"i": i,
+					"complete": function(d,attr){
+						rows = CSVToArray(d);
+						data = [];
+						for(var j = 1; j < rows.length; j++){
+							if(rows[j].length >= 4){
+								rows[j][2] = rows[j][2].replace(/\;$/,"");
+								people = rows[j][2].split(/\;/g);
+								f = 0;
+								try {
+									f = rows[j][2].match(/\(Herself/g).length;
+								}catch(err){ }
+								m = 0;
+								try {
+									m = rows[j][2].match(/\(Himself/g).length;
+								}catch(err){ }
+								y = parseInt(rows[j][1].substr(0,4));
+								data.push([y,f,m,(people.length-f-m)]);
+							}
+						}
+						shows[attr.i].data = data;
+						calculateQuartile(attr.i);
+					},
+					"error": function(e,attr){
+						console.error('Unable to load '+attr.url);
+					}
+				});
+			}
+		}
+		
+		function calculateQuartile(i){
+			if(!shows[i].data && !shows[i].quartiles){
+				shows[i].quartiles = new Array(50,50,50,50);
+			}
+			d = [];
+			if(shows[i].data){
+				for(var j = 0; j < shows[i].data.length; j++){
+					if(shows[i].data[j][0] >= syear && shows[i].data[j][0] <= eyear){
+						d.push(shows[i].data[j][1]/(shows[i].data[j][1]+shows[i].data[j][2]+shows[i].data[j][3]));
+					}
+				}
+				d = d.sort();
+				q = Math.floor(d.length/4);
+				shows[i].quartiles[0] = d[0]*100;
+				shows[i].quartiles[1] = d[Math.floor(d.length/4)]*100;
+				shows[i].quartiles[2] = d[Math.floor(d.length*3/4)]*100;
+				shows[i].quartiles[3] = d[d.length-1]*100;				
+			}
+			// Update CSS
+			// |     |----------========--------|         |
+			//       0          1      2        3
+			//        <-          range       ->
+			//  <-l-> <- iqrl -><-iqrw-><-iqrr-> <-  r  ->
+			range = (shows[i].quartiles[3]-shows[i].quartiles[0]);
+			iqrl = (100*(shows[i].quartiles[1]-shows[i].quartiles[0])/range);
+			iqrr = (100*(shows[i].quartiles[3]-shows[i].quartiles[2])/range);
+			iqrw = (100*(shows[i].quartiles[2]-shows[i].quartiles[1])/range);
+			l = shows[i].quartiles[0];
+			r = 100-shows[i].quartiles[3];
+			// Work out gradient offsets
+			a = (100*l/range)*100/iqrw + (100*iqrl/iqrw);
+			b = 100 + (100*r/range)*100/iqrw + (100*iqrr/iqrw);
+			S('#boxplot-'+i).css({'left':(isNaN(shows[i].quartiles[0]) ? 0 : shows[i].quartiles[0])+'%','width':(isNaN(range) ? 0 : range)+'%','opacity':(d.length==0 ? '0' : '1')}).find('.iqr').css({'left':iqrl+'%','width':iqrw+'%','background':'linear-gradient(to right, #0DBC37 -'+a+'%, #722EA5 '+b+'%)'});
+			S('#boxplot-'+i).attr('title',shows[i].title+': '+d.length+' episodes ('+syear+'-'+eyear+')');
+			console.log(i,d.length);
+		}
+
+		S('#syear').on('change',function(e){
+			syear = e.currentTarget.value;
+			updateAll();
+		});
+		S('#eyear').on('change',function(e){
+			eyear = e.currentTarget.value;
+			updateAll();
+		});
+
+		function updateAll(){
+			// Calculate quartiles
+			for(var i = 0; i < shows.length; i++) calculateQuartile(i);
+		}
+
+		updateAll();
+	});	
+	</script>
+<!--#include virtual="head.txt" -->
+</head>
+<body>
+<!--#include virtual="nav.txt" -->
+<div class="page">
+
+	<h1>Box plots for UK comedy panel shows</h1>
+	<p>By <a href="http://twitter.com/astronomyblog">@astronomyblog</a> &amp; <a href="http://twitter.com/LoveGraphs">@LoveGraphs</a>. Stats last updated 28 December 2017.</p>
+	<label for="syear">From</label>: 
+	<select id="syear">
+		<option value="1967" selected="selected">1967</option>
+		<option value="2000">2000</option>
+		<option value="2010">2010</option>
+		<option value="2011">2011</option>
+		<option value="2012">2012</option>
+		<option value="2013">2013</option>
+		<option value="2014">2014</option>
+		<option value="2015">2015</option>
+		<option value="2016">2016</option>
+		<option value="2017">2017</option>
+		<option value="2018">2018</option>
+	</select>
+	<label for="eyear">until</label>:
+	<select id="eyear">
+		<option value="2000">2000</option>
+		<option value="2010">2010</option>
+		<option value="2011">2011</option>
+		<option value="2012">2012</option>
+		<option value="2013">2013</option>
+		<option value="2014">2014</option>
+		<option value="2015">2015</option>
+		<option value="2016">2016</option>
+		<option value="2017">2017</option>
+		<option value="2018">2018</option>
+		<option value="2019" selected="selected">2019</option>
+	</select>
+
+	<table id="boxplots">
+		<tbody><tr><th width="35%">Comedy panel shows</th><th width="65%">Boxplot<br />%female</th></tr>
+		<tr><td><a href="shows/isihac.html">I'm Sorry I Haven't A Clue (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/argumental.html">Argumental (Dave)</a></td><td></td></tr>
+		<tr><td><a href="shows/they-think-its-all-over.html">They Think It's All Over (BBC One)</a></td><td></td></tr>
+		<tr><td><a href="shows/blame-game.html">The Blame Game (BBC Northern Ireland)</a></td><td></td></tr>
+		<tr><td><a href="shows/whose-line-is-it-anyway.html">Whose Line Is It Anyway? (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/mocktheweek.html">Mock The Week (BBC Two)</a></td><td></td></tr>
+		<tr><td><a href="shows/bigask.html">Alexander Armstrong's Big Ask (Dave)</a></td><td></td></tr>
+		<tr><td><a href="shows/hignfy.html">Have I Got News For You (BBC One)</a></td><td></td></tr>
+		<tr><td><a href="shows/justaminute.html">Just A Minute (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/a-league-of-their-own.html">A League Of Their Own (Sky 1)</a></td><td></td></tr>
+		<tr><td><a href="shows/the-unbelievable-truth.html">The Unbelievable Truth (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/never-mind-the-buzzcocks.html">Never Mind The Buzzcocks (BBC Two)</a></td><td></td></tr>
+		<tr><td><a href="shows/playtothewhistle.html">Play To The Whistle (ITV)</a></td><td></td></tr>
+		<tr><td><a href="shows/QI.html">QI (BBC One/Two/Four)</a></td><td></td></tr>
+		<tr><td><a href="shows/wouldilietoyou.html">Would I Lie To You? (BBC One)</a></td><td></td></tr>
+		<tr><td><a href="shows/does-the-team-think.html">Does The Team Think... (BBC Radio 2)</a></td><td></td></tr>
+		<tr><td><a href="shows/big-fat-quiz.html">The Big Fat Quiz (Channel 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/virtuallyfamous.html">Virtually Famous (E4)</a></td><td></td></tr>
+		<tr><td><a href="shows/newsquiz.html">The News Quiz (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/8-out-of-10-cats.html">8 Out of 10 Cats (Channel 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/taskmaster.html">Taskmaster (Dave)</a></td><td></td></tr>
+		<tr><td><a href="shows/99p-challenge.html">The 99p Challenge (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/its-only-tv-but-i-like-it.html">It's Only TV But I Like It (BBC1)</a></td><td></td></tr>
+		<tr><td><a href="shows/its-only-a-theory.html">It's Only A Theory (BBC Four)</a></td><td></td></tr>
+		<tr><td><a href="shows/the-fake-news-show.html">The Fake News Show (Channel 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/you-have-been-watching.html">You Have Been Watching (Channel 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/christian-o-connell-solution.html">The Christian O'Connell Solution (BBC Radio 5 Live)</a></td><td></td></tr>
+		<tr><td><a href="shows/bad-language.html">Bad Language (BBC Northern Ireland)</a></td><td></td></tr>
+		<tr><td><a href="shows/the-brain-drain.html">The Brain Drain (BBC2)</a></td><td></td></tr>
+		<tr><td><a href="shows/shootingstars.html">Shooting Stars (BBC Two)</a></td><td></td></tr>
+		<tr><td><a href="shows/its-not-what-you-know.html">It's Not What You Know (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/duckquacks.html">Duck Quacks Don't Echo (Sky 1)</a></td><td></td></tr>
+		<tr><td><a href="shows/askrhodgilbert.html">Ask Rhod Gilbert (BBC One)</a></td><td></td></tr>
+		<tr><td><a href="shows/safeword.html">Safe Word (ITV2)</a></td><td></td></tr>
+		<tr><td><a href="shows/asyetuntitled.html">Alan Davies: As Yet Untitled (Dave)</a></td><td></td></tr>
+		<tr><td><a href="shows/sweatthesmallstuff.html">Sweat the Small Stuff (BBC Three)</a></td><td></td></tr>
+		<tr><td><a href="shows/go8bit.html">Go 8 Bit (Dave)</a></td><td></td></tr>
+		<tr><td><a href="shows/reality-bites.html">Reality Bites (ITV2)</a></td><td></td></tr>
+		<tr><td><a href="shows/cats-does-countdown.html">8 Out of 10 Cats Does Countdown (Channel 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/heresy.html">Heresy (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/dont-ask-me-ask-britain.html">Don't Ask Me Ask Britain (ITV 1)</a></td><td></td></tr>
+		<tr><td><a href="shows/fake-reaction.html">Fake Reaction (ITV2)</a></td><td></td></tr>
+		<tr><td><a href="shows/breakingthenews.html">Breaking The News (BBC Radio Scotland)</a></td><td></td></tr>
+		<tr><td><a href="shows/celebrityjuice.html">Celebrity Juice (ITV2)</a></td><td></td></tr>
+		<tr><td><a href="shows/harry-hill-alien-fun-capsule.html">Harry Hill's Alien Fun Capsule (ITV)</a></td><td></td></tr>
+		<tr><td><a href="shows/sorry-i-didnt-know.html">Sorry, I Didn't Know (ITV2)</a></td><td></td></tr>
+		<tr><td><a href="shows/whatthedickens.html">What The Dickens? (Sky Arts 1)</a></td><td></td></tr>
+		<tr><td><a href="shows/insert-name-here.html">Insert Name Here (BBC Two)</a></td><td></td></tr>
+		<tr><td><a href="shows/frankie-boyle-new-world-order.html">Frankie Boyle's New World Order (BBC Two)</a></td><td></td></tr>
+		<tr><td><a href="shows/dtrt.html">Do The Right Thing (Comedy.co.uk)</a></td><td></td></tr>
+		<tr><td><a href="shows/globalpillage.html">Global Pillage (The Spontaneity Shop)</a></td><td></td></tr>
+		<tr><td><a href="shows/its-not-me-its-you.html">It's Not Me, It's You (Channel 5)</a></td><td></td></tr>
+		<tr><td><a href="shows/best-behaviour.html">Best Behaviour (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/dilemma.html">Dilemma (BBC Radio 4)</a></td><td></td></tr>
+		<tr><td><a href="shows/listomania.html">Listomania (BBC Radio 2)</a></td><td></td></tr>
+	</table>
+</div>
+</body>
+</html>
