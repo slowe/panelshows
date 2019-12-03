@@ -232,6 +232,7 @@
 				// Set the selected show
 				S('#shows').on('change',function(){
 					show = this.e[0].value;
+					updateList();
 				});
 			},
 			'error': function(e){
