@@ -59,6 +59,12 @@
 			now = new Date();
 			// Add the string to the textarea
 			S('#textarea').html("Episode,Date,Guests (Himself/Herself - Role),References<br />AxB,"+now.toISOString().substr(0,10)+","+str+",");
+
+			html = "";
+			if(show) html = '<a href="https://github.com/slowe/panelshows/edit/master/shows/data/'+show+'.csv" target="_github">Edit the file for '+shows[show].title+' on Github</a>'
+			
+			S('#notes').html(html);
+			console.log(show,shows[show])
 		}
 
 		// Select one of the people in the drop down list
@@ -350,9 +356,6 @@
 
 	</script>
 	<style>
-	input#search {
-		font-size: 0.8em;
-	}
 	input[type=reset] {
 		float: right;
 	}
@@ -420,6 +423,10 @@
 	.episode .person .close:hover {
 		background-color: #bbbbbb;
 	}
+	#notes{
+		float: right;
+		line-height: 2em;
+	}
 	#textarea {
 		width: 100%;
 		margin-bottom: 0.25em;
@@ -437,9 +444,11 @@
 	.searcher {
 		display: block;
 		position: relative;
+		width: 90%;
 	}
 	select, input { font-size: inherit; line-height: 1.5em; }
 	label { margin-right: 0.5em; }
+	.row { display: flex; }
 	</style>
 </head>
 <body>
@@ -452,13 +461,12 @@
 
 	<h1>Build an episode</h1>
 
-	<div class="episode"></div>
+	<div class="episode"><div id="notes"></div></div>
 	<div id="textarea" class="output"></div>
+	
 
 	<div class="row">
 		<select id="shows"></select>
-	</div>
-	<div class="row">
 		<div class="searcher">
 			<input type="text" id="search" value="" placeholder="e.g. Sandi Toksvig" />
 			<div class="searchresults"></div>
