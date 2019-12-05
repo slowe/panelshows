@@ -27,7 +27,7 @@ mweb58qf,"Lee Hurst",39
 rh8pcjot,"Michael Legge",38
 jrj4vgbo,"Joanna Lumley",29
 u59d9hld,"Meshel Laurie",28
-sh8lw0ta,"Caroline Lucas",26
+sh8lw0ta,"Caroline Lucas",27
 n80zlxdw,"Lembit Öpik",25
 lc93xu1n,"Les Dennis",25
 e6wb7i8j,"Lorraine Kelly",25
@@ -54,6 +54,7 @@ eckt9ik8,"Nigel Lawson",16
 fkybtxwz,"Denise Lewis",15
 j4x51a23,"Laurence Llewelyn-Bowen",15
 4tvm98xv,"Lolly Adefope",15
+s7i1rglx,"Norman Lamont",15
 ya4m2asf,"Rula Lenska",15
 nvrepk5z,"Helen Lewis",14
 3n7uaov8,"Julia Langdon",14
@@ -61,7 +62,6 @@ jgg4fqdq,"Larry Lamb",14
 wlk9prmg,"Lisa Snowdon",14
 w35t0eif,"Louis Smith",14
 bw8tq99q,"Louise Hazel",14
-s7i1rglx,"Norman Lamont",14
 vk4io8y0,"Ruth Lea",14
 ylxe47a0,"Andrew Lansley",13
 5wel4jmi,"Jamie Laing",13
@@ -83,6 +83,7 @@ imdu6d6n,"Lulu",11
 frvtpmkl,"Ralf Little",11
 3m69qcl3,"David Laws",10
 ptic5dgo,"Leslie Ash",10
+37cmnk83,"Lisa Nandy",10
 1ikeux91,"Liz McClarnon",10
 qw17f42h,"Lucy Beaumont",10
 sr0bucbj,"Lucy Speed",10
@@ -91,7 +92,6 @@ pdn2ma3e,"Lynda Chalker",10
 xqb4xodt,"Lynsey de Paul",10
 sxd68mcj,"Oliver Letwin",10
 mjfmsoby,"Peter Lilley",10
-37cmnk83,"Lisa Nandy",9
 i398cril,"Louise Welsh",9
 wn1yamvj,"Nemone Lethbridge",9
 p4ox9yao,"Peter Lewis",9
@@ -158,6 +158,8 @@ wy1xjce2,"Ming Long",6
 nte1xufb,"Prue Leith",6
 5q8d0f5f,"Zoe Lucker",6
 86t87lay,"Allan Lamb",5
+gf141aag,"Brandon Lewis",5
+how3vxhs,"Clive Lewis",5
 9o242njw,"Denis Lawson",5
 44y40wje,"George Lamb",5
 p8101an0,"Graham Linehan",5
@@ -170,6 +172,7 @@ kr4af4xd,"Lee Mead",5
 ah4osfx8,"Lenore Taylor",5
 0n99q2rr,"Lily Allen",5
 gebc54zt,"Lionel Barber",5
+f7u87xd2,"Lionel Shriver",5
 itmpzxqy,"Liz Smith",5
 6xpqlg9t,"Louise Mensch",5
 4o9rjknr,"Lucy Prebble",5
@@ -187,17 +190,18 @@ ozvrcoxg,"Bernard Levin",4
 kn7y24x5,"Bonnie Langford",4
 2jc4zeik,"Carolyne Larrington",4
 gwcef9un,"Cherie Lunghi",4
-how3vxhs,"Clive Lewis",4
 1da3xdy2,"Gary Lucy",4
 9oc7ly4q,"Gavin Laird",4
 bo8y6g8n,"Hugh Leonard",4
 fvjty42g,"Ian Lang",4
 mqnpl06y,"Jane Lapotaire",4
 o2ehur4l,"Kate Lundy",4
+1a1001nd,"Ken Loach",4
 0yk2oqyj,"Kenny Logan",4
 gt3n4yow,"Kristen Lippincott",4
 300ka95s,"Kylar Loussikian",4
 3ohpm0zm,"Lawrence Mooney",4
+9p4arpu4,"Layla Moran",4
 69wtsoce,"Leon Osman",4
 i4cy9ivd,"Leroy Rosenior",4
 3w6bbu13,"Leslie Thomas",4
@@ -205,8 +209,8 @@ ynik4blm,"Lewis Hobba",4
 pwjfs4vn,"Liam Payne",4
 pgfcxpmu,"Libby Brooks",4
 zcbos8vv,"Linda Barker",4
-f7u87xd2,"Lionel Shriver",4
 6nxb0v7v,"Liz Fraser",4
+6i44iycc,"Liz Saville-Roberts",4
 x5ty7gxq,"Lord Kearton",4
 8ecj2msl,"Lorraine Chase",4
 4xlst0fi,"Lorraine Pascale",4
@@ -229,7 +233,6 @@ bf2hph6f,"Simon Le Bon",4
 yx2wm38l,"Abz Love",3
 p74d3n3p,"Annie Lennox",3
 wba6tv0k,"Benjamin Law",3
-gf141aag,"Brandon Lewis",3
 mhbsr2dc,"Chris Leslie",3
 d8wr0pxe,"Daisy Lowe",3
 5g8z74ie,"Darryn Lyons",3
@@ -247,7 +250,6 @@ mc4wxon4,"Jon Lee",3
 j7izyx26,"Jonathan Lynn",3
 acmbupgx,"Julia Lovell",3
 jcjj5gq0,"Karl Lucas",3
-1a1001nd,"Ken Loach",3
 xdqe1jzw,"Lachie Chapman",3
 ww54sjv0,"Lachlan Harris",3
 1m0y8oem,"Laila Rouass",3
@@ -276,7 +278,6 @@ s1w668o1,"Linda Partridge",3
 zs1ekz4r,"Linford Christie",3
 hg3ry5oi,"Lisa Dobriskey",3
 08xdps02,"Liz Bonnin",3
-6i44iycc,"Liz Saville-Roberts",3
 mia8p8pe,"Louisa Lytton",3
 lmyiuou9,"Louise Christian",3
 ag0mjt1x,"Louise Jameson",3
@@ -353,7 +354,6 @@ z46aexdz,"Laura Marcus",2
 x37oh6qn,"Laura Pidcock",2
 2a3o81nn,"Laura Solon",2
 xdjmez90,"Laura Trott",2
-9p4arpu4,"Layla Moran",2
 e3q6nz3i,"Lee Briers",2
 ezl17ngw,"Lee Dixon",2
 ijhqa22r,"Lee Pearson",2
@@ -430,6 +430,7 @@ cikjztnm,"Neil Lennon",2
 gx5wshcw,"Rachael Latham",2
 46m349oi,"Richard Lambert",2
 cftzo6kz,"Richard Last",2
+07cb7cwi,"Richard Leonard",2
 kxj5nhco,"Robin Lustig",2
 mql1nff8,"Sara Leighton",2
 mk94szpr,"Sarah Ludford",2
@@ -841,7 +842,6 @@ olas5uue,"Professor Henry Louis Gates Jr",1
 701fi66a,"Rachel Leskovac",1
 cjm4btdt,"Rhodri Lewis",1
 2wkyd2eh,"Richard Lane",1
-07cb7cwi,"Richard Leonard",1
 5y8oap6h,"Richard Luce",1
 15642foj,"Ricki Lake",1
 7068khlb,"Rob Lutton",1
