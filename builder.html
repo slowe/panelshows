@@ -82,13 +82,16 @@
 					lookup[newid.name] = id;
 					keys[id] = newid.name;
 					n = JSON.parse(JSON.stringify(newid));
+					n.id = id;
 					n.gender = "self";
+					ids[id] = db.length;
+					id = ids[id];
 					db.push(n);
-					id = db.length-1;
 				}
 			}else{
 				id = ids[selected.attr('data-id')];
 			}
+			console.log('selectName',id,db[id])
 			html = "";
 			// Remove events
 			S('.person .close').off('click');
@@ -187,7 +190,7 @@
 						var n = Math.min(tmp.length,10);
 						for(var i = 0; i < n; i++){
 							found++;
-							html += '<li data-id="'+tmp[i].id+'" class="'+tmp[i].gender+''+(i==0 ? ' selected':'')+'"><div class="handle"></div><div class="name">'+tmp[i].name+(tmp[i].dob ? ' ('+tmp[i].dob.substr(0,4)+')' : "")+""+(tmp[i].shows.length > 0 ? ' [<em>'+trimTo(shows[tmp[i].shows[0].key].title,(tmp[i].shows.length > 1 ? 20 : 40))+'</em>&thinsp;&times;&thinsp;'+tmp[i].shows[0].n+''+(tmp[i].shows.length > 1 ? ', <em>'+trimTo(shows[tmp[i].shows[1].key].title,20)+'</em>&thinsp;&times;&thinsp;'+tmp[i].shows[1].n : '')+']' : '')+"</div></li>";
+							html += '<li data-id="'+tmp[i].id+'" class="'+tmp[i].gender+''+(i==0 ? ' selected':'')+'"><div class="handle"></div><div class="name">'+tmp[i].name+(tmp[i].dob ? ' ('+tmp[i].dob.substr(0,4)+')' : "")+""+(tmp[i].shows && tmp[i].shows.length > 0 ? ' [<em>'+trimTo(shows[tmp[i].shows[0].key].title,(tmp[i].shows && tmp[i].shows.length > 1 ? 20 : 40))+'</em>&thinsp;&times;&thinsp;'+tmp[i].shows[0].n+''+(tmp[i].shows.length > 1 ? ', <em>'+trimTo(shows[tmp[i].shows[1].key].title,20)+'</em>&thinsp;&times;&thinsp;'+tmp[i].shows[1].n : '')+']' : '')+"</div></li>";
 						}
 					}
 				}
