@@ -43,7 +43,7 @@
 		});
 
 		// Function to update the textarea based on the people added to the DOM
-		function updateList(){
+		function updateList(reset){
 			// Find all the "person" DOM elements
 			var p = S('.person');
 			var str = "";
@@ -57,21 +57,44 @@
 				str += db[id].id+':'+db[id].name+' ('+(db[id].gender == "male" ? "Himself" : (db[id].gender == "female" ? "Herself" : db[id].gender))+');';
 			}
 			now = new Date();
-			// Add the string to the textarea
-			S('#textarea').html("<div class=\"line\">Episode,Date,Guests (Himself/Herself - Role),References</div><div class=\"line extract\"></div><div class=\"line\"><input type=\"text\" class=\"episode-output\" value=\"AxB,"+now.toISOString().substr(0,10)+","+str+",\" /></div>");
 
+			// Build the missing bits
+			if(S('#textarea .extract').length == 0){
+				S('#textarea').html("<div class=\"line\">Episode,Date,Guests (Himself/Herself - Role),References</div><div class=\"line extract\"></div><div class=\"line\"><input type=\"text\" id=\"episode-output\" class=\"episode-output\" value=\"AxB,"+now.toISOString().substr(0,10)+","+str+",\" /></div>");
+				// Add select event
+				S('#episode-output').on('focus',function(e){
+					e.currentTarget.select();
+				}).on('keyup',function(e){
+					adjustWidthOfInput();
+				});
+			}else{
+				// Update line
+				val = S('#episode-output')[0].value;
+				val = val.replace(/^([^\,]*)\,([^\,]*)\,([^\,]*)\,/,function(m,p1,p2,p3){ return p1+","+p2+","+str+","; });
+				S('#episode-output')[0].value = val;
+			}
+
+			adjustWidthOfInput();
+			
 			html = "";
 			if(show) html = '<a href="https://github.com/slowe/panelshows/edit/master/shows/data/'+show+'.csv" target="_github">Edit the file for '+shows[show].title+' on Github</a>'
 			
 			S('#notes').html(html);
-			S('.episode-output').on('focus',function(e){
-				e.currentTarget.select();
-			});
 
-
-			getShowFile(show);
+			if(reset) getShowFile(show);
 
 		}
+
+		function getWidthOfInput() {
+			var tmp = document.createElement("span");
+			tmp.className = "episode-output";
+			tmp.innerHTML = S('#episode-output')[0].value.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+			S('#textarea')[0].appendChild(tmp);
+			var theWidth = tmp.getBoundingClientRect().width;
+			S('#textarea')[0].removeChild(tmp);
+			return theWidth;
+		}
+		function adjustWidthOfInput(){ S('#episode-output')[0].style.width = (getWidthOfInput()+5) + "px"; }
 
 		function getShowFile(show){
 			
@@ -79,12 +102,9 @@
 				"dataType": "text",
 				"success": function(data){
 					var lines = data.split(/[\n\r]/);
-					console.log(lines.slice(-3));
 					olines = lines.slice(-3);
 					var html = (lines.length > 3 ? '<div>...</div>':'');
-					for(var i = 0; i < olines.length; i++){
-						html += '<div>'+linkify(olines[i])+'</div>'
-					}
+					for(var i = 0; i < olines.length; i++) html += '<div>'+linkify(olines[i])+'</div>'
 					S('.extract').html(html);
 				},
 				'error': function(e,attr){
@@ -161,7 +181,7 @@
 
 		S('#reset').on('click',function(e){
 			S('.episode').html('');
-			updateList();		
+			updateList(true);		
 		});
 		S('#search').on('keyup',function(e){
 			if(e.originalEvent.keyCode==40 || e.originalEvent.keyCode==38){
@@ -272,7 +292,7 @@
 				// Set the selected show
 				S('#shows').on('change',function(){
 					show = this.e[0].value;
-					updateList();
+					updateList(true);
 				});
 			},
 			'error': function(e){
