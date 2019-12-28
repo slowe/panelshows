@@ -23,4 +23,4 @@ In 2014 [Milton Jones added his thoughts on the lack of women](http://www.radiot
 
 In October 2015 [Andy Parsons announced that he was quitting Mock The Week](http://www.chortle.co.uk/news/2015/10/19/23424/andy_parsons_quits_mock_the_week). He was quoted as saying "Perhaps this will be an opportunity to make a female comedian a regular".
 
-In summer 2017, in series 16, Mock The Week finally had a standard episode with more than one woman on it. There were two more episodes with more than one woman in 2017. 2018 has seen a marked improvement.
+In summer 2017, in series 16, Mock The Week finally had a standard episode with more than one woman on it. There were two more episodes with more than one woman in 2017. 2018 has seen a marked improvement. In 2019, series 18 had two women on every episode.
