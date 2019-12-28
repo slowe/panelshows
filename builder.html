@@ -126,6 +126,7 @@
 			var id,n;
 			if(data.length==0) return;
 			if(data=="?"){
+				// First create them an ID
 				newid = newID(S('#search')[0].value);
 				id = newid.id;
 
@@ -136,14 +137,24 @@
 					n = JSON.parse(JSON.stringify(newid));
 					n.id = id;
 					n.gender = "self";
+					n.rank = 0;
+					n.n = "1";
+					n.shows = [{'key':show,'n':1}];
 					ids[id] = db.length;
 					id = ids[id];
+					// Add them to the DB
 					db.push(n);
 				}
 			}else{
 				id = ids[selected.attr('data-id')];
+				// Update show counter
+				console.log('Update ',db[id],show)
+				for(var s = 0 ; s < db[id].shows.length; s++){
+					if(db[id].shows[s].key == show){
+						db[id].shows[s].n++;
+					}
+				}
 			}
-			console.log('selectName',id,db[id])
 			html = "";
 			// Remove events
 			S('.person .close').off('click');
