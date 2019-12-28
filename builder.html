@@ -58,12 +58,44 @@
 			}
 			now = new Date();
 			// Add the string to the textarea
-			S('#textarea').html("Episode,Date,Guests (Himself/Herself - Role),References<br />AxB,"+now.toISOString().substr(0,10)+","+str+",");
+			S('#textarea').html("<div class=\"line\">Episode,Date,Guests (Himself/Herself - Role),References</div><div class=\"line extract\"></div><div class=\"line\"><input type=\"text\" class=\"episode-output\" value=\"AxB,"+now.toISOString().substr(0,10)+","+str+",\" /></div>");
 
 			html = "";
 			if(show) html = '<a href="https://github.com/slowe/panelshows/edit/master/shows/data/'+show+'.csv" target="_github">Edit the file for '+shows[show].title+' on Github</a>'
 			
 			S('#notes').html(html);
+			S('.episode-output').on('focus',function(e){
+				e.currentTarget.select();
+			});
+
+
+			getShowFile(show);
+
+		}
+
+		function getShowFile(show){
+			
+			S().ajax("shows/data/"+show+".csv",{
+				"dataType": "text",
+				"success": function(data){
+					var lines = data.split(/[\n\r]/);
+					console.log(lines.slice(-3));
+					olines = lines.slice(-3);
+					var html = (lines.length > 3 ? '<div>...</div>':'');
+					for(var i = 0; i < olines.length; i++){
+						html += '<div>'+linkify(olines[i])+'</div>'
+					}
+					S('.extract').html(html);
+				},
+				'error': function(e,attr){
+					console.error('Unable to load '+attr.file)
+				}
+			})
+		
+		}
+
+		function linkify(txt){
+     		return txt.replace(/(\,|\;|\s)(http[^\s]*)/g,function(m,p1,p2,p3){ return p1+'<a href="'+p2+'" target="source">'+p2+'</a>'; });
 		}
 
 		// Select one of the people in the drop down list
@@ -441,7 +473,7 @@
 	#textarea {
 		width: 100%;
 		margin-bottom: 0.25em;
-		height: 5em;
+		min-height: 5em;
 		font-size: 1.25em;
 		font-family: monospace;
 		padding: 1em;
@@ -449,6 +481,8 @@
 		overflow-x: auto;
 		white-space: nowrap;
 	}
+	.episode-output { border: 0px; line-height: 1em; font: inherit; background: transparent; width: 100%; }
+	.extract { opacity: 0.5; }
 	.row {
 		vertical-align: top;
 	}
