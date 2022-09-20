@@ -29,7 +29,7 @@ S(document).ready(function(){
 		// If we have a Wikipedia link we try to get the extract
 		if(wiki){
 			filestoload++;
-			S().ajax('http://strudel.org.uk/cgi-bin/getwiki.pl?name='+encodeURIComponent(wiki)+'',{
+			S().ajax('https://strudel.org.uk/cgi-bin/getwiki.pl?name='+encodeURIComponent(wiki)+'',{
 				'complete': function(d){
 					filesloaded++;
 					processEntry(JSON.parse(d.replace(/[\n\r]/,' ')));
