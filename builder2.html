@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<title>Build a panel show</title>
+	<link rel="stylesheet" media="all" href="style.css" type="text/css"/>
+	<script type="text/javascript">
+
+		function getShowFile(show){
+			
+			S().ajax("shows/data/"+show+".csv",{
+				"dataType": "text",
+				"success": function(data){
+					var lines = data.split(/[\n\r]/);
+					olines = lines.slice(-3);
+					var html = (lines.length > 3 ? '<div>...</div>':'');
+					for(var i = 0; i < olines.length; i++) html += '<div>'+linkify(olines[i])+'</div>'
+					S('.extract').html(html);
+				},
+				'error': function(e,attr){
+					console.error('Unable to load '+attr.file)
+				}
+			})
+		
+		}
+
+		function linkify(txt){
+     		return txt.replace(/(\,|\;|\s)(http[^\s]*)/g,function(m,p1,p2,p3){ return p1+'<a href="'+p2+'" target="source">'+p2+'</a>'; });
+		}
+	// Code for creating a new ID
+	function newID(name){
+		var rtn = {'name':name};
+		if(name && lookup[name]){
+			console.warn(name+" already exists with ID "+lookup[name]);
+			rtn.existing = lookup[name];
+		}
+
+		var key = generate_random_string(name);
+		var str = name;
+		while(keys[key]){
+			str += 'a';
+			key = generate_random_string(str);
+		}
+		rtn.id = key;
+		return rtn;	
+	}
+	
+
+	// Create a seed for the random number generator based on the numbers in the input
+	function generate_random_string(seed,len){
+		length_of_randomstring = (len||8);
+		var n = 0;
+		var i,a2n,string,rand;
+		if(seed){
+			a2n = {};
+
+			string = seed.split("");
+			seed = 0;
+			n = string.length;
+			for(i = 0; i < string.length ; i++) seed += (string[i].charCodeAt()/256)**(n-i);
+			seed = (seed+"").replace(/[^0-9]/g,"").replace(/^0/g,"");
+			rand = srand(seed);
+		}
+		var chars = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','0','1','2','3','4','5','6','7','8','9'];
+		var random_string = "";
+		for(i = 1; i <= length_of_randomstring; i++) random_string += chars[Math.floor(rand(chars.length))];
+		return random_string;
+	}
+	
+	/**
+	 * srand from https://github.com/micro-js/srand MIT licence
+	 */
+	function srand(seed){
+		// If we're passed a string, condense it down into a number
+		if(typeof seed==='string'){
+			str = seed
+			seed = 0xFF
+			for(var i = 0; i < str.length; i++){
+				seed ^= str.charCodeAt(i)
+			}
+		}
+
+		return function (max, min){
+			max = max || 1
+			min = min || 0
+			seed = (seed * 9301 + 49297) % 233280
+
+			return min + (seed / 233280) * (max - min)
+		}
+	}
+
+	</script>
+	<style>
+	input[type=reset] { float: right; }
+	input#search, .searchresults { width: 100%; }
+	.searchresults {
+		position: absolute;
+		top: 2em;
+		z-index: 1000;
+	}
+	.searchresults ol {
+		margin: 0px;
+		padding: 0px;
+	}
+	.searchresults li {
+		border-bottom: 1px solid white;
+		display: block;
+		text-align: left;
+		background-color: #efefef;
+		color: #404040;
+	}
+	.searchresults li .name {
+		padding: 0 0.5em;
+		display: inline-block;
+		line-height: 2em;
+	}
+	.searchresults li .handle {
+		width: 1em;
+		height: 1em;
+		margin: 0.5em;
+		float: right;
+	}
+	li.male .handle { background-color: #0DBC37; }
+	li.female .handle { background-color: #722EA5; }
+	.searchresults li.selected, .searchresults li:hover {
+		background-color: black; color: #fefefe;
+		cursor: pointer;
+	}
+	.searchresults li div {
+		-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	}
+	.searchresults li .name {
+		width: auto;
+	}
+	#episode {
+		background: #f9f9f9;
+		border: 1px solid #999;
+		border-radius: 4px;
+		padding: 1em;
+		margin-top: 0.5em;
+	}
+	#episode h2 { font-size: 1em; }
+	#episode > *:first-child { margin-top : 0; }
+	#episode .person {
+		display:inline-block;
+		margin-right: 0.25em;
+		margin-bottom: 0.25em;
+		line-height: 1em;
+		padding: 2px;
+	}
+	#episode .person > * { display: inline-block; padding: 0.5em; line-height: 1em; }
+	#episode .person .name {
+		float: left;
+		cursor: pointer;
+	}
+	#episode .person .role {
+		margin-right: 0.25em;
+		background: transparent;
+		color: inherit;
+		min-width: 2em;
+		border: 0;
+		text-align: center;
+	}
+	#episode .person .role:before { content: "("; position: relative; left: -0.5em; }
+	#episode .person .role:after { content: ")"; position: relative; right: -0.5em; }
+	#episode .person .close {
+		background-color: #cccccc;
+		color: black;
+		cursor: pointer;
+	}
+	#episode .person .close:hover {
+		background-color: #bbbbbb;
+	}
+	#notes{
+		float: right;
+		line-height: 2em;
+	}
+	textarea {
+		width: 100%;
+		min-height: 10em;
+		font-size: 1em;
+		font-family: monospace;
+		padding: 1em;
+		background-color: #efefef;
+		border: 0;
+		white-space: pre;
+		overflow-wrap: normal;
+		overflow-x: scroll;
+	}
+	.episode-output { border: 0px; line-height: 1em; font: inherit; background: transparent; width: 100%; }
+	.extract { opacity: 0.5; }
+	.row { display: flex; }
+	.row + .row { margin-top: 0.5em; }
+	.row-buttons { display: block; }
+	.row-top { display: grid; grid-gap: 1em; grid-template-columns: auto auto 1fr; }
+	.row-top > div { display: grid; grid-template-columns: auto 1fr; align-items: center; }
+	.row-top > div label { margin-right: 0.25em; }
+	.row-top > div > span { grid-column: 2; }
+	.searcher {
+		display: block;
+		position: relative;
+		width: 100%;
+	}
+	select, input { font: inherit; font-size: inherit; line-height: 1.5em; height: 2em; }
+	label { white-space: nowrap; }
+	label + div { margin-top: 0.5em; }
+	label + div:empty { margin-top: 0em; }
+	label:after { content: ":"; position: "relative"; }
+	fieldset { padding: 1em; border: 1px solid #999; }
+	fieldset legend { margin-left: 0em; padding: 0 0.5em; color: #999; }
+	.prev-value { color: #999; font-size: 0.8em; display: block; }
+	.prev-value:before { content: "Recent: "; position: "relative"; }
+	.prev-value:empty:before { content: ""; }
+	#show { margin-top: 0.5em; margin-bottom : 2em; }
+	#id { width: 6em; }
+	#url { width: 100%; }
+	input[type=text] { max-width: 100%; }
+	button, input[type=submit], input[type=reset] { font-size: 1em; margin-top: 0; cursor: pointer; height: 2em; }
+	#copy { float: right; margin-top: 0.5em; }
+	</style>
+</head>
+<body>
+<nav id="header">
+	<div class="padder">
+		<div class="title"><a href="index.html">Panel Show Db</a></div><ul id="menu"><li><a href="people/index.html">People</a></li><li><a href="https://github.com/slowe/panelshows/tree/master/data">Data</a></li></ul>
+	</div>
+</nav>
+<div class="page">
+
+	<h1>Build a panel show</h1>
+		<div>
+			<label for="shows">Select a panel show</label><select id="shows"></select>
+		</div>
+		<form id="episode" onsubmit="false">
+			<h2>Describe an episode</h2>
+			<div class="row row-top">
+				<div><label for="id">ID</label><input id="id" type="text"></input><span id="prev-id" class="prev-value"></span></div>
+				<div><label for="date">Date</label><input id="date" type="date"></input><span id="prev-date" class="prev-value"></span></div>
+				<div><label for="url">URL</label><input id="url" type="url"></input><span id="prev-url" class="prev-value"></span></div>
+			</div>
+			<div class="row">
+				<div>
+					<label for="search">Panellists</label>
+					<div id="people"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="searcher">
+					<input type="text" id="search" value="" placeholder="e.g. Sandi Toksvig" autocomplete="off" />
+					<div class="searchresults"></div>
+				</div>
+			</div>
+			<div class="row row-buttons">
+				<input type="reset" id="reset" name="reset" value="Clear" />
+				<input type="submit" id="add" value="Add episode to programme" disabled="true" />
+			</div>
+		</form>
+		<section id="show">
+			<div id="notes"></div>
+			<textarea id="show-csv" readonly></textarea>
+			<button id="copy">Copy to clipboard</button>
+		</section>
+
+	<script>
+	// Create a database for people
+	function PeopleDB(){
+
+		this.data = {};
+
+		this.init = function(){
+
+			// Get main database of people
+			fetch("people/people.tsv",{})
+			.then(response => { return response.text(); })
+			.then(text => {
+				var i,c,cols,lines,head,id;
+				lines = text.split(/[\n\r]/);
+				// The header line contains the names for columns
+				for(i = 0; i < lines.length; i++){
+					cols = lines[i].split(/\t/);
+					if(i == 0){
+						cols[0] = cols[0].substr(2,);
+						head = cols;
+					}else{
+						id = cols[0];
+						if(id){
+							if(!this.data[id]) this.data[id] = {};
+							for(c = 1; c < cols.length; c++){
+								if(cols[c] != "") this.data[id][head[c]] = cols[c];
+							}
+						}
+					}
+				}
+			}).catch(error => {
+				console.error('Unable to load people');
+			});
+
+			// Get databse of rankings
+			fetch("people/ranked.csv",{})
+			.then(response => { return response.text(); })
+			.then(text => {
+				var i,c,cols,lines,head,id,showbits,bits,s,key;
+				lines = text.split(/[\n\r]/);
+				for(i = 0; i < lines.length; i++){
+					if(lines[i] != ""){
+						cols = lines[i].split(/,(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))/);
+						id = cols[0];
+						if(id){
+							if(!this.data[id]) this.data[id] = {};
+							if(!this.data[id].gender && cols[2]) this.data[id].gender = cols[2];
+							if(!this.data[id].dob && cols[3]) this.data[id].dob = cols[3];
+							if(!this.data[id].n && cols[4]) this.data[id].n = parseInt(cols[4]);
+							if(!this.data[id].shows && cols[5]) this.data[id].shows = cols[5];
+							if(this.data[id].shows){
+								showbits = (this.data[id].shows) ? this.data[id].shows.replace(/;$/,"").split(";") : new Array();
+								this.data[id].shows = {};
+								for(s = 0 ; s < showbits.length; s++){
+									bits = showbits[s].split(/:/);
+									this.data[id].shows[bits[0]] = parseInt(bits[1]);
+								}
+							}
+						}
+					}
+				}				
+			}).catch(error => {
+				console.error('Unable to load people rankings');
+			});
+
+			return this;
+		}
+
+		this.init();
+		return this;
+	}
+
+	// Create a database for shows
+	function ShowDB(el){
+		this.data = {};
+		this.lookup = {};
+		this.show = "";
+		var _obj = this;
+		this.init = function(){
+			// Get databse of shows
+			fetch("people/shows.json",{})
+			.then(response => { return response.json(); })
+			.then(json => {
+				this.data = json;
+				this.lookup = {};
+				var showkeys = new Array();
+
+				for(id in json){
+					this.lookup[json[id].i] = id;
+					showkeys.push(id);
+				}
+				showkeys.sort();
+
+				// Build the dropdown list
+				var html = '<option value="">Select show</option>';
+				for(var i = 0; i < showkeys.length; i++){
+					html += '<option value="'+showkeys[i]+'">'+this.data[showkeys[i]].title+'</option>';
+				}
+				el.innerHTML = html;
+
+				// Set the selected show
+				el.addEventListener('change',function(e){ _obj.set(e.target.value); });
+
+			}).catch(error => {
+				console.error('Unable to load shows');
+			});
+			return this;
+		};
+
+		// Set a particular show
+		// This will load the data and build the result
+		this.set = function(show){
+			if(!show || !show in this.data){
+				console.error('No show data for '+show);
+				document.getElementById('add').disabled = true;
+			}else{
+				if(this.data[show].loaded){
+					this.setShow(show);
+				}else{
+					// Get databse of rankings
+					fetch("shows/data/"+show+".csv",{})
+					.then(response => { return response.text(); })
+					.then(text => {
+						var lines,l;
+						this.data[show].text = text;
+						this.data[show].episodes = new Array;
+						lines = text.split(/[\n\r]/);
+						for(l = 1; l < lines.length; l++){
+							if(lines[l]){
+								bits = lines[l].split(/,(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))/);
+								ep = {};
+								ep.id = bits[0];
+								ep.date = bits[1];
+								ep.people = bits[2].replace(/;$/,"").split(/;/);
+								ep.ref = bits[3];
+								if(bits.length == 5) ep.more = bits[4];
+								for(g = 0; g < ep.people.length; g++){
+									guest = ep.people[g].split(/:/);
+									ep.people[g] = {}
+									ep.people[g].id = guest[0];
+									ep.people[g].string = guest[1]||"";
+									ep.people[g].string.replace(/^(.*?) \((.*)\)$/,function(m,p1,p2){
+										ep.people[g].name = p1;
+										if(p2){
+											attr = p2.split(/ - /);
+											if(attr.length >= 1) ep.people[g].gender = attr[0];
+											if(attr.length >= 2) ep.people[g].role = attr[1];
+										}
+									});
+								}
+								this.data[show].episodes.push(ep);
+							}
+						}
+						this.data[show].loaded = true;
+						this.setShow(show);
+					}).catch(error => {
+						console.error('Unable to load show data for '+show);
+					});
+				}
+				document.getElementById('add').disabled = false;
+				this.show = show;
+			}
+			return this;
+		};
+		this.setShow = function(show){
+			document.getElementById('show-csv').value = _obj.buildCSV(show);
+			document.getElementById('show-csv').scrollTop = document.getElementById('show-csv').scrollTopMax;
+			if(_obj.data[show].episodes.length > 0){
+				var ep = _obj.data[show].episodes[_obj.data[show].episodes.length-1];
+
+				document.getElementById('prev-id').innerHTML = ep.id;
+				document.getElementById('prev-date').innerHTML = ep.date;
+				document.getElementById('prev-url').innerHTML = ep.ref;
+
+				// If no value is set we enter a guess
+				if(document.getElementById('id').value==""){
+					bits = ep.id.split('x');
+					if(bits.length == 2){
+						n = parseInt(bits[1])+1;
+						n = ('00'+n).slice(-2);
+						document.getElementById('id').setAttribute('placeholder','e.g. '+ep.id);
+						document.getElementById('id').value = bits[0]+'x'+n;
+					}
+				}
+				// If no value is set we enter a guess
+				if(document.getElementById('date').value==""){
+					var d = new Date(ep.date);
+					d.setDate(d.getDate() + 7)
+					document.getElementById('date').value = d.toISOString().substr(0,10);
+				}
+			}
+			return;
+		};
+		this.buildCSV = function(show){
+			var s,csv;
+			if(!show) show = this.show;
+			csv = '';
+			if(!show in this.data){
+				console.error('Show '+show+' does not exist in database');
+			}else{
+				s = this.data[show];
+				csv = 'Episode,Date,Guests (Himself/Herself - Role),References\n';
+				for(e = 0; e < s.episodes.length; e++){
+					csv += s.episodes[e].id;
+					csv += ','+s.episodes[e].date;
+					csv += ',';
+					if(s.episodes[e].people){
+						for(p = 0; p < s.episodes[e].people.length; p++){
+							csv += (p > 0 ? ';':'');
+							csv += s.episodes[e].people[p].id+':'+s.episodes[e].people[p].name;
+							csv += ' (';
+							csv += s.episodes[e].people[p].gender;
+							if(s.episodes[e].people[p].role){
+								csv += ' - '+s.episodes[e].people[p].role;
+							}
+							csv += ')';
+						}
+					}
+					csv += ','+s.episodes[e].ref;
+					csv += '\n';
+				}
+			}
+			csv = csv.replace(/\n$/,"");
+			return csv;
+		}
+		this.init();
+		return this;
+	}
+
+	var people = new PeopleDB();
+	var shows = new ShowDB(document.getElementById('shows'));
+
+	document.getElementById('episode').addEventListener('submit',function(e){
+		if (e.preventDefault) e.preventDefault();
+		e.stopPropagation();
+		updateList();
+	});
+
+
+	// Make the "copy to clipboard" button function
+	function CopyToClipboard(){
+		var copyText = document.getElementById("show-csv");
+		copyText.select();
+		copyText.setSelectionRange(0, 999999); // For mobile devices
+		// Copy the text inside the text field
+		navigator.clipboard.writeText(copyText.value);
+		copyText.setSelectionRange(999999,999999);
+	}
+	document.getElementById('copy').addEventListener('click',CopyToClipboard);
+
+
+	document.getElementById('search').addEventListener('keydown',function(e){
+		if(e.keyCode==13){
+			e.preventDefault();
+			e.stopPropagation();
+			return false;
+		}
+	});
+	document.getElementById('search').addEventListener('keyup',function(e){
+		e.preventDefault();
+		e.stopPropagation();
+		if(e.keyCode==40 || e.keyCode==38){
+			// Down=40
+			// Up=38
+			var li = document.querySelectorAll('.searchresults li');
+			var s = -1;
+			for(var i = 0; i < li.length; i++){
+				if(li[i].classList.contains('selected')) s = i;
+			}
+			if(e.keyCode==40) s++;
+			else s--;
+			if(s < 0) s = li.length-1;
+			if(s >= li.length) s = 0;
+			document.querySelector('.searchresults .selected').classList.remove('selected');
+			li[s].classList.add('selected');
+		}else if(e.keyCode==13){
+			selectName(document.querySelector('.searchresults .selected'));
+		}else{
+			var tmp = new Array();
+			var name = e.target.value;
+			var found = 0;
+			var html = "";
+			if(name.length < 1){
+				html = "";
+			}else{
+				var names = name.split(/ /);
+				var n = names.length;
+				var mx = 0;
+				for(var id in people.data){
+					if(people.data[id].n > mx) mx = people.data[id].n;
+					people.data[id].rank = 0;
+				}
+				for(var id in people.data){
+					rank = 0;
+					for(m = 0; m < n ; m++){
+						if(!people.data[id].Name) console.warn('Person with id '+id+' has no name');
+						else{
+							if(people.data[id].Name.indexOf(names[m]) >= 0) rank++;
+							else rank--;
+						}
+					}
+					if(rank > 0){
+						datum = people.data[id];
+						datum.id = id;
+						datum.rank = rank*datum.n/mx;
+						if(show){
+							scalefactor = 0.0001;
+							if(datum.shows && shows.show && shows.show in shows.data){
+								i = shows.data[shows.show].i;
+								if(datum.shows[i]){
+									scalefactor = datum.shows[i]/shows.data[shows.show].episodes.length;
+								}
+							}
+							datum.rank *= scalefactor;
+						}
+						tmp.push(datum);
+					}
+				}
+				if(tmp.length > 0){
+					tmp = sortBy(tmp,'rank');
+					var n = Math.min(tmp.length,8);
+					var i,sid,sids;
+					for(i = 0; i < n; i++){
+						found++;
+						html += '<li data-id="'+tmp[i].id+'" class="'+tmp[i].gender+''+(i==0 ? ' selected':'')+'"><div class="handle"></div><div class="name">'+tmp[i].Name+(tmp[i].dob ? ' ('+tmp[i].dob.substr(0,4)+')' : "")+"";
+						sids = new Array();
+						if(tmp[i].shows){
+							for(sid in tmp[i].shows){
+								sids.push({'id':sid,'n':tmp[i].shows[sid]});
+							}
+							sids = sortBy(sids,'n');
+							if(sids.length > 0){
+								html += ' [<em>';
+								html += trimTo(shows.data[shows.lookup[sids[0].id]].title,(sids.length > 1 ? 20 : 40));
+								html += '</em>&thinsp;&times;&thinsp;'+sids[0].n;
+								html += (sids.length > 1 ? ', <em>'+trimTo(shows.data[shows.lookup[sids[1].id]].title,20)+'</em>&thinsp;&times;&thinsp;'+sids[1].n : '');
+								html += ']';
+							}
+						}
+						html += "</div></li>";
+					}
+				}
+			}
+			if(found < 4){
+				html += '<li data-id="?" class=""><div class="handle"></div><div class="name">&plus; Add unknown person</div></li>';
+			}
+			if(html){
+				document.querySelector('.searchresults').innerHTML = "<ol>"+html+"</ol>";
+				var li = document.querySelectorAll('.searchresults li');
+				for(var i = 0 ; i < li.length ; i++) selectablePerson(li[i]);
+			}
+		}
+		
+		// Sort the data
+		function sortBy(arr,i){
+			yaxis = i;
+			return arr.sort(function (a, b) {
+				return a[i] < b[i] ? 1 : -1;
+			});
+		}
+		return false;
+	});
+
+	function selectName(el){
+		// Get the ID from the DOM element's data-id attribute
+		// Use that to find the index that corresponds to in the "db" hash
+		var data = el.getAttribute('data-id');
+		var id,n;
+
+		if(data.length==0) return;
+		if(data=="?"){
+			// First create them an ID
+			newid = newID(S('#search')[0].value);
+			id = newid.id;
+
+			// Check if this ID has been created
+			if(!keys[id]){
+				lookup[newid.name] = id;
+				keys[id] = newid.name;
+				n = JSON.parse(JSON.stringify(newid));
+				n.id = id;
+				n.gender = "self";
+				n.rank = 0;
+				n.n = "1";
+				n.shows = [{'key':show,'n':1}];
+				ids[id] = db.length;
+				id = ids[id];
+				// Add them to the DB
+				db.push(n);
+			}
+		}else{
+			id = el.getAttribute('data-id');
+			// Update show counter
+			if(shows.show){
+				var i = shows.data[shows.show].i;
+				people.data[id].shows[i]++;
+			}
+		}
+		html = "";
+		person = document.createElement('span');
+		person.setAttribute('data-id',id);
+		person.classList.add('person');
+		if(people.data[id].gender) person.classList.add(people.data[id].gender);
+		html = '<span class="name">'+people.data[id].Name+'</span>';
+		html += '<span class="role" role="textbox" contenteditable="true"></span>';
+		html += '<span class="close" title="Remove">&times;</span>';
+		person.innerHTML = html;
+		document.getElementById('people').appendChild(person);
+
+		document.querySelector('.searchresults').innerHTML = '';
+		document.getElementById('search').value = '';
+
+		var p = document.querySelectorAll('.person');
+		for(var i = 0; i < p.length; i++){
+			el = p[i];
+			el.querySelector('.close').addEventListener('click',function(e){
+				e.target.parentNode.remove();
+			});
+			el.querySelector('.name').addEventListener('click',function(e){
+				var parent = e.target.parentNode;
+				var id = parent.getAttribute('data-id');
+				var g = people.data[id].gender||"other";
+
+				if(parent.classList.contains('male')) g = 'male';
+				else if(parent.classList.contains('female')) g = 'female';
+				else if(parent.classList.contains('other')) g = 'other';
+				parent.classList.remove(g);
+
+				var sw = {'male':'female','female':'other','other':'male','self':'male'};
+				parent.classList.add(sw[g]);
+
+				// Update the gender
+				people.data[id].gender = sw[g];
+			});
+		}
+	}
+
+	// Select one of the people in the drop down list
+	function selectablePerson(el){
+		el.addEventListener('click',function(e){
+			selectName(el);
+		});	
+	}
+	function trimTo(str,len){
+		if(str) return (str.length > len ? str.substr(0,len)+'&#8230;':str);
+		else return "";
+	}
+
+	// Function to update the textarea based on the people added to the DOM
+	function updateList(reset){
+		// Find all the "person" DOM elements
+		var p = document.querySelectorAll('.person');
+		var str = "";
+
+		if(shows.show){
+			if(!shows.data[shows.show].episodes) shows.data[shows.show].episodes = [];
+
+			// Build a new episode
+			var episode = {'people':new Array()};
+			var person;
+			
+			episode.id = document.getElementById('id').value;
+			episode.date = document.getElementById('date').value;
+			episode.ref = document.getElementById('url').value;
+
+			// Loop over the DOM elements
+			for(var i = 0; i < p.length; i++){
+				// Get a stuQuery object for the current element
+				el = p[i];
+				// Find the ID stored in the "data-id" attribute
+				id = el.getAttribute('data-id');
+				person = { 'id':id };
+				person.name = people.data[id].Name;
+				person.gender = (people.data[id].gender == "male" ? "Himself" : (people.data[id].gender == "female" ? "Herself" : people.data[id].gender));
+				person.role = el.querySelector('.role').innerHTML;
+
+				episode.people.push(person);
+			}
+			shows.data[shows.show].episodes.push(episode);
+			document.getElementById('show-csv').value = shows.buildCSV(shows.show);
+			
+		}
+
+return;
+		// Build the missing bits
+		if(S('#textarea .extract').length == 0){
+			S('#textarea').html("<div class=\"line\">Episode,Date,Guests (Himself/Herself - Role),References</div><div class=\"line extract\"></div><div class=\"line\"><input type=\"text\" id=\"episode-output\" class=\"episode-output\" value=\""+suggestep+","+suggestdt.toISOString().substr(0,10)+","+str+",\" /></div>");
+			// Add select event
+			S('#episode-output').on('focus',function(e){
+				e.currentTarget.select();
+			}).on('keyup',function(e){
+				adjustWidthOfInput();
+			});
+		}else{
+			// Update line
+			val = S('#episode-output')[0].value;
+			val = val.replace(/^([^\,]*)\,([^\,]*)\,([^\,]*)\,/,function(m,p1,p2,p3){ return p1+","+p2+","+str+","; });
+			S('#episode-output')[0].value = val;
+		}
+
+		adjustWidthOfInput();
+		
+		html = "";
+		if(show) html = '<a href="https://github.com/slowe/panelshows/edit/master/shows/data/'+show+'.csv" target="_github">Edit the file for '+shows[show].title+' on Github</a>'
+		
+		S('#notes').html(html);
+
+		if(reset) getShowFile(show);
+
+	}
+
+	function getWidthOfInput() {
+		var tmp = document.createElement("span");
+		tmp.className = "episode-output";
+		tmp.innerHTML = S('#episode-output')[0].value.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+		S('#textarea')[0].appendChild(tmp);
+		var theWidth = tmp.getBoundingClientRect().width;
+		S('#textarea')[0].removeChild(tmp);
+		return theWidth;
+	}
+	function adjustWidthOfInput(){ S('#episode-output')[0].style.width = (getWidthOfInput()+5) + "px"; }
+
+	</script>
+
+</div>
+</body>
+</html>
