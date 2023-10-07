@@ -685,7 +685,10 @@
 		}
 	}
 
-	function linkify(txt){ return '<a href="'+txt+'" target="_new">'+txt+'</a>'; }
+	function linkify(txt){
+		return txt.replace(/(^|\,|\;|\s)(http[^\s]*)/g,function(m,p1,p2,p3){ return p1+'<a href="'+p2+'" target="source">'+p2+'</a>'; });
+	}
+
 	function getWidthOfInput(el) {
 		var w = 0;
 		if(el){
