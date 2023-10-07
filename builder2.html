@@ -7,27 +7,6 @@
 	<link rel="stylesheet" media="all" href="style.css" type="text/css"/>
 	<script type="text/javascript">
 
-		function getShowFile(show){
-			
-			S().ajax("shows/data/"+show+".csv",{
-				"dataType": "text",
-				"success": function(data){
-					var lines = data.split(/[\n\r]/);
-					olines = lines.slice(-3);
-					var html = (lines.length > 3 ? '<div>...</div>':'');
-					for(var i = 0; i < olines.length; i++) html += '<div>'+linkify(olines[i])+'</div>'
-					S('.extract').html(html);
-				},
-				'error': function(e,attr){
-					console.error('Unable to load '+attr.file)
-				}
-			})
-		
-		}
-
-		function linkify(txt){
-     		return txt.replace(/(\,|\;|\s)(http[^\s]*)/g,function(m,p1,p2,p3){ return p1+'<a href="'+p2+'" target="source">'+p2+'</a>'; });
-		}
 	// Code for creating a new ID
 	function newID(name){
 		var rtn = {'name':name};
@@ -154,16 +133,15 @@
 		float: left;
 		cursor: pointer;
 	}
-	#episode .person .role {
-		margin-right: 0.25em;
+	#episode .person input {
 		background: transparent;
 		color: inherit;
-		min-width: 2em;
+		min-width: 5em;
+		width: 5em;
 		border: 0;
 		text-align: center;
 	}
-	#episode .person .role:before { content: "("; position: relative; left: -0.5em; }
-	#episode .person .role:after { content: ")"; position: relative; right: -0.5em; }
+	#episode .person .role { margin-right: 0.25em; }
 	#episode .person .close {
 		background-color: #cccccc;
 		color: black;
@@ -308,10 +286,11 @@
 						id = cols[0];
 						if(id){
 							if(!this.data[id]) this.data[id] = {};
-							if(!this.data[id].gender && cols[2]) this.data[id].gender = cols[2];
-							if(!this.data[id].dob && cols[3]) this.data[id].dob = cols[3];
-							if(!this.data[id].n && cols[4]) this.data[id].n = parseInt(cols[4]);
-							if(!this.data[id].shows && cols[5]) this.data[id].shows = cols[5];
+							if(!this.data[id].pronoun && cols[2]) this.data[id].pronoun = cols[2];
+							if(!this.data[id].gender && cols[3]) this.data[id].gender = cols[3];
+							if(!this.data[id].dob && cols[4]) this.data[id].dob = cols[4];
+							if(!this.data[id].n && cols[5]) this.data[id].n = parseInt(cols[5]);
+							if(!this.data[id].shows && cols[6]) this.data[id].shows = cols[6];
 							if(this.data[id].shows){
 								showbits = (this.data[id].shows) ? this.data[id].shows.replace(/;$/,"").split(";") : new Array();
 								this.data[id].shows = {};
@@ -666,7 +645,8 @@
 		person.classList.add('person');
 		if(people.data[id].gender) person.classList.add(people.data[id].gender);
 		html = '<span class="name">'+people.data[id].Name+'</span>';
-		html += '<span class="role" role="textbox" contenteditable="true"></span>';
+		html += '<input class="pronoun" type="text" value="'+people.data[id].pronoun+'" placeholder="Pronoun" />';
+		html += '<input class="role" type="text" placeholder="Role?" />';
 		html += '<span class="close" title="Remove">&times;</span>';
 		person.innerHTML = html;
 		document.getElementById('people').appendChild(person);
@@ -680,25 +660,25 @@
 			el.querySelector('.close').addEventListener('click',function(e){
 				e.target.parentNode.remove();
 			});
-			el.querySelector('.name').addEventListener('click',function(e){
+			el.querySelector('.pronoun').addEventListener('change',function(e){
 				var parent = e.target.parentNode;
 				var id = parent.getAttribute('data-id');
-				var g = people.data[id].gender||"other";
-
-				if(parent.classList.contains('male')) g = 'male';
-				else if(parent.classList.contains('female')) g = 'female';
-				else if(parent.classList.contains('other')) g = 'other';
-				parent.classList.remove(g);
-
-				var sw = {'male':'female','female':'other','other':'male','self':'male'};
-				parent.classList.add(sw[g]);
-
-				// Update the gender
-				people.data[id].gender = sw[g];
+				var p = e.target.value;
+				var g = people.data[id].gender;
+				// Remove the existing gender
+				parent.classList.remove(people.data[id].gender);
+				// Use the user provided reflexive pronoun to get a new gender class name
+				if(p == "Himself") g = "male";
+				else if(p == "Herself") g = "female";
+				else g = "other";
+				if(g) parent.classList.add(g);
+				people.data[id].gender = g;
+				people.data[id].pronoun = p;
 			});
+			el.querySelector('.role').addEventListener('keyup',function(e){ adjustWidthOfInput(e.target); });
+			el.querySelector('.pronoun').addEventListener('keyup',function(e){ adjustWidthOfInput(e.target); });
 		}
 	}
-
 	// Select one of the people in the drop down list
 	function selectablePerson(el){
 		el.addEventListener('click',function(e){
@@ -746,43 +726,26 @@
 		}
 
 return;
-		// Build the missing bits
-		if(S('#textarea .extract').length == 0){
-			S('#textarea').html("<div class=\"line\">Episode,Date,Guests (Himself/Herself - Role),References</div><div class=\"line extract\"></div><div class=\"line\"><input type=\"text\" id=\"episode-output\" class=\"episode-output\" value=\""+suggestep+","+suggestdt.toISOString().substr(0,10)+","+str+",\" /></div>");
-			// Add select event
-			S('#episode-output').on('focus',function(e){
-				e.currentTarget.select();
-			}).on('keyup',function(e){
-				adjustWidthOfInput();
-			});
-		}else{
-			// Update line
-			val = S('#episode-output')[0].value;
-			val = val.replace(/^([^\,]*)\,([^\,]*)\,([^\,]*)\,/,function(m,p1,p2,p3){ return p1+","+p2+","+str+","; });
-			S('#episode-output')[0].value = val;
-		}
-
-		adjustWidthOfInput();
-		
 		html = "";
 		if(show) html = '<a href="https://github.com/slowe/panelshows/edit/master/shows/data/'+show+'.csv" target="_github">Edit the file for '+shows[show].title+' on Github</a>'
 		
-		S('#notes').html(html);
-
-		if(reset) getShowFile(show);
-
 	}
 
-	function getWidthOfInput() {
-		var tmp = document.createElement("span");
-		tmp.className = "episode-output";
-		tmp.innerHTML = S('#episode-output')[0].value.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-		S('#textarea')[0].appendChild(tmp);
-		var theWidth = tmp.getBoundingClientRect().width;
-		S('#textarea')[0].removeChild(tmp);
-		return theWidth;
+	function getWidthOfInput(el) {
+		var w = 0;
+		if(el){
+			var tmp = document.createElement("span");
+			tmp.className = "episode-output";
+			tmp.innerHTML = el.value.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+			tmp.style.padding = window.getComputedStyle(el)['padding'];
+			console.log(window.getComputedStyle(el)['padding']);
+			document.body.append(tmp);
+			w = tmp.getBoundingClientRect().width;
+			//tmp.remove();
+		}
+		return w;
 	}
-	function adjustWidthOfInput(){ S('#episode-output')[0].style.width = (getWidthOfInput()+5) + "px"; }
+	function adjustWidthOfInput(el){ el.style.width = (getWidthOfInput(el)+8) + "px"; }
 
 	</script>
 

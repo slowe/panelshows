@@ -156,7 +156,7 @@ p.label { margin-bottom: 0px; }
 .male, .female, .other { display: inline-block; line-height: 2em; color: white; text-align: center; white-space:nowrap;}
 .male { background-color: #0DBC37; }
 .female { background-color: #722EA5; }
-.other { background-color: #fac900; }
+.other { background-color: #fac900; color: black; }
 .graph { margin-bottom:0.75em; }
 .col { display:inline-block; }
 .col:last-child { border-right: 0px; }
