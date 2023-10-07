@@ -681,7 +681,8 @@
 				episode.people.push(person);
 			}
 			shows.data[shows.show].episodes.push(episode);
-			document.getElementById('show-csv').value = shows.buildCSV(shows.show);
+			//document.getElementById('show-csv').value = shows.buildCSV(shows.show);
+			shows.setShow(shows.show)
 		}
 	}
 
