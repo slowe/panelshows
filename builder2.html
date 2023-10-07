@@ -676,7 +676,7 @@
 				person = { 'id':id };
 				person.name = people.data[id].Name;
 				person.gender = (people.data[id].gender == "male" ? "Himself" : (people.data[id].gender == "female" ? "Herself" : people.data[id].gender));
-				person.role = el.querySelector('.role').innerHTML;
+				person.role = el.querySelector('.role').value;
 
 				episode.people.push(person);
 			}
