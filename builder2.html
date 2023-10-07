@@ -5,71 +5,6 @@
 	<meta charset="utf-8" />
 	<title>Build a panel show</title>
 	<link rel="stylesheet" media="all" href="style.css" type="text/css"/>
-	<script type="text/javascript">
-
-	// Code for creating a new ID
-	function newID(name){
-		var rtn = {'name':name};
-		if(name && lookup[name]){
-			console.warn(name+" already exists with ID "+lookup[name]);
-			rtn.existing = lookup[name];
-		}
-
-		var key = generate_random_string(name);
-		var str = name;
-		while(keys[key]){
-			str += 'a';
-			key = generate_random_string(str);
-		}
-		rtn.id = key;
-		return rtn;	
-	}
-	
-
-	// Create a seed for the random number generator based on the numbers in the input
-	function generate_random_string(seed,len){
-		length_of_randomstring = (len||8);
-		var n = 0;
-		var i,a2n,string,rand;
-		if(seed){
-			a2n = {};
-
-			string = seed.split("");
-			seed = 0;
-			n = string.length;
-			for(i = 0; i < string.length ; i++) seed += (string[i].charCodeAt()/256)**(n-i);
-			seed = (seed+"").replace(/[^0-9]/g,"").replace(/^0/g,"");
-			rand = srand(seed);
-		}
-		var chars = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','0','1','2','3','4','5','6','7','8','9'];
-		var random_string = "";
-		for(i = 1; i <= length_of_randomstring; i++) random_string += chars[Math.floor(rand(chars.length))];
-		return random_string;
-	}
-	
-	/**
-	 * srand from https://github.com/micro-js/srand MIT licence
-	 */
-	function srand(seed){
-		// If we're passed a string, condense it down into a number
-		if(typeof seed==='string'){
-			str = seed
-			seed = 0xFF
-			for(var i = 0; i < str.length; i++){
-				seed ^= str.charCodeAt(i)
-			}
-		}
-
-		return function (max, min){
-			max = max || 1
-			min = min || 0
-			seed = (seed * 9301 + 49297) % 233280
-
-			return min + (seed / 233280) * (max - min)
-		}
-	}
-
-	</script>
 	<style>
 	input[type=reset] { float: right; }
 	input#search, .searchresults { width: 100%; }
@@ -146,6 +81,8 @@
 		background-color: #cccccc;
 		color: black;
 		cursor: pointer;
+		border: 0px;
+		font-size: 1em;
 	}
 	#episode .person .close:hover {
 		background-color: #bbbbbb;
@@ -196,6 +133,7 @@
 	input[type=text] { max-width: 100%; }
 	button, input[type=submit], input[type=reset] { font-size: 1em; margin-top: 0; cursor: pointer; height: 2em; }
 	#copy { float: right; margin-top: 0.5em; }
+	#source { margin-top: 0.5em; display: inline-block; }
 	</style>
 </head>
 <body>
@@ -356,6 +294,7 @@
 			if(!show || !show in this.data){
 				console.error('No show data for '+show);
 				document.getElementById('add').disabled = true;
+				this.setShow();
 			}else{
 				if(this.data[show].loaded){
 					this.setShow(show);
@@ -406,32 +345,51 @@
 			return this;
 		};
 		this.setShow = function(show){
-			document.getElementById('show-csv').value = _obj.buildCSV(show);
-			document.getElementById('show-csv').scrollTop = document.getElementById('show-csv').scrollTopMax;
-			if(_obj.data[show].episodes.length > 0){
-				var ep = _obj.data[show].episodes[_obj.data[show].episodes.length-1];
 
-				document.getElementById('prev-id').innerHTML = ep.id;
-				document.getElementById('prev-date').innerHTML = ep.date;
-				document.getElementById('prev-url').innerHTML = ep.ref;
-
-				// If no value is set we enter a guess
-				if(document.getElementById('id').value==""){
-					bits = ep.id.split('x');
-					if(bits.length == 2){
-						n = parseInt(bits[1])+1;
-						n = ('00'+n).slice(-2);
-						document.getElementById('id').setAttribute('placeholder','e.g. '+ep.id);
-						document.getElementById('id').value = bits[0]+'x'+n;
-					}
-				}
-				// If no value is set we enter a guess
-				if(document.getElementById('date').value==""){
-					var d = new Date(ep.date);
-					d.setDate(d.getDate() + 7)
-					document.getElementById('date').value = d.toISOString().substr(0,10);
-				}
+			var lnk = document.getElementById('source');
+			var lnktxt = "";
+			if(!lnk){
+				lnk = document.createElement('span');
+				lnk.setAttribute('id','source');
+				lnk.classList.add('link');
+				lnk.innerHTML = "Link goes here";
+				document.getElementById('show-csv').after(lnk);
 			}
+
+			if(show){
+				document.getElementById('show-csv').value = _obj.buildCSV(show);
+				document.getElementById('show-csv').scrollTop = document.getElementById('show-csv').scrollTopMax;
+				if(_obj.data[show].episodes.length > 0){
+					var ep = _obj.data[show].episodes[_obj.data[show].episodes.length-1];
+
+					document.getElementById('prev-id').innerHTML = ep.id;
+					document.getElementById('prev-date').innerHTML = ep.date;
+					document.getElementById('prev-url').innerHTML = linkify(ep.ref);
+
+					// If no value is set we enter a guess
+					//if(document.getElementById('id').value==""){
+						bits = ep.id.split('x');
+						if(bits.length == 2){
+							n = parseInt(bits[1])+1;
+							n = ('00'+n).slice(-2);
+							document.getElementById('id').setAttribute('placeholder','e.g. '+ep.id);
+							document.getElementById('id').value = bits[0]+'x'+n;
+						}
+					//}
+					// If no value is set we enter a guess
+					//if(document.getElementById('date').value==""){
+						var d = new Date(ep.date);
+						d.setDate(d.getDate() + 7)
+						document.getElementById('date').value = d.toISOString().substr(0,10);
+					//}
+					lnktxt = '<a href="https://github.com/slowe/panelshows/edit/master/shows/data/'+show+'.csv" target="_github">Edit the file for '+shows.data[show].title+' on Github</a>';
+				}
+			}else{
+				document.getElementById('show-csv').value = "";
+			}
+
+			lnk.innerHTML = lnktxt;
+
 			return;
 		};
 		this.buildCSV = function(show){
@@ -584,13 +542,16 @@
 					}
 				}
 			}
-			if(found < 4){
+			if(found < 4 && name.length > 0){
 				html += '<li data-id="?" class=""><div class="handle"></div><div class="name">&plus; Add unknown person</div></li>';
 			}
+			
 			if(html){
 				document.querySelector('.searchresults').innerHTML = "<ol>"+html+"</ol>";
 				var li = document.querySelectorAll('.searchresults li');
 				for(var i = 0 ; i < li.length ; i++) selectablePerson(li[i]);
+			}else{
+				document.querySelector('.searchresults').innerHTML = "";
 			}
 		}
 		
@@ -613,23 +574,21 @@
 		if(data.length==0) return;
 		if(data=="?"){
 			// First create them an ID
-			newid = newID(S('#search')[0].value);
+			newid = newID(document.getElementById('search').value);
 			id = newid.id;
 
 			// Check if this ID has been created
-			if(!keys[id]){
-				lookup[newid.name] = id;
-				keys[id] = newid.name;
-				n = JSON.parse(JSON.stringify(newid));
-				n.id = id;
-				n.gender = "self";
-				n.rank = 0;
-				n.n = "1";
-				n.shows = [{'key':show,'n':1}];
-				ids[id] = db.length;
-				id = ids[id];
-				// Add them to the DB
-				db.push(n);
+			if(!people.data[id]){
+				people.data[id] = {};
+				people.data[id].Name = newid.name;
+				people.data[id].gender = "other";
+				people.data[id].pronoun = "";
+				people.data[id].rank = 0;
+				people.data[id].n = 1;
+				people.data[id].shows = new Array();
+				if(show in shows.data){
+					people.data[id].shows.push({'key':show,'n':1});
+				}
 			}
 		}else{
 			id = el.getAttribute('data-id');
@@ -647,7 +606,7 @@
 		html = '<span class="name">'+people.data[id].Name+'</span>';
 		html += '<input class="pronoun" type="text" value="'+people.data[id].pronoun+'" placeholder="Pronoun" />';
 		html += '<input class="role" type="text" placeholder="Role?" />';
-		html += '<span class="close" title="Remove">&times;</span>';
+		html += '<button class="close" aria-label="Close">&times;</button>';
 		person.innerHTML = html;
 		document.getElementById('people').appendChild(person);
 
@@ -696,6 +655,7 @@
 		var p = document.querySelectorAll('.person');
 		var str = "";
 
+
 		if(shows.show){
 			if(!shows.data[shows.show].episodes) shows.data[shows.show].episodes = [];
 
@@ -722,15 +682,10 @@
 			}
 			shows.data[shows.show].episodes.push(episode);
 			document.getElementById('show-csv').value = shows.buildCSV(shows.show);
-			
 		}
-
-return;
-		html = "";
-		if(show) html = '<a href="https://github.com/slowe/panelshows/edit/master/shows/data/'+show+'.csv" target="_github">Edit the file for '+shows[show].title+' on Github</a>'
-		
 	}
 
+	function linkify(txt){ return '<a href="'+txt+'" target="_new">'+txt+'</a>'; }
 	function getWidthOfInput(el) {
 		var w = 0;
 		if(el){
@@ -738,14 +693,79 @@ return;
 			tmp.className = "episode-output";
 			tmp.innerHTML = el.value.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 			tmp.style.padding = window.getComputedStyle(el)['padding'];
-			console.log(window.getComputedStyle(el)['padding']);
 			document.body.append(tmp);
 			w = tmp.getBoundingClientRect().width;
-			//tmp.remove();
+			tmp.remove();
 		}
 		return w;
 	}
 	function adjustWidthOfInput(el){ el.style.width = (getWidthOfInput(el)+8) + "px"; }
+	// Code for creating a new ID
+	function newID(name){
+		var rtn = {'name':name};
+		if(!name){
+			console.error('No name given');
+			return rtn;
+		}
+		var key = generate_random_string(name);
+		var str = name;
+		var tries = 0;
+		while(key in people.data){
+			//str += 'a';
+			key = generate_random_string();
+			if(tries > 20){
+				console.error('Too many attempts');
+				return rtn;
+			}
+			tries++;
+		}
+		rtn.id = key;
+		return rtn;	
+	}
+	
+
+	// Create a seed for the random number generator based on the numbers in the input
+	function generate_random_string(seed,len){
+		length_of_randomstring = (len||8);
+		var n = 0;
+		var i,a2n,string;
+		rand = function(v){ return Math.floor(Math.random()*v); };
+		if(seed){
+			a2n = {};
+
+			string = seed.split("");
+			seed = 0;
+			n = string.length;
+			for(i = 0; i < string.length ; i++) seed += (string[i].charCodeAt()/256)**(n-i);
+			seed = (seed+"").replace(/[^0-9]/g,"").replace(/^0/g,"");
+			rand = srand(seed);
+		}
+		var chars = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','0','1','2','3','4','5','6','7','8','9'];
+		var random_string = "";
+		for(i = 1; i <= length_of_randomstring; i++) random_string += chars[Math.floor(rand.call(this,chars.length))];
+		return random_string;
+	}
+	
+	/**
+	 * srand from https://github.com/micro-js/srand MIT licence
+	 */
+	function srand(seed){
+		// If we're passed a string, condense it down into a number
+		if(typeof seed==='string'){
+			str = seed;
+			seed = 0xFF;
+			for(var i = 0; i < str.length; i++){
+				seed ^= str.charCodeAt(i);
+			}
+		}
+		return function (max, min){
+			max = max || 1;
+			min = min || 0;
+			seed = (seed * 9301 + 49297) % 233280;
+			return min + (seed / 233280) * (max - min);
+		}
+	}
+
 
 	</script>
 
