@@ -229,6 +229,7 @@
 							if(!this.data[id].dob && cols[4]) this.data[id].dob = cols[4];
 							if(!this.data[id].n && cols[5]) this.data[id].n = parseInt(cols[5]);
 							if(!this.data[id].shows && cols[6]) this.data[id].shows = cols[6];
+							if(!this.data[id].wikipedia) this.data[id].wikipedia = cols[7]||"";
 							if(this.data[id].shows){
 								showbits = (this.data[id].shows) ? this.data[id].shows.replace(/;$/,"").split(";") : new Array();
 								this.data[id].shows = {};
@@ -313,7 +314,7 @@
 								ep = {};
 								ep.id = bits[0];
 								ep.date = bits[1];
-								ep.people = bits[2].replace(/;$/,"").split(/;/);
+								ep.people = (bits[2] ? bits[2].replace(/;$/,"").split(/;/) : "");
 								ep.ref = bits[3];
 								if(bits.length == 5) ep.more = bits[4];
 								for(g = 0; g < ep.people.length; g++){
@@ -493,10 +494,12 @@
 				}
 				for(var id in people.data){
 					rank = 0;
+					if(typeof people.data[id].wikipedia!=="string") people.data[id].wikipedia = "";
 					for(m = 0; m < n ; m++){
 						if(!people.data[id].Name) console.warn('Person with id '+id+' has no name');
 						else{
 							if(people.data[id].Name.indexOf(names[m]) >= 0) rank++;
+							else if(people.data[id].wikipedia.indexOf(names[m]) >= 0) rank++;
 							else rank--;
 						}
 					}
@@ -523,7 +526,7 @@
 					var i,sid,sids;
 					for(i = 0; i < n; i++){
 						found++;
-						html += '<li data-id="'+tmp[i].id+'" class="'+tmp[i].gender+''+(i==0 ? ' selected':'')+'"><div class="handle"></div><div class="name">'+tmp[i].Name+(tmp[i].dob ? ' ('+tmp[i].dob.substr(0,4)+')' : "")+"";
+						html += '<li data-id="'+tmp[i].id+'" class="'+tmp[i].gender+''+(i==0 ? ' selected':'')+'"><div class="handle"></div><div class="name">'+tmp[i].Name+(tmp[i].dob ? ' ('+tmp[i].dob.substr(0,4)+')' : "")+""+(tmp[i].wikipedia ? " - "+tmp[i].wikipedia+"":"");
 						sids = new Array();
 						if(tmp[i].shows){
 							for(sid in tmp[i].shows){
@@ -660,7 +663,7 @@
 			if(!shows.data[shows.show].episodes) shows.data[shows.show].episodes = [];
 
 			// Build a new episode
-			var episode = {'people':new Array()};
+			var episode = {'people':[]};
 			var person;
 			
 			episode.id = document.getElementById('id').value;
