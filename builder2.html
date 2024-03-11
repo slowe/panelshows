@@ -35,6 +35,13 @@
 		margin: 0.5em;
 		float: right;
 	}
+	.searchresults li .wiki {
+		background: white;
+		line-height: 1.5em;
+		padding: 0.25em;
+		color: black;
+		font-family: monospace;
+	}
 	li.male .handle { background-color: #0DBC37; }
 	li.female .handle { background-color: #722EA5; }
 	.searchresults li.selected, .searchresults li:hover {
@@ -523,10 +530,12 @@
 				if(tmp.length > 0){
 					tmp = sortBy(tmp,'rank');
 					var n = Math.min(tmp.length,8);
-					var i,sid,sids;
+					var i,sid,sids,wiki,mtch;
 					for(i = 0; i < n; i++){
 						found++;
-						html += '<li data-id="'+tmp[i].id+'" class="'+tmp[i].gender+''+(i==0 ? ' selected':'')+'"><div class="handle"></div><div class="name">'+tmp[i].Name+(tmp[i].dob ? ' ('+tmp[i].dob.substr(0,4)+')' : "")+""+(tmp[i].wikipedia ? " - "+tmp[i].wikipedia+"":"");
+						// Tidy wikipedia links
+						wiki = (tmp[i].wikipedia||"").replace(/\_/g," ").replace(tmp[i].Name,"").replace(/^\s*\((.*)\)\s*$/,function(m,p1){ return p1; });
+						html += '<li data-id="'+tmp[i].id+'" class="'+tmp[i].gender+''+(i==0 ? ' selected':'')+'"><div class="handle"></div><div class="name">'+tmp[i].Name+(tmp[i].dob ? ' ('+tmp[i].dob.substr(0,4)+')' : "")+""+(wiki ? " / <span class=\"wiki\">"+wiki+"</span>":"");
 						sids = new Array();
 						if(tmp[i].shows){
 							for(sid in tmp[i].shows){
@@ -598,6 +607,7 @@
 			// Update show counter
 			if(shows.show){
 				var i = shows.data[shows.show].i;
+				if(typeof people.data[id].shows[i]!=="number" || people.data[id].shows[i]==0) people.data[id].shows[i] = 0;
 				people.data[id].shows[i]++;
 			}
 		}
@@ -678,7 +688,7 @@
 				id = el.getAttribute('data-id');
 				person = { 'id':id };
 				person.name = people.data[id].Name;
-				person.gender = (people.data[id].gender == "male" ? "Himself" : (people.data[id].gender == "female" ? "Herself" : people.data[id].gender));
+				person.gender = (people.data[id].gender == "male" ? "Himself" : (people.data[id].gender == "female" ? "Herself" : people.data[id].pronoun))
 				person.role = el.querySelector('.role').value;
 
 				episode.people.push(person);
