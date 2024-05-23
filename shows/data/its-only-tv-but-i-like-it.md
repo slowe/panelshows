@@ -7,5 +7,6 @@ Years:	1999-2002
 Size:	7
 Data:	its-only-tv-but-i-like-it.csv
 Media:	TV
+Type:	comedy
 ---
 

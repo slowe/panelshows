@@ -7,4 +7,5 @@ Years:	2013-2014
 Size:	7
 Media:	TV
 Data:	fake-reaction.csv
+Type:	comedy
 ---

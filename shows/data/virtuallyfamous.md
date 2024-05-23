@@ -7,4 +7,5 @@ Years:	2014-
 Size:	7
 Data:	virtuallyfamous.csv
 Media:	TV
+Type:	comedy
 ---

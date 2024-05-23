@@ -7,4 +7,5 @@ Years:	1997-2001
 Size:	5
 Data:	gondolas.csv
 Media:	TV
+Type:	comedy
 ---

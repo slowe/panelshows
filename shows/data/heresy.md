@@ -7,4 +7,5 @@ Years:	2003-2013
 Size:	4
 Data:	heresy.csv
 Media:	Radio
+Type:	comedy
 ---

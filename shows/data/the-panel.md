@@ -7,4 +7,5 @@ Years:	2003-2011
 Size:	5
 Data:	the-panel.csv
 Media:	TV
+Type:	comedy
 ---

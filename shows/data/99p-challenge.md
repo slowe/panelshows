@@ -7,4 +7,5 @@ Years:	1998-2004
 Size:	5
 Media:	Radio
 Data:	99p-challenge.csv
+Type:	comedy
 ---

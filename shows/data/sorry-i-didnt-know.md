@@ -7,4 +7,5 @@ Years:	2016
 Size:	7
 Data:	sorry-i-didnt-know.csv
 Media:	TV
+Type:	comedy
 ---

@@ -7,4 +7,5 @@ Years:	2008-2012
 Size:	5
 Media:	TV
 Data:	argumental.csv
+Type:	comedy
 ---

@@ -7,4 +7,5 @@ Years:	2015-
 Size:	7
 Data:	safeword.csv
 Media:	TV
+Type:	comedy
 ---

@@ -8,6 +8,7 @@ Size:	6
 Data:	the-brain-drain.csv
 Regulars:	manual
 Media:	TV
+Type:	comedy
 ---
 
 There is a host, a panel of four, and a question from a celebrity. Assume that Jimmy Mulville and Tony Hawks were on every episode. Assume Jo Brand was on every episode in series 2.

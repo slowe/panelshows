@@ -7,6 +7,7 @@ Years:	2024
 Size:	5
 Media:	TV
 Data:	out-of-order-tv.csv
+Type:	comedy
 ---
 
 Out Of Order is a game show all about judgements and first impressions

@@ -7,4 +7,5 @@ Years:	2015
 Size:	5
 Data:	listomania.csv
 Media:	Radio
+Type:	comedy
 ---

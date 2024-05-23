@@ -7,4 +7,5 @@ Years:	2010-
 Size:	7
 Data:	a-league-of-their-own.csv
 Media:	TV
+Type:	comedy
 ---

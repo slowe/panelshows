@@ -7,4 +7,5 @@ Years:	1997-2000
 Size:	5
 Media:	TV
 Data:	bring-me-the-head.csv
+Type:	comedy
 ---

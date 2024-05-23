@@ -7,4 +7,5 @@ Years:	2017-2023
 Size:	5
 Media:	TV
 Data:	frankie-boyle-new-world-order.csv
+Type:	comedy
 ---

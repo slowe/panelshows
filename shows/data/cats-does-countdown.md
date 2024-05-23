@@ -7,5 +7,6 @@ Years:	2012-
 Size:	9
 Data:	cats-does-countdown.csv
 Media:	TV
+Type:	comedy
 ---
 

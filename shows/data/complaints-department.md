@@ -7,4 +7,5 @@ Years:	2021
 Size:	5
 Media:	TV
 Data:	complaints-department.csv
+Type:	comedy
 ---

@@ -7,4 +7,5 @@ Years:	2014-
 Size:	8
 Data:	media-circus.csv
 Media:	TV
+Type:	comedy
 ---

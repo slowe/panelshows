@@ -7,4 +7,5 @@ Years:	2014-
 Size:	4
 Data:	duckquacks.csv
 Media:	TV
+Type:	comedy
 ---

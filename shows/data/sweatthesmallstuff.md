@@ -7,4 +7,5 @@ Years:	2013-
 Size:	7
 Data:	sweatthesmallstuff.csv
 Media:	TV
+Type:	comedy
 ---

@@ -7,4 +7,5 @@ Years:	2017
 Size:	5
 Media:	TV
 Data:	the-fake-news-show.csv
+Type:	comedy
 ---

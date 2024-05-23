@@ -7,4 +7,5 @@ Years:	2017-
 Size:	5
 Data:	dont-ask-me-ask-britain.csv
 Media:	TV
+Type:	comedy
 ---

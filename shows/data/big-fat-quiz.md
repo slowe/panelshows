@@ -7,4 +7,5 @@ Years:	2004-
 Size:	7
 Data:	big-fat-quiz.csv
 Media:	TV
+Type:	comedy
 ---

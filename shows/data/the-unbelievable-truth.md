@@ -7,4 +7,5 @@ Years:	2006-
 Size:	5
 Data:	the-unbelievable-truth.csv
 Media:	Radio
+Type:	comedy
 ---

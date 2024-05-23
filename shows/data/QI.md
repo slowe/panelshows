@@ -7,6 +7,7 @@ Years:	2003-
 Size:	5
 Data:	QI.csv
 Media:	TV
+Type:	comedy
 ---
 
 This [Independent article from 2009](http://www.independent.co.uk/arts-entertainment/comedy/news/funny-thing-our-new-women-comics-are-invisible-1752301.html) talks about the lack of women on QI.

@@ -7,4 +7,5 @@ Years:	2008-2022
 Size:	7
 Data:	celebrityjuice.csv
 Media:	TV
+Type:	comedy
 ---

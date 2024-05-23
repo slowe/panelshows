@@ -7,4 +7,5 @@ Years:	2016-
 Size:	5
 Data:	bad-language.csv
 Media:	TV
+Type:	comedy
 ---

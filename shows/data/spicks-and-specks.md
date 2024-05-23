@@ -7,4 +7,5 @@ Years:	2005-
 Size:	7
 Data:	spicks-and-specks.csv
 Media:	TV
+Type:	comedy
 ---

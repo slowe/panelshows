@@ -7,6 +7,7 @@ Years:	1988-1988
 Size:	5
 Data:	whose-line-is-it-anyway.csv
 Media:	Radio
+Type:	comedy
 ---
 
 Whose Line Is It Anyway? started on Radio 4 in 1988. It later transferred to TV.
